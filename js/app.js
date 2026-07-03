@@ -3280,7 +3280,8 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
 
 
     function mobileDetailRow(label, value, options = {}) {
-      const safeValue = value === null || value === undefined || value === '' ? '—' : String(value);
+      let safeValue = value === null || value === undefined || value === '' ? '—' : String(value);
+      if (options.splitSemicolon) safeValue = safeValue.replace(/;\s*/g, ';\n');
       return `<div class="mobile-detail-row${options.primary ? ' primary' : ''}"><div class="mobile-detail-label">${escapeHtml(label)}</div><div class="mobile-detail-value">${escapeHtml(safeValue)}</div></div>`;
     }
 
@@ -3305,7 +3306,7 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
         ${mobileDetailRow('Start', displayDateWithWeekday(item.startDate))}
         ${mobileDetailRow('End', displayDateWithWeekday(item.endDate))}
         ${mobileDetailRow('Bump out', displayDateWithWeekday(item.bumpOut))}
-        ${mobileDetailRow('Booked spaces', item.location)}
+        ${mobileDetailRow('Booked spaces', item.location, { splitSemicolon: true })}
       </div>`;
       els.mobileDetailModal.hidden = false;
       els.mobileDetailBody.scrollTop = 0;
