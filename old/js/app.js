@@ -1,0 +1,3679 @@
+const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - City Lights","Bump - In":"22/06/2026","Start Date":"3/07/2026","End Date":"19/07/2026","Bump - Out":"27/07/2026","Event Organiser":"Illuminate Adelaide","Booked Spaces":"North Terrace; Red Gum Park / Karrawirra (Park 12) - Prince Henry Gardens; Rundle Street; Rymill Park / Murlawirrapurka (Park 14)","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":2,"Event Name":"Rundle St closure during Illuminate Adelaide 2026 (Fridays, Saturdays and Sundays during noted period)","Bump - In":"3/07/2026","Start Date":"3/07/2026","End Date":"5/07/2026","Bump - Out":"5/07/2026","Event Organiser":"City of Adelaide and Illuminate Adelaide","Booked Spaces":"Ebenezer Place; Rundle Street; Union Street; Vardon Avenue","Coordinator":"McCabe, Genevieve"},{"_sourceRow":3,"Event Name":"2026 Toyota AFL Premiership Season - Round 17 - Port Adelaide vs North Melbourne","Bump - In":"5/07/2026","Start Date":"5/07/2026","End Date":"5/07/2026","Bump - Out":"5/07/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":4,"Event Name":"NAIDOC Family Fun Day and March 2026","Bump - In":"8/07/2026","Start Date":"10/07/2026","End Date":"10/07/2026","Bump - Out":"12/07/2026","Event Organiser":"NAIDOC SA - National Aboriginal & Islander Day Observance Committee","Booked Spaces":"King William Street; Victoria Square / Tarntanyangga - North; Victoria Square / Tarntanyangga - Reconciliation Plaza; Victoria Square / Tarntanyangga - South","Coordinator":"Loizou, Clare"},{"_sourceRow":5,"Event Name":"Beer and BBQ Festival 2026","Bump - In":"8/07/2026","Start Date":"10/07/2026","End Date":"10/07/2026","Bump - Out":"13/07/2026","Event Organiser":"Beer and BBQ Pty Ltd","Booked Spaces":"Pinky Flat (Park 26); War Memorial Drive","Coordinator":"Clark, Rani"},{"_sourceRow":6,"Event Name":"Rundle St closure during Illuminate Adelaide 2026 (Fridays, Saturdays and Sundays during noted period)","Bump - In":"10/07/2026","Start Date":"10/07/2026","End Date":"12/07/2026","Bump - Out":"12/07/2026","Event Organiser":"City of Adelaide and Illuminate Adelaide","Booked Spaces":"Ebenezer Place; Rundle Street; Union Street; Vardon Avenue","Coordinator":"McCabe, Genevieve"},{"_sourceRow":7,"Event Name":"2026 Toyota AFL Premiership Season - Round 18 -Adelaide vs Gold Coast","Bump - In":"11/07/2026","Start Date":"11/07/2026","End Date":"11/07/2026","Bump - Out":"12/07/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":8,"Event Name":"Rundle St closure during Illuminate Adelaide 2026 (Fridays, Saturdays and Sundays during noted period)","Bump - In":"17/07/2026","Start Date":"17/07/2026","End Date":"19/07/2026","Bump - Out":"19/07/2026","Event Organiser":"City of Adelaide and Illuminate Adelaide","Booked Spaces":"Ebenezer Place; Rundle Street; Union Street; Vardon Avenue","Coordinator":"McCabe, Genevieve"},{"_sourceRow":9,"Event Name":"2026 Toyota AFL Premiership Season - Round 19 - Port Adelaide vs Fremantle","Bump - In":"18/07/2026","Start Date":"18/07/2026","End Date":"18/07/2026","Bump - Out":"18/07/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":10,"Event Name":"2026 Toyota AFL Premiership Season - Round 20 - Adelaide vs Collingwood","Bump - In":"23/07/2026","Start Date":"23/07/2026","End Date":"23/07/2026","Bump - Out":"23/07/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue; and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":11,"Event Name":"2026 Toyota AFL Premiership Season - Round 21- Port Adelaide vs GWS","Bump - In":"1/08/2026","Start Date":"1/08/2026","End Date":"1/08/2026","Bump - Out":"1/08/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":12,"Event Name":"Fitzy's 5 State 5km Road Championships 2026","Bump - In":"2/08/2026","Start Date":"2/08/2026","End Date":"2/08/2026","Bump - Out":"2/08/2026","Event Organiser":"Athletics SA","Booked Spaces":"Bundeys Road; Frome Road; Mackinnon Parade; War Memorial Drive","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":13,"Event Name":"Walk a Mile in my Boots 2026","Bump - In":"6/08/2026","Start Date":"7/08/2026","End Date":"7/08/2026","Bump - Out":"7/08/2026","Event Organiser":"Hutt Street Centre","Booked Spaces":"Victoria Park / Pakapakanthi (Park 16)","Coordinator":"Loizou, Clare"},{"_sourceRow":14,"Event Name":"2026 Toyota AFL Premiership Season - Round 22 - Adelaide v Richmond","Bump - In":"8/08/2026","Start Date":"8/08/2026","End Date":"8/08/2026","Bump - Out":"8/08/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":15,"Event Name":"2026 Toyota AFL Premiership Season - Round 23- Port Adelaide v Melbourne- Dates - TBA","Bump - In":"13/08/2026","Start Date":"14/08/2026","End Date":"15/08/2026","Bump - Out":"16/08/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":16,"Event Name":"2026 Toyota AFL Premiership Season - Round 24- Adelaide vs GWS- Dates TBA","Bump - In":"20/08/2026","Start Date":"21/08/2026","End Date":"22/08/2026","Bump - Out":"23/08/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":17,"Event Name":"Bonython Park Super Carnival 2026","Bump - In":"23/08/2026","Start Date":"4/09/2026","End Date":"13/09/2026","Bump - Out":"17/09/2026","Event Organiser":"Goldenway Amusements Pty Ltd","Booked Spaces":"Bonython Park / Tulya Wardli (Park 27)","Coordinator":"Hume, Cara"},{"_sourceRow":18,"Event Name":"Mould x Pinot Palooza 2026","Bump - In":"26/08/2026","Start Date":"27/08/2026","End Date":"30/08/2026","Bump - Out":"31/08/2026","Event Organiser":"GWB Entertainment","Booked Spaces":"Gilles Arcade; Playhouse Lane; Playhouse Lane","Coordinator":"Hume, Cara"},{"_sourceRow":19,"Event Name":"2026 Hostplus SANFL Final Series - Week 1 - Elimination & Qualifying Finals","Bump - In":"30/08/2026","Start Date":"30/08/2026","End Date":"30/08/2026","Bump - Out":"30/08/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); Pennington Gardens West (Park 26); Pinky Flat (Park 26)","Coordinator":"Di Gianni, Mark"},{"_sourceRow":20,"Event Name":"2026 Associated Motor Sport Event","Bump - In":"2/09/2026","Start Date":"20/11/2026","End Date":"22/11/2026","Bump - Out":"7/02/2027","Event Organiser":"South Australian Motor Sport Board","Booked Spaces":"Bartels Road; East Terrace; King Rodney Park / Ityamai-itpina (Park 15); Rymill Park / Murlawirrapurka (Park 14); Victoria Park / Pakapakanthi (Park 16) - North; Wakefield Road","Coordinator":"Hume, Cara"},{"_sourceRow":21,"Event Name":"2026 bp Adelaide Grand Final","Bump - In":"2/09/2026","Start Date":"26/11/2026","End Date":"29/11/2026","Bump - Out":"7/02/2027","Event Organiser":"South Australian Motor Sport Board","Booked Spaces":"Bartels Road; East Terrace; King Rodney Park / Ityamai-itpina (Park 15); Rymill Park / Murlawirrapurka (Park 14); Victoria Park / Pakapakanthi (Park 16) - North; Wakefield Road","Coordinator":"Hume, Cara"},{"_sourceRow":22,"Event Name":"2026 Hostplus SANFL Final Series - Week 2 - Semi Finals","Bump - In":"6/09/2026","Start Date":"6/09/2026","End Date":"6/09/2026","Bump - Out":"6/09/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); Pennington Gardens West (Park 26); Pinky Flat (Park 26)","Coordinator":"Di Gianni, Mark"},{"_sourceRow":23,"Event Name":"Envest Networks Street Party","Bump - In":"7/09/2026","Start Date":"7/09/2026","End Date":"7/09/2026","Bump - Out":"7/09/2026","Event Organiser":"East End Cellars","Booked Spaces":"Vardon Avenue","Coordinator":"Di Gianni, Mark"},{"_sourceRow":24,"Event Name":"2026 Hostplus SANFL Final Series - Week 3 - Preliminary Final","Bump - In":"13/09/2026","Start Date":"13/09/2026","End Date":"13/09/2026","Bump - Out":"13/09/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); Pennington Gardens West (Park 26); Pinky Flat (Park 26)","Coordinator":"Di Gianni, Mark"},{"_sourceRow":25,"Event Name":"Queens Theatre Events","Bump - In":"17/09/2026","Start Date":"18/09/2026","End Date":"27/09/2026","Bump - Out":"28/09/2026","Event Organiser":"TBA","Booked Spaces":"Gilles Arcade; Playhouse Lane; Playhouse Lane","Coordinator":"Di Gianni, Mark"},{"_sourceRow":26,"Event Name":"Unmasked African Festival 2026","Bump - In":"18/09/2026","Start Date":"19/09/2026","End Date":"19/09/2026","Bump - Out":"19/09/2026","Event Organiser":"African Communities Council of SA Inc (Migrant Resource Centre)","Booked Spaces":"Victoria Square / Tarntanyangga - North","Coordinator":"Crombie, Fiona"},{"_sourceRow":27,"Event Name":"2026 City to Bay Fun Run","Bump - In":"18/09/2026","Start Date":"20/09/2026","End Date":"20/09/2026","Bump - Out":"20/09/2026","Event Organiser":"City Bay Fun Run Committee Inc","Booked Spaces":"Elder Park (Park 26); G S Kingston Park / Wirrarninthi (Park 23) - Edwards Park; Josie Agius Park / Wikaparntu Wirra (Park 22) - Licence Area North Courts; King William Road; King William Street; Light Square / Wauwi; Red Gum Park / Karrawirra (Park 12) - Esther Lipman Gardens; Red Gum Park / Karrawirra (Park 12) - Pioneer Women's Memorial Gardens; South Terrace; Veale Park / Walyu Yarta (Park 21); Victoria Square / Tarntanyangga - North","Coordinator":"Loizou, Clare"},{"_sourceRow":28,"Event Name":"2026 Hostplus SANFL Grand Final","Bump - In":"20/09/2026","Start Date":"20/09/2026","End Date":"20/09/2026","Bump - Out":"20/09/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Gardens West (Park 26); Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":29,"Event Name":"2026 Lucky Dumpling Markets","Bump - In":"24/09/2026","Start Date":"9/10/2026","End Date":"1/11/2026","Bump - Out":"6/11/2026","Event Organiser":"Gluttony Food and Wine Festival Pty Ltd","Booked Spaces":"Elder Park (Park 26)","Coordinator":"Di Gianni, Mark"},{"_sourceRow":30,"Event Name":"Mid Autumn Festival","Bump - In":"25/09/2026","Start Date":"25/09/2026","End Date":"26/09/2026","Bump - Out":"26/09/2026","Event Organiser":"Chinatown Adelaide of South Australia Inc.","Booked Spaces":"Moonta Street","Coordinator":"Johnson, Carrie"},{"_sourceRow":31,"Event Name":"Adelaide University Graduation Ceremonies September 2026","Bump - In":"29/09/2026","Start Date":"29/09/2026","End Date":"7/10/2026","Bump - Out":"7/10/2026","Event Organiser":"Adelaide University","Booked Spaces":"Hindley Street","Coordinator":"Hume, Cara"},{"_sourceRow":32,"Event Name":"Moon Lantern Trail 2026","Bump - In":"29/09/2026","Start Date":"22/10/2026","End Date":"25/10/2026","Bump - Out":"30/10/2026","Event Organiser":"Adelaide Festival Corporation","Booked Spaces":"Barr Smith Walk (Adelaide Riverbank Lawn) (Park 26); Pinky Flat (Park 26); Karrawirra Parri (River Torrens)","Coordinator":"Clark, Rani"},{"_sourceRow":33,"Event Name":"Halal Food Festival 2026","Bump - In":"30/09/2026","Start Date":"2/10/2026","End Date":"4/10/2026","Bump - Out":"6/10/2026","Event Organiser":"Adelaide Multicultural Eid Festival","Booked Spaces":"Victoria Square / Tarntanyangga - North","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":34,"Event Name":"2026 Oktoberfest in the Gardens","Bump - In":"1/10/2026","Start Date":"3/10/2026","End Date":"3/10/2026","Bump - Out":"5/10/2026","Event Organiser":"Nokturnl Events","Booked Spaces":"Pinky Flat (Park 26)","Coordinator":"Hume, Cara"},{"_sourceRow":35,"Event Name":"Nature Day in North Adelaide 2026","Bump - In":"2/10/2026","Start Date":"2/10/2026","End Date":"2/10/2026","Bump - Out":"2/10/2026","Event Organiser":"City of Adelaide","Booked Spaces":"Bundey's Paddock / Tidlangga (Park 9) - Adjacent BBQ","Coordinator":"Louise, Alderson"},{"_sourceRow":36,"Event Name":"Latin Arts Festival","Bump - In":"11/10/2026","Start Date":"11/10/2026","End Date":"11/10/2026","Bump - Out":"12/10/2026","Event Organiser":"Latin Arts Community Support (LACS) Network sponsored by HWASA","Booked Spaces":"Victoria Square / Tarntanyangga; Victoria Square / Tarntanyangga - North","Coordinator":"Hume, Cara"},{"_sourceRow":37,"Event Name":"2026 Cheesefest","Bump - In":"12/10/2026","Start Date":"17/10/2026","End Date":"18/10/2026","Bump - Out":"23/10/2026","Event Organiser":"Cheesefest Australia Pty Ltd","Booked Spaces":"Rundle Park / Kadlitpina (Park 13)","Coordinator":"Loizou, Clare"},{"_sourceRow":38,"Event Name":"2026 - Adelaide Rally Parc Ferme","Bump - In":"13/10/2026","Start Date":"16/10/2026","End Date":"18/10/2026","Bump - Out":"27/11/2026","Event Organiser":"The Trustee for Massive Events Unit Trust","Booked Spaces":"Victoria Park / Pakapakanthi (Park 16) - Heritage Grandstand All (P16FAR; P16FCR; P16BCR); Victoria Park / Pakapakanthi (Park 16) - North; Victoria Park / Pakapakanthi (Park 16) - Site 10 North West of Premium Field; Victoria Park / Pakapakanthi (Park 16) - South; Wakefield Road","Coordinator":"Hume, Cara"},{"_sourceRow":39,"Event Name":"Focus Super Series - Round 4 2026","Bump - In":"17/10/2026","Start Date":"17/10/2026","End Date":"17/10/2026","Bump - Out":"17/10/2026","Event Organiser":"Auscycling Ltd","Booked Spaces":"Bundeys Road; Frome Road; Mackinnon Parade; War Memorial Drive","Coordinator":"Di Gianni, Mark"},{"_sourceRow":40,"Event Name":"Water Lantern Festival","Bump - In":"17/10/2026","Start Date":"18/10/2026","End Date":"18/10/2026","Bump - Out":"19/10/2026","Event Organiser":"WATER LANTERN FESTIVAL PTY LTD","Booked Spaces":"Bonython Park / Tulya Wardli (Park 27) - Main Kiosk Site 11; Bonython Park / Tulya Wardli (Park 27) - Main Kiosk Site 12; Rymill Park / Murlawirrapurka (Park 14); Rymill Park / Murlawirrapurka (Park 14) - South West","Coordinator":"Hume, Cara"},{"_sourceRow":41,"Event Name":"Shannon's Adelaide Rally Event Finale 2026","Bump - In":"18/10/2026","Start Date":"18/10/2026","End Date":"18/10/2026","Bump - Out":"18/10/2026","Event Organiser":"The Trustee for Massive Events Unit Trust","Booked Spaces":"O'Connell Street North Adelaide; Tynte Street North Adelaide","Coordinator":"Hume, Cara"},{"_sourceRow":42,"Event Name":"Multicultural Festival 2026","Bump - In":"29/10/2026","Start Date":"1/11/2026","End Date":"1/11/2026","Bump - Out":"3/11/2026","Event Organiser":"Department Of Premier & Cabinet","Booked Spaces":"Victoria Square / Tarntanyangga","Coordinator":"Loizou, Clare"},{"_sourceRow":43,"Event Name":"Gunson Street Party","Bump - In":"30/10/2026","Start Date":"30/10/2026","End Date":"30/10/2026","Bump - Out":"30/10/2026","Event Organiser":"City of Adelaide","Booked Spaces":"Gunson Street","Coordinator":"McCabe, Genevieve"},{"_sourceRow":44,"Event Name":"EVENT TBA","Bump - In":"30/10/2026","Start Date":"30/10/2026","End Date":"31/10/2026","Bump - Out":"31/10/2026","Event Organiser":"TBA","Booked Spaces":"Hyde Street","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":45,"Event Name":"Pride March Adelaide 2026 option 2","Bump - In":"31/10/2026","Start Date":"31/10/2026","End Date":"31/10/2026","Bump - Out":"31/10/2026","Event Organiser":"Pride Adelaide","Booked Spaces":"East Terrace; Light Square / Wauwi; North Terrace; Pulteney Street; Rundle Park / Kadlitpina (Park 13); Rundle Street; Rymill Park / Murlawirrapurka (Park 14)","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":46,"Event Name":"EVENT TBA","Bump - In":"6/11/2026","Start Date":"13/11/2026","End Date":"4/12/2026","Bump - Out":"11/12/2026","Event Organiser":"TBA","Booked Spaces":"Bonython Park / Tulya Wardli (Park 27) - Circus Site North; Bonython Park / Tulya Wardli (Park 27) - Circus Site South; Bonython Park / Tulya Wardli (Park 27) - West Car Park (Old Netball Courts)","Coordinator":"Loizou, Clare"},{"_sourceRow":47,"Event Name":"GURU NANAK BIRTHDAY","Bump - In":"7/11/2026","Start Date":"7/11/2026","End Date":"7/11/2026","Bump - Out":"7/11/2026","Event Organiser":"TBA","Booked Spaces":"Ellis Park / Tampawardli (Park 24); Ellis Park / Tampawardli (Park 24) - Plateau","Coordinator":"Clark, Rani"},{"_sourceRow":48,"Event Name":"Poppin Out 2026","Bump - In":"7/11/2026","Start Date":"7/11/2026","End Date":"7/11/2026","Bump - Out":"8/11/2026","Event Organiser":"Mary's Poppin","Booked Spaces":"Rundle Street; Synagogue Place","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":49,"Event Name":"Robbie Williams: BRITPOP World Tour","Bump - In":"7/11/2026","Start Date":"7/11/2026","End Date":"7/11/2026","Bump - Out":"7/11/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":50,"Event Name":"Pride March Adelaide 2026","Bump - In":"7/11/2026","Start Date":"7/11/2026","End Date":"7/11/2026","Bump - Out":"7/11/2026","Event Organiser":"Pride Adelaide","Booked Spaces":"East Terrace; Light Square / Wauwi; North Terrace; Pulteney Street; Rundle Park / Kadlitpina (Park 13); Rundle Street; Rymill Park / Murlawirrapurka (Park 14)","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":51,"Event Name":"National Pharmacies Christmas Pageant 2026","Bump - In":"11/11/2026","Start Date":"14/11/2026","End Date":"14/11/2026","Bump - Out":"15/11/2026","Event Organiser":"South Australian Tourism Commission - SATC","Booked Spaces":"Blue Gum Park / Kurangga (Park 20); Blue Gum Park / Kurangga (Park 20) - Adjacent to Glover Playground; Blue Gum Park / Kurangga (Park 20) - North Sports Field; Currie St; Elder Park (Park 26); Gawler Place; Gouger Street; Hindley Street; Hindmarsh Square / Mukata; King William Road; King William Street; Light Square / Wauwi; North Terrace; Peacock Road; Pulteney Street; Reconciliation Plaza; Red Gum Park / Karrawirra (Park 12) - Esther Lipman Gardens; Red Gum Park / Karrawirra (Park 12) - Prince Henry Gardens; Rundle Street; South Terrace; Victoria Square / Tarntanyangga; Victoria Square / Tarntanyangga - South; Wakefield Street","Coordinator":"Di Gianni, Mark"},{"_sourceRow":52,"Event Name":"Men's ODI Series: Australia v England","Bump - In":"15/11/2026","Start Date":"15/11/2026","End Date":"15/11/2026","Bump - Out":"15/11/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":53,"Event Name":"GEAR’d Adelaide 2026","Bump - In":"17/11/2026","Start Date":"18/11/2026","End Date":"22/11/2026","Bump - Out":"23/11/2026","Event Organiser":"Events and Promotional Lead","Booked Spaces":"Divett Place","Coordinator":"Di Gianni, Mark"},{"_sourceRow":54,"Event Name":"Christmas Tree Lighting 2026","Bump - In":"19/11/2026","Start Date":"21/11/2026","End Date":"21/11/2026","Bump - Out":"23/11/2026","Event Organiser":"City of Adelaide","Booked Spaces":"Reconciliation Plaza; Victoria Square / Tarntanyangga","Coordinator":"McCabe, Genevieve"},{"_sourceRow":55,"Event Name":"Feast - Picnic in the Park 2026","Bump - In":"20/11/2026","Start Date":"22/11/2026","End Date":"22/11/2026","Bump - Out":"23/11/2026","Event Organiser":"Feast Adelaide Gay & Lesbian Cultural Festival Inc.","Booked Spaces":"Light Square / Wauwi; Whitmore Square - East; Whitmore Square - West; Whitmore Square / Iparrityi","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":56,"Event Name":"bp Adel Grand Final weekend","Bump - In":"26/11/2026","Start Date":"26/11/2026","End Date":"29/11/2026","Bump - Out":"29/11/2026","Event Organiser":"City of Adelaide","Booked Spaces":"Elder Park (Park 26); Victoria Square / Tarntanyangga","Coordinator":""},{"_sourceRow":57,"Event Name":"Christmas events 2026","Bump - In":"1/12/2026","Start Date":"5/12/2026","End Date":"31/12/2026","Bump - Out":"1/01/2027","Event Organiser":"City of Adelaide","Booked Spaces":"Victoria Square / Tarntanyangga","Coordinator":""},{"_sourceRow":58,"Event Name":"Vegan Festival Adelaide 2026","Bump - In":"4/12/2026","Start Date":"5/12/2026","End Date":"6/12/2026","Bump - Out":"8/12/2026","Event Organiser":"Vegan Festival SA","Booked Spaces":"Rundle Park / Kadlitpina (Park 13) - West of Creek","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":59,"Event Name":"Al Salam Festival","Bump - In":"4/12/2026","Start Date":"5/12/2026","End Date":"5/12/2026","Bump - Out":"6/12/2026","Event Organiser":"Islamic Society of South Australia Inc.","Booked Spaces":"TBC Veale Park / Walyu Yarta (Park 21) or Pinky Flat (Park 26)","Coordinator":"Hume, Cara"},{"_sourceRow":60,"Event Name":"2026 Carols by Candlelight","Bump - In":"5/12/2026","Start Date":"12/12/2026","End Date":"12/12/2026","Bump - Out":"17/12/2026","Event Organiser":"St Johns Ambulance Australia","Booked Spaces":"Elder Park (Park 26); Pinky Flat (Park 26)","Coordinator":"Loizou, Clare"},{"_sourceRow":61,"Event Name":"Ebenezer Night Market 2026/2027","Bump - In":"5/12/2026","Start Date":"5/12/2026","End Date":"5/12/2026","Bump - Out":"5/12/2026","Event Organiser":"East End Coordination Group","Booked Spaces":"Ebenezer Place","Coordinator":"Loizou, Clare"},{"_sourceRow":62,"Event Name":"Building Industry Picnic Day 2026","Bump - In":"7/12/2026","Start Date":"7/12/2026","End Date":"7/12/2026","Bump - Out":"7/12/2026","Event Organiser":"Construction Forestry Mining & Energy Union - CFMEU","Booked Spaces":"Bonython Park / Tulya Wardli (Park 27)","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":63,"Event Name":"Adelady Christmas Village 2026","Bump - In":"7/12/2026","Start Date":"11/12/2026","End Date":"12/12/2026","Bump - Out":"15/12/2026","Event Organiser":"Pineapple Media Pty Ltd","Booked Spaces":"Victoria Square / Tarntanyangga - North","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":64,"Event Name":"Adelaide Polo Classic 2026","Bump - In":"9/12/2026","Start Date":"11/12/2026","End Date":"12/12/2026","Bump - Out":"14/12/2026","Event Organiser":"Big Time Marketing","Booked Spaces":"Ellis Park / Tampawardli (Park 24)","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":65,"Event Name":"Ebenezer Night Market 2026/2027","Bump - In":"12/12/2026","Start Date":"12/12/2026","End Date":"12/12/2026","Bump - Out":"12/12/2026","Event Organiser":"East End Coordination Group","Booked Spaces":"Ebenezer Place","Coordinator":"Loizou, Clare"},{"_sourceRow":66,"Event Name":"2027 Adelaide Uni December Graduations","Bump - In":"14/12/2026","Start Date":"14/12/2026","End Date":"18/12/2026","Bump - Out":"18/12/2026","Event Organiser":"Adelaide University","Booked Spaces":"George Street; Hindley Street","Coordinator":"Hume, Cara"},{"_sourceRow":67,"Event Name":"EVENT TBA","Bump - In":"15/12/2026","Start Date":"26/12/2026","End Date":"26/12/2026","Bump - Out":"5/01/2027","Event Organiser":"TBA","Booked Spaces":"Bonython Park / Tulya Wardli (Park 27)","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":68,"Event Name":"NRMA Insurance Men’s Ashes Test: Australia v New Zealand","Bump - In":"17/12/2026","Start Date":"17/12/2026","End Date":"21/12/2026","Bump - Out":"21/12/2026","Event Organiser":"Adelaide Oval Stadium Management Authority Ltd - SMA","Booked Spaces":"Adelaide Oval (Park 26); Creswell Gardens (Park 26); King William Road between North Terrace and Pennington Terrace; King William Street between North Terrace and Currie Street; North Terrace between Victoria Street and King William Road; Pennington Terrace between Palmer Place and King William Road; Pinky Flat (Park 26); Victoria Drive between Kintore Avenue and King William Road; War Memorial Drive between King William Road/Sir Edwin Smith Avenue X & 180 metres east; War Memorial Drive between the Riverbank Bridge and King William Road","Coordinator":"Di Gianni, Mark"},{"_sourceRow":69,"Event Name":"Ebenezer Night Market 2026/2027","Bump - In":"19/12/2026","Start Date":"19/12/2026","End Date":"19/12/2026","Bump - Out":"19/12/2026","Event Organiser":"East End Coordination Group","Booked Spaces":"Ebenezer Place","Coordinator":"Loizou, Clare"},{"_sourceRow":70,"Event Name":"2027 Adelaide International","Bump - In":"20/12/2026","Start Date":"9/01/2027","End Date":"16/01/2027","Bump - Out":"22/01/2027","Event Organiser":"Tennis Australia","Booked Spaces":"Pinky Flat (Park 26); War Memorial Drive","Coordinator":"Kirschbaum, Julia"},{"_sourceRow":71,"Event Name":"2027 Santos Tour Down Under - City of Adelaide Tour Village","Bump - In":"28/12/2026","Start Date":"15/01/2027","End Date":"24/01/2027","Bump - Out":"1/02/2027","Event Organiser":"South Australian Tourism Commission - SATC","Booked Spaces":"Reconciliation Plaza; Victoria Square / Tarntanyangga; Victoria Square / Tarntanyangga - North; Victoria Square / Tarntanyangga - North East Triangle; Victoria Square / Tarntanyangga - South; Victoria Square / Tarntanyangga - South East Triangle","Coordinator":"Di Gianni, Mark"}];
+
+    const EMBEDDED_ROAD_CLOSURES = [{"_roadClosureId":"road-p1-r1-1","_sourcePage":1,"_sourceRow":1,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"3/07/2026","Event End Date":"3/07/2026","Road Closure Schedule":"From 4:30 pm on Friday 3 July 2026 to 11:30 pm on Friday 3 July 2026, the\nfollowing roads will be closed: Rundle Street between Frome Street and East\nTerrace, Vardon Avenue between Union Street and Rundle Street, Ebenezer\nPlace between Union Street and Rundle Street, and Union Street between\nSym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p1-r2-2","_sourcePage":1,"_sourceRow":2,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"4/07/2026","Event End Date":"4/07/2026","Road Closure Schedule":"From 4:30 pm on Saturday 4 July 2026 to 11:30 pm on Saturday 4 July 2026,\nthe following roads will be closed: Rundle Street between Frome Street and\nEast Terrace, Vardon Avenue between Union Street and Rundle Street,\nEbenezer Place between Union Street and Rundle Street, and Union Street\nbetween Sym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p1-r3-3","_sourcePage":1,"_sourceRow":3,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"5/07/2026","Event End Date":"5/07/2026","Road Closure Schedule":"From 4:30 pm on Sunday 5 July 2026 to 11:00 pm on Sunday 5 July 2026, the\nfollowing roads will be closed: Rundle Street between Frome Street and East\nTerrace, Vardon Avenue between Union Street and Rundle Street, Ebenezer\nPlace between Union Street and Rundle Street, and Union Street between\nSym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p2-r4-1","_sourcePage":2,"_sourceRow":4,"Event Name":"2026 Toyota AFL Premiership Season - Round 17 - Port Adelaide vs North Melbourne","Event Start Date":"05/07/26","Event End Date":"05/07/26","Road Closure Schedule":"From 1:00 pm to 8:20 pm on Sunday 5 July 2026, the following road will be\nclosed:\n• War Memorial Drive between Riverbank Footbridge and King William Road.\n\nFrom 6:20 pm to 8:20 pm on Sunday 5 July 2026, the following roads will be\nclosed:\n• King William Street between Currie Street and North Terrace.\n• King William Road between North Terrace and Pennington Terrace.\n• Festival Drive between King William Road and a point 80 meters west.\n• Sir Edwin Smith Avenue between Kermode Street and King William Road.\n• Victoria Drive between Kintore Avenue and King William Road.\n• War Memorial Drive from Edwin Smith Avenue to a point 180 meters east.\n• Pennington Terrace between Palmer Place and King William Road.\n\nFrom 6:30 pm to 8:20 pm on Sunday 5 July 2026, the following road will be\nclosed:\n• North Terrace between Victoria Street and King William Road","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p2-r5-2","_sourcePage":2,"_sourceRow":5,"Event Name":"Beer and BBQ Festival 2026","Event Start Date":"10/07/2027","Event End Date":"11/07/2027","Road Closure Schedule":"From 10:00am on Thursday 9 July 2026 to 6:00pm on Sunday 12 July 2026,\nthe following roads will be closed: War Memorial Drive from a point East of\nNext Gen carpark driveway to King William Road","Traffic Supplier":"ForMile"},{"_roadClosureId":"road-p2-r6-3","_sourcePage":2,"_sourceRow":6,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"10/07/2026","Event End Date":"10/07/2026","Road Closure Schedule":"From 4:30 pm on Friday 10 July 2026 to 11:30 pm on Friday 10 July 2026, the\nfollowing roads will be closed: Rundle Street between Frome Street and East\nTerrace, Vardon Avenue between Union Street and Rundle Street, Ebenezer\nPlace between Union Street and Rundle Street, and Union Street between\nSym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p2-r7-4","_sourcePage":2,"_sourceRow":7,"Event Name":"NAIDOC Family Fun Day and March 2026","Event Start Date":"10/07/26","Event End Date":"10/07/26","Road Closure Schedule":"March from Victoria Square to Parliament House travelling North along King\nWilliam Street\n\nReconciliation Plaza (eastbound bike lane only) closed from 9am - 4pm on 10\nJuly 2026","Traffic Supplier":"RAW Traffic"},{"_roadClosureId":"road-p2-r8-5","_sourcePage":2,"_sourceRow":8,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"11/07/2026","Event End Date":"11/07/2026","Road Closure Schedule":"From 4:30 pm on Saturday 11 July 2026 to 11:30 pm on Saturday 11 July\n2026, the following roads will be closed: Rundle Street between Frome\nStreet and East Terrace, Vardon Avenue between Union Street and Rundle\nStreet, Ebenezer Place between Union Street and Rundle Street, and Union\nStreet between Sym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p3-r9-1","_sourcePage":3,"_sourceRow":9,"Event Name":"2026 Toyota AFL Premiership Season - Round 18 -Adelaide vs Gold Coast","Event Start Date":"11/07/26","Event End Date":"11/07/26","Road Closure Schedule":"From 4:00 pm to 11:59 pm on Saturday 11 July 2026, the following road will\nbe closed:\n• War Memorial Drive between Riverbank Footbridge and King William\nRoad.\n\nFrom 9:55 pm to 11:59 pm on Saturday 11 July 2026, the following roads will\nbe closed:\n• King William Street between Currie Street and North Terrace.\n• King William Road between North Terrace and Pennington Terrace.\n• Festival Drive between King William Road and a point 80 meters west.\n• Sir Edwin Smith Avenue between Kermode Street and King William Road.\n• Victoria Drive between Kintore Avenue and King William Road.\n• War Memorial Drive from Edwin Smith Avenue to a point 180 meters east.\n• Pennington Terrace between Palmer Place and King William Road.\n\nFrom 10:05 pm to 11:59 pm on Saturday 11 July 2026, the following road will\nbe closed:\n• North Terrace between Victoria Street and King William Road.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p3-r10-2","_sourcePage":3,"_sourceRow":10,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"12/07/2026","Event End Date":"12/07/2026","Road Closure Schedule":"From 4:30 pm on Sunday 12 July 2026 to 11:00 pm on Sunday 12 July 2026,\nthe following roads will be closed: Rundle Street between Frome Street and\nEast Terrace, Vardon Avenue between Union Street and Rundle Street,\nEbenezer Place between Union Street and Rundle Street, and Union Street\nbetween Sym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p3-r11-3","_sourcePage":3,"_sourceRow":11,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"17/07/2026","Event End Date":"17/07/2026","Road Closure Schedule":"From 4:30 pm on Friday 17 July 2026 to 11:30 pm on Friday 17 July 2026, the\nfollowing roads will be closed: Rundle Street between Frome Street and East\nTerrace, Vardon Avenue between Union Street and Rundle Street, Ebenezer\nPlace between Union Street and Rundle Street, and Union Street between\nSym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p4-r12-1","_sourcePage":4,"_sourceRow":12,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"18/07/2026","Event End Date":"18/07/2026","Road Closure Schedule":"From 4:30 pm on Saturday 18 July 2026 to 11:30 pm on Saturday 18 July\n2026, the following roads will be closed: Rundle Street between Frome\nStreet and East Terrace, Vardon Avenue between Union Street and Rundle\nStreet, Ebenezer Place between Union Street and Rundle Street, and Union\nStreet between Sym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p4-r13-2","_sourcePage":4,"_sourceRow":13,"Event Name":"2026 Toyota AFL Premiership Season - Round 19 - Port Adelaide vs Fremantle","Event Start Date":"18/07/26","Event End Date":"18/07/26","Road Closure Schedule":"From 9:30 am to 5:00 pm on Saturday 18 July 2026, the following road will\nbe closed:\n• War Memorial Drive between Riverbank Footbridge and King William\nRoad.\n\nFrom 3:00 pm to 5:00 pm on Saturday 18 July 2026, the following roads will\nbe closed:\n• King William Street between Currie Street and North Terrace.\n• King William Road between North Terrace and Pennington Terrace.\n• Festival Drive between King William Road and a point 80 meters west.\n• Sir Edwin Smith Avenue between Kermode Street and King William Road.\n• Victoria Drive between Kintore Avenue and King William Road.\n• War Memorial Drive from Edwin Smith Avenue to a point 180 meters east.\n• Pennington Terrace between Palmer Place and King William Road.\n\nFrom 3:10 pm to 5:00 pm on Saturday 18 July 2026, the following road will\nbe closed:\n• North Terrace between Victoria Street and King William Road.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p4-r14-3","_sourcePage":4,"_sourceRow":14,"Event Name":"Rundle St closure during Illuminate Adelaide 2026","Event Start Date":"19/07/2026","Event End Date":"19/07/2026","Road Closure Schedule":"From 4:30 pm on Sunday 19 July 2026 to 11:00 pm on Sunday 19 July 2026,\nthe following roads will be closed: Rundle Street between Frome Street and\nEast Terrace, Vardon Avenue between Union Street and Rundle Street,\nEbenezer Place between Union Street and Rundle Street, and Union Street\nbetween Sym Choon Lane and Rundle Street.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p5-r15-1","_sourcePage":5,"_sourceRow":15,"Event Name":"2026 Toyota AFL Premiership Season - Round 20 - Adelaide vs Collingwood","Event Start Date":"23/07/26","Event End Date":"23/07/26","Road Closure Schedule":"From 3:00 pm to 11:30 pm on Thursday 23 July 2026, the following road will\nbe closed:\n• War Memorial Drive between Riverbank Footbridge and King William\nRoad.\n\nFrom 9:20 pm to 11:30 pm on Thursday 23 July 2026, the following roads will\nbe closed:\n• King William Street between Currie Street and North Terrace.\n• King William Road between North Terrace and Pennington Terrace.\n• Festival Drive between King William Road and a point 80 meters west.\n• Sir Edwin Smith Avenue between Kermode Street and King William Road.\n• Victoria Drive between Kintore Avenue and King William Road.\n• War Memorial Drive from Edwin Smith Avenue to a point 180 meters east.\n• Pennington Terrace between Palmer Place and King William Road.\n\nFrom 9:30 pm to 11:30 pm on Thursday 23 July 2026, the following road will\nbe closed:\nNorth Terrace between Victoria Street and King William Road.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p6-r16-1","_sourcePage":6,"_sourceRow":16,"Event Name":"2026 Toyota AFL Premiership Season - Round 21- Port Adelaide vs GWS","Event Start Date":"01/08/26","Event End Date":"01/08/26","Road Closure Schedule":"From 2:30 pm to 10:15 pm on Saturday 1 August 2026, the following road\nwill be closed:\n• War Memorial Drive between Riverbank Footbridge and King William\nRoad.\n\nFrom 8:20 pm to 10:15 pm on Saturday 1 August 2026, the following roads\nwill be closed:\n• King William Street between Currie Street and North Terrace.\n• King William Road between North Terrace and Pennington Terrace.\n• Festival Drive between King William Road and a point 80 meters west.\n• Sir Edwin Smith Avenue between Kermode Street and King William Road.\n• Victoria Drive between Kintore Avenue and King William Road.\n• War Memorial Drive from Edwin Smith Avenue to a point 180 meters east.\n• Pennington Terrace between Palmer Place and King William Road.\n\nFrom 8:30 pm to 10:15 pm on Saturday 1 August 2026, the following road\nwill be closed:\n• North Terrace between Victoria Street and King William Road.","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p6-r17-2","_sourcePage":6,"_sourceRow":17,"Event Name":"Fitzy's 5 State 5km Road Championships 2026","Event Start Date":"02/08/26","Event End Date":"02/08/26","Road Closure Schedule":"From 06:00 am to 11:00am on Sunday 2 August 2026 the following roads will\nbe closed:\n- War Memorial Drive between Frome and Bundeys Roads\n- single lane closures on Bundeys Road (Westbound)\n- Mackinnon Parade (Southwest bound)\n- Frome Road (Southeast Bound)","Traffic Supplier":"ForMile"},{"_roadClosureId":"road-p7-r18-1","_sourcePage":7,"_sourceRow":18,"Event Name":"2026 Toyota AFL Premiership Season - Round 22 - Adelaide v Richmond","Event Start Date":"08/08/26","Event End Date":"08/08/26","Road Closure Schedule":"From 3:00 pm to 11:30 pm on Saturday 8 August 2026, the following road\nwill be closed:\n• War Memorial Drive between Riverbank Footbridge and King William\nRoad.\n\nFrom 9:20 pm to 11:30 pm on Saturday 8 August 2026, the following roads\nwill be closed:\n• King William Street between Currie Street and North Terrace.\n• King William Road between North Terrace and Pennington Terrace.\n• Festival Drive between King William Road and a point 80 meters west.\n• Sir Edwin Smith Avenue between Kermode Street and King William Road.\n• Victoria Drive between Kintore Avenue and King William Road.\n• War Memorial Drive from Edwin Smith Avenue to a point 180 meters east.\n• Pennington Terrace between Palmer Place and King William Road.\n\nFrom 9:30 pm to 11:30 pm on Saturday 8 August 2026, the following road\nwill be closed:\n• North Terrace between Victoria Street and King William Road","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p7-r19-2","_sourcePage":7,"_sourceRow":19,"Event Name":"2026 Toyota AFL Premiership Season - Round 23- Port Adelaide v Melbourne- Dates - TBA","Event Start Date":"14/08/26","Event End Date":"15/08/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p7-r20-3","_sourcePage":7,"_sourceRow":20,"Event Name":"2026 Toyota AFL Premiership Season - Round 24- Adelaide vs GWS- Dates TBA","Event Start Date":"21/08/26","Event End Date":"22/08/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p7-r21-4","_sourcePage":7,"_sourceRow":21,"Event Name":"Mould x Pinot Palooza 2026","Event Start Date":"27/08/26","Event End Date":"30/08/26","Road Closure Schedule":"From 06:00 am on Wednesday 26 August 2026 to 12:00 pm Monday 31\nAugust 2026, portion of Playhouse Lane & Gilles Arcade will be closed.","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p7-r22-5","_sourcePage":7,"_sourceRow":22,"Event Name":"2026 Hostplus SANFL Final Series - Week 1 - Elimination & Qualifying Finals","Event Start Date":"30/08/26","Event End Date":"30/08/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p7-r23-6","_sourcePage":7,"_sourceRow":23,"Event Name":"2026 Hostplus SANFL Final Series - Week 2 - Semi Finals","Event Start Date":"06/09/26","Event End Date":"06/09/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p7-r24-7","_sourcePage":7,"_sourceRow":24,"Event Name":"Envest Networks Street Party","Event Start Date":"07/09/26","Event End Date":"07/09/26","Road Closure Schedule":"From 12pm - 1am on 7 September 2026 Vardon Ave will be closed","Traffic Supplier":"ForMile"},{"_roadClosureId":"road-p7-r25-8","_sourcePage":7,"_sourceRow":25,"Event Name":"2026 Hostplus SANFL Final Series - Week 3 - Preliminary Final","Event Start Date":"13/09/26","Event End Date":"13/09/26","Road Closure Schedule":"N/A","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p7-r26-9","_sourcePage":7,"_sourceRow":26,"Event Name":"EVENT TBA","Event Start Date":"18/09/26","Event End Date":"27/09/26","Road Closure Schedule":"From 06:00 am on Thursday 17 September 2026 to 12:00 pm Monday 28\nSeptember 2026, portion of Playhouse Lane & Gilles Arcade will be closed.","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p8-r27-1","_sourcePage":8,"_sourceRow":27,"Event Name":"2026 City to Bay Fun Run","Event Start Date":"20/09/26","Event End Date":"20/09/26","Road Closure Schedule":"4:30am - 10.30am King William Road, between War Memorial Drive and\nNorth Terrace7:45am - 10.00amKing William Street, between North Terrace\nand Wright Street (Western carriageway)\n\n6.15am - 10.00amKing William Street, between Wright Street and South\nTerrace (Western carriageway)South Terrace and West Terrace along King\nWilliam Street.\n\n8.00am - 10.00amKing William Street, between North Terrace and South\nTerrace (Eastern carriageway)\n\n6.15am - 7.15am Corner South Terrace & Morphett Street along Morphett\nStreet (Eastern side) to Sturt Street and Sturt Street (Southern side\n\n)6.00am - 10.30amAnzac Highway, between West Terrace and Greenhill\nRoad. (Eastern side, southern carriageway only)","Traffic Supplier":"ALTUS TRAFFIC"},{"_roadClosureId":"road-p8-r28-2","_sourcePage":8,"_sourceRow":28,"Event Name":"Adelaide University Graduation Ceremonies September 2026","Event Start Date":"29/09/26","Event End Date":"07/10/26","Road Closure Schedule":"Tuesday 29 September 2026 from 8.30am to 5.30pm the following roads will\nbe closed: - Hindley Street between Liverpool and Clarendon Street\n\nWednesday 30 October 2026 from 8.30am to 5.30pm the following roads will\nbe closed: - Hindley Street between Liverpool and Clarendon Street\n\nThursday 1 October 2026 from 8:30am to 5:30pm the following roads will be\nclosed: - Hindley Street between Liverpool and Clarendon Street\n\nFriday 2 October 2026 from 8:30am to 5:30pm the following roads will be\nclosed: - Hindley Street between Liverpool and Clarendon Street\n\nTuesday 6 October 2026 from 8:30am to 5:30pm the following roads will be\nclosed: - Hindley Street between Liverpool and Clarendon Street\n\nWednesday 7 October 2026 from 8:30am to 5:30pm the following roads will\nbe closed: - Hindley Street between Liverpool and Clarendon Street","Traffic Supplier":"Adelaide Event Operations"},{"_roadClosureId":"road-p8-r29-3","_sourcePage":8,"_sourceRow":29,"Event Name":"2026 - Adelaide Rally Parc Ferme","Event Start Date":"16/10/26","Event End Date":"18/10/26","Road Closure Schedule":"TBA","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p9-r30-1","_sourcePage":9,"_sourceRow":30,"Event Name":"Focus Super Series - Round 4 2026","Event Start Date":"17/10/26","Event End Date":"17/10/26","Road Closure Schedule":"From 06:30 am to 02:00pm on Saturday 17 October 2026 the following roads\nwill be closed:\n- War Memorial Drive between Frome and Bundeys Roads\n- single lane closures on Bundeys Road (Westbound)\n- Mackinnon Parade (Southwest bound)\n- Frome Road (Southeast Bound)","Traffic Supplier":"ForMile"},{"_roadClosureId":"road-p9-r31-2","_sourcePage":9,"_sourceRow":31,"Event Name":"Shannon's Adelaide Rally Event Finale 2026","Event Start Date":"18/10/26","Event End Date":"18/10/26","Road Closure Schedule":"From 12:30pm to 8:30pm on Sunday 18 October 2026, the following roads\nare proposed to be closed: - O’Connell Street, from Archer Street to Tynte\nStreet - O’Connell Street west carriageway from Tynte Street to Wigg Lane-\nTynte Street from O'Connell Street to Mansfield Street- Tynte Street south\ncarriageway from O’Connell Street to Centenary Street- Tower Street South,\nChapel Street, Tynte Place and Tynte Court in their entirety.","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p9-r32-3","_sourcePage":9,"_sourceRow":32,"Event Name":"EVENT TBA","Event Start Date":"30/10/26","Event End Date":"31/10/26","Road Closure Schedule":"Hyde St. Dates/ Time TBA","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p9-r33-4","_sourcePage":9,"_sourceRow":33,"Event Name":"Gunson Street Party","Event Start Date":"30/10/26","Event End Date":"30/10/26","Road Closure Schedule":"Gunston Street on 31 October","Traffic Supplier":"TGA"},{"_roadClosureId":"road-p9-r34-5","_sourcePage":9,"_sourceRow":34,"Event Name":"Multicultural Festival 2026","Event Start Date":"01/11/26","Event End Date":"01/11/26","Road Closure Schedule":"Reconciliation Plaza between 15:00 on Sat 31 Oct 2026 until 11:59 on Sun 1\nNov 2026","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p9-r35-6","_sourcePage":9,"_sourceRow":35,"Event Name":"Poppin Out 2026","Event Start Date":"07/11/26","Event End Date":"07/11/26","Road Closure Schedule":"Synagogue Place will be closed from 09:00 am on Saturday 7 November 2026\nto 01:00 on Sunday 8 November 2026","Traffic Supplier":"ForMile Events"},{"_roadClosureId":"road-p9-r36-7","_sourcePage":9,"_sourceRow":36,"Event Name":"Robbie Williams: BRITPOP World Tour","Event Start Date":"07/11/26","Event End Date":"07/11/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p9-r37-8","_sourcePage":9,"_sourceRow":37,"Event Name":"Pride March Adelaide 2026","Event Start Date":"07/11/26","Event End Date":"07/11/26","Road Closure Schedule":"East End TBA","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p9-r38-9","_sourcePage":9,"_sourceRow":38,"Event Name":"National Pharmacies Christmas Pageant 2026","Event Start Date":"14/11/26","Event End Date":"14/11/26","Road Closure Schedule":"TBA","Traffic Supplier":"Altus"},{"_roadClosureId":"road-p9-r39-10","_sourcePage":9,"_sourceRow":39,"Event Name":"Men's ODI Series: Australia v England","Event Start Date":"15/11/26","Event End Date":"15/11/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p9-r40-11","_sourcePage":9,"_sourceRow":40,"Event Name":"GEAR’d Adelaide 2026","Event Start Date":"18/11/26","Event End Date":"22/11/26","Road Closure Schedule":"Divett Place","Traffic Supplier":"TBC"},{"_roadClosureId":"road-p9-r41-12","_sourcePage":9,"_sourceRow":41,"Event Name":"2026 Associated Motor Sport Event","Event Start Date":"20/11/26","Event End Date":"22/11/26","Road Closure Schedule":"TBA","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p9-r42-13","_sourcePage":9,"_sourceRow":42,"Event Name":"Christmas Tree Lighting 2026","Event Start Date":"21/11/26","Event End Date":"21/11/26","Road Closure Schedule":"Reconciliation Plaza. Times TBA.","Traffic Supplier":"TBA"},{"_roadClosureId":"road-p9-r43-14","_sourcePage":9,"_sourceRow":43,"Event Name":"2026 bp Adelaide Grand Final","Event Start Date":"26/11/26","Event End Date":"29/11/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p9-r44-15","_sourcePage":9,"_sourceRow":44,"Event Name":"Ebenezer Night Market 2026/2027","Event Start Date":"05/12/26","Event End Date":"05/12/26","Road Closure Schedule":"From 2:30pm to 11:59pm the following road will be closed:\n• Ebenezer Place , Adelaide between Union Street and Rundle Street\n\nFrom 4:00pm to 11:59pm following road will be closed:\n• Union Street, Adelaide between Rundle Street and Ebenezer Place","Traffic Supplier":"ForMile"},{"_roadClosureId":"road-p10-r44-1","_sourcePage":10,"_sourceRow":44,"Event Name":"Ebenezer Night Market 2026/2027","Event Start Date":"12/12/26","Event End Date":"12/12/26","Road Closure Schedule":"From 2:30pm to 11:59pm the following road will be closed:\n• Ebenezer Place , Adelaide between Union Street and Rundle Street\n\nFrom 4:00pm to 11:59pmthe following road will be closed:\n• Union Street, Adelaide between Rundle Street and Ebenezer Place","Traffic Supplier":"ForMile"},{"_roadClosureId":"road-p10-r45-2","_sourcePage":10,"_sourceRow":45,"Event Name":"2027 Adelaide Uni December Graduations","Event Start Date":"14/12/26","Event End Date":"18/12/26","Road Closure Schedule":"Hindley Street between Clarendon Street and Liverpool Street. Dates and\nTime TBA","Traffic Supplier":"Adelaide Event Operations"},{"_roadClosureId":"road-p10-r46-3","_sourcePage":10,"_sourceRow":46,"Event Name":"NRMA Insurance Men’s Ashes Test: Australia v New Zealand","Event Start Date":"17/12/26","Event End Date":"21/12/26","Road Closure Schedule":"TBA","Traffic Supplier":"Traffic Group Australia"},{"_roadClosureId":"road-p10-r47-4","_sourcePage":10,"_sourceRow":47,"Event Name":"Ebenezer Night Market 2026/2027","Event Start Date":"19/12/26","Event End Date":"19/12/26","Road Closure Schedule":"From 2:30pm to 11:59PM the following road will be closed:\n• Ebenezer Place , Adelaide between Union Street and Rundle Street\n\nFrom 4:00pm to 11:59pm the following road will be closed:\n• Union Street, Adelaide between Rundle Street and Ebenezer Place","Traffic Supplier":"ForMile"},{"_roadClosureId":"road-p10-r48-5","_sourcePage":10,"_sourceRow":48,"Event Name":"2027 Adelaide International","Event Start Date":"09/01/27","Event End Date":"16/01/27","Road Closure Schedule":"War Memorial Drive. Dates and times TBA","Traffic Supplier":"Altus"}];
+
+    const EMBEDDED_GEOJSON = {"type":"FeatureCollection","features":[{"type":"Feature","id":1,"geometry":{"type":"Polygon","coordinates":[[[138.57992680318787,-34.92336469776804],[138.5799914540406,-34.92336598524924],[138.5800207534919,-34.92336656932966],[138.5802148219326,-34.923370436928934],[138.58022054420098,-34.92332040486714],[138.58026876576542,-34.92332226980088],[138.58025867319319,-34.92337213392918],[138.58025659988155,-34.92338189536276],[138.58037232624628,-34.923384132250376],[138.58055160482422,-34.92338759843172],[138.58061559900838,-34.92338799984881],[138.58082270200387,-34.92340039590196],[138.5810024009933,-34.92342189712057],[138.5811914002409,-34.92344619793953],[138.58133600025556,-34.92347129495576],[138.58145379633874,-34.923501295874985],[138.58194881836596,-34.92361966799943],[138.5850545009157,-34.924362295191564],[138.5851767149135,-34.92437928487399],[138.58723306729493,-34.92466513996999],[138.58729029626676,-34.92467309526946],[138.58728821666688,-34.924642960729464],[138.58721634964755,-34.923601435611424],[138.5872094056704,-34.92350080312699],[138.587181205757,-34.92321909515179],[138.58716060379427,-34.92314497864159],[138.58708419668943,-34.92287009505168],[138.58684749959522,-34.92251579691536],[138.58643679883048,-34.92216209827918],[138.5858931006913,-34.92185684529098],[138.5858817989867,-34.92185049983625],[138.58392080367094,-34.92103889703489],[138.5833220953987,-34.92082320144553],[138.58331959538722,-34.92082780204989],[138.58302510068765,-34.9207199964014],[138.58269380380747,-34.92058599817728],[138.58253009842338,-34.9205198040551],[138.5824679969895,-34.920494697297386],[138.58233320208615,-34.92045219639894],[138.58232079994536,-34.92043740235995],[138.58211790196367,-34.920353095069466],[138.58201440077158,-34.92031130047094],[138.5819111987185,-34.92026929887406],[138.58191150055245,-34.920266203057295],[138.58177010123512,-34.920203094921014],[138.58157949490152,-34.92011449684354],[138.58142393723702,-34.920036776413426],[138.58139316005705,-34.920024602297936],[138.5813357981346,-34.92000080501996],[138.5812276355845,-34.91997048830316],[138.58122213879332,-34.919968129787485],[138.58103782785318,-34.91988905318145],[138.5809407190727,-34.919836823997834],[138.58016076401373,-34.91951418423348],[138.57984925162938,-34.919420216475636],[138.5793532845745,-34.91921475292053],[138.57928295097935,-34.91919369844192],[138.57920361895998,-34.91918534632973],[138.57911459142375,-34.91919373895397],[138.5790346162106,-34.91921880117816],[138.57900696157463,-34.91923395930851],[138.57911429857296,-34.9198639764304],[138.5792245110785,-34.92051304233446],[138.5792459008638,-34.92063900322869],[138.57928993807568,-34.92089833135976],[138.57944597454215,-34.921817222098234],[138.57962591607674,-34.92287687278223],[138.57965320060686,-34.92302360292474],[138.57967680473925,-34.92316450082506],[138.57969073491438,-34.923245623347114],[138.57988211739237,-34.9232433260589],[138.5799465508528,-34.92322963218703],[138.5799346203275,-34.92331125181309],[138.57992680318787,-34.92336469776804]]]},"properties":{"OBJECTID":1,"Number":"25","Park":"25","Name":"Gladys Elphick Park","Kaurna":"Narnungga","Meaning":"‘native pine place'","Legend":"Parks 24 & 25","Names_Label":"Gladys Elphick Park / Narnungga ","Map_Labels":"Gladys Elphick Park / Narnungga (25)","Transparency":75,"Area":247890.72027747304,"Shape_Length":2749.313662484368,"Shape_Area":369586.7304860027}},{"type":"Feature","id":2,"geometry":{"type":"Polygon","coordinates":[[[138.58023249898073,-34.923562901872366],[138.58021895238625,-34.923643173293605],[138.58020761744402,-34.923790108297545],[138.58020278360948,-34.92393692592848],[138.58020347621058,-34.92406043036545],[138.5802045326293,-34.92406066826758],[138.5802050410758,-34.924068686968],[138.5802048209886,-34.924111088033875],[138.58021068968227,-34.924229440865226],[138.58022332897838,-34.924389055762724],[138.58023006544468,-34.9244573039076],[138.5802485051625,-34.92465448821977],[138.58028487884664,-34.92486593647152],[138.58105072766068,-34.92931768002018],[138.58116165792015,-34.92996247538811],[138.5811811441753,-34.9300757299312],[138.5811849063197,-34.93009759690655],[138.5819047982221,-34.929925458115974],[138.5824114875682,-34.92981034594413],[138.5830435754398,-34.92966773975442],[138.5832463764034,-34.9296195358161],[138.5833455755636,-34.92959213915098],[138.5834988721685,-34.92954703137152],[138.58366197298645,-34.92951273082403],[138.58382187220872,-34.9294827269473],[138.58414465934814,-34.92943352495519],[138.58446965813985,-34.92939512505047],[138.58485525189067,-34.92935591646005],[138.58627723198487,-34.929234398949454],[138.58659887377235,-34.92921192045497],[138.58675180206802,-34.92920123320688],[138.58717732413666,-34.92917149509027],[138.58729151887385,-34.929161192286394],[138.58733475029692,-34.92914923163464],[138.58740032282105,-34.92913109106395],[138.58749380959438,-34.9290759851249],[138.58756001004096,-34.92899858987501],[138.5875870071102,-34.928906585427335],[138.5875915992979,-34.92886000943442],[138.58759630467333,-34.92881228079825],[138.5875321380126,-34.92793660840291],[138.5875249613718,-34.92785186617729],[138.5875101364747,-34.92764974611498],[138.5874764173122,-34.92708026378533],[138.5874363542471,-34.92643941854227],[138.58742059420373,-34.92642890254164],[138.58741168740772,-34.9263074580303],[138.58735716416157,-34.92631043798574],[138.58735025701534,-34.92631081581991],[138.58734264020003,-34.9261977232697],[138.58734443683062,-34.92613733524571],[138.5872757462541,-34.9253995041788],[138.58730928844852,-34.92530454516452],[138.58730670040214,-34.92525782792298],[138.5873114902193,-34.92525775721627],[138.58733467034685,-34.9252574169402],[138.58732640764288,-34.92514467941828],[138.5873248571507,-34.92512417001983],[138.58728902245568,-34.92511550106694],[138.58530534827224,-34.924635625588664],[138.58529451548827,-34.92463304109113],[138.58403672497016,-34.924328768786204],[138.58399497307235,-34.92431862814885],[138.58206318557973,-34.92385130087862],[138.58206140601715,-34.92385088915223],[138.58127529570191,-34.92366069785493],[138.5810765138009,-34.92363767058209],[138.58059231108297,-34.92358158061428],[138.58056099221886,-34.923577952401565],[138.58023249898073,-34.923562901872366]]]},"properties":{"OBJECTID":2,"Number":"24","Park":"24","Name":"Ellis Park (and Ellis Park Road)","Kaurna":"Tampawardli","Meaning":"‘plain place'","Legend":"Parks 24 & 25","Names_Label":"Ellis Park (and Ellis Park Road) / Tampawardli  ","Map_Labels":"Ellis Park (and Ellis Park Road) / Tampawardli (24)","Transparency":75,"Area":360644.4960046806,"Shape_Length":2985.669996740512,"Shape_Area":537754.3006598654}},{"type":"Feature","id":3,"geometry":{"type":"Polygon","coordinates":[[[138.58122000170124,-34.93030159780806],[138.58134120329768,-34.931006202103816],[138.58137719609618,-34.931194397466264],[138.58161964240819,-34.932608317913406],[138.58169415496604,-34.93304288403859],[138.58243430567475,-34.9373590973896],[138.58315476800732,-34.94156014183027],[138.58315919849835,-34.94158597263257],[138.58316460725467,-34.941617510383146],[138.58320886904534,-34.94150148309516],[138.58322920959836,-34.94144816088563],[138.58336541036508,-34.94127930441596],[138.5834690759488,-34.941182291594224],[138.58348864574734,-34.94116397842483],[138.58356157098206,-34.941114155301996],[138.58361802291117,-34.94107790301295],[138.58361836876253,-34.9410776055129],[138.5837511846773,-34.94096308042758],[138.58757070807764,-34.93652312423481],[138.58764082338223,-34.9364260859033],[138.58768679376857,-34.93634311693045],[138.58772765723253,-34.93626488679775],[138.58777857374284,-34.93617809043377],[138.5878246986394,-34.936101049479674],[138.58785851122667,-34.93603921723863],[138.58786727429228,-34.93602065474329],[138.58790625129413,-34.935938091871094],[138.58792353937184,-34.93589404288926],[138.5879516386739,-34.93577788231002],[138.58797779581832,-34.93564196522426],[138.58801698931416,-34.93538293923421],[138.58803717805182,-34.93520695922192],[138.5880453087035,-34.93505964477682],[138.58798495808608,-34.9340916029827],[138.587964457633,-34.93409182465384],[138.5879357591546,-34.933656659457725],[138.58792465867265,-34.93335048594777],[138.58791970176887,-34.93321374221742],[138.58784838811178,-34.93225435935845],[138.586279414891,-34.93251629542001],[138.58513723216012,-34.93270699423302],[138.58512877182673,-34.93253910957268],[138.58783798741737,-34.93208729787833],[138.5876456257757,-34.92948057492235],[138.58764431603203,-34.929462488925246],[138.587620841257,-34.92943921066428],[138.58762062027145,-34.929438991190004],[138.58762015943574,-34.92943884241887],[138.58758591835203,-34.92942778695489],[138.5869878227308,-34.92945699912431],[138.58639750382497,-34.92951130276969],[138.5857702956021,-34.929539301173996],[138.58508744842538,-34.92957901932755],[138.58470576144765,-34.92960472207166],[138.58432596272868,-34.929643022452275],[138.5840022152902,-34.92968899408005],[138.58394846908675,-34.92969662631046],[138.58357447528113,-34.92976363200458],[138.58349183207164,-34.92978237046342],[138.58344257385133,-34.92979353929871],[138.58337627459008,-34.92981473614574],[138.583322079229,-34.9298527403605],[138.5833022785635,-34.929911537784974],[138.58342268065934,-34.9302100381849],[138.58342268155766,-34.93034774214021],[138.58338619738075,-34.93045039891681],[138.58332539940227,-34.93062199823892],[138.58331720407196,-34.93066510220239],[138.58334559622483,-34.93065740009647],[138.58335215123142,-34.93230586184856],[138.58325619319282,-34.93232261495382],[138.58321700059525,-34.93069249777269],[138.58325170520965,-34.93068300013208],[138.58325149769885,-34.930644396070726],[138.58331299366822,-34.93047029496776],[138.58334288241437,-34.93038594127588],[138.58335878439152,-34.93030714205223],[138.5833560867507,-34.930227442033306],[138.58333277816402,-34.930150139930205],[138.58324318379084,-34.929928638264286],[138.58318538618548,-34.92989273675427],[138.58309908144287,-34.929862238833735],[138.5830334846642,-34.92986494247742],[138.58122000170124,-34.93030159780806]]]},"properties":{"OBJECTID":3,"Number":"23","Park":"23","Name":"G S Kingston Park","Kaurna":"Wirrarninthi","Meaning":"‘to become wirra'","Legend":"Parks 22 & 23","Names_Label":"G S Kingston Park / Wirrarninthi ","Map_Labels":"G S Kingston Park / Wirrarninthi (23)","Transparency":75,"Area":553001.8799256762,"Shape_Length":5398.748913138093,"Shape_Area":824727.4751991034}},{"type":"Feature","id":4,"geometry":{"type":"Polygon","coordinates":[[[138.5886726858097,-34.9416149080111],[138.58869722778329,-34.94156768238121],[138.5887217311293,-34.941449743372566],[138.58873017978453,-34.94140907882319],[138.58873058582301,-34.94128872792761],[138.58866236596373,-34.93986094936465],[138.58843126806872,-34.93683979394213],[138.58837339500482,-34.936650573907045],[138.58832012221356,-34.936592494173695],[138.5882376910064,-34.936621557242965],[138.58761323342492,-34.937110418395925],[138.58749708485195,-34.93720134509577],[138.58738599199737,-34.93730785802857],[138.5873853218541,-34.93730860623141],[138.5872799252168,-34.937426291975974],[138.58446811932578,-34.94070837175795],[138.584468091478,-34.94070844024216],[138.58369642158092,-34.94160911563424],[138.58356916893277,-34.94175764512505],[138.58347571899037,-34.94186671915841],[138.5834908286534,-34.941907592612445],[138.58350730195912,-34.94195215309307],[138.58832796989586,-34.941699697138596],[138.58846730578293,-34.94167687522458],[138.5885299569858,-34.941666613019535],[138.5886726858097,-34.9416149080111]]]},"properties":{"OBJECTID":4,"Number":"22","Park":"22","Name":"Josie Agius Park","Kaurna":"Wikaparntu Wirra","Meaning":"‘netball park'","Legend":"Parks 22 & 23","Names_Label":"Josie Agius Park / Wikaparntu Wirra ","Map_Labels":"Josie Agius Park / Wikaparntu Wirra (22)","Transparency":75,"Area":149303.58527523212,"Shape_Length":2176.5791434361972,"Shape_Area":222695.47734901894}},{"type":"Feature","id":5,"geometry":{"type":"Polygon","coordinates":[[[138.5910276283102,-34.93643683996153],[138.58864849148418,-34.93656192731059],[138.58863179809123,-34.93656280439496],[138.58867836226398,-34.93717872518219],[138.58894777330596,-34.940742247145685],[138.5889875983174,-34.94126899576894],[138.58902500326755,-34.94143020123951],[138.5890620991972,-34.941552998188584],[138.58914270323098,-34.94164020271057],[138.58914279935072,-34.94164024542072],[138.5891798710259,-34.94165569027939],[138.5945255943647,-34.941376431998776],[138.59464502538174,-34.94137019188382],[138.5946441495243,-34.94135862918668],[138.59425942444435,-34.93626681403374],[138.5910276283102,-34.93643683996153]]]},"properties":{"OBJECTID":5,"Number":"21W","Park":"21W","Name":"Golden Wattle Park","Kaurna":"Mirnu Wirra","Meaning":"‘golden wattle grove'","Legend":"Park 21W","Names_Label":"Golden Wattle Park / Mirnu Wirra ","Map_Labels":"Golden Wattle Park / Mirnu Wirra (21W)","Transparency":75,"Area":291989.2392371528,"Shape_Length":2630.9683834196567,"Shape_Area":435510.2881719908}},{"type":"Feature","id":6,"geometry":{"type":"Polygon","coordinates":[[[138.59785514337142,-34.93607475152524],[138.5949192352239,-34.93623258920251],[138.59459288626437,-34.936250133904124],[138.5949790405639,-34.94135124914823],[138.59504288293283,-34.94134792142961],[138.60027398213975,-34.941075256440605],[138.60046029811957,-34.941065500057746],[138.60051600444694,-34.94102549732951],[138.6005324948206,-34.94095810097634],[138.600559304142,-34.94085029894987],[138.6005814053929,-34.940740800877094],[138.6006025984471,-34.9406318961887],[138.60062340073415,-34.94052310181436],[138.6006378986445,-34.940417794849324],[138.60065129791528,-34.940285900269586],[138.60065810265357,-34.94018290012343],[138.60066359674983,-34.94007650138372],[138.6006654993816,-34.939973201997695],[138.60066409531478,-34.93986509896287],[138.60066239480395,-34.93976680018996],[138.60065680009637,-34.939672202440235],[138.6004181042507,-34.936508597470834],[138.6003099560736,-34.93598114001809],[138.60030217037502,-34.935943196084175],[138.60029576448878,-34.93594354073453],[138.59785514337142,-34.93607475152524]]]},"properties":{"OBJECTID":6,"Number":"21","Park":"21","Name":"Veale Park","Kaurna":"Walyu Yarta","Meaning":"‘walyo root ground'","Legend":"Park 21","Names_Label":"Veale Park / Walyu Yarta ","Map_Labels":"Veale Park / Walyu Yarta (21)","Transparency":75,"Area":298961.47795080394,"Shape_Length":2643.9054190414595,"Shape_Area":445906.3137822838}},{"type":"Feature","id":7,"geometry":{"type":"Polygon","coordinates":[[[138.60111820447074,-34.93591250010335],[138.60101537791343,-34.93591762567457],[138.60070912067346,-34.935932890448605],[138.60099169562756,-34.93973499588786],[138.60098045860167,-34.9398414525096],[138.60089116785912,-34.940687397170045],[138.60085769663158,-34.94100450514945],[138.6008933067478,-34.94103449744802],[138.60090019862258,-34.94104030238402],[138.60651082435896,-34.940756706148406],[138.606558799785,-34.9407076029672],[138.60641356286482,-34.936997161782195],[138.6063608793684,-34.93565118391832],[138.60111820447074,-34.93591250010335]]]},"properties":{"OBJECTID":7,"Number":"20","Park":"20","Name":"Blue Gum Park","Kaurna":"Kurangga","Meaning":"‘blue gum place'","Legend":"Park 20","Names_Label":"Blue Gum Park / Kurangga ","Map_Labels":"Blue Gum Park / Kurangga (20)","Transparency":75,"Area":289871.08380108647,"Shape_Length":2648.6760351959956,"Shape_Area":432344.6068174435}},{"type":"Feature","id":8,"geometry":{"type":"Polygon","coordinates":[[[138.60924949750435,-34.93550458166857],[138.60774883397448,-34.93558274109219],[138.60820656244266,-34.935863673129916],[138.6093674157585,-34.936576142556646],[138.61058610440892,-34.9373240968275],[138.61067387250714,-34.93736320734776],[138.6114521045973,-34.937709995462484],[138.61264480318994,-34.938458096248596],[138.61246910170348,-34.93616329923015],[138.61246841089906,-34.93615634732668],[138.61246816206574,-34.93615102219771],[138.61240608039472,-34.93534017577466],[138.60924949750435,-34.93550458166857]]]},"properties":{"OBJECTID":8,"Number":"18","Park":"18","Name":"Peppermint Park","Kaurna":"Wita Wirra","Meaning":"‘peppermint grove/place'","Legend":"Parks 17, 18 & 19","Names_Label":"Peppermint Park / Wita Wirra ","Map_Labels":"Peppermint Park / Wita Wirra (18)","Transparency":75,"Area":74791.86126933896,"Shape_Length":1615.1595675834371,"Shape_Area":111547.48401624143}},{"type":"Feature","id":9,"geometry":{"type":"Polygon","coordinates":[[[138.60695793384218,-34.94073460931546],[138.6069579886394,-34.9407360283378],[138.60703607289884,-34.9407320776088],[138.6124284951577,-34.94045910202397],[138.61253577825713,-34.94040857890021],[138.61253972365785,-34.9404067209824],[138.61259490357247,-34.94027460988518],[138.612670363853,-34.93958469463797],[138.61268226832715,-34.93947585100837],[138.61272139534765,-34.938857358267676],[138.60769852113205,-34.93578355800575],[138.6073989599343,-34.93560023143657],[138.60676003139181,-34.93562948927629],[138.60681415848094,-34.937025799055746],[138.6068394595309,-34.93767846578263],[138.60686357480472,-34.938300558891406],[138.60695793384218,-34.94073460931546]]]},"properties":{"OBJECTID":9,"Number":"19","Park":"19","Name":"Pelzer Park","Kaurna":"Pityarilla","Meaning":"‘marshmallow root place'","Legend":"Parks 17, 18 & 19","Names_Label":"Pelzer Park / Pityarilla ","Map_Labels":"Pelzer Park / Pityarilla (19)","Transparency":75,"Area":207605.9043762582,"Shape_Length":2340.771577642637,"Shape_Area":309647.24350770016}},{"type":"Feature","id":10,"geometry":{"type":"Polygon","coordinates":[[[138.61852438003075,-34.937009805426534],[138.61854599529312,-34.9370266849722],[138.61854601415772,-34.93702670043708],[138.61857463088938,-34.93704904497057],[138.61974254316675,-34.93796104389223],[138.61990181536493,-34.93812433696791],[138.61996190277597,-34.93820219933025],[138.6200887008766,-34.93843579628358],[138.62016016006086,-34.938616138479325],[138.62026398015487,-34.938586695393596],[138.62032979163087,-34.93856803185043],[138.6203441934215,-34.938603286679026],[138.6207670969011,-34.939638535747825],[138.62077828721453,-34.93980427842441],[138.6207938909511,-34.94003538695203],[138.62209500811363,-34.93996996406349],[138.62414046393076,-34.93986698045765],[138.6242166078292,-34.93986320421291],[138.62421370357583,-34.93982515235168],[138.6242057391125,-34.93972082021841],[138.6233392116131,-34.9282518389919],[138.62285590361716,-34.927913463752795],[138.62285293019357,-34.92791138239109],[138.62284831105634,-34.92791081970168],[138.62277564273975,-34.92790196839003],[138.6213201905198,-34.927724661348],[138.62130542580985,-34.9277228627999],[138.62110393189494,-34.92770296534617],[138.62094696477382,-34.927694524246206],[138.6208164557327,-34.927695326301716],[138.62067666170478,-34.92769291792563],[138.62055784783036,-34.92770009002525],[138.6155225696773,-34.927947658912274],[138.61552288678263,-34.92795259054408],[138.6155964031089,-34.929097361861814],[138.6170537543673,-34.929026530271265],[138.6172433357232,-34.93182780920755],[138.6179356421598,-34.931789570973905],[138.61817892210843,-34.935054237095315],[138.6180697166143,-34.93506024276637],[138.6180494506215,-34.93506135700057],[138.61813224384966,-34.935696638884245],[138.61823398075055,-34.9361238508524],[138.61828259667536,-34.93632799730933],[138.61849907089592,-34.936717489232194],[138.61867552427225,-34.93690399391851],[138.61852438003075,-34.937009805426534]]]},"properties":{"OBJECTID":10,"Number":"16","Park":"16","Name":"Victoria Park","Kaurna":"Pakapakanthi","Meaning":"‘to trot: a term applied to horses'","Legend":"Park 16","Names_Label":"Victoria Park / Pakapakanthi ","Map_Labels":"Victoria Park / Pakapakanthi (16)","Transparency":75,"Area":696141.8267554578,"Shape_Length":4889.657452233419,"Shape_Area":1038170.7325380093}},{"type":"Feature","id":11,"geometry":{"type":"Polygon","coordinates":[[[138.6183375259601,-34.927625761029425],[138.61929623677736,-34.9275786842208],[138.62098830075158,-34.92749559582304],[138.62187475378235,-34.92759052946987],[138.6219544244666,-34.92759809487336],[138.6220202503157,-34.92760611101858],[138.6222323263846,-34.92762882342571],[138.6223513351934,-34.92761269981209],[138.62234328718682,-34.927550053960246],[138.61957300322482,-34.92557700037684],[138.61927850493197,-34.92538930180551],[138.6189799049315,-34.92525460119234],[138.61864660211336,-34.92519789511862],[138.61736833449834,-34.92519877968976],[138.6173649586295,-34.92519880178563],[138.6136199145494,-34.92520137448087],[138.61358229939344,-34.92520140025937],[138.61350969126397,-34.92519643900105],[138.6133425004166,-34.9251889514482],[138.61320315554636,-34.92518170547618],[138.61320255906503,-34.925181622248395],[138.61328033789724,-34.926245868823855],[138.61397836929717,-34.92620880789319],[138.61409155881964,-34.927735520394386],[138.61550294508166,-34.9276610448658],[138.61551134253293,-34.92776118320821],[138.61551162280728,-34.92776452620817],[138.6183375259601,-34.927625761029425]]]},"properties":{"OBJECTID":11,"Number":"15","Park":"15","Name":"King Rodney Park","Kaurna":"Ityamai-itpina","Meaning":"‘King Rodney'","Legend":"Parks 13, 14 & 15","Names_Label":"King Rodney Park / Ityamai-itpina ","Map_Labels":"King Rodney Park / Ityamai-itpina (15)","Transparency":75,"Area":173545.52198842357,"Shape_Length":2506.1804354902533,"Shape_Area":258769.94574706545}},{"type":"Feature","id":12,"geometry":{"type":"Polygon","coordinates":[[[138.61151766095176,-34.92251678315972],[138.61124628080276,-34.92252891786825],[138.6113310763757,-34.922526479141865],[138.61114266462636,-34.922536269401576],[138.61122204964633,-34.923604978384056],[138.6112671253106,-34.92364431419842],[138.61131936683594,-34.92367723986474],[138.61137623737997,-34.92370429233008],[138.6114299341761,-34.92371750295104],[138.61159275741457,-34.923795342161256],[138.6117289420117,-34.923902267286586],[138.61183581008947,-34.92403847707903],[138.61190424734107,-34.92422974210907],[138.61193956819966,-34.92469088328976],[138.6119401440198,-34.92469840182244],[138.6119430060523,-34.92473578309064],[138.61197259925268,-34.92480413111554],[138.6120215358761,-34.92486436692213],[138.6131743331004,-34.92480715016176],[138.61318684932732,-34.9249713002294],[138.61318775033754,-34.92498312007632],[138.61323566467811,-34.924986004330805],[138.61330853960726,-34.92499076747512],[138.613358140984,-34.92499436321799],[138.61357544075628,-34.92500983330706],[138.61372692635763,-34.92501615494849],[138.61385770219832,-34.925016820035495],[138.61470912362796,-34.925015433148594],[138.61512990888008,-34.925013956404946],[138.61765342024364,-34.925008391180235],[138.61782566770785,-34.92500694316114],[138.61784749497255,-34.9249990762777],[138.6178568751808,-34.92499893560034],[138.61799210217373,-34.92499690277574],[138.61821881090034,-34.92499630103021],[138.61829863429816,-34.92499029462239],[138.61835389146788,-34.924986338715804],[138.6183958014692,-34.92497954274622],[138.618423333036,-34.92497220837198],[138.61844615293919,-34.924967971109716],[138.61846825598676,-34.924958614956864],[138.61851975640195,-34.924936815109234],[138.6185380389146,-34.92492907637556],[138.61854735713905,-34.92492037278503],[138.61857611310964,-34.92489351442846],[138.6185815173744,-34.924868487817726],[138.61858519687377,-34.92485144594281],[138.61825306725538,-34.92461655156787],[138.61682519241631,-34.923606707050816],[138.6168232062412,-34.92360528183983],[138.61519177944697,-34.92245144205078],[138.61485266183396,-34.922343466917965],[138.6145985347283,-34.92235667702149],[138.61447574940203,-34.922363059264775],[138.61426790349978,-34.92237386304258],[138.61416106416806,-34.92237941592455],[138.61378935298166,-34.92239873647436],[138.61151766095176,-34.92251678315972]]]},"properties":{"OBJECTID":12,"Number":"14","Park":"14","Name":"Rymill Park","Kaurna":"Murlawirrapurka","Meaning":"‘King John'","Legend":"Parks 13, 14 & 15","Names_Label":"Rymill Park / Murlawirrapurka ","Map_Labels":"Rymill Park / Murlawirrapurka (14)","Transparency":75,"Area":140014.6055448101,"Shape_Length":2087.5868685202304,"Shape_Area":208759.2834329106}},{"type":"Feature","id":13,"geometry":{"type":"Polygon","coordinates":[[[138.61157043068653,-34.921023918960074],[138.61111489590428,-34.92107945235918],[138.61108971612683,-34.92108712148219],[138.61103491979281,-34.921094325831504],[138.61103560430908,-34.92110360287587],[138.61111926171657,-34.92223673715833],[138.61112218663112,-34.92227635793882],[138.61401257265166,-34.92212725106582],[138.61451756238526,-34.92210119390519],[138.61455938794484,-34.92209903505762],[138.61461285926381,-34.92208942814839],[138.61471696412374,-34.92206675029917],[138.61473984601068,-34.92206176380842],[138.6148817852155,-34.922024177295725],[138.61503601517,-34.921974838987154],[138.61514085215694,-34.921934586830716],[138.61520169505107,-34.921898368785435],[138.61526201243086,-34.92184315781678],[138.61527205739233,-34.921828677802736],[138.61530722104584,-34.92171661025922],[138.61530454855787,-34.92170275924527],[138.61518504926886,-34.92108881484683],[138.61517933508532,-34.92105945164836],[138.61517411856852,-34.92103244545139],[138.61511532473148,-34.920725346102245],[138.6150976530732,-34.920633053217806],[138.61501598723072,-34.9202262152293],[138.61499094130232,-34.92010144326949],[138.61494865311028,-34.91989077529731],[138.6149483009707,-34.91988820980133],[138.61494727239966,-34.91988389861889],[138.61492472917766,-34.91977158976852],[138.61481105905654,-34.91982961217233],[138.61293717966208,-34.92078608576935],[138.61285672205366,-34.920814764057226],[138.61277491787067,-34.92084047985876],[138.6126917509433,-34.92086302325494],[138.61260739015492,-34.92088232206469],[138.61252204301644,-34.92089880423608],[138.61227394989453,-34.92093142385546],[138.61171700340154,-34.921004648173145],[138.61157043068653,-34.921023918960074]]]},"properties":{"OBJECTID":13,"Number":"13","Park":"13","Name":"Rundle Park","Kaurna":"Kadlitpina","Meaning":"‘Captain Jack'","Legend":"Parks 13, 14 & 15","Names_Label":"Rundle Park / Kadlitpina ","Map_Labels":"Rundle Park / Kadlitpina (13)","Transparency":75,"Area":65752.73665640257,"Shape_Length":1393.8030908206913,"Shape_Area":98030.30926738078}},{"type":"Feature","id":14,"geometry":{"type":"Polygon","coordinates":[[[138.60371413980909,-34.91372601800771],[138.60395895318192,-34.91327325485294],[138.60402276500812,-34.913177539277555],[138.60414963677061,-34.91298723484887],[138.60449701169773,-34.91256992589893],[138.60510200458373,-34.91199326931755],[138.6051844061464,-34.91192487526447],[138.60568371044258,-34.911510441959024],[138.60592182687495,-34.91133435623179],[138.6061226183072,-34.91118587110644],[138.60626852537067,-34.91110380921525],[138.60641918901342,-34.91101907170711],[138.60649439776566,-34.91097677142927],[138.6065227297314,-34.910971041714944],[138.6068703013896,-34.910900758021306],[138.60708614768768,-34.910880183184055],[138.60729996289504,-34.91087896843605],[138.60749691582615,-34.91089031148535],[138.60750650534175,-34.91089086397829],[138.60752762114086,-34.91089657086185],[138.60780828717495,-34.91097242441926],[138.60781755239879,-34.91097492831473],[138.60782846243794,-34.91098097921103],[138.60806645041117,-34.91111296436737],[138.60809254108028,-34.911127433748774],[138.60810773698165,-34.91114558492929],[138.60835850079488,-34.911445109767335],[138.60856008633792,-34.91181247596574],[138.60866062308955,-34.91196462625307],[138.60869049656438,-34.91199822400756],[138.60876385388872,-34.912080729202614],[138.60890497203334,-34.91218128802896],[138.60909021991634,-34.91226313226953],[138.60929430008088,-34.912306119173905],[138.60946809264732,-34.912324502873425],[138.6102820166004,-34.91216545088202],[138.6103880887708,-34.91214472240269],[138.61043435290625,-34.91211558289149],[138.61061902766406,-34.91199926415357],[138.61083739193998,-34.91178921185076],[138.6109257798757,-34.911665719886756],[138.61099004085958,-34.91153651795166],[138.6110454732008,-34.91136344077133],[138.61105580921648,-34.91131672738034],[138.61071309385073,-34.910601889034496],[138.61077524828525,-34.910581955753194],[138.61083738834668,-34.910562023203724],[138.61107071855523,-34.91105221606859],[138.61101734784754,-34.91073415988719],[138.6108831260694,-34.910404815345075],[138.61086303614638,-34.910114469231694],[138.61090081479566,-34.90994420237997],[138.6110377342146,-34.9096664737656],[138.61116669815343,-34.9095555557634],[138.61128296171077,-34.909488389181476],[138.61137700633782,-34.909369612133844],[138.61143270098714,-34.909246199774216],[138.6114601265528,-34.9090870092178],[138.61147597463108,-34.908995017806895],[138.61150512047044,-34.908825838177094],[138.61151436682968,-34.908772169855254],[138.61144480578562,-34.90876514196339],[138.61130548876318,-34.90874809821805],[138.60988857516716,-34.90857475142859],[138.60973201138958,-34.9085556044275],[138.60825580539162,-34.90837514900825],[138.607075614941,-34.90902488036624],[138.6075927310326,-34.90965356439028],[138.60356532310252,-34.91186856292713],[138.60304821689232,-34.911236498415505],[138.60210883692164,-34.91175330387788],[138.60354691841897,-34.913520526939074],[138.60371413980909,-34.91372601800771]]]},"properties":{"OBJECTID":14,"Number":"10","Park":"10","Name":"Mistletoe Park","Kaurna":"Tainmuntilla","Meaning":"‘mistletoe place'","Legend":"Parks 9, 10 & 11","Names_Label":"Mistletoe Park / Tainmuntilla ","Map_Labels":"Mistletoe Park / Tainmuntilla (10)","Transparency":75,"Area":179622.82785040519,"Shape_Length":3403.0260723542297,"Shape_Area":267729.43278494204}},{"type":"Feature","id":15,"geometry":{"type":"Polygon","coordinates":[[[138.60923179260843,-34.90783030027239],[138.6085417059089,-34.9082121400173],[138.60850189077888,-34.908234170468376],[138.6116747718034,-34.90862138460851],[138.61179255351357,-34.90863575718759],[138.61188591542103,-34.90864960230321],[138.61227028207324,-34.90869772573808],[138.61230719384824,-34.908698451364835],[138.6123346670246,-34.908694483622824],[138.61236854788388,-34.90868162787209],[138.61238897647172,-34.90867301390659],[138.6124089774615,-34.90865537785355],[138.61242372959512,-34.90864214565456],[138.61243783314507,-34.90861537921233],[138.61249232135694,-34.90842263021954],[138.61254817680467,-34.90822990876814],[138.6125847184738,-34.90811343424178],[138.61263409347515,-34.90788452540649],[138.6126219617272,-34.90788150942118],[138.61262249263154,-34.90782119337541],[138.61262607870617,-34.9074136111851],[138.6126261712326,-34.90740421030319],[138.61241111994352,-34.906903585449214],[138.6119624078658,-34.906319376219614],[138.60958300244351,-34.90763596777076],[138.60923179260843,-34.90783030027239]]]},"properties":{"OBJECTID":15,"Number":"9","Park":"9","Name":"Bundey’s Paddock","Kaurna":"Tidlangga","Meaning":"‘tidla root place'","Legend":"Parks 9, 10 & 11","Names_Label":"Bundey’s Paddock / Tidlangga ","Map_Labels":"Bundey’s Paddock / Tidlangga (9)","Transparency":75,"Area":52968.97387935903,"Shape_Length":1246.0950411242802,"Shape_Area":78945.09720088009}},{"type":"Feature","id":16,"geometry":{"type":"Polygon","coordinates":[[[138.61264854287646,-34.90552359088851],[138.61207758625827,-34.9048189298742],[138.61167019578536,-34.90431613583664],[138.6116689165844,-34.90439154239335],[138.61165569338337,-34.904459317987595],[138.61164373590867,-34.90449448359532],[138.61162696795557,-34.90454379704875],[138.6115736331805,-34.904635523809546],[138.6115177085625,-34.90470768485345],[138.6114703421942,-34.90476060512214],[138.6114232453205,-34.904804246471286],[138.61141369443234,-34.90481225894917],[138.61135547821206,-34.90486109924311],[138.61116835374847,-34.904983318092796],[138.61200290212219,-34.905992936462056],[138.6121297029178,-34.90614868231554],[138.61217173598826,-34.90620369019812],[138.61261813220918,-34.90678460501821],[138.6126321090966,-34.906802793993506],[138.6126327118662,-34.90675419796361],[138.61264290864298,-34.905932452534394],[138.6126436623295,-34.90587169524559],[138.6126458757784,-34.90564954531639],[138.61264854287646,-34.90552359088851]]]},"properties":{"OBJECTID":16,"Number":"8","Park":"8","Name":"The Olive Groves","Kaurna":"Parngutilla ","Meaning":"‘barngutta root place'","Legend":"Parks 6, 7 & 8","Names_Label":"The Olive Groves / Parngutilla ","Map_Labels":"The Olive Groves / Parngutilla (8)","Transparency":75,"Area":15142.278183091941,"Shape_Length":777.4556710011633,"Shape_Area":22566.889681781708}},{"type":"Feature","id":17,"geometry":{"type":"Polygon","coordinates":[[[138.61150670330196,-34.904114353429314],[138.61087059816444,-34.9033292535558],[138.61013930843768,-34.90242666531152],[138.60933366964653,-34.902195192255775],[138.609324587679,-34.90271443868773],[138.6093241996068,-34.902736600278374],[138.6093534649221,-34.90277225433912],[138.6111050306058,-34.904906171968214],[138.61110707427306,-34.90490866205119],[138.61111031629295,-34.9049067090305],[138.611275916224,-34.904806973778584],[138.6113421786543,-34.904749312059174],[138.61137998604966,-34.904709787431564],[138.61142186281324,-34.90465020724263],[138.61146748106003,-34.90458207081613],[138.61150381162506,-34.90451304806558],[138.6115278119145,-34.90443676492941],[138.6115371669699,-34.904373192279905],[138.61153937233388,-34.904297099823374],[138.61152727292531,-34.90422196429183],[138.61150670330196,-34.904114353429314]]]},"properties":{"OBJECTID":17,"Number":"7","Park":"7","Name":"The Olive Groves","Kaurna":"Kuntingga","Meaning":"‘kunti root place'","Legend":"Parks 6, 7 & 8","Names_Label":"The Olive Groves / Kuntingga","Map_Labels":"The Olive Groves / Kuntingga (7)","Transparency":75,"Area":23993.222089238232,"Shape_Length":924.7432930123616,"Shape_Area":35756.04986411937}},{"type":"Feature","id":18,"geometry":{"type":"Polygon","coordinates":[[[138.60141580105295,-34.907327606446266],[138.60692484529702,-34.90428790412854],[138.60653068610986,-34.903808521303404],[138.6089906317856,-34.90244941489273],[138.60896607094742,-34.90239325740119],[138.6089303880677,-34.90231167001981],[138.6088711369882,-34.902226720098966],[138.60885308624088,-34.90220084080491],[138.6087761868593,-34.90211524317848],[138.60861833489759,-34.90199052546842],[138.6058514887882,-34.90120027902477],[138.60171160369967,-34.90001786017171],[138.5995727042284,-34.902233939364834],[138.60141580105295,-34.907327606446266]]]},"properties":{"OBJECTID":18,"Number":"6","Park":"6","Name":"Lefevre Park","Kaurna":"Nantu Wama","Meaning":"‘horse plain'","Legend":"Parks 6, 7 & 8","Names_Label":"Lefevre Park / Nantu Wama","Map_Labels":"Lefevre Park / Nantu Wama (6)","Transparency":75,"Area":372683.6799424805,"Shape_Length":3142.810762256535,"Shape_Area":555390.6666407336}},{"type":"Feature","id":19,"geometry":{"type":"Polygon","coordinates":[[[138.597433080715,-34.898834020757405],[138.5973931919231,-34.898831803093465],[138.59736363555365,-34.89883264890018],[138.59732984901748,-34.898839615017124],[138.59730347358243,-34.89885054419392],[138.5972861630469,-34.898860848592435],[138.59728445894282,-34.89886186311808],[138.59725798559134,-34.898892824195215],[138.59705262981907,-34.89912585523392],[138.59694620730573,-34.89925744612315],[138.59669568963085,-34.89955042475541],[138.59669253295093,-34.89968655707624],[138.5967180495966,-34.89974043836507],[138.59672978788242,-34.8997652243502],[138.59675308029944,-34.899814408764044],[138.59679147609128,-34.899841647388904],[138.59685151589164,-34.89988424073803],[138.5968713623712,-34.89989832014407],[138.59696471529554,-34.89993537306231],[138.59706829733597,-34.89997648548493],[138.5972460694391,-34.90004704449787],[138.59731612365823,-34.90007484960962],[138.59756362928198,-34.90017308615818],[138.59816986633456,-34.90039234441788],[138.59850817815877,-34.90057601192746],[138.5987699660972,-34.90071809621344],[138.59884611718215,-34.900932729933395],[138.59907930276196,-34.9015787082838],[138.59912381428427,-34.90170201355255],[138.59925157088733,-34.90205592780574],[138.59948969360786,-34.90200157947125],[138.59949650283775,-34.90202439031938],[138.60148265187982,-34.89996235820322],[138.60148814328116,-34.89995665792725],[138.59841930782773,-34.89902813390417],[138.59813485000484,-34.89896228341328],[138.5979065692265,-34.898914037864174],[138.59774192420463,-34.89888139107675],[138.597713336219,-34.89887582186991],[138.597433080715,-34.898834020757405]]]},"properties":{"OBJECTID":19,"Number":"5","Park":"5","Name":"Bragg Park","Kaurna":"Ngampa Yarta","Meaning":"‘ngampa root ground'","Legend":"Parks 2, 3, 4 & 5","Names_Label":"Bragg Park / Ngampa Yarta ","Map_Labels":"Bragg Park / Ngampa Yarta (5)","Transparency":75,"Area":69946.1205063511,"Shape_Length":1480.4825798994973,"Shape_Area":104229.0249919678}},{"type":"Feature","id":20,"geometry":{"type":"Polygon","coordinates":[[[138.59633321222717,-34.902726283105],[138.59725046938738,-34.90251555359703],[138.59905213770773,-34.90210164008401],[138.59861254083523,-34.90087623544806],[138.59860312559272,-34.90084999103846],[138.59860099658556,-34.90084405506494],[138.59856670968782,-34.900827801679064],[138.59809637066962,-34.90060483799503],[138.59755879993898,-34.90035608592424],[138.5964451252436,-34.89985757385016],[138.59471590335593,-34.901903664117306],[138.59475269116348,-34.90200588127853],[138.59511276287878,-34.903006636580734],[138.59633321222717,-34.902726283105]]]},"properties":{"OBJECTID":20,"Number":"4","Park":"4","Name":" Reservoir Park","Kaurna":"Kangatilla","Meaning":"‘kangatta berry place'","Legend":"Parks 2, 3, 4 & 5","Names_Label":" Reservoir Park / Kangatilla","Map_Labels":" Reservoir Park / Kangatilla (4)","Transparency":75,"Area":82191.07279232393,"Shape_Length":1402.1719772765507,"Shape_Area":122479.50350223694}},{"type":"Feature","id":21,"geometry":{"type":"Polygon","coordinates":[[[138.59495824097186,-34.898954137010286],[138.5949211450422,-34.89897453211843],[138.5949294212209,-34.89926438568061],[138.59493255184967,-34.89937403635749],[138.59482156140308,-34.899773845144225],[138.59462397156645,-34.90027934435039],[138.59448098941758,-34.90114555217398],[138.59455289686116,-34.90165335777506],[138.59462018965908,-34.90163785086725],[138.59463559307122,-34.90168055305909],[138.59540459946348,-34.90077096527047],[138.59630653855143,-34.89970412580029],[138.5966880773071,-34.89921218242339],[138.59680037749746,-34.89907579071243],[138.59701127407837,-34.89883205506726],[138.59695987247778,-34.898835164217346],[138.59695259432738,-34.898825883182916],[138.59527919105656,-34.89893073589777],[138.59500624244902,-34.898947838411644],[138.59495824097186,-34.898954137010286]]]},"properties":{"OBJECTID":21,"Number":"3","Park":"3","Name":"Yam Daisy Park","Kaurna":"Kantarilla","Meaning":"‘kandara root place'","Legend":"Parks 2, 3, 4 & 5","Names_Label":"Yam Daisy Park / Kantarilla ","Map_Labels":"Yam Daisy Park / Kantarilla (3)","Transparency":75,"Area":31685.19202633061,"Shape_Length":1087.2009552738893,"Shape_Area":47214.85719056892}},{"type":"Feature","id":22,"geometry":{"type":"Polygon","coordinates":[[[138.5893642655093,-34.8993182805081],[138.5891160017075,-34.89934369507767],[138.58905285553288,-34.899353734180416],[138.58901219957977,-34.89936019778234],[138.5889355984389,-34.899384300905254],[138.58888629979438,-34.899410598829895],[138.5888757032673,-34.89942609510684],[138.5888305970603,-34.89956589742969],[138.58883840072514,-34.89972730124472],[138.58889260327274,-34.89986410298373],[138.58894055803754,-34.90000110341871],[138.58903580011892,-34.90027319909789],[138.58943288691555,-34.901290224390934],[138.5897073554725,-34.901993188773005],[138.5899821806606,-34.902697057000495],[138.58999007954696,-34.90269525348355],[138.5942126006585,-34.90173129526658],[138.59418219627932,-34.9011823960309],[138.59418860216564,-34.90081709599989],[138.59428870323438,-34.90032259612889],[138.59435749801546,-34.90016389515885],[138.59438840275618,-34.90008300179547],[138.5944253010565,-34.89998660113289],[138.59446629836944,-34.89988560299988],[138.59448384516188,-34.89984583732238],[138.59448386761974,-34.899845785012666],[138.59460612294006,-34.89960480344557],[138.5946797641321,-34.89933130939003],[138.59465975775242,-34.89917315391898],[138.5946502948992,-34.89914315589635],[138.59464367970543,-34.899114652754676],[138.5946381074557,-34.899104519317035],[138.5946114113221,-34.89905597177845],[138.59457410339004,-34.899027920242695],[138.59447950001086,-34.89898969619705],[138.5943382039998,-34.89898610299878],[138.5915219029391,-34.89916249812396],[138.59070200159613,-34.89922441414575],[138.59068816754075,-34.89921349901713],[138.59065777304312,-34.89918951593634],[138.5904391446625,-34.89920314014246],[138.59024036006653,-34.89922551339453],[138.59024032952385,-34.89922551634158],[138.5893642655093,-34.8993182805081]]]},"properties":{"OBJECTID":22,"Number":"2","Park":"2","Name":"Denise Norton Park","Kaurna":"Pardipardinyilla","Meaning":"‘swimming place'","Legend":"Parks 2, 3, 4 & 5","Names_Label":"Denise Norton Park / Pardipardinyilla","Map_Labels":"Denise Norton Park / Pardipardinyilla (2)","Transparency":75,"Area":158944.71298041387,"Shape_Length":1974.3343158590963,"Shape_Area":236851.2673858959}},{"type":"Feature","id":23,"geometry":{"type":"Polygon","coordinates":[[[138.58269190027744,-34.91569440205734],[138.58253639741017,-34.91567179831235],[138.58232380391166,-34.91563450130926],[138.5821254002014,-34.915583397912584],[138.58185970279482,-34.91550239598783],[138.58170410380782,-34.915425401177345],[138.58148400039354,-34.91531259784874],[138.5813177985913,-34.915217599171115],[138.5812027010472,-34.91514509526016],[138.58105270395433,-34.91505480044346],[138.58087470188246,-34.91492769805591],[138.58075639735276,-34.91482379833012],[138.58061110114377,-34.914693102337324],[138.580497796637,-34.91456880224506],[138.58041939706885,-34.91446360192153],[138.58031420075582,-34.914298602867916],[138.580239802284,-34.91418030127482],[138.58019009939767,-34.91403020144961],[138.58016320383805,-34.91390010086375],[138.5801361968874,-34.91371550185122],[138.58011440375859,-34.91360080081629],[138.58011369858107,-34.91350620309632],[138.58012699903716,-34.91339489691876],[138.5801429980324,-34.913327796091934],[138.58013170081935,-34.91324970312722],[138.58009259985,-34.9131892002363],[138.58005239574948,-34.913100203433224],[138.5799720028197,-34.91299089446857],[138.57986730327505,-34.91286599880399],[138.579795702157,-34.912758897975706],[138.57972070271228,-34.912652096084166],[138.57963409972896,-34.91249879643485],[138.57955110258328,-34.91234659704571],[138.57950990494598,-34.91223039576172],[138.57946709483286,-34.91211420094307],[138.57942040399763,-34.91192520086291],[138.57941229580385,-34.911737901271685],[138.57940879866248,-34.91159759885829],[138.57940920200605,-34.91146129917296],[138.5794225042587,-34.911367204331505],[138.57943870268,-34.91126720215495],[138.57946159624493,-34.911165196155565],[138.57948559833108,-34.9110733013651],[138.57952260263258,-34.910990501231716],[138.57956820201468,-34.91087119817382],[138.57959590156645,-34.91078189977459],[138.57960629417602,-34.91067649643682],[138.57959999608755,-34.910577996205454],[138.57958150157245,-34.91047880044798],[138.5795312031031,-34.910393301323175],[138.57947869926969,-34.910320801991276],[138.57940909869976,-34.91023370045956],[138.57932689925804,-34.91014179431316],[138.57920629683784,-34.91004950205151],[138.57907740566256,-34.9099434959175],[138.57899750141632,-34.90987569980325],[138.5788916996388,-34.90979110394094],[138.57877750041,-34.90972849605151],[138.57867249543813,-34.90968820326587],[138.57858370236218,-34.90965259493473],[138.57847019842944,-34.909597201874845],[138.57835189569644,-34.90952769787479],[138.57826780170768,-34.90945159988142],[138.57816959698252,-34.9094094962237],[138.5780422006039,-34.90938939837535],[138.57790519764157,-34.909377101129955],[138.5777152003657,-34.909356897193014],[138.57754709683002,-34.90932950112988],[138.5774218034074,-34.90929489819989],[138.57733912965517,-34.90927156412438],[138.57739323608308,-34.90956093492199],[138.57742291462338,-34.90973141104549],[138.57744826058916,-34.909898915840486],[138.57746944196526,-34.91006737206442],[138.57749322126918,-34.910304576264245],[138.57779931501568,-34.912096920692804],[138.5779550433601,-34.91282826738178],[138.57797204667176,-34.91287194937791],[138.5780061188722,-34.91303227143779],[138.5780055870695,-34.913064893446965],[138.57803039224945,-34.91318101251973],[138.57803681430542,-34.91321107834138],[138.57810427598665,-34.9136030600695],[138.57813109518946,-34.9138038512251],[138.57818695423043,-34.914222059217494],[138.57827089101394,-34.91485826412801],[138.5784604777597,-34.91596835429636],[138.57855191278094,-34.916374279372015],[138.5785860343887,-34.91657687948341],[138.57860556645792,-34.91661247155222],[138.57862009221606,-34.91667695916481],[138.578643982911,-34.91675407139468],[138.5786682419153,-34.916868784965345],[138.57867820962167,-34.91691592021704],[138.57868104739964,-34.91696796416233],[138.5789119099361,-34.91813705779493],[138.57892938576163,-34.918212752187486],[138.57894578810036,-34.91826651009451],[138.57897725877976,-34.918306495194436],[138.57899588534715,-34.91834943400208],[138.57899372759388,-34.91835933377546],[138.57898998970393,-34.91837648675052],[138.57903809628405,-34.91844746306699],[138.5790798948942,-34.91849508429741],[138.5792065043487,-34.9186163864239],[138.5794730883924,-34.918823972844926],[138.57995217879804,-34.91907490818296],[138.57996938512903,-34.919082081772416],[138.58009124519054,-34.919149054886],[138.58165408291785,-34.9197808470748],[138.58191600111203,-34.91988929625168],[138.58192022499045,-34.91988843593032],[138.58199210278963,-34.91987380015372],[138.58210149513337,-34.919733901295764],[138.5822434963219,-34.9196102032563],[138.5824028996741,-34.91951039894943],[138.5825572994102,-34.91943490536697],[138.5827241947119,-34.919375499384834],[138.58287389805565,-34.919337196421225],[138.58406729913085,-34.91914899522276],[138.584194702696,-34.919106596012554],[138.58430680525692,-34.9190508999666],[138.584406294573,-34.91897219887161],[138.5844733017066,-34.91890899545736],[138.5843772044291,-34.918800896336776],[138.5842396993086,-34.918723995957194],[138.58367000123016,-34.91845849717614],[138.5835762000465,-34.917868902428204],[138.58356860389245,-34.917144302245255],[138.58352900435807,-34.91650009782357],[138.58367423678666,-34.91645110681919],[138.58368700723676,-34.91686195222995],[138.58368349482402,-34.91786859821463],[138.58375119455874,-34.9183498951076],[138.58390309877498,-34.918444901945456],[138.5845354965653,-34.91874459534562],[138.58466129663773,-34.91882670042308],[138.58461310381935,-34.91893079837946],[138.58454229771036,-34.919001203363635],[138.58441639792497,-34.919118197202316],[138.58431980477744,-34.91917599835656],[138.58415550291193,-34.91924400113556],[138.58403650128963,-34.91926499741127],[138.58366069648042,-34.919323871661504],[138.5829021985804,-34.91944269838917],[138.58272700194715,-34.91948139905684],[138.58261710295358,-34.919525095927],[138.58244570080413,-34.91961229882355],[138.58230949824076,-34.91972479645582],[138.58220539517745,-34.91987109691737],[138.582159293637,-34.91995809909766],[138.5821767928188,-34.919992152467046],[138.5821800033976,-34.919998399364346],[138.58223789622437,-34.92004170189155],[138.5823764047631,-34.9200975018587],[138.58251079811953,-34.920151598091934],[138.58261460114554,-34.920193800097096],[138.58270997258433,-34.920231712277015],[138.58273314552537,-34.920241099904864],[138.58285436418984,-34.9202908480537],[138.58291778614716,-34.92031651908845],[138.58297356613642,-34.920339095774295],[138.58309970217874,-34.92039019621],[138.5832548313468,-34.92045305745097],[138.58330920637098,-34.920463135957455],[138.58344057420155,-34.92048748479313],[138.58364870127645,-34.920548754967136],[138.58374235333972,-34.9206003944416],[138.58405362856882,-34.92070676909334],[138.58437331921556,-34.92078243975545],[138.58464673674365,-34.920876951750195],[138.5853049206742,-34.92118158524934],[138.58554674714867,-34.921286894812816],[138.58611376106106,-34.921489792153835],[138.58621312461295,-34.92152299489529],[138.5862718133471,-34.9215339623004],[138.58632109312697,-34.92155135841385],[138.58633658816728,-34.92156676580772],[138.5863912686186,-34.921585204885],[138.58666460080678,-34.92165017987642],[138.5868225812276,-34.92170507204436],[138.58779732427777,-34.92190999904292],[138.58795109339653,-34.921886188317046],[138.58838803035746,-34.921865214072156],[138.58850186217526,-34.92188351976526],[138.58871622086332,-34.921878015462596],[138.58919628594106,-34.921881416890415],[138.59055060582637,-34.92181545877549],[138.59061360377888,-34.921792413307436],[138.5907435423898,-34.92178551690125],[138.59078216994703,-34.92180417984342],[138.59086189632683,-34.92180029743915],[138.59101271986975,-34.921793185958286],[138.59208008371726,-34.921742856837824],[138.59212007581544,-34.9217409719811],[138.59282080126292,-34.9217079262151],[138.59316532853055,-34.92169167695932],[138.5931428490889,-34.92142849837581],[138.59309801686803,-34.920903585295214],[138.5930914052675,-34.92082642835044],[138.59302819980414,-34.92008597299169],[138.59302577165792,-34.92005745575907],[138.59292410033405,-34.92001395215512],[138.592835261444,-34.92003112246213],[138.592826104018,-34.92003608771563],[138.59266240312547,-34.91999568140058],[138.59262260955504,-34.92019628308723],[138.5926446057031,-34.9204075712053],[138.59191944158832,-34.920342319751946],[138.59185636907557,-34.92081368793107],[138.59113123909674,-34.92057529581082],[138.59035074055708,-34.92019180692846],[138.58920794158186,-34.919646314770915],[138.58782314365567,-34.918818128034246],[138.58783860635666,-34.918728567215744],[138.58788490462805,-34.91875046078595],[138.58937977941423,-34.91911829074841],[138.59113626876405,-34.91938648843774],[138.5910495732543,-34.91962065383863],[138.5914475880106,-34.91971971112126],[138.59191797014788,-34.91983677391058],[138.59204632413062,-34.919749258206984],[138.59217689156222,-34.919806728193606],[138.59276443018223,-34.91995087476103],[138.59300961905078,-34.91986819333211],[138.5930005622361,-34.9197621453705],[138.59299671744668,-34.91971756988893],[138.59299670397198,-34.91971740342228],[138.59291470305786,-34.91971299500256],[138.59279910066059,-34.91972370337411],[138.59260940342205,-34.91970779918057],[138.5924173966149,-34.919684898963155],[138.5922583031814,-34.91964400117722],[138.5920589975626,-34.91958289900441],[138.59189070178738,-34.919518200066854],[138.59166880533581,-34.919441399061135],[138.5915251988579,-34.91934499976484],[138.5913538038949,-34.91926759975581],[138.59120880233334,-34.91919280128416],[138.5910597960822,-34.91911250341226],[138.59094000214577,-34.919045997263126],[138.59077239897167,-34.9189713002382],[138.59062249979513,-34.918916896070954],[138.59047140226608,-34.91885100407592],[138.59026470261415,-34.918803301290936],[138.5901208023871,-34.91875710037842],[138.58997610086277,-34.91871960147924],[138.58983860292878,-34.918702995123574],[138.5896901940573,-34.918681497088144],[138.58953429503302,-34.9186546963532],[138.58941819586735,-34.91864249698868],[138.58927969810847,-34.91863319609535],[138.5891266988459,-34.918617701233345],[138.58898180418385,-34.918613099031916],[138.58884629511985,-34.918616501331634],[138.58865869814247,-34.91860339743134],[138.588536997981,-34.9186229980369],[138.58838860527922,-34.91861869930998],[138.58827010312018,-34.918618096044504],[138.588117797357,-34.91860969525889],[138.58796629917933,-34.91857410331951],[138.58794610056017,-34.91857070175462],[138.58785649540715,-34.91855570039514],[138.58772919784323,-34.91851829937023],[138.58757880100003,-34.91845969708019],[138.58745869983983,-34.91840749718713],[138.5873308992193,-34.918347302309655],[138.58719660557588,-34.918257396989326],[138.58707469610698,-34.91816960043323],[138.58696619938362,-34.918076495895896],[138.58687119715242,-34.9179796022153],[138.5868182953654,-34.91793450425703],[138.5867855957907,-34.91790649526354],[138.5867242004326,-34.91783179646495],[138.5866532029824,-34.91773049691561],[138.58657519687645,-34.91759369695137],[138.5865385006971,-34.91750439923543],[138.5864756015592,-34.91741550213203],[138.58642099926126,-34.917338800809446],[138.58632620094764,-34.91724340008333],[138.58621859894632,-34.91714170204321],[138.58610659699667,-34.91701300004047],[138.58598969743213,-34.91683590223687],[138.58590929641758,-34.91669219584475],[138.58584469587052,-34.91655019886468],[138.58578310288306,-34.916438194091114],[138.58573050203162,-34.91631270038904],[138.58569870077224,-34.916220199238296],[138.58565360534502,-34.916134298010995],[138.58560419890262,-34.91605730232004],[138.5855280954284,-34.91597499632374],[138.5854763057557,-34.91594409693309],[138.58538990040174,-34.915863795146244],[138.58525979380593,-34.91572779645315],[138.58512700394223,-34.91560050211457],[138.58497110312135,-34.91541599900294],[138.58482559490992,-34.91523069477254],[138.5847542974225,-34.915160998864586],[138.58465519797528,-34.91509309877594],[138.58449669473495,-34.91500480014319],[138.58445205385522,-34.91499949279348],[138.58438623878592,-34.91492410113535],[138.58431854174611,-34.91484655773583],[138.5840422352361,-34.91495774113924],[138.58421082925196,-34.91519964925122],[138.58415860209973,-34.91523269837433],[138.5840842979509,-34.915273402418],[138.58400320343702,-34.915332098323546],[138.58393890202896,-34.91539389976385],[138.58386619688142,-34.91549329509818],[138.58381120201975,-34.91555290203977],[138.58371120335897,-34.91561559830086],[138.5836385970261,-34.91565490185054],[138.5835356051788,-34.91567050334432],[138.5833791959114,-34.91569100405617],[138.5832040989912,-34.91569849836854],[138.58302660356912,-34.91569899705631],[138.58285440461398,-34.915700598455366],[138.58269190027744,-34.91569440205734]]]},"properties":{"OBJECTID":23,"Number":"27","Park":"27","Name":"Bonython Park","Kaurna":"Tulya Wardli","Meaning":"‘Police barracks'","Legend":"Park 27","Names_Label":"Bonython Park / Tulya Wardli (27)","Map_Labels":"Bonython Park / Tulya Wardli (27)","Transparency":75,"Area":664972.7825350623,"Shape_Length":8763.890650246123,"Shape_Area":942155.8684414622}},{"type":"Feature","id":24,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.59335942122578,-34.920198833842115],[138.59340229961091,-34.920782226887134],[138.59340751073788,-34.92085331381803],[138.59346716066943,-34.921668204251404],[138.5977159628929,-34.921456133466755],[138.59793235177347,-34.92143976704764],[138.59792069343774,-34.92128799082],[138.59792622077168,-34.921229411131414],[138.59794344417062,-34.921177889166565],[138.59795181736737,-34.92113215215383],[138.59794469193054,-34.92101308112249],[138.59836435159363,-34.92099231878564],[138.5983492086928,-34.920784845388084],[138.59834816485048,-34.92077309122764],[138.5991288780875,-34.920733104383174],[138.59898723353018,-34.918920710845796],[138.5989905878394,-34.918919885133754],[138.59891189542054,-34.91792354079047],[138.5988876049752,-34.917615993006216],[138.59877904896305,-34.91686034348751],[138.59874449167236,-34.91661979194148],[138.59873521207547,-34.916555198949276],[138.5986819177246,-34.91657639921611],[138.59864821203684,-34.91660169427042],[138.59862001481844,-34.916631189442974],[138.59858000834723,-34.91671119436381],[138.59853840736642,-34.91679409627138],[138.59850271370692,-34.916894090978595],[138.59846520455224,-34.916991192189315],[138.59841820469657,-34.9170698900277],[138.59835450426147,-34.91715199015099],[138.59830381233,-34.91723728924738],[138.59824040744056,-34.91729929034497],[138.59818301138216,-34.917399889920965],[138.5981751008177,-34.91746398799098],[138.59812729966484,-34.91752128132119],[138.5980610004036,-34.91762668397303],[138.59799980626818,-34.91772118486998],[138.59794790879755,-34.91780728479042],[138.59788880683837,-34.9178892839993],[138.59784700912655,-34.91796788521935],[138.59779919719384,-34.91806667711361],[138.59775280010777,-34.91815977724254],[138.59769639938267,-34.918263076106896],[138.59762589870078,-34.918399880111615],[138.59753759610504,-34.918528576993275],[138.59746159683533,-34.918621071859604],[138.59738380003682,-34.918712170789206],[138.59729980216784,-34.91878057023605],[138.59721079169955,-34.918853375882264],[138.59710649909175,-34.91893387141246],[138.59699379465957,-34.919021675253425],[138.59685509477973,-34.91911177198485],[138.59675149207803,-34.919169268198274],[138.5966309013359,-34.919234469760106],[138.5965302936174,-34.91928036987843],[138.59635249276815,-34.91935156491452],[138.59623119774687,-34.919400960780315],[138.5961194006132,-34.919431467008735],[138.5959849991719,-34.91945986513284],[138.59581610242375,-34.91949635899866],[138.5956865976991,-34.91951735594637],[138.59548390183843,-34.91953485781817],[138.59528230012572,-34.9195677519872],[138.59513350228377,-34.91955215712686],[138.5950301061946,-34.91954585421556],[138.5949431986824,-34.919532851375045],[138.59486879841393,-34.91952065140452],[138.59476400813944,-34.91951785387432],[138.59460960211513,-34.91951995533657],[138.5945248011523,-34.919522450868975],[138.59441840558839,-34.919515253747434],[138.59432800183316,-34.919523448198],[138.59423081130592,-34.91953154689237],[138.59415220063372,-34.91953914692155],[138.59408960422812,-34.91952984612979],[138.59396371162921,-34.91952814905009],[138.59384910366694,-34.9195303514235],[138.5937393106746,-34.9195402481081],[138.5936314113309,-34.91954434275422],[138.59352221032833,-34.91954334542545],[138.59340560900444,-34.919555946828446],[138.59333600933286,-34.919568943772646],[138.59331584395133,-34.91957273715637],[138.5933204648852,-34.91964143788329],[138.59334116476427,-34.91994919831414],[138.59335942122578,-34.920198833842115]]],[[[138.596897600364,-34.91795129933623],[138.59694559914624,-34.91787799937147],[138.59700850008082,-34.91778369606264],[138.59706400159226,-34.91770239946099],[138.59712469716277,-34.917612896352736],[138.59719270232475,-34.91751280087074],[138.5972587006503,-34.91742189728177],[138.59730589813535,-34.91735749643657],[138.597351305278,-34.91729849923683],[138.59739090301574,-34.917247896291116],[138.59744080442977,-34.91718370008443],[138.5974929040213,-34.9171223971976],[138.597562697729,-34.91704349831723],[138.59762850112017,-34.916969195762086],[138.5977123947846,-34.91688229795752],[138.59778370125517,-34.91681339824777],[138.59785230110185,-34.916747497197974],[138.59792169595758,-34.9166847981184],[138.5979702957127,-34.91664320348178],[138.59801639815146,-34.91660379801714],[138.59808149726345,-34.91654870208033],[138.5981854961222,-34.9164758973362],[138.59827640473068,-34.91641849425837],[138.59836060022897,-34.9163748023637],[138.59843779785126,-34.91633749610413],[138.59851799584652,-34.916296595176966],[138.59858290092242,-34.91626109799372],[138.59863189593636,-34.91622929710092],[138.59868675245752,-34.91618804696682],[138.5986774665724,-34.91610137447471],[138.5986773156554,-34.91609942024701],[138.598675727434,-34.91607880325265],[138.5986749207469,-34.916077000766236],[138.59866962427998,-34.916065160484685],[138.59866642088767,-34.91599741509576],[138.59866490183651,-34.91598319702064],[138.59866380499355,-34.91597293602095],[138.5986326882504,-34.915971399449056],[138.598582589207,-34.915974560986236],[138.59850573204628,-34.916011867410816],[138.59798818206843,-34.91632003038093],[138.5978608018594,-34.91641859591022],[138.59727869894516,-34.91701890096145],[138.59701619774447,-34.91732589632361],[138.59672870092092,-34.91768570303474],[138.59664829631313,-34.917767898299516],[138.59654079941458,-34.91784919483631],[138.59641029935665,-34.917919202987434],[138.59625009560554,-34.917977404219855],[138.59608649712095,-34.918014496122005],[138.59593559722117,-34.91802870205979],[138.59578901282808,-34.91802522828616],[138.59565913979418,-34.91800527839257],[138.5954862212885,-34.91795695416742],[138.59427307704001,-34.917569352413345],[138.59411042717636,-34.91754046600753],[138.59396050464363,-34.91753191705551],[138.59385127220006,-34.91753819802352],[138.5933718682824,-34.917613873816855],[138.59329237276964,-34.91763426576366],[138.5932403692978,-34.91767114126156],[138.59324187307763,-34.917702802379054],[138.5932955914333,-34.91883358676568],[138.5932908671932,-34.918834039766054],[138.59326629377864,-34.91883639389479],[138.59328837077504,-34.919164308048416],[138.59328986467332,-34.919163111101035],[138.59339599523432,-34.91907810201032],[138.5934952060726,-34.91899920206357],[138.59359270023032,-34.91892179509918],[138.59365900308484,-34.91888690378796],[138.59376129424624,-34.91883950302407],[138.59390650062375,-34.91877929741463],[138.59403009892537,-34.918725300452685],[138.59415720155488,-34.91868290028702],[138.59435140564122,-34.91864730101348],[138.59450559517154,-34.91861900131102],[138.59467450359776,-34.91860740005068],[138.59481700065635,-34.91860610218259],[138.594926295982,-34.91861129512799],[138.5950514950815,-34.918619203136124],[138.59518469996675,-34.91864209628497],[138.59530830096332,-34.91867739797945],[138.59546240156047,-34.91872909903151],[138.59562070088316,-34.918779097063094],[138.5957705048383,-34.91872339490223],[138.5958743033727,-34.91868269698891],[138.59604479912207,-34.91864340225495],[138.59613789602653,-34.91861860134378],[138.59621230437986,-34.91859059994962],[138.59628790030592,-34.91854940330001],[138.59634949868328,-34.91850609777568],[138.59643559861004,-34.91844679645354],[138.59650439967933,-34.918384503059976],[138.59656799860477,-34.918315300399314],[138.59659930399414,-34.918262902271394],[138.59665829725714,-34.91819309402979],[138.5967462989173,-34.91812039607693],[138.5968282989331,-34.91804159612279],[138.596897600364,-34.91795129933623]]],[[[138.59734421936707,-34.915281700418554],[138.5985482106811,-34.91507895346955],[138.59841393230911,-34.91356748437494],[138.59440884661538,-34.91273769598628],[138.5937275696939,-34.91289610230963],[138.5937772034099,-34.91305049733419],[138.59380442775293,-34.913140580730825],[138.5938329286019,-34.91323489305729],[138.5938635952891,-34.91344533134062],[138.5938724149486,-34.913604502396744],[138.59385335808813,-34.91384424732902],[138.59380924990936,-34.91402279390718],[138.5937433539917,-34.91422560386828],[138.5936825640981,-34.91435945041883],[138.5936284702467,-34.91447371799477],[138.59356772257388,-34.9146010258667],[138.59351416501661,-34.91471529605283],[138.5934514626098,-34.91484958598784],[138.5933901660664,-34.91497578024311],[138.59337513545512,-34.915012128041994],[138.59334429898632,-34.91508669902505],[138.59330473538455,-34.91519651420244],[138.59327482507888,-34.91529488514051],[138.59324619666904,-34.91540566795377],[138.5932219484446,-34.91551555120969],[138.59320159621356,-34.9156597200459],[138.5931908963802,-34.91579130874818],[138.59319006723518,-34.915918428213786],[138.5932299308742,-34.91723891050465],[138.5932364526432,-34.917454924885355],[138.59323763841937,-34.917494203983125],[138.5932704008761,-34.91750472039212],[138.59381558662542,-34.9174521147626],[138.5940872470488,-34.91746298916371],[138.59428785612306,-34.91750106539323],[138.5955071996453,-34.91789070783638],[138.5956544227406,-34.91793416689698],[138.59579054804885,-34.917956627119715],[138.59593448600518,-34.917958385369246],[138.59607492232846,-34.91794862844674],[138.59623143400384,-34.91791031229512],[138.59635127734754,-34.917869815068954],[138.59646217616603,-34.917815749005314],[138.59657250455427,-34.91772291734366],[138.5967090628505,-34.91759368000965],[138.59693886717153,-34.91730436036088],[138.59723086724958,-34.91696211111689],[138.59842442014,-34.91573523625274],[138.59861214377986,-34.915605550873586],[138.5985700424375,-34.91525823692666],[138.59740244996044,-34.91545803181152],[138.59734421936707,-34.915281700418554]]]]},"properties":{"OBJECTID":24,"Number":"26","Park":"26","Name":"Adelaide Oval","Kaurna":"Tarntanya Wama ","Meaning":"‘Adelaide plain/oval'","Legend":"Park 26","Names_Label":"Tarntanya Wama ","Map_Labels":"Tarntanya Wama (26)","Transparency":75,"Area":396770.9926320983,"Shape_Length":6645.963642454709,"Shape_Area":591485.6829704806}},{"type":"Feature","id":25,"geometry":{"type":"Polygon","coordinates":[[[138.5940432125319,-34.91027929326612],[138.59387887832705,-34.91031654113598],[138.59454501504283,-34.91213863696981],[138.59519309112983,-34.9100186637836],[138.59408542436708,-34.910269725489826],[138.5940432125319,-34.91027929326612]]]},"properties":{"OBJECTID":25,"Number":"28","Park":"28","Name":"Palmer Gardens","Kaurna":"Pangki Pangki","Meaning":"‘Kaurna tracker and guide'","Legend":"Parks 28 & 29","Names_Label":"Palmer Gardens / Pangki Pangki ","Map_Labels":"Palmer Gardens / Pangki Pangki (28)","Transparency":75,"Area":13144.668536032586,"Shape_Length":706.6952053666329,"Shape_Area":19592.40915999943}},{"type":"Feature","id":26,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.59863309428897,-34.91033995594734],[138.59849369282486,-34.910273354290844],[138.59834383407252,-34.91021137219636],[138.59783919917348,-34.910029835308826],[138.5977181017816,-34.909984083980696],[138.59760276438732,-34.90993729834826],[138.59745835840872,-34.9098764762496],[138.59733244065703,-34.90980365895778],[138.59724226956547,-34.9097365890823],[138.59715192689563,-34.909642472374074],[138.59710734440642,-34.90958190641779],[138.59675753953647,-34.90966008169501],[138.5959910178843,-34.90983138636275],[138.59873868406405,-34.910400417475095],[138.59863309428897,-34.91033995594734]]],[[[138.60000653212012,-34.909622370162744],[138.6000148424348,-34.90937753502906],[138.60002552789507,-34.9093554945714],[138.60006122335122,-34.909281866478686],[138.60007421388858,-34.90925507077813],[138.6000919870565,-34.90924521705373],[138.60115561481072,-34.90865554213261],[138.60109841638166,-34.908668601946964],[138.59983504463068,-34.908957059919835],[138.59952199702548,-34.909028537215875],[138.59732714688508,-34.90952963384214],[138.59737782085028,-34.909584399305636],[138.59746440317232,-34.90965327414294],[138.59755445029637,-34.909708608968245],[138.59765801526888,-34.909756440062075],[138.5977853541553,-34.90980561407199],[138.59788962430534,-34.909842146116794],[138.5979913845624,-34.90988029512789],[138.59845154566835,-34.91005328114187],[138.5985968346908,-34.910110729187345],[138.59873483388478,-34.91018005221126],[138.5988369076539,-34.910237080270036],[138.59892636009326,-34.91029693486361],[138.59905410501824,-34.91039588332247],[138.59914405692086,-34.91047918498501],[138.5991597199462,-34.910493527772445],[138.59920437430063,-34.91050273013894],[138.59940368890264,-34.91054381443472],[138.60103165358973,-34.910879378754224],[138.60000653212012,-34.909622370162744]]]]},"properties":{"OBJECTID":26,"Number":"29","Park":"29","Name":"Brougham Gardens","Kaurna":"Tantutitingga","Meaning":"‘Native lilac place'","Legend":"Parks 28 & 29","Names_Label":"Brougham Gardens / Tantutitingga  ","Map_Labels":"Brougham Gardens / Tantutitingga (29)","Transparency":75,"Area":39321.281911329635,"Shape_Length":1964.8473120065037,"Shape_Area":58607.542254265194}},{"type":"Feature","id":27,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.60171586081577,-34.92112621911973],[138.60168604932477,-34.92063336036743],[138.6015765150472,-34.92063872775159],[138.601188848883,-34.92065772609371],[138.60122330646067,-34.92115197386158],[138.60171586081577,-34.92112621911973]]],[[[138.60061104530573,-34.91720927780616],[138.60042915083372,-34.91720352937521],[138.60017430058426,-34.917206085379306],[138.59949160073123,-34.91724868077033],[138.59928629885792,-34.91726149024688],[138.59933820261668,-34.91765539724833],[138.599450371653,-34.919085940734576],[138.59984718626006,-34.91892721710257],[138.60030965962954,-34.91879917788099],[138.6007962608493,-34.91878600329755],[138.6010538563503,-34.918779029297156],[138.60143554242964,-34.91873634630986],[138.60157217887937,-34.91875106699682],[138.6015702133655,-34.918718470818206],[138.60141908259868,-34.91839834284852],[138.60140036530143,-34.918126632067796],[138.60134912988923,-34.917383155130025],[138.60134389540607,-34.91730721689449],[138.60119840336435,-34.917272442016284],[138.60095442003487,-34.917232588264106],[138.6007201798329,-34.917212728043125],[138.60073624530347,-34.91741487823292],[138.60062755274734,-34.91742050879327],[138.60061104530573,-34.91720927780616]]],[[[138.60582829159264,-34.91697008189513],[138.60526006944616,-34.91746701835623],[138.60499766975505,-34.91764710980007],[138.60467436608428,-34.91780345744173],[138.6043260119935,-34.91790542130905],[138.60402644091425,-34.91795575278284],[138.60383262220515,-34.91796472817851],[138.60343863908784,-34.91794081244823],[138.603127484233,-34.91787836619557],[138.60171309310635,-34.91740922041801],[138.60172795034282,-34.91761374859539],[138.60177478580684,-34.91825849524671],[138.60175183205467,-34.918260886221546],[138.60178477776776,-34.91869718197758],[138.6018361919447,-34.91937831386121],[138.60184962355484,-34.91955625545525],[138.60187952038578,-34.91995240978532],[138.60196706839676,-34.92111220227886],[138.60287321429524,-34.92106670093062],[138.60376683228876,-34.921021807961],[138.60422363908543,-34.92099885802372],[138.6043865898847,-34.9210276791311],[138.6060924259305,-34.920946217805415],[138.60636122971133,-34.92093335292482],[138.607305570179,-34.92088826027241],[138.60733613715323,-34.920880204432834],[138.60736855286024,-34.920865596822665],[138.60739002618877,-34.92084904319752],[138.60741469212988,-34.92082366842971],[138.60742567313585,-34.9207954549196],[138.60743224700715,-34.92076455808026],[138.60743284618343,-34.92073662223631],[138.60742993384528,-34.92071591728189],[138.6073598778295,-34.920552080583285],[138.60729491346484,-34.92042729438746],[138.6071103474032,-34.919968513543466],[138.60673516782134,-34.91909108798143],[138.60582829159264,-34.91697008189513]]],[[[138.60477489924264,-34.91753319799882],[138.6049139027531,-34.917449502784685],[138.6050009989115,-34.9173974009534],[138.60510939682018,-34.91730989590746],[138.60530699563998,-34.91710449925637],[138.60535529715446,-34.91708889729855],[138.60540130257513,-34.91708859676508],[138.60572329470554,-34.9167269002547],[138.6055121322233,-34.916232495458665],[138.6053098352146,-34.91575884324793],[138.60523064782396,-34.91557343592873],[138.60466292514084,-34.914244162455205],[138.60459861474965,-34.91417198916695],[138.60455517042587,-34.91414295203002],[138.60444930486793,-34.91410836880789],[138.60439473131612,-34.91419744112726],[138.60436849691658,-34.914264534613594],[138.60436751056636,-34.914268078525936],[138.60435320309887,-34.914332595972155],[138.6043543008401,-34.91440190217183],[138.60435428467042,-34.91440452529611],[138.60435400080283,-34.91445269986789],[138.60437070317892,-34.91453239605651],[138.6044049415676,-34.91462483354977],[138.60441029912,-34.9146392993657],[138.60442289350027,-34.91466131114979],[138.6044629969895,-34.914731402311816],[138.6044731353758,-34.91475297946385],[138.60448780755934,-34.91478420194347],[138.60452399888553,-34.91484420128276],[138.60458200130677,-34.914914100030536],[138.6046339948971,-34.91496830133381],[138.60469299983822,-34.91505370287981],[138.60472426480337,-34.91509820796896],[138.60474020720474,-34.91512090247606],[138.60475629603144,-34.915152496808346],[138.60479140039612,-34.91521970295331],[138.6047981934563,-34.91523905759984],[138.60481000091244,-34.91527269894788],[138.60485439834872,-34.91536499565021],[138.60489240067844,-34.91544610083687],[138.6049263030973,-34.91552609807343],[138.60495444192526,-34.91559725658884],[138.60495639665928,-34.91560220074873],[138.6049878592538,-34.915665028826155],[138.60498789608476,-34.91566509954113],[138.60500449605286,-34.91571740209442],[138.60502530103486,-34.91579960227673],[138.60503172668408,-34.91583608303773],[138.605038598796,-34.915875101412766],[138.60503669616423,-34.91595929912831],[138.60503480161728,-34.916012397770956],[138.60502340109804,-34.91609000341762],[138.60500639688797,-34.91621140191135],[138.60497560084343,-34.91634899676996],[138.604941297776,-34.91647359617545],[138.60490609639325,-34.91658009992578],[138.60486120488358,-34.91667499611158],[138.6048136947848,-34.91676369808019],[138.6047535022709,-34.916858599209945],[138.60468460508184,-34.91696840317758],[138.6046195966997,-34.91705489428668],[138.60456750159977,-34.91711839597905],[138.6045106948361,-34.917178096025424],[138.60445499928852,-34.91722600232011],[138.6043882957854,-34.91727909646034],[138.6043127052492,-34.91733190034602],[138.60424419792898,-34.917380196211816],[138.60416820494754,-34.917420396830266],[138.60409860258102,-34.91745519595354],[138.6040315047175,-34.91748199708016],[138.603948297366,-34.9175108032174],[138.60385169882855,-34.917533494847675],[138.6037675024319,-34.91754630133339],[138.6036535987488,-34.91755069587417],[138.6035270970922,-34.917555600140126],[138.60341249541816,-34.91754219922164],[138.60330190292518,-34.91752120176862],[138.603219095324,-34.91749139680811],[138.60311390080764,-34.91745589645858],[138.6029983963267,-34.917397996125274],[138.602907598211,-34.9173511999861],[138.60280489831618,-34.917301198874874],[138.6026791997534,-34.91722929492388],[138.60253290282117,-34.9171475992719],[138.60229390334493,-34.91698340335397],[138.60209850360093,-34.91683500210689],[138.60195100023128,-34.916708300979224],[138.60184899563248,-34.91664269743373],[138.60176770528577,-34.91660839738483],[138.60162890120134,-34.91655979537327],[138.60154430056284,-34.91653830045946],[138.60147180023117,-34.91652464303575],[138.60142749981296,-34.916516298018],[138.60129550226338,-34.916503698358134],[138.60114570279987,-34.91648570010343],[138.60101910412519,-34.91646509646501],[138.60098755080088,-34.916457812892325],[138.60091559844156,-34.9164412031326],[138.60081219965738,-34.91642590305782],[138.60070240307175,-34.91641930231694],[138.60057360172806,-34.91641449742512],[138.60042460356175,-34.9164060021282],[138.60030169606455,-34.91640700244155],[138.60017170355476,-34.916406301190946],[138.60014257568167,-34.91619501087483],[138.60009118036933,-34.91620136339632],[138.59952603674938,-34.91627582133442],[138.59915887103818,-34.91629889413283],[138.59920771064358,-34.91667654077297],[138.59925772614366,-34.917066920785736],[138.59926345110696,-34.91711160819711],[138.59926711802999,-34.91711119275392],[138.60002897832413,-34.9170249013233],[138.60025063762046,-34.91701209696606],[138.6003786969558,-34.91700459835399],[138.6006105970464,-34.91700890305829],[138.60149119665476,-34.91712950098061],[138.6030952050699,-34.917661700304784],[138.60329420077,-34.91771829888695],[138.6034319969446,-34.91774569878],[138.60357160412295,-34.91775909892867],[138.60374889562743,-34.917768897859666],[138.6041356041876,-34.9177440024],[138.60433870608676,-34.91769980001319],[138.60447590039027,-34.91765959584857],[138.60460329497226,-34.917612102301256],[138.60477489924264,-34.91753319799882]]],[[[138.60462479794523,-34.91637329747346],[138.6046375701919,-34.91633807213189],[138.60463759534474,-34.91633800215409],[138.60466139800485,-34.916286999374236],[138.60467729459208,-34.91624159626636],[138.60469540103497,-34.91618580178035],[138.6047102977973,-34.916094900404765],[138.60472040294593,-34.91603640245644],[138.604724397754,-34.91594779619802],[138.6047282973407,-34.91589929913084],[138.60472220227143,-34.91584869532252],[138.6046982406096,-34.91572567205877],[138.60469779774016,-34.91572339813171],[138.60468049528947,-34.91564240076481],[138.60466823328585,-34.915610872179805],[138.60464913779785,-34.91556369787469],[138.6046093918381,-34.91549550199955],[138.6046093738718,-34.9154954717983],[138.60459849707036,-34.91547729579804],[138.6045716113922,-34.91543493815147],[138.6045341902724,-34.91537662683354],[138.6045239054607,-34.91535867915825],[138.60442750455263,-34.915196497996824],[138.60436831186362,-34.91510572590725],[138.60434436547305,-34.91507088601044],[138.60433237026908,-34.91504953287441],[138.60427919988578,-34.914963200972146],[138.6042285995824,-34.91487959816162],[138.60417920032663,-34.91480799999732],[138.60413699927122,-34.91472119640236],[138.60409919636746,-34.91464420380563],[138.60407784251478,-34.91457904426806],[138.6040731542073,-34.914565213411606],[138.60406192796125,-34.91449287319179],[138.60406201150454,-34.91449207395374],[138.604064098291,-34.914433194764385],[138.60406299875305,-34.91436710322735],[138.6040660997374,-34.914304598272196],[138.6040771939312,-34.91425650022268],[138.6040963010973,-34.91417450254103],[138.60411709440115,-34.91412009814085],[138.60411721208044,-34.91411989262154],[138.60411723453834,-34.91411985284359],[138.60417081724844,-34.914026186821005],[138.60391650868306,-34.91395300636818],[138.60387378211317,-34.9139407112796],[138.60385834097173,-34.913936267928],[138.60384923295308,-34.913936531641525],[138.60381023439163,-34.91393766236846],[138.6037736963158,-34.913951154480905],[138.60373086823628,-34.91399712679696],[138.6036444440178,-34.914192667780355],[138.60362496494912,-34.91428332522918],[138.60362857707491,-34.91439007932769],[138.60366437314232,-34.91451984028959],[138.60426355213178,-34.91548278506106],[138.60429665774495,-34.91555017287961],[138.60431270255427,-34.915638833340104],[138.60431884074262,-34.91572056143155],[138.60425614731892,-34.91594120204822],[138.60420499185676,-34.91603924945821],[138.60412089427479,-34.91611991716873],[138.6039245791476,-34.916255482086],[138.6037910427839,-34.91631097230524],[138.60361916722232,-34.916359019061595],[138.60345284414745,-34.91638562239862],[138.6032819827838,-34.91638996617556],[138.60306453658612,-34.9163844298303],[138.60236101198822,-34.9163275541002],[138.6022490127335,-34.91630881698842],[138.6020765011647,-34.916246938893],[138.6018350097618,-34.916111558850844],[138.6013659463514,-34.91583443007843],[138.60111005225954,-34.915710399105336],[138.60091714803542,-34.91566169343599],[138.60043373224167,-34.91556957017188],[138.6002456582588,-34.91551048181989],[138.59954980796837,-34.91518820735384],[138.59950868668798,-34.915175376191776],[138.5994748435579,-34.91518231882376],[138.59936844619736,-34.91524644146071],[138.59912252699843,-34.91543656975697],[138.59908069874393,-34.91550324383269],[138.599065313298,-34.91556054221459],[138.59906454074687,-34.915633305046946],[138.599138162176,-34.91614081701108],[138.59915987176143,-34.91614043913007],[138.59928985708478,-34.91613699032125],[138.5993993931589,-34.91612970008998],[138.5994347283906,-34.916126190878686],[138.59956350368324,-34.91611340185005],[138.5996648049012,-34.9160966984711],[138.5997239266233,-34.91608402287593],[138.5997701988436,-34.91607410220302],[138.59979636407286,-34.91606747344267],[138.59987560087083,-34.91604739784933],[138.60000910040347,-34.91600879721484],[138.60008909627788,-34.91598410010642],[138.6001048742875,-34.91597935264483],[138.60018050075635,-34.915956595763035],[138.60019817690616,-34.91595206412712],[138.60024680181417,-34.915939598444],[138.6003071982457,-34.91592870247931],[138.60042199665077,-34.91591689900696],[138.60053750203002,-34.91591070188868],[138.60069419875833,-34.91590629915736],[138.60075199187213,-34.915910780706156],[138.6008733946912,-34.91592019460968],[138.60104690069502,-34.915952198190475],[138.6011801972085,-34.915992003211386],[138.6013102948212,-34.916034596286025],[138.60134434546205,-34.91604877899493],[138.60142649908974,-34.91608299825049],[138.60167899575313,-34.91619349714197],[138.6017635811203,-34.91622717566596],[138.60177870066485,-34.91623319597413],[138.6018666062053,-34.91626760298812],[138.60192013501643,-34.91629161496506],[138.6019695980526,-34.91631380309214],[138.6020633983379,-34.91635679745127],[138.6021434040938,-34.91639700004419],[138.60222370539535,-34.91644560288877],[138.60230410191832,-34.91650709706223],[138.60237459631193,-34.916557700464665],[138.60242650276567,-34.916590197323],[138.60248800232836,-34.91662329818524],[138.60254530496204,-34.916656703252215],[138.60260539866127,-34.916693795751236],[138.60261680906197,-34.91670249432138],[138.6026322969158,-34.91671430210038],[138.60266500457524,-34.9167369983705],[138.6027003038744,-34.91676000032523],[138.60272910206575,-34.91678060094319],[138.6027724026591,-34.916807701351374],[138.60281459562967,-34.91683860336334],[138.6028764042128,-34.91688849942209],[138.60294329456548,-34.916936701263595],[138.60299279802584,-34.91696750231241],[138.6030671030729,-34.91700579385969],[138.60318399904412,-34.917059601172994],[138.6032741018638,-34.91709550093197],[138.6033699035956,-34.91712700021923],[138.6034618973689,-34.91715300445067],[138.60354920283473,-34.917175000828664],[138.60362350249187,-34.91719119720688],[138.6036858042501,-34.917201900751245],[138.60375389834525,-34.91721320315046],[138.60381780090134,-34.917219302202525],[138.6038749059056,-34.91721179992643],[138.6039363955868,-34.91719270208216],[138.60400920314228,-34.91715610038489],[138.60406750290593,-34.91712160314136],[138.60412189589636,-34.91709239689286],[138.60416280337773,-34.91706010279886],[138.60422040065882,-34.91701229805849],[138.60427840487674,-34.91695989615233],[138.60432309875705,-34.916901799532674],[138.60435060337437,-34.91686450235185],[138.60440680018192,-34.91679270040626],[138.60443500368862,-34.91674340093913],[138.60446380367662,-34.916697497928794],[138.60449859991914,-34.91664039701428],[138.60453530238672,-34.91658179927627],[138.60456879607213,-34.91650999708339],[138.6045920947773,-34.91645709396359],[138.60460920319187,-34.91641590139939],[138.60460923912453,-34.91641580195736],[138.6046142705884,-34.91640205612031],[138.60462479794523,-34.91637329747346]]],[[[138.59930875224845,-34.91506286127452],[138.5996439181725,-34.91481231291962],[138.599823947742,-34.91460413736625],[138.59999867904787,-34.91432088287539],[138.60007344223573,-34.914140879158595],[138.60013531010762,-34.913922059808705],[138.59886238118037,-34.91365937490023],[138.59888936118162,-34.91395337026328],[138.59900282828346,-34.91518978813753],[138.5990622967553,-34.91522047124632],[138.59930875224845,-34.91506286127452]]],[[[138.6018172159326,-34.911831645043414],[138.6016954690588,-34.91168166320771],[138.60129783518818,-34.91119179675591],[138.60123732287406,-34.91118245376565],[138.6009851540957,-34.91207858629766],[138.6009126088483,-34.91233638126341],[138.60044698598537,-34.913990972994846],[138.60032726840578,-34.9139634790331],[138.6002491401289,-34.91423984729316],[138.60016603698193,-34.914442127821],[138.60002003918873,-34.914676973972135],[138.59989191068314,-34.91482410402824],[138.59974859436102,-34.91495487494778],[138.59963073000583,-34.91505283808801],[138.5996040257874,-34.91509803191691],[138.59961111169835,-34.91512660538248],[138.59963349232532,-34.91515576003053],[138.60025767232744,-34.91544058137013],[138.60045809904372,-34.915505921431325],[138.60065640573598,-34.91554647875308],[138.60085245765686,-34.91557736577092],[138.60116151314884,-34.91565019488372],[138.60138749783334,-34.915763807286666],[138.6019222460573,-34.916078868811006],[138.60212248143247,-34.91618540327448],[138.60229934533888,-34.91624455375238],[138.60336210981217,-34.916325993963426],[138.6034717267347,-34.91631974899649],[138.60356539676434,-34.916305933165546],[138.60376425861537,-34.916246479985475],[138.60390758481904,-34.91618395730954],[138.60399872339616,-34.916126905390655],[138.60407401030182,-34.91607309820256],[138.60413042989154,-34.91601737137028],[138.6041903762671,-34.915892245330994],[138.60423748302227,-34.915703223011356],[138.6042299263941,-34.915615195372546],[138.6042034117202,-34.91551758500576],[138.60417178203903,-34.91546280582145],[138.60414891901672,-34.9154766718842],[138.60358765432215,-34.91456668003056],[138.60355444091115,-34.91448554377337],[138.60353424588524,-34.914391280764455],[138.60352302323238,-34.91429065982203],[138.6035332262974,-34.91420185647288],[138.60361557485948,-34.91397546399721],[138.60361851055384,-34.91393378622174],[138.60360076972532,-34.91391189873306],[138.60318194819035,-34.91339519967566],[138.60290989969477,-34.913059570502426],[138.60193387654533,-34.91185542111712],[138.60192699095867,-34.91185911835637],[138.60186607530096,-34.9118918314395],[138.6018172159326,-34.911831645043414]]]]},"properties":{"OBJECTID":27,"Number":"12","Park":"12","Name":"Red Gum Park","Kaurna":"Karrawirra","Meaning":"‘river red gum forest'","Legend":"Park 12","Names_Label":"Red Gum Park / Karrawirra ","Map_Labels":"Red Gum Park / Karrawirra (12)","Transparency":75,"Area":422275.0784702823,"Shape_Length":10489.179351052495,"Shape_Area":629502.050045308}},{"type":"Feature","id":28,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.60864360989638,-34.91307926893137],[138.60860034793063,-34.913066880895585],[138.608633325983,-34.913020290755824],[138.60876797266434,-34.91271810134173],[138.60864349491203,-34.91264999591936],[138.6086271536587,-34.91264002252988],[138.60853109770375,-34.91258139689032],[138.60847770543643,-34.91255150173904],[138.60843340322157,-34.91252669530394],[138.60828339984053,-34.912443797189574],[138.60819650220984,-34.91239279935658],[138.6081293989564,-34.91235669422707],[138.6080470962084,-34.91230819724819],[138.6079628962185,-34.912248600473454],[138.60788149537905,-34.91219400105906],[138.60780220019058,-34.91213529627985],[138.60774262302263,-34.91208098481896],[138.60772530170732,-34.912065194798075],[138.60767200016994,-34.91200880226239],[138.60756820073715,-34.91189080013189],[138.60750440418235,-34.91181240009089],[138.60746562660643,-34.91176501660438],[138.60739899496858,-34.91168359912432],[138.60736210744804,-34.911643409692616],[138.6073207957248,-34.911598401071124],[138.60723889991363,-34.91152400224235],[138.60722347224686,-34.911512186350244],[138.60716329859756,-34.91146609993479],[138.6071026632142,-34.91144447550972],[138.60707720226415,-34.91143539479647],[138.60706489624303,-34.91143401651986],[138.60697719821349,-34.911424196206355],[138.6068858970412,-34.91144409834374],[138.60680169525466,-34.91148040203399],[138.6067312197257,-34.91151122207318],[138.6067164038117,-34.91151770092454],[138.60670208736104,-34.911524399297555],[138.6066463001853,-34.91155050033187],[138.60656800302507,-34.911600501999494],[138.60649970411401,-34.911653000881614],[138.60644789737327,-34.91171049789989],[138.60637120460422,-34.9117662961644],[138.60629070387665,-34.91182170175712],[138.60622800506312,-34.91187739828858],[138.60614800379886,-34.91193110214959],[138.60606089955564,-34.91198939823556],[138.60597059820836,-34.91205229832294],[138.6059071951156,-34.912100398400575],[138.60589067330088,-34.91211205067257],[138.60582680038925,-34.912157101001235],[138.60574009769292,-34.91222420131169],[138.60564589586068,-34.91229369934573],[138.60563003790102,-34.91230463188855],[138.60557990023,-34.91233919892775],[138.60550100389358,-34.91240069986072],[138.60544049517264,-34.91244500233805],[138.6053813042803,-34.912481500796076],[138.60531249512616,-34.91252309606826],[138.60527140618507,-34.91255187153348],[138.60524509992024,-34.91257029495665],[138.60521867417955,-34.91259110141255],[138.6051873032132,-34.91261580322504],[138.60511959719022,-34.912671597191014],[138.60507480539357,-34.91271369475597],[138.60502499920094,-34.912758399270096],[138.60498360303598,-34.912796403281284],[138.60494000420198,-34.91284009413406],[138.60489529864356,-34.9128857031725],[138.60482599900928,-34.91296060241819],[138.60477469802004,-34.91302220233178],[138.60472420012465,-34.91307420233766],[138.60468639632253,-34.91312620231064],[138.60464929769796,-34.91318750302548],[138.6046371991877,-34.91320755574588],[138.6046321030451,-34.913216002755846],[138.6046027856275,-34.91326487930258],[138.6046027622713,-34.91326491834427],[138.60458220073275,-34.913299198427865],[138.60452449565386,-34.91339649688949],[138.60449825227113,-34.91344824325611],[138.60449660296425,-34.913451494759855],[138.60449613763694,-34.91345238682397],[138.60445279572113,-34.91353549901684],[138.6044251042542,-34.91361010227991],[138.6043998948324,-34.91368430327398],[138.60438569875592,-34.913734599031265],[138.60436619902606,-34.913798196107834],[138.60435369986718,-34.91384980005147],[138.60433235769267,-34.91395169148403],[138.60433199567166,-34.9139534218274],[138.60444010971273,-34.91398502323868],[138.60457934139518,-34.91402501484406],[138.60468241319262,-34.914055299872004],[138.60477041305614,-34.91411539034935],[138.6048369611507,-34.91419408578855],[138.604877378152,-34.9142840021892],[138.60525992841067,-34.9151350720837],[138.60566678438602,-34.91500525537456],[138.6063007434483,-34.91517491433178],[138.60630726611555,-34.91517666011835],[138.60632074803138,-34.915156189479404],[138.60635896505852,-34.91509816008871],[138.6064263881121,-34.9149957839097],[138.6065614372387,-34.91477084918957],[138.60668292360108,-34.91462213382367],[138.6068431444202,-34.91442133730334],[138.60703767459498,-34.914238737932585],[138.60715831833764,-34.91413819856894],[138.60722097493039,-34.914085983404846],[138.60730298123434,-34.91403348607864],[138.60744047198185,-34.913945469908576],[138.6075355173322,-34.9138908178488],[138.60780395280375,-34.91375963714026],[138.60797174731897,-34.91369653578721],[138.60848551089796,-34.913553699755994],[138.6087876206162,-34.91349907321757],[138.60987016599205,-34.91342488457884],[138.61001806372212,-34.91341474922388],[138.6100050183876,-34.91316187027604],[138.60987141375202,-34.91317200418891],[138.60944344377424,-34.913204466292456],[138.60910772808117,-34.91318181619035],[138.6086904121227,-34.91304564731028],[138.6086666804295,-34.91308588614686],[138.60864360989638,-34.91307926893137]]],[[[138.61096029943712,-34.912458871120506],[138.61101156539206,-34.912415912288544],[138.61104510219658,-34.9123870520616],[138.61107172556663,-34.912363715918374],[138.61114464720814,-34.91230204626606],[138.6111490624278,-34.91229983927884],[138.6112114001186,-34.9122606033674],[138.61127339824628,-34.912224402415845],[138.61136490423434,-34.912168501332296],[138.6114288642826,-34.912117498908415],[138.61144853020082,-34.912097937264896],[138.61148896427002,-34.91205640218234],[138.61150567922255,-34.91203672413408],[138.61153056435256,-34.91200544315099],[138.61158321730628,-34.91193162222305],[138.6115930322991,-34.91191675961331],[138.61161469157892,-34.91188396403552],[138.61162999168482,-34.91185360085842],[138.61164496390563,-34.9118238873944],[138.6116473812721,-34.91181897836608],[138.61167770210787,-34.91175739596587],[138.6116917104364,-34.911734234966225],[138.6117181011428,-34.9116906031936],[138.6117559238095,-34.91162354738267],[138.61176849303695,-34.9115995362502],[138.61179883094073,-34.91154157874706],[138.6118187690485,-34.911486483095736],[138.61184304242585,-34.91141506834507],[138.61184305230725,-34.91141430811965],[138.61184372155216,-34.91136486398495],[138.61184405842042,-34.91134055590556],[138.6118445021881,-34.91130846433833],[138.61182637328736,-34.91124405501349],[138.6118125041977,-34.911194779470144],[138.6117822273794,-34.91113293950907],[138.61177588168024,-34.91111997732518],[138.61172509722226,-34.91102867991214],[138.61167600339368,-34.91090100111817],[138.6116537018184,-34.910835503430164],[138.61163889668424,-34.91078540037445],[138.6116102961222,-34.910712698070895],[138.6115817144248,-34.9106499450257],[138.61156043513236,-34.91059290694045],[138.6115604072846,-34.91059283253781],[138.61155067224183,-34.91056673635562],[138.61153700796805,-34.910515833859115],[138.6115368220168,-34.91050823004783],[138.611535685648,-34.91046166718575],[138.6115385243243,-34.910434588255626],[138.61153853240913,-34.91043451164283],[138.61154200709262,-34.910401364821986],[138.61153310299153,-34.91032919478523],[138.61155170081287,-34.910264601263016],[138.6115837302443,-34.91022528408261],[138.61159259661616,-34.91021439988269],[138.6115945208075,-34.9102098738231],[138.61161530063669,-34.910160998404145],[138.61163149995613,-34.91011239552187],[138.6116602325705,-34.91008184310343],[138.61166469629916,-34.91007709677384],[138.6116730748858,-34.910063645277894],[138.61169309743516,-34.91003150090834],[138.61172995441302,-34.909981177099],[138.61176346965794,-34.90994395928027],[138.61177932312606,-34.90992635444023],[138.61184223214545,-34.909884060966085],[138.61188810102212,-34.909834849433125],[138.6119087299343,-34.90981354208182],[138.61193465172016,-34.90978676718145],[138.61196921170577,-34.90975786993356],[138.61198868628284,-34.90974158589859],[138.61205680103922,-34.909701239342596],[138.61206462985692,-34.909696602754536],[138.61213901485405,-34.90966515439276],[138.61222216201838,-34.90964448789895],[138.6123320178928,-34.9096235193658],[138.61239159775573,-34.909618982960254],[138.61243759598983,-34.909615480100676],[138.61254388465426,-34.90960462528665],[138.61257839253756,-34.90959769691632],[138.61260002935953,-34.90959335277996],[138.61261443204847,-34.90958569952639],[138.6126212313969,-34.90958208616504],[138.6125997499835,-34.90947365725668],[138.61260379509724,-34.90936138278277],[138.61260008685167,-34.90930445135634],[138.6125986342759,-34.90928215893733],[138.61258996822835,-34.909214197999034],[138.6125789512897,-34.90916826941492],[138.61257115391302,-34.909135762988384],[138.61255265131314,-34.90908565742204],[138.61252373364584,-34.90903536839328],[138.61247848460664,-34.90898520677842],[138.61240931792298,-34.90892920993155],[138.61240577317093,-34.90892633984625],[138.61233021227912,-34.90888337400911],[138.61224681089146,-34.9088539939208],[138.61214047281973,-34.908835422328515],[138.61193907682127,-34.90881507681654],[138.6116759656644,-34.90878849680975],[138.61166639770832,-34.90878753029065],[138.61166607521318,-34.90878940439472],[138.61158306818595,-34.90927124809218],[138.61155640169673,-34.90933041902229],[138.61149582739878,-34.909433269315514],[138.61141795783672,-34.9095256491969],[138.61133847310373,-34.90959002377312],[138.61122229578467,-34.90969485243138],[138.61106256005584,-34.90992305417687],[138.61104778726096,-34.90994415818005],[138.61103990634098,-34.90998901669201],[138.61101569674406,-34.910126814249786],[138.611014773276,-34.910275527446096],[138.61103989196795,-34.9104073303078],[138.61104683504678,-34.91044376484555],[138.6111948351848,-34.91084235582029],[138.61122490898387,-34.911006941190095],[138.61122979581904,-34.91103368475297],[138.61122866124683,-34.911043989096115],[138.61119797928828,-34.91132270826938],[138.61116456824791,-34.91147898839885],[138.61116494104877,-34.91152350500253],[138.61116511891518,-34.91154470730558],[138.6110754320155,-34.9117309620316],[138.61099991873445,-34.91182765977323],[138.61086712168424,-34.91201370391289],[138.61067098622013,-34.912178339972925],[138.61047005015902,-34.91228308945189],[138.61004210713068,-34.91238467122869],[138.60954337775632,-34.91248124886416],[138.60929634015486,-34.912483914775095],[138.60902617362981,-34.912441526854835],[138.60878024634604,-34.9123453631667],[138.60862634517497,-34.912232380283946],[138.6085033631176,-34.91207602497741],[138.60816414758824,-34.9115024772805],[138.60808427657972,-34.911393396760765],[138.60796912513672,-34.91127383719618],[138.6078062659656,-34.911163123208944],[138.6075945671891,-34.911100315995526],[138.60733460642396,-34.911065863352974],[138.6069427496189,-34.91108014047557],[138.60665180506132,-34.91114473998601],[138.60628284631292,-34.911335025849645],[138.60577747389698,-34.9117068264367],[138.60492820572904,-34.91246808284305],[138.60427927714085,-34.913178462283405],[138.60418864162023,-34.913327410094986],[138.6039020592817,-34.91382558184019],[138.60389903465412,-34.91383083991156],[138.60391568941952,-34.913835460796896],[138.604071130303,-34.91387858978428],[138.6042507107148,-34.91392841618922],[138.60425549873528,-34.91388560103258],[138.60426484750246,-34.91383051505734],[138.60426485558733,-34.913829778426475],[138.60426957713238,-34.91374933092809],[138.60426960767515,-34.91374873867627],[138.6042935441842,-34.913654555114206],[138.60429403646097,-34.91365362548405],[138.60432060233884,-34.913571294978595],[138.6043476991211,-34.91349689793778],[138.60438070412292,-34.913424396190166],[138.60441229876986,-34.91336360024721],[138.60446025443295,-34.913283481568214],[138.60446577817365,-34.91327393403121],[138.60450787861777,-34.91319902623176],[138.60457147394993,-34.91310562508454],[138.60459177048548,-34.91308150315325],[138.6046255956492,-34.913038096034576],[138.60470670094293,-34.91293669406957],[138.60476739471676,-34.91286609604041],[138.60481321957602,-34.91281972530539],[138.6048522971892,-34.91278197470925],[138.60486511075842,-34.91276885219812],[138.60488963746064,-34.91274662480753],[138.60493326683732,-34.912705768499514],[138.60496677669238,-34.912674606370594],[138.6050289760427,-34.9126143233117],[138.60512587551574,-34.912539607910695],[138.60521854392385,-34.91246931672023],[138.60526883969825,-34.91243776702713],[138.60532301170318,-34.912403130048276],[138.60542790169066,-34.91233659783684],[138.60553600315538,-34.91225249585251],[138.6056470016868,-34.91217120334902],[138.6057525492411,-34.91209465476835],[138.60582210848847,-34.912042325597476],[138.60583695314858,-34.912030766133135],[138.6058745880674,-34.912005138179],[138.605940007878,-34.911959909498215],[138.60609021787158,-34.91185735481968],[138.60618060635545,-34.9117851241843],[138.60622733941148,-34.911754698355416],[138.606251602009,-34.911735103476246],[138.60634378263188,-34.91167410370343],[138.6063731476602,-34.911651657967894],[138.60641061100083,-34.91161283721769],[138.60641312897855,-34.91160940958157],[138.60645006141482,-34.91157407832786],[138.60652493599375,-34.91152138639256],[138.6065309663843,-34.91151698784574],[138.6066351026853,-34.911464389428644],[138.6067448031511,-34.911416495241056],[138.60685950363987,-34.91136899734486],[138.60692959199497,-34.91135075339545],[138.6069782007333,-34.91133809990368],[138.60707489089887,-34.91133117315292],[138.6070885021721,-34.91133019782394],[138.6070917693448,-34.9113310000394],[138.60718790075825,-34.91135459577809],[138.60725129307124,-34.91138929507816],[138.607285181117,-34.91142469197346],[138.6073162969618,-34.911457193810485],[138.6073833256551,-34.91153290393951],[138.60744345349028,-34.91160658378904],[138.6074668240607,-34.911635221821854],[138.60752742979966,-34.91171496347146],[138.60754282961858,-34.911735225760054],[138.6076161510104,-34.91183012091698],[138.60767434656944,-34.91189753825345],[138.60770108043232,-34.91192850841223],[138.60772450490165,-34.911951711345964],[138.60778215338672,-34.91200881404876],[138.60786004361003,-34.91207046182194],[138.60794887441523,-34.912134482285936],[138.60802752640996,-34.91219106405317],[138.60811179826504,-34.912250000099064],[138.60821979642344,-34.91231260017247],[138.60822542436873,-34.91231591286272],[138.60831239476298,-34.9123670978511],[138.60835543035327,-34.91239433231226],[138.60842949734675,-34.912441203468404],[138.60852810541544,-34.912502500274904],[138.60857770948718,-34.91253163596557],[138.60866233707515,-34.912577734305756],[138.60869083343258,-34.91259694372009],[138.60874588488812,-34.91263405573301],[138.60876561638335,-34.91264646225016],[138.6088873946982,-34.91271989727211],[138.60889833707665,-34.91272681948585],[138.6089135581309,-34.91273593246847],[138.60900624809852,-34.9127828314219],[138.60906112707755,-34.91282447810618],[138.60913500542486,-34.91286167988629],[138.60916374612404,-34.91287583883429],[138.60925018022402,-34.912909338242876],[138.60925025388585,-34.91290936697178],[138.60925146571319,-34.9129096343718],[138.6093970403999,-34.912941768774786],[138.60946728146862,-34.91294758306505],[138.6095276940698,-34.9129508544779],[138.6096019380314,-34.91295619142563],[138.60961391796403,-34.91295677337022],[138.60968350416084,-34.91295790042745],[138.6097358813318,-34.91295754831415],[138.60974813884388,-34.91295746581061],[138.60984270629044,-34.912952713017496],[138.6098481752339,-34.91295241762536],[138.60994670065764,-34.91294709541017],[138.61002388480517,-34.91293867783809],[138.6100566948726,-34.91293509998297],[138.61012289082763,-34.91292344193471],[138.61014639794192,-34.91291930202332],[138.6102476057351,-34.91289850228032],[138.61037070277683,-34.912861494989755],[138.61045569777576,-34.912831795886675],[138.61049932266084,-34.91281563695355],[138.61050960298095,-34.912807908863115],[138.61058331783485,-34.91277780679838],[138.61059456653885,-34.91277362268125],[138.61065210003954,-34.91274250403987],[138.61070930385853,-34.912700295256926],[138.610765503361,-34.91265439514209],[138.610820749751,-34.91259633083397],[138.61088099526557,-34.91252780026782],[138.61091489768435,-34.912499399008674],[138.61096029943712,-34.912458871120506]]]]},"properties":{"OBJECTID":28,"Number":"11","Park":"11","Name":"Mistletoe Park","Kaurna":"Tainmuntilla","Meaning":"‘mistletoe place'","Legend":"Parks 9, 10 & 11","Names_Label":"Mistletoe Park / Tainmuntilla ","Map_Labels":"Mistletoe Park / Tainmuntilla (11)","Transparency":75,"Area":152589.69769321984,"Shape_Length":5120.3488771370885,"Shape_Area":227447.1182611268}},{"type":"Feature","id":29,"geometry":{"type":"Polygon","coordinates":[[[138.59240234174902,-34.90814077545955],[138.59245765641097,-34.90811672942108],[138.5925046796228,-34.90807772503884],[138.59253097870112,-34.90803492745799],[138.59254254181542,-34.90798930983127],[138.59254038496047,-34.90794647905358],[138.59201462527918,-34.90647076315504],[138.59197560066661,-34.90642396815366],[138.5919287059138,-34.9063931344176],[138.59188050860385,-34.906378941936886],[138.59182836679153,-34.90637100843856],[138.59178039495873,-34.90637867819908],[138.5907092249493,-34.90662851338737],[138.59065480500942,-34.906648071177145],[138.59062162932761,-34.90667414576731],[138.59058893514285,-34.90672473092013],[138.59058015860253,-34.906766360786804],[138.5905843627181,-34.90681866237937],[138.59111241040839,-34.90828563425678],[138.59114091844395,-34.90832035548097],[138.59117331618464,-34.90835153178623],[138.59121732644704,-34.90837355925316],[138.59126724133586,-34.908384408336495],[138.59132575130522,-34.90838606512923],[138.59240234174902,-34.90814077545955]]]},"properties":{"OBJECTID":29,"Number":"Wellington Square","Park":"Wellington Square","Name":"Wellington Square","Kaurna":"Kudnartu","Meaning":"","Legend":"Light, Hindmarsh, Hurtle, Wellington & Whitmore Squares","Names_Label":"Wellington Square / Kudnartu","Map_Labels":"Wellington Square / Kudnartu","Transparency":75,"Area":27365.514572754193,"Shape_Length":790.7664216901945,"Shape_Area":40785.331149311125}},{"type":"Feature","id":30,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.5938206306657,-34.925986787386485],[138.59391546491196,-34.92596233191376],[138.5940016043645,-34.92592487902512],[138.59407421069739,-34.92588113179647],[138.5941499548455,-34.92582389143985],[138.59420150915966,-34.9257495997801],[138.59423125327703,-34.92567265435503],[138.59424557062604,-34.925606610904374],[138.59419229513978,-34.92484629905727],[138.59417610390508,-34.924825695308115],[138.59415319866196,-34.92480690121384],[138.59413050272636,-34.92479759880949],[138.5930674957079,-34.92485078895631],[138.59306172493058,-34.92485316500844],[138.59308174029337,-34.92516336884806],[138.59306190189864,-34.92525143338385],[138.59305774898706,-34.92531431741614],[138.59305270404843,-34.925314335829334],[138.59307705018932,-34.925667505311424],[138.59308890705273,-34.92571442928299],[138.59310385142578,-34.92577165277596],[138.59312108829948,-34.92580316125416],[138.59315044344632,-34.92585621743843],[138.59317274232657,-34.92588623442574],[138.59321428491688,-34.92591853830413],[138.59327762063606,-34.92595826778526],[138.59333238732563,-34.92598733388565],[138.59339612998158,-34.92600853613514],[138.5938206306657,-34.925986787386485]]],[[[138.59410376796515,-34.92452154745542],[138.59408518721185,-34.92448286021262],[138.5940572136739,-34.92444366989771],[138.59401092079233,-34.92439479190579],[138.59385037208816,-34.92427037834866],[138.59380692686605,-34.92423904384126],[138.593776468588,-34.92422838540691],[138.5937262958828,-34.92421820130143],[138.59368019613902,-34.924210301198194],[138.5936372000746,-34.9242054032222],[138.59359670042835,-34.92420290120334],[138.59355239731514,-34.9242047013017],[138.59352787600287,-34.9242096670392],[138.59349746892875,-34.92421568381568],[138.59343773814888,-34.92422994392038],[138.59337853108687,-34.92424819016299],[138.5933327951608,-34.92426957699618],[138.59328903912163,-34.92429182704517],[138.59324110591635,-34.92431977493654],[138.59320314490907,-34.92434957226149],[138.59317009499145,-34.9243827694267],[138.59313802513583,-34.92441681138509],[138.59311091398055,-34.924452603337876],[138.59308986286015,-34.92448686180866],[138.59306549515978,-34.924531790446046],[138.5930481747428,-34.92457440928681],[138.59410376796515,-34.92452154745542]]]]},"properties":{"OBJECTID":30,"Number":"Light Square","Park":"Light Square","Name":"Light Square","Kaurna":"Wauwi","Meaning":"","Legend":"Light, Hindmarsh, Hurtle, Wellington & Whitmore Squares","Names_Label":"Light Square / Wauwi","Map_Labels":"Light Square / Wauwi","Transparency":75,"Area":15607.516413443243,"Shape_Length":805.895318056417,"Shape_Area":23271.332646954248}},{"type":"Feature","id":31,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.59945237489606,-34.93000882686351],[138.5997544702413,-34.929993118359086],[138.59975599468228,-34.929983032185255],[138.59975262779665,-34.929963108029675],[138.5997443417364,-34.92994873992143],[138.59930419958656,-34.92939808132602],[138.599247905761,-34.929352594883156],[138.59922090240357,-34.92935909589393],[138.5992266372483,-34.92943886083115],[138.59924391813942,-34.929470244907115],[138.59928165726285,-34.929966101845544],[138.59926641285247,-34.92999207181276],[138.59926830560275,-34.93001840044019],[138.59945237489606,-34.93000882686351]]],[[[138.60064111191826,-34.92994923778612],[138.60079966187098,-34.929941243227915],[138.60074395913682,-34.929273517009406],[138.60074811474334,-34.929200132149944],[138.60072799787088,-34.92919880719916],[138.60070890687447,-34.929268546422875],[138.60030802918735,-34.92996603777126],[138.60064111191826,-34.92994923778612]]],[[[138.60000149616457,-34.92998139645005],[138.60010609689462,-34.9299761953863],[138.60056659576716,-34.92924330019884],[138.6005714376865,-34.929225035918186],[138.60057810138932,-34.92920440233586],[138.60058419556017,-34.92918839834372],[138.6005917018827,-34.92916420086141],[138.60059839612822,-34.92914350318885],[138.6006045010789,-34.92912180019725],[138.60060855876898,-34.92910288998452],[138.60061199482493,-34.929086200296716],[138.60061593303914,-34.92906565947774],[138.60061992874557,-34.92905009146313],[138.60062194187014,-34.929027769055004],[138.60062315459575,-34.929006572004646],[138.60062430084605,-34.92898369647699],[138.60062689787554,-34.928968202832834],[138.60062940327683,-34.92895590041923],[138.6006281950428,-34.92895041647632],[138.60061999342423,-34.92881339732678],[138.60061851300068,-34.92878601733188],[138.60058759388693,-34.928787596380694],[138.5993997515867,-34.92884843613571],[138.59930679481946,-34.92885319684629],[138.59928244957692,-34.92885440396331],[138.59931479162205,-34.92917289810979],[138.59932586335796,-34.92922592412838],[138.5993470591071,-34.92928353919565],[138.59939404997957,-34.929358290172225],[138.5999004617463,-34.92998640529064],[138.60000149616457,-34.92998139645005]]],[[[138.59927656022194,-34.92782924442202],[138.59962869622,-34.9273086963348],[138.59926307471284,-34.92732948579745],[138.59907640120352,-34.9273401003749],[138.59912050938235,-34.92798554541481],[138.5991460978932,-34.92802209809203],[138.59927656022194,-34.92782924442202]]],[[[138.59928636173998,-34.92849320194439],[138.59937364115464,-34.92848864006771],[138.6005641029422,-34.92842639480416],[138.6005891506673,-34.928425125814854],[138.60058690128582,-34.92840189513208],[138.60057138288929,-34.928247156315564],[138.60056435716547,-34.92823161613274],[138.6005587085589,-34.928201970463924],[138.6005542026095,-34.92818664238507],[138.60055137471295,-34.928174059246935],[138.6005465498616,-34.92815060238683],[138.60053789639042,-34.92813056436485],[138.60053229090306,-34.92811323519493],[138.60052363204204,-34.92809492941854],[138.60051852332302,-34.92807888985782],[138.60051291963225,-34.92806475489106],[138.60050742284102,-34.92805096976093],[138.60049541416237,-34.928028051249655],[138.600483269838,-34.9280080640165],[138.6004721909156,-34.927992103981225],[138.60046582275857,-34.92797954732737],[138.6004607769216,-34.92796358802304],[138.60045385001246,-34.92795548205926],[138.5999205929918,-34.92729598711879],[138.59980796671303,-34.92730012704153],[138.59978970037005,-34.92730079947514],[138.59972154339283,-34.92730351940647],[138.59968970170928,-34.92739612443373],[138.59933848828098,-34.9279595608189],[138.59929101411484,-34.92805767488624],[138.59925764799024,-34.92816766346207],[138.59924720058348,-34.928240700879776],[138.5992460336719,-34.9282682084714],[138.59924480387826,-34.92828714907309],[138.59924558092104,-34.92831689782125],[138.59925529081093,-34.92847339747642],[138.59925635711113,-34.928494755957864],[138.59928636173998,-34.92849320194439]]],[[[138.60063983271732,-34.92790107574645],[138.6005931436787,-34.92726078929713],[138.6004097966309,-34.92727016875579],[138.60006656203896,-34.927287727158465],[138.60043973568273,-34.92773014905537],[138.60058685726835,-34.92790457119721],[138.60063983271732,-34.92790107574645]]]]},"properties":{"OBJECTID":31,"Number":"Victoria Square","Park":"Victoria Square","Name":"Victoria Square","Kaurna":"Tarntanyangga","Meaning":"","Legend":"Victoria Square","Names_Label":"Victoria Square / Tarntanyangga","Map_Labels":"Victoria Square / Tarntanyangga","Transparency":75,"Area":29434.67042780301,"Shape_Length":2081.103329726753,"Shape_Area":43891.70716549713}},{"type":"Feature","id":32,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.6055740989099,-34.9253452258],[138.60558262392195,-34.92530858501997],[138.6055852047818,-34.92526490301371],[138.6055115078942,-34.9242651297845],[138.6054468247021,-34.9242299262435],[138.60512519998267,-34.92424580304531],[138.6051126235687,-34.92424874919487],[138.6051053031974,-34.92425501712771],[138.60518696724327,-34.925266516010595],[138.60521774082997,-34.92528694288233],[138.60529854967967,-34.92532210840696],[138.60536959294393,-34.92534277610938],[138.60543288015398,-34.925353656830275],[138.60550667585625,-34.92535511294503],[138.6055740989099,-34.9253452258]]],[[[138.60603378480712,-34.92530360019921],[138.60613373765383,-34.92529545420014],[138.60617284311473,-34.92529021527642],[138.60622443964976,-34.92527116129409],[138.6062727151131,-34.92523468104421],[138.60630406811316,-34.92520490687306],[138.6063257776986,-34.925165034140484],[138.60633815289,-34.92510920079248],[138.6062721096486,-34.92426569397203],[138.6062539016961,-34.92422520135499],[138.60621169614916,-34.924200900030165],[138.60616373060452,-34.92419378581118],[138.60594551994052,-34.92420473444587],[138.60591094288696,-34.924217975184376],[138.60587989980567,-34.9242377983564],[138.60585799438746,-34.924266996906354],[138.60584590126712,-34.92429942884311],[138.60592072284544,-34.925248281042336],[138.6059300958671,-34.92528884533427],[138.60593965214517,-34.92530831103159],[138.60603378480712,-34.92530360019921]]],[[[138.60539352316474,-34.92395495790313],[138.6054271039867,-34.92394420220856],[138.6054522020174,-34.92392319681843],[138.60546993565944,-34.92389875546149],[138.6054784436035,-34.92386119409601],[138.60547910386524,-34.923826097180175],[138.60545345426897,-34.923477185837314],[138.60486111235716,-34.92350620715081],[138.60489982974585,-34.92397994943855],[138.60539352316474,-34.92395495790313]]],[[[138.60616628631152,-34.92391583804397],[138.6063846990964,-34.923903945862364],[138.60635266158013,-34.92348460799392],[138.6062961719218,-34.923437581104025],[138.60578248469963,-34.92345997205858],[138.60579209577486,-34.92358390219895],[138.60581270043255,-34.92385769920958],[138.60582160183873,-34.92389419480248],[138.6058461986095,-34.92391870097632],[138.6058861008761,-34.923930000240915],[138.60616628631152,-34.92391583804397]]]]},"properties":{"OBJECTID":32,"Number":"Hindmarsh Square","Park":"Hindmarsh Square","Name":"Hindmarsh Square","Kaurna":"Mukata","Meaning":"","Legend":"Light, Hindmarsh, Hurtle, Wellington & Whitmore Squares","Names_Label":"Hindmarsh Square / Mukata","Map_Labels":"Hindmarsh Square / Mukata","Transparency":75,"Area":14565.724745781541,"Shape_Length":1249.9370239887344,"Shape_Area":21717.537048049468}},{"type":"Feature","id":33,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.60612109925606,-34.933217297094785],[138.60614969981813,-34.933196402337856],[138.6061675008338,-34.93316869829167],[138.60617449601486,-34.933137599166685],[138.6061553008139,-34.93280969887316],[138.6061358954071,-34.932777500812534],[138.6061085201472,-34.93275810095941],[138.60607020520365,-34.93274440131091],[138.6056851172043,-34.93276705337873],[138.6056505446423,-34.93278698348146],[138.6056257942596,-34.93281203418945],[138.60560596394967,-34.93284047923511],[138.60562528491482,-34.933131443117524],[138.605640950635,-34.933154425747844],[138.60565583392267,-34.93316545419714],[138.6056828552464,-34.93317743783],[138.60570414801361,-34.93319217212843],[138.60573003925668,-34.93321308087911],[138.6057893109975,-34.933237433296014],[138.60612109925606,-34.933217297094785]]],[[[138.60698783965628,-34.93316929482208],[138.60703176368042,-34.93314583939019],[138.60705599483694,-34.93311909714071],[138.60706700189408,-34.93309586926001],[138.60704970483326,-34.93275560141077],[138.60702629922855,-34.9327261952537],[138.60699110233742,-34.932703697095036],[138.6069415027573,-34.93269400084262],[138.6065567947453,-34.93271600336545],[138.60652160324406,-34.93273309736849],[138.6064960991748,-34.93275330291591],[138.60648246813872,-34.9327810807485],[138.6065022023289,-34.933116875247656],[138.60651820132404,-34.93315180174996],[138.60654846915926,-34.9331771093701],[138.60658998839338,-34.9331944153767],[138.60698783965628,-34.93316929482208]]],[[[138.60607170359353,-34.93247309521603],[138.60610219690588,-34.93245640105859],[138.60611795066103,-34.93243364800946],[138.60612489463816,-34.932403200376626],[138.60604800334144,-34.93137509878045],[138.60603641327765,-34.93135016326004],[138.6060110852782,-34.93132659830988],[138.60597739935338,-34.93131350233097],[138.60557260141832,-34.93133769917936],[138.6055361028683,-34.93135340227101],[138.60550750320465,-34.93137350210608],[138.6054877708111,-34.93140114121246],[138.60556951480703,-34.932439320990675],[138.6055877029966,-34.93247009780934],[138.60561709587267,-34.93248959641666],[138.60566096420126,-34.932497148112034],[138.60607170359353,-34.93247309521603]]],[[[138.60692626104193,-34.932430621879206],[138.60696654599082,-34.932421542014886],[138.60699931473573,-34.9323958092218],[138.60702070991087,-34.93235887847755],[138.60694010767364,-34.93133442776295],[138.60691588819532,-34.93130816878639],[138.60688153033064,-34.93128525044854],[138.60683793778483,-34.93127120809349],[138.60644625974453,-34.93129067605387],[138.6064118039635,-34.931304003289284],[138.60638609597672,-34.931327300905934],[138.60637619744057,-34.9313568010966],[138.60645279678485,-34.932383600116644],[138.60646766390283,-34.93241252695841],[138.60648998613928,-34.93243603047015],[138.60652759770196,-34.932449965838536],[138.60692626104193,-34.932430621879206]]]]},"properties":{"OBJECTID":33,"Number":"Hurtle Square","Park":"Hurtle Square","Name":"Hurtle Square","Kaurna":"Tangkaira","Meaning":"","Legend":"Light, Hindmarsh, Hurtle, Wellington & Whitmore Squares","Names_Label":"Hurtle Square / Tangkaira","Map_Labels":"Hurtle Square / Tangkaira","Transparency":75,"Area":18292.396054672816,"Shape_Length":1309.4756090841554,"Shape_Area":27279.170842150615}},{"type":"Feature","id":34,"geometry":{"type":"Polygon","coordinates":[[[138.59418024963014,-34.93191253112408],[138.59403409463172,-34.93191984646615],[138.59393463226516,-34.9319248249932],[138.59368091658789,-34.931937539383895],[138.59365394107823,-34.93194472510534],[138.59362879903,-34.9319555268851],[138.5936071900559,-34.93196799308131],[138.59358656473697,-34.93198507987554],[138.59357213689518,-34.932007326359326],[138.5935783873729,-34.932110981917596],[138.59360651542107,-34.932430476795815],[138.5936819496505,-34.93350914706798],[138.5936834651083,-34.93352763427689],[138.59368623641103,-34.93354795525188],[138.59371073706205,-34.933574776898496],[138.59374247543937,-34.93360862503816],[138.59376992436117,-34.93363298617508],[138.59382357444488,-34.933672283305015],[138.59386991044556,-34.93370140632516],[138.59392092038067,-34.93372686032973],[138.59396912577546,-34.93374411245934],[138.5940354106636,-34.933764825909584],[138.59446276260047,-34.93374170647017],[138.5945294391541,-34.9337248520243],[138.59456629703018,-34.93371234485374],[138.59460633134915,-34.933695248845396],[138.59463900487265,-34.93367729192024],[138.59467438771506,-34.93365581106393],[138.59470678276088,-34.93363248244111],[138.5947343610401,-34.9336104882651],[138.59476478338553,-34.93358032313082],[138.59478849172245,-34.933552739256264],[138.59480540610096,-34.933528973150416],[138.59480746773457,-34.933512148119],[138.59481027407148,-34.93349286627229],[138.59481200602335,-34.93347171603583],[138.59481278665936,-34.933451984205774],[138.59481123796382,-34.933428542110924],[138.59470138658097,-34.93196099000599],[138.5946801728655,-34.931937680049344],[138.5946527005875,-34.93192148584507],[138.59462729533297,-34.93191085123921],[138.594598543854,-34.93190015403215],[138.59456376467944,-34.93189332402122],[138.59418024963014,-34.93191253112408]]]},"properties":{"OBJECTID":34,"Number":"Whitmore Square","Park":"Whitmore Square","Name":"Whitmore Square","Kaurna":"Iparrityi","Meaning":"","Legend":"Light, Hindmarsh, Hurtle, Wellington & Whitmore Squares","Names_Label":"Whitmore Square / Iparrityi","Map_Labels":"Whitmore Square / Iparrityi","Transparency":75,"Area":20455.681672669845,"Shape_Length":702.3675200132288,"Shape_Area":30505.702663710017}},{"type":"Feature","id":35,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.59839532191137,-34.92141661982842],[138.59876720377773,-34.92139802529849],[138.5991790436062,-34.9213774332051],[138.59912976202978,-34.9207438339821],[138.5991288780875,-34.920733104383174],[138.59834816485048,-34.92077309122764],[138.5983492086928,-34.920784845388084],[138.59836435159363,-34.92099231878564],[138.59794469193054,-34.92101308112249],[138.59795181736737,-34.92113215215383],[138.59794344417062,-34.921177889166565],[138.59792622077168,-34.921229411131414],[138.59792069343774,-34.92128799082],[138.59793235177347,-34.92143976704764],[138.59839532191137,-34.92141661982842]]],[[[138.60122330646067,-34.92115197386158],[138.601188848883,-34.92065772609371],[138.6015765150472,-34.92063872775159],[138.60168604932477,-34.92063336036743],[138.6016106896556,-34.91938758888981],[138.60157217887937,-34.91875106699682],[138.60144132398682,-34.91873696946236],[138.60143554242964,-34.91873634630986],[138.6010538563503,-34.918779029297156],[138.6007962608493,-34.91878600329755],[138.60030965962954,-34.91879917788099],[138.59984718626006,-34.91892721710257],[138.5994503734496,-34.91908593999801],[138.59952079507966,-34.919984022145364],[138.59961896117724,-34.921235920887995],[138.60122330646067,-34.92115197386158]]]]},"properties":{"OBJECTID":35,"Number":"Excluded","Park":"Excluded","Name":"Parliament and Government House","Kaurna":null,"Meaning":null,"Legend":"Parliament and Government House","Names_Label":"Parliament and Government House","Map_Labels":"Parliament and Government House","Transparency":75,"Area":7044.045640956708,"Shape_Length":1543.2989522418134,"Shape_Area":82053.18926850785}},{"type":"Feature","id":36,"geometry":{"type":"Polygon","coordinates":[[[138.5819094002913,-34.9151777981944],[138.58176359383924,-34.915147497374946],[138.5816469997019,-34.91507789715691],[138.58152929884005,-34.914996896206546],[138.5814055047057,-34.91489059886584],[138.58129319912553,-34.91475899546041],[138.5812211030358,-34.91462910007442],[138.58106230155477,-34.91438020191096],[138.58100010489946,-34.91427969807864],[138.5809031991382,-34.91410990320481],[138.58077350307244,-34.9139264029794],[138.5806995977757,-34.91383099607731],[138.58057530327972,-34.91366590293642],[138.5804566978144,-34.91347169842577],[138.58035730282148,-34.91329480144957],[138.58024329942546,-34.91309310298469],[138.58015499593128,-34.91290550108947],[138.58010410457388,-34.91276120292381],[138.58004770025545,-34.912578500413545],[138.57998530327586,-34.912440799787845],[138.57991869589247,-34.912332000439704],[138.57985249903916,-34.912225997989545],[138.57978910403128,-34.9121484962401],[138.5797295978302,-34.91204069539781],[138.579681696066,-34.91190910068316],[138.5796789050004,-34.91181029622134],[138.57968940361113,-34.91168769784562],[138.57971220195475,-34.91158440249275],[138.5797726010812,-34.91140390142827],[138.5798184007876,-34.91126889793215],[138.5798521945103,-34.91110170017097],[138.57987329773295,-34.910945395013606],[138.57987519766976,-34.910824802002274],[138.57987380078947,-34.91072309748331],[138.57986259520467,-34.910610499851025],[138.57983300200425,-34.91048769636518],[138.57979040119855,-34.91037450245059],[138.57973010178512,-34.910275301290596],[138.57966800035118,-34.9101934035019],[138.57957339517532,-34.910099398553626],[138.57946679659213,-34.90999040014953],[138.579355402802,-34.90990330121396],[138.57925609943717,-34.90984969621312],[138.579022405411,-34.9097048991088],[138.57883450120974,-34.90958419524835],[138.57855859624664,-34.909417794817],[138.57838640268142,-34.90933179512418],[138.57819080351146,-34.909220302802176],[138.5780314953806,-34.909140697224025],[138.57791350076974,-34.90909270296664],[138.57781799727863,-34.909041702315264],[138.57770939635068,-34.90898310430977],[138.57766069867915,-34.908947701205086],[138.57760080171096,-34.90892299681556],[138.57751209577157,-34.9089246963246],[138.5773813962876,-34.908940695428456],[138.57728876740543,-34.90897114219043],[138.57733912965517,-34.90927156412438],[138.5774218034074,-34.90929489819989],[138.57754709683002,-34.90932950112988],[138.5777152003657,-34.909356897193014],[138.57790519764157,-34.909377101129955],[138.5780422006039,-34.90938939837535],[138.57816959698252,-34.9094094962237],[138.57826780170768,-34.90945159988142],[138.57835189569644,-34.90952769787479],[138.57847019842944,-34.909597201874845],[138.57858370236218,-34.90965259493473],[138.57867249543813,-34.90968820326587],[138.57877750041,-34.90972849605151],[138.5788916996388,-34.90979110394094],[138.57899750141632,-34.90987569980325],[138.57907740566256,-34.9099434959175],[138.57920629683784,-34.91004950205151],[138.57932689925804,-34.91014179431316],[138.57940909869976,-34.91023370045956],[138.57947869926969,-34.910320801991276],[138.5795312031031,-34.910393301323175],[138.57958150157245,-34.91047880044798],[138.57959999608755,-34.910577996205454],[138.57960629417602,-34.91067649643682],[138.57959590156645,-34.91078189977459],[138.57956820201468,-34.91087119817382],[138.57952260263258,-34.910990501231716],[138.57948559833108,-34.9110733013651],[138.57946159624493,-34.911165196155565],[138.57943870268,-34.91126720215495],[138.5794225042587,-34.911367204331505],[138.57940920200605,-34.91146129917296],[138.57940879866248,-34.91159759885829],[138.57941229580385,-34.911737901271685],[138.57942040399763,-34.91192520086291],[138.57946709483286,-34.91211420094307],[138.57950990494598,-34.91223039576172],[138.57955110258328,-34.91234659704571],[138.57963409972896,-34.91249879643485],[138.57972070271228,-34.912652096084166],[138.579795702157,-34.912758897975706],[138.57986730327505,-34.91286599880399],[138.5799720028197,-34.91299089446857],[138.58005239574948,-34.913100203433224],[138.58009259985,-34.9131892002363],[138.58013170081935,-34.91324970312722],[138.5801429980324,-34.913327796091934],[138.58012699903716,-34.91339489691876],[138.58011369858107,-34.91350620309632],[138.58011440375859,-34.91360080081629],[138.5801361968874,-34.91371550185122],[138.58016320383805,-34.91390010086375],[138.58019009939767,-34.91403020144961],[138.580239802284,-34.91418030127482],[138.58031420075582,-34.914298602867916],[138.58041939706885,-34.91446360192153],[138.580497796637,-34.91456880224506],[138.58061110114377,-34.914693102337324],[138.58075639735276,-34.91482379833012],[138.58087470188246,-34.91492769805591],[138.58105270395433,-34.91505480044346],[138.5812027010472,-34.91514509526016],[138.5813177985913,-34.915217599171115],[138.58148400039354,-34.91531259784874],[138.58170410380782,-34.915425401177345],[138.58185970279482,-34.91550239598783],[138.5821254002014,-34.915583397912584],[138.58232380391166,-34.91563450130926],[138.58253639741017,-34.91567179831235],[138.58269190027744,-34.91569440205734],[138.58285440461398,-34.915700598455366],[138.58302660356912,-34.91569899705631],[138.5832040989912,-34.91569849836854],[138.5833791959114,-34.91569100405617],[138.5835356051788,-34.91567050334432],[138.5836385970261,-34.91565490185054],[138.58371120335897,-34.91561559830086],[138.58381120201975,-34.91555290203977],[138.58386619688142,-34.91549329509818],[138.58393890202896,-34.91539389976385],[138.58400320343702,-34.915332098323546],[138.5840842979509,-34.915273402418],[138.58415860209973,-34.91523269837433],[138.58421082925196,-34.91519964925122],[138.5840422370327,-34.91495774040259],[138.58384980442415,-34.91495990312113],[138.58369639642814,-34.91495309895505],[138.58355269562705,-34.914940503474945],[138.58335989830246,-34.91493519906757],[138.58323280196112,-34.914917897312485],[138.58311370152416,-34.914910200358044],[138.5829368007868,-34.914917797132006],[138.58278349519875,-34.9149510968197],[138.5826485008694,-34.91499459721422],[138.58258330024782,-34.91503919441293],[138.58247179776149,-34.915091199034116],[138.58233809700613,-34.91514750326788],[138.58218669584647,-34.91518349520392],[138.58202039522948,-34.91519190296974],[138.5819094002913,-34.9151777981944]]]},"properties":{"OBJECTID":36,"Number":"River Torrens","Park":"27","Name":"River Torrens","Kaurna":"Karrawirra Pari","Meaning":null,"Legend":"River Torrens","Names_Label":"River Torrens / Karrawirra Pari","Map_Labels":"River Torrens / Karrawirra Pari (27)","Transparency":75,"Area":40988.9870762862,"Shape_Length":2799.7874182985192,"Shape_Area":61098.5261688047}},{"type":"Feature","id":37,"geometry":{"type":"Polygon","coordinates":[[[138.5872547678973,-34.91772698408978],[138.58723025017824,-34.91769406045574],[138.58719878578708,-34.91766099538194],[138.58713173194104,-34.91757761408855],[138.58706275031037,-34.91748083620154],[138.5868435991103,-34.917281596480464],[138.5866698460697,-34.917133382132604],[138.58656159458639,-34.91695377277304],[138.58644542535217,-34.91672821435784],[138.5863214156221,-34.916533027829416],[138.58621715715026,-34.916296256336935],[138.5860802089852,-34.91606837431766],[138.5859656549219,-34.915945886163385],[138.5858503875962,-34.91580496187422],[138.58572734265675,-34.915698815112606],[138.58559923391408,-34.915564606858005],[138.58545012076343,-34.915435706442445],[138.58530151156765,-34.91528964189531],[138.58518149215413,-34.91519566488116],[138.58504791626464,-34.91508997035267],[138.58492507793775,-34.91501310922021],[138.5847653646668,-34.91492979300609],[138.58460768967313,-34.914856056472864],[138.5844976810851,-34.914815705800805],[138.5843975036596,-34.91481219947982],[138.5843185390512,-34.91484655847244],[138.58438623878592,-34.91492410113535],[138.58439447993035,-34.91493354093373],[138.58445205385522,-34.91499949279348],[138.58449669473495,-34.91500480014319],[138.58465519797528,-34.91509309877594],[138.5847542974225,-34.915160998864586],[138.58482559490992,-34.91523069477254],[138.58497110312135,-34.91541599900294],[138.58512700394223,-34.91560050211457],[138.58525979380593,-34.91572779645315],[138.58538990040174,-34.915863795146244],[138.5854763057557,-34.91594409693309],[138.5855280954284,-34.91597499632374],[138.58560419890262,-34.91605730232004],[138.58565360534502,-34.916134298010995],[138.58569870077224,-34.916220199238296],[138.58573050203162,-34.91631270038904],[138.58578310288306,-34.916438194091114],[138.58584469587052,-34.91655019886468],[138.58590929641758,-34.91669219584475],[138.58598969743213,-34.91683590223687],[138.58610659699667,-34.91701300004047],[138.58621859894632,-34.91714170204321],[138.58632620094764,-34.91724340008333],[138.58642099926126,-34.917338800809446],[138.5864756015592,-34.91741550213203],[138.5865385006971,-34.91750439923543],[138.58657519687645,-34.91759369695137],[138.5866532029824,-34.91773049691561],[138.5867242004326,-34.91783179646495],[138.5867855957907,-34.91790649526354],[138.5868182953654,-34.91793450425703],[138.58687119715242,-34.9179796022153],[138.58696619938362,-34.918076495895896],[138.58707469610698,-34.91816960043323],[138.58719660557588,-34.918257396989326],[138.5873308992193,-34.918347302309655],[138.58745869983983,-34.91840749718713],[138.58757880100003,-34.91845969708019],[138.58772919784323,-34.91851829937023],[138.58785649540715,-34.91855570039514],[138.58794610056017,-34.91857070175462],[138.58796629917933,-34.91857410331951],[138.588117797357,-34.91860969525889],[138.58827010312018,-34.918618096044504],[138.58838860527922,-34.91861869930998],[138.588536997981,-34.9186229980369],[138.58865869814247,-34.91860339743134],[138.58884629511985,-34.918616501331634],[138.58898180418385,-34.918613099031916],[138.5891266988459,-34.918617701233345],[138.58927969810847,-34.91863319609535],[138.58941819586735,-34.91864249698868],[138.58953429503302,-34.9186546963532],[138.5896901940573,-34.918681497088144],[138.58983860292878,-34.918702995123574],[138.58997610086277,-34.91871960147924],[138.5901208023871,-34.91875710037842],[138.59026470261415,-34.918803301290936],[138.59047140226608,-34.91885100407592],[138.59062249979513,-34.918916896070954],[138.59077239897167,-34.9189713002382],[138.59094000214577,-34.919045997263126],[138.5910597960822,-34.91911250341226],[138.59120880233334,-34.91919280128416],[138.5913538038949,-34.91926759975581],[138.5915251988579,-34.91934499976484],[138.59166880533581,-34.919441399061135],[138.59189070178738,-34.919518200066854],[138.5920589975626,-34.91958289900441],[138.5922583031814,-34.91964400117722],[138.5924173966149,-34.919684898963155],[138.59260940342205,-34.91970779918057],[138.59279910066059,-34.91972370337411],[138.59291470305786,-34.91971299500256],[138.59299670397198,-34.91971740342228],[138.59297485963916,-34.919074731402844],[138.5928894379405,-34.91904855026353],[138.59270557705636,-34.91891896882175],[138.59256261287385,-34.91881691193056],[138.59244224491394,-34.91873438404249],[138.59229738708282,-34.91869716577265],[138.59215766132687,-34.91864287633135],[138.59206836878766,-34.91860675995571],[138.5919675562532,-34.918568507457934],[138.59188016005757,-34.91846754912214],[138.59174126973483,-34.91838465479752],[138.5915927306077,-34.91831492400148],[138.59143905940527,-34.918262265120084],[138.59129559486115,-34.91817737000465],[138.5912158990241,-34.918129995348274],[138.59105768234636,-34.91804212646981],[138.5909825023402,-34.917984801829704],[138.59089424825342,-34.91795951530417],[138.5906713429938,-34.9178978483826],[138.59048835437378,-34.91781789176047],[138.5903785622797,-34.91776992025424],[138.59023680094137,-34.917706047084934],[138.5900857267685,-34.91764389676552],[138.58994826297047,-34.917591557873344],[138.58980402228192,-34.9175333600503],[138.58966605722395,-34.91749818308544],[138.58953035232724,-34.91746496030071],[138.58935749221203,-34.917434815011255],[138.58920145305055,-34.91738401400444],[138.58904490993422,-34.91735037794131],[138.5889319108546,-34.91733286897428],[138.5887575999603,-34.91732179714721],[138.58858401670128,-34.917346949808135],[138.58843274579732,-34.917370660936896],[138.58824122318214,-34.91742410192149],[138.5881717941905,-34.917500957113305],[138.58800903024073,-34.91760076312712],[138.5878444525925,-34.91768336213171],[138.58772553900505,-34.91770962178573],[138.58753834087963,-34.917694455271295],[138.58744885699923,-34.91774419686125],[138.5872547678973,-34.91772698408978]]]},"properties":{"OBJECTID":37,"Number":"River Torrens","Park":"27","Name":"River Torrens","Kaurna":"Karrawirra Pari","Meaning":null,"Legend":"River Torrens","Names_Label":"River Torrens / Karrawirra Pari","Map_Labels":"River Torrens / Karrawirra Pari (27)","Transparency":75,"Area":76515.84461993107,"Shape_Length":2603.9776987201203,"Shape_Area":114067.83979568424}},{"type":"Feature","id":38,"geometry":{"type":"Polygon","coordinates":[[[138.59328837077504,-34.919164308048416],[138.59331584395133,-34.91957273715637],[138.59333600933286,-34.919568943772646],[138.59340560900444,-34.919555946828446],[138.59352221032833,-34.91954334542545],[138.5936314113309,-34.91954434275422],[138.5937393106746,-34.9195402481081],[138.59384910366694,-34.9195303514235],[138.59396371162921,-34.91952814905009],[138.59408960422812,-34.91952984612979],[138.59415220063372,-34.91953914692155],[138.59423081130592,-34.91953154689237],[138.59432800183316,-34.919523448198],[138.59441840558839,-34.919515253747434],[138.5945248011523,-34.919522450868975],[138.59460960211513,-34.91951995533657],[138.59476400813944,-34.91951785387432],[138.59486879841393,-34.91952065140452],[138.5949431986824,-34.919532851375045],[138.5950301061946,-34.91954585421556],[138.59513350228377,-34.91955215712686],[138.59528230012572,-34.9195677519872],[138.59548390183843,-34.91953485781817],[138.5956865976991,-34.91951735594637],[138.59581610242375,-34.91949635899866],[138.5959849991719,-34.91945986513284],[138.5961194006132,-34.919431467008735],[138.59623119774687,-34.919400960780315],[138.59635249276815,-34.91935156491452],[138.5965302936174,-34.91928036987843],[138.5966309013359,-34.919234469760106],[138.59675149207803,-34.919169268198274],[138.59685509477973,-34.91911177198485],[138.59699379465957,-34.919021675253425],[138.59710649909175,-34.91893387141246],[138.59721079169955,-34.918853375882264],[138.59729980216784,-34.91878057023605],[138.59738380003682,-34.918712170789206],[138.59746159683533,-34.918621071859604],[138.59753759610504,-34.918528576993275],[138.59762589870078,-34.918399880111615],[138.59769639938267,-34.918263076106896],[138.59775280010777,-34.91815977724254],[138.59779919719384,-34.91806667711361],[138.59784700912655,-34.91796788521935],[138.59788880683837,-34.9178892839993],[138.59794790879755,-34.91780728479042],[138.59799980626818,-34.91772118486998],[138.5980610004036,-34.91762668397303],[138.59812729966484,-34.91752128132119],[138.5981751008177,-34.91746398799098],[138.59818301138216,-34.917399889920965],[138.59824040744056,-34.91729929034497],[138.59830381233,-34.91723728924738],[138.59835450426147,-34.91715199015099],[138.59841820469657,-34.9170698900277],[138.59846520455224,-34.916991192189315],[138.59850271370692,-34.916894090978595],[138.59853840736642,-34.91679409627138],[138.59858000834723,-34.91671119436381],[138.59862001481844,-34.916631189442974],[138.59864821203684,-34.91660169427042],[138.5986819177246,-34.91657639921611],[138.59873521207547,-34.916555198949276],[138.59868675245752,-34.91618804696682],[138.59863189593636,-34.91622929710092],[138.59858290092242,-34.91626109799372],[138.59851799584652,-34.916296595176966],[138.59843779785126,-34.91633749610413],[138.59836060022897,-34.9163748023637],[138.59827640473068,-34.91641849425837],[138.5981854961222,-34.9164758973362],[138.59808149726345,-34.91654870208033],[138.59801639815146,-34.91660379801714],[138.5979702957127,-34.91664320348178],[138.59792169595758,-34.9166847981184],[138.59785230110185,-34.916747497197974],[138.59778370125517,-34.91681339824777],[138.5977123947846,-34.91688229795752],[138.59762850112017,-34.916969195762086],[138.597562697729,-34.91704349831723],[138.5974929040213,-34.9171223971976],[138.59744080442977,-34.91718370008443],[138.59739090301574,-34.917247896291116],[138.597351305278,-34.91729849923683],[138.59730589813535,-34.91735749643657],[138.5972587006503,-34.91742189728177],[138.59719270232475,-34.91751280087074],[138.59712469716277,-34.917612896352736],[138.59706400159226,-34.91770239946099],[138.59700850008082,-34.91778369606264],[138.59694559914624,-34.91787799937147],[138.596897600364,-34.91795129933623],[138.5968282989331,-34.91804159612279],[138.5967462989173,-34.91812039607693],[138.59665829725714,-34.91819309402979],[138.59659930399414,-34.918262902271394],[138.59656799860477,-34.918315300399314],[138.59650439967933,-34.918384503059976],[138.59643559861004,-34.91844679645354],[138.59634949868328,-34.91850609777568],[138.59628790030592,-34.91854940330001],[138.59621230437986,-34.91859059994962],[138.59613789602653,-34.91861860134378],[138.59604479912207,-34.91864340225495],[138.5958743033727,-34.91868269698891],[138.5957705048383,-34.91872339490223],[138.59562070088316,-34.918779097063094],[138.59546240156047,-34.91872909903151],[138.59530830096332,-34.91867739797945],[138.59518469996675,-34.91864209628497],[138.5950514950815,-34.918619203136124],[138.594926295982,-34.91861129512799],[138.59481700065635,-34.91860610218259],[138.59467450359776,-34.91860740005068],[138.59450559517154,-34.91861900131102],[138.59435140564122,-34.91864730101348],[138.59415720155488,-34.91868290028702],[138.59403009892537,-34.918725300452685],[138.59390650062375,-34.91877929741463],[138.59376129424624,-34.91883950302407],[138.59365900308484,-34.91888690378796],[138.59359270023032,-34.91892179509918],[138.5934952060726,-34.91899920206357],[138.59339599523432,-34.91907810201032],[138.59328986467332,-34.919163111101035],[138.59328837077504,-34.919164308048416]]]},"properties":{"OBJECTID":38,"Number":"River Torrens","Park":"26","Name":"River Torrens","Kaurna":"Karrawirra Pari","Meaning":null,"Legend":"River Torrens","Names_Label":"River Torrens / Karrawirra Pari","Map_Labels":"River Torrens / Karrawirra Pari (26)","Transparency":75,"Area":50401.30406213446,"Shape_Length":1716.7136502923047,"Shape_Area":75137.77872794945}},{"type":"Feature","id":39,"geometry":{"type":"Polygon","coordinates":[[[138.599138162176,-34.91614081701108],[138.5991613728463,-34.91631823821236],[138.59915887103818,-34.91629889413283],[138.59952603674938,-34.91627582133442],[138.60009118036933,-34.91620136339632],[138.60014257568167,-34.91619501087483],[138.60017170355476,-34.916406301190946],[138.60030169606455,-34.91640700244155],[138.60042460356175,-34.9164060021282],[138.60057360172806,-34.91641449742512],[138.60070240307175,-34.91641930231694],[138.60081219965738,-34.91642590305782],[138.60091559844156,-34.9164412031326],[138.60098755080088,-34.916457812892325],[138.60101910412519,-34.91646509646501],[138.60114570279987,-34.91648570010343],[138.60129550226338,-34.916503698358134],[138.60142749981296,-34.916516298018],[138.60147180023117,-34.91652464303575],[138.60154430056284,-34.91653830045946],[138.60162890120134,-34.91655979537327],[138.60176770528577,-34.91660839738483],[138.60184899563248,-34.91664269743373],[138.60195100023128,-34.916708300979224],[138.60209850360093,-34.91683500210689],[138.60229390334493,-34.91698340335397],[138.60253290282117,-34.9171475992719],[138.6026791997534,-34.91722929492388],[138.60280489831618,-34.917301198874874],[138.602907598211,-34.9173511999861],[138.6029983963267,-34.917397996125274],[138.60311390080764,-34.91745589645858],[138.603219095324,-34.91749139680811],[138.60330190292518,-34.91752120176862],[138.60341249541816,-34.91754219922164],[138.6035270970922,-34.917555600140126],[138.6036535987488,-34.91755069587417],[138.6037675024319,-34.91754630133339],[138.60385169882855,-34.917533494847675],[138.603948297366,-34.9175108032174],[138.6040315047175,-34.91748199708016],[138.60409860258102,-34.91745519595354],[138.60416820494754,-34.917420396830266],[138.60424419792898,-34.917380196211816],[138.6043127052492,-34.91733190034602],[138.6043882957854,-34.91727909646034],[138.60445499928852,-34.91722600232011],[138.6045106948361,-34.917178096025424],[138.60456750159977,-34.91711839597905],[138.6046195966997,-34.91705489428668],[138.60468460508184,-34.91696840317758],[138.6047535022709,-34.916858599209945],[138.6048136947848,-34.91676369808019],[138.60486120488358,-34.91667499611158],[138.60490609639325,-34.91658009992578],[138.604941297776,-34.91647359617545],[138.60497560084343,-34.91634899676996],[138.60500639688797,-34.91621140191135],[138.60502340109804,-34.91609000341762],[138.60503480161728,-34.916012397770956],[138.60503669616423,-34.91595929912831],[138.605038598796,-34.915875101412766],[138.60503172668408,-34.91583608303773],[138.60502530103486,-34.91579960227673],[138.60500449605286,-34.91571740209442],[138.60498789608476,-34.91566509954113],[138.6049878592538,-34.915665028826155],[138.60495639665928,-34.91560220074873],[138.60495444192526,-34.91559725658884],[138.6049263030973,-34.91552609807343],[138.60489240067844,-34.91544610083687],[138.60485439834872,-34.91536499565021],[138.60481000091244,-34.91527269894788],[138.6047981934563,-34.91523905759984],[138.60479140039612,-34.91521970295331],[138.60475629603144,-34.915152496808346],[138.60474020720474,-34.91512090247606],[138.60472426480337,-34.91509820796896],[138.60469299983822,-34.91505370287981],[138.6046339948971,-34.91496830133381],[138.60458200130677,-34.914914100030536],[138.60452399888553,-34.91484420128276],[138.60448780755934,-34.91478420194347],[138.6044731353758,-34.91475297946385],[138.6044629969895,-34.914731402311816],[138.60442289350027,-34.91466131114979],[138.60441029912,-34.9146392993657],[138.6044049415676,-34.91462483354977],[138.60437070317892,-34.91453239605651],[138.60435400080283,-34.91445269986789],[138.60435428467042,-34.91440452529611],[138.6043543008401,-34.91440190217183],[138.60435320309887,-34.914332595972155],[138.60436751056636,-34.914268078525936],[138.60436849691658,-34.914264534613594],[138.60439473131612,-34.91419744112726],[138.60444930486793,-34.91410836880789],[138.60417081724844,-34.914026186821005],[138.60411723453834,-34.91411985284359],[138.60411721208044,-34.91411989262154],[138.60411709440115,-34.91412009814085],[138.6040963010973,-34.91417450254103],[138.6040771939312,-34.91425650022268],[138.6040660997374,-34.914304598272196],[138.60406299875305,-34.91436710322735],[138.604064098291,-34.914433194764385],[138.60406201150454,-34.91449207395374],[138.60406192796125,-34.91449287319179],[138.6040731542073,-34.914565213411606],[138.60407784251478,-34.91457904426806],[138.60409919636746,-34.91464420380563],[138.60413699927122,-34.91472119640236],[138.60417920032663,-34.91480799999732],[138.6042285995824,-34.91487959816162],[138.60427919988578,-34.914963200972146],[138.60433237026908,-34.91504953287441],[138.60434436547305,-34.91507088601044],[138.60436831186362,-34.91510572590725],[138.60442750455263,-34.915196497996824],[138.6045239054607,-34.91535867915825],[138.6045341902724,-34.91537662683354],[138.6045716113922,-34.91543493815147],[138.60459849707036,-34.91547729579804],[138.6046093738718,-34.9154954717983],[138.6046093918381,-34.91549550199955],[138.60464913779785,-34.91556369787469],[138.60466823328585,-34.915610872179805],[138.60468049528947,-34.91564240076481],[138.60469779774016,-34.91572339813171],[138.6046982406096,-34.91572567205877],[138.60472220227143,-34.91584869532252],[138.6047282973407,-34.91589929913084],[138.604724397754,-34.91594779619802],[138.60472040294593,-34.91603640245644],[138.6047102977973,-34.916094900404765],[138.60469540103497,-34.91618580178035],[138.60467729459208,-34.91624159626636],[138.60466139800485,-34.916286999374236],[138.60463759534474,-34.91633800215409],[138.6046375701919,-34.91633807213189],[138.60462479794523,-34.91637329747346],[138.6046142705884,-34.91640205612031],[138.60460923912453,-34.91641580195736],[138.60460920319187,-34.91641590139939],[138.6045920947773,-34.91645709396359],[138.60456879607213,-34.91650999708339],[138.60453530238672,-34.91658179927627],[138.60449859991914,-34.91664039701428],[138.60446380367662,-34.916697497928794],[138.60443500368862,-34.91674340093913],[138.60440680018192,-34.91679270040626],[138.60435060337437,-34.91686450235185],[138.60432309875705,-34.916901799532674],[138.60427840487674,-34.91695989615233],[138.60422040065882,-34.91701229805849],[138.60416280337773,-34.91706010279886],[138.60412189589636,-34.91709239689286],[138.60406750290593,-34.91712160314136],[138.60400920314228,-34.91715610038489],[138.6039363955868,-34.91719270208216],[138.6038749059056,-34.91721179992643],[138.60381780090134,-34.917219302202525],[138.60375389834525,-34.91721320315046],[138.6036858042501,-34.917201900751245],[138.60362350249187,-34.91719119720688],[138.60354920283473,-34.917175000828664],[138.6034618973689,-34.91715300445067],[138.6033699035956,-34.91712700021923],[138.6032741018638,-34.91709550093197],[138.60318399904412,-34.917059601172994],[138.6030671030729,-34.91700579385969],[138.60299279802584,-34.91696750231241],[138.60294329456548,-34.916936701263595],[138.6028764042128,-34.91688849942209],[138.60281459562967,-34.91683860336334],[138.6027724026591,-34.916807701351374],[138.60272910206575,-34.91678060094319],[138.6027003038744,-34.91676000032523],[138.60266500457524,-34.9167369983705],[138.6026322969158,-34.91671430210038],[138.60261680906197,-34.91670249432138],[138.60260539866127,-34.916693795751236],[138.60254530496204,-34.916656703252215],[138.60248800232836,-34.91662329818524],[138.60242650276567,-34.916590197323],[138.60237459631193,-34.916557700464665],[138.60230410191832,-34.91650709706223],[138.60222370539535,-34.91644560288877],[138.6021434040938,-34.91639700004419],[138.6020633983379,-34.91635679745127],[138.6019695980526,-34.91631380309214],[138.60192013501643,-34.91629161496506],[138.6018666062053,-34.91626760298812],[138.60177870066485,-34.91623319597413],[138.6017635811203,-34.91622717566596],[138.60167899575313,-34.91619349714197],[138.60142649908974,-34.91608299825049],[138.60134434546205,-34.91604877899493],[138.6013102948212,-34.916034596286025],[138.6011801972085,-34.915992003211386],[138.60104690069502,-34.915952198190475],[138.6008733946912,-34.91592019460968],[138.60075199187213,-34.915910780706156],[138.60069419875833,-34.91590629915736],[138.60053750203002,-34.91591070188868],[138.60042199665077,-34.91591689900696],[138.6003071982457,-34.91592870247931],[138.60024680181417,-34.915939598444],[138.60019817690616,-34.91595206412712],[138.60018050075635,-34.915956595763035],[138.6001048742875,-34.91597935264483],[138.60008909627788,-34.91598410010642],[138.60000910040347,-34.91600879721484],[138.59987560087083,-34.91604739784933],[138.59979636407286,-34.91606747344267],[138.5997701988436,-34.91607410220302],[138.5997239266233,-34.91608402287593],[138.5996648049012,-34.9160966984711],[138.59956350368324,-34.91611340185005],[138.5994347283906,-34.916126190878686],[138.5993993931589,-34.91612970008998],[138.59928985708478,-34.91613699032125],[138.59915987176143,-34.91614043913007],[138.599138162176,-34.91614081701108]]]},"properties":{"OBJECTID":39,"Number":"River Torrens","Park":"12","Name":"River Torrens","Kaurna":"Karrawirra Pari","Meaning":null,"Legend":"River Torrens","Names_Label":"River Torrens / Karrawirra Pari","Map_Labels":"River Torrens / Karrawirra Pari (12)","Transparency":75,"Area":30693.553365258133,"Shape_Length":2257.030620458715,"Shape_Area":45755.28425092265}},{"type":"Feature","id":40,"geometry":{"type":"Polygon","coordinates":[[[138.6042507107148,-34.91392841618922],[138.60429071359275,-34.91394072232908],[138.60433199567166,-34.9139534218274],[138.60433235769267,-34.91395169148403],[138.60435369986718,-34.91384980005147],[138.60436619902606,-34.913798196107834],[138.60438569875592,-34.913734599031265],[138.6043998948324,-34.91368430327398],[138.6044251042542,-34.91361010227991],[138.60445279572113,-34.91353549901684],[138.60449613763694,-34.91345238682397],[138.60449660296425,-34.913451494759855],[138.60449825227113,-34.91344824325611],[138.60452449565386,-34.91339649688949],[138.60458220073275,-34.913299198427865],[138.6046027622713,-34.91326491834427],[138.6046027856275,-34.91326487930258],[138.6046321030451,-34.913216002755846],[138.6046371991877,-34.91320755574588],[138.60464929769796,-34.91318750302548],[138.60468639632253,-34.91312620231064],[138.60472420012465,-34.91307420233766],[138.60477469802004,-34.91302220233178],[138.60482599900928,-34.91296060241819],[138.60489529864356,-34.9128857031725],[138.60494000420198,-34.91284009413406],[138.60498360303598,-34.912796403281284],[138.60502499920094,-34.912758399270096],[138.60507480539357,-34.91271369475597],[138.60511959719022,-34.912671597191014],[138.6051873032132,-34.91261580322504],[138.60521867417955,-34.91259110141255],[138.60524509992024,-34.91257029495665],[138.60527140618507,-34.91255187153348],[138.60531249512616,-34.91252309606826],[138.6053813042803,-34.912481500796076],[138.60544049517264,-34.91244500233805],[138.60550100389358,-34.91240069986072],[138.60557990023,-34.91233919892775],[138.60563003790102,-34.91230463188855],[138.60564589586068,-34.91229369934573],[138.60574009769292,-34.91222420131169],[138.60582680038925,-34.912157101001235],[138.60589067330088,-34.91211205067257],[138.6059071951156,-34.912100398400575],[138.60597059820836,-34.91205229832294],[138.60606089955564,-34.91198939823556],[138.60614800379886,-34.91193110214959],[138.60622800506312,-34.91187739828858],[138.60629070387665,-34.91182170175712],[138.60637120460422,-34.9117662961644],[138.60644789737327,-34.91171049789989],[138.60649970411401,-34.911653000881614],[138.60656800302507,-34.911600501999494],[138.6066463001853,-34.91155050033187],[138.60670208736104,-34.911524399297555],[138.6067164038117,-34.91151770092454],[138.6067312197257,-34.91151122207318],[138.60680169525466,-34.91148040203399],[138.6068858970412,-34.91144409834374],[138.60697719821349,-34.911424196206355],[138.60706489624303,-34.91143401651986],[138.60707720226415,-34.91143539479647],[138.6071026632142,-34.91144447550972],[138.60716329859756,-34.91146609993479],[138.60722347224686,-34.911512186350244],[138.60723889991363,-34.91152400224235],[138.6073207957248,-34.911598401071124],[138.60736210744804,-34.911643409692616],[138.60739899496858,-34.91168359912432],[138.60746562660643,-34.91176501660438],[138.60750440418235,-34.91181240009089],[138.60756820073715,-34.91189080013189],[138.60767200016994,-34.91200880226239],[138.60772530170732,-34.912065194798075],[138.60774262302263,-34.91208098481896],[138.60780220019058,-34.91213529627985],[138.60788149537905,-34.91219400105906],[138.6079628962185,-34.912248600473454],[138.6080470962084,-34.91230819724819],[138.6081293989564,-34.91235669422707],[138.60819650220984,-34.91239279935658],[138.60828339984053,-34.912443797189574],[138.60843340322157,-34.91252669530394],[138.60847770543643,-34.91255150173904],[138.60853109770375,-34.91258139689032],[138.6086271536587,-34.91264002252988],[138.60864349491203,-34.91264999591936],[138.60876797266434,-34.91271810134173],[138.60884985230587,-34.9127598924404],[138.60892838212968,-34.912811284147764],[138.60903241242946,-34.912881143374754],[138.60912619924008,-34.91293140131891],[138.6092228031674,-34.91296489481169],[138.60932030271513,-34.912988901861645],[138.6094707013549,-34.9129992987758],[138.60960181406386,-34.91299939085558],[138.60969357337692,-34.91299937538621],[138.60984440320803,-34.91299639494742],[138.60997099918777,-34.91298969374796],[138.61010278473492,-34.91297311790849],[138.61019161913333,-34.91295450894276],[138.6103036821684,-34.9129284252975],[138.61038850379248,-34.91290199910674],[138.61047169497434,-34.91287589702879],[138.61054540443828,-34.91284900010838],[138.6106142342537,-34.91282044131939],[138.61069749819907,-34.912774002787685],[138.6107618867437,-34.91272193482065],[138.61082231910783,-34.91266684290808],[138.6108907976819,-34.912602899469995],[138.61095510537817,-34.91253369709136],[138.61101420284578,-34.91248089822213],[138.61106720524415,-34.91243830035694],[138.61112500374782,-34.91239049513481],[138.61121200019318,-34.912321796441894],[138.61129995693767,-34.91226733703875],[138.61138098856952,-34.912218314042306],[138.61144679824895,-34.912174200023976],[138.6115129555763,-34.91212442043627],[138.6115692529952,-34.912068793317204],[138.61158683122866,-34.912043297234774],[138.61164021091946,-34.911966819253],[138.6116805533606,-34.911887035122426],[138.6117196947541,-34.91179439786094],[138.61177350383966,-34.9117006989823],[138.61183329839992,-34.911597858159425],[138.61187495956784,-34.911513557259],[138.61190032709314,-34.911442890233964],[138.61190507918099,-34.91136446619234],[138.61190619399025,-34.91128479418438],[138.6118827973687,-34.91120739836127],[138.61185039872967,-34.91113679589837],[138.61181793990346,-34.91105085399198],[138.61179130305868,-34.91098333430165],[138.61175079712422,-34.91089842723801],[138.6117149938702,-34.91080333136979],[138.61168126841955,-34.91071103911515],[138.6116476220206,-34.91062664816829],[138.61162713234725,-34.910558535117595],[138.61160582790197,-34.91047576245815],[138.6115985039375,-34.910418201958905],[138.61160334226358,-34.910355640220715],[138.61161479578345,-34.91028439833877],[138.61163422185146,-34.91021500394661],[138.61165400544894,-34.91016260285787],[138.611684099011,-34.91011849510158],[138.6117306775568,-34.910057600207324],[138.61178627967962,-34.910000275147766],[138.61184724025313,-34.90992883479432],[138.61196205842114,-34.90983165745613],[138.61201589984606,-34.90978850129597],[138.6120870967222,-34.90973839539129],[138.61216040194435,-34.909694596070935],[138.61224969897515,-34.90966859684345],[138.61237799277075,-34.90964685776129],[138.61251620576377,-34.90963696283049],[138.61262931174284,-34.90962293003088],[138.6126212313969,-34.90958208616504],[138.61261443204847,-34.90958569952639],[138.61260002935953,-34.90959335277996],[138.61257839253756,-34.90959769691632],[138.61254388465426,-34.90960462528665],[138.61243759598983,-34.909615480100676],[138.61239159775573,-34.909618982960254],[138.6123320178928,-34.9096235193658],[138.61222216201838,-34.90964448789895],[138.61213901485405,-34.90966515439276],[138.61206462985692,-34.909696602754536],[138.61205680103922,-34.909701239342596],[138.61198868628284,-34.90974158589859],[138.61196921170577,-34.90975786993356],[138.61193465172016,-34.90978676718145],[138.6119087299343,-34.90981354208182],[138.61188810102212,-34.909834849433125],[138.61184223214545,-34.909884060966085],[138.61177932312606,-34.90992635444023],[138.61176346965794,-34.90994395928027],[138.61172995441302,-34.909981177099],[138.61169309743516,-34.91003150090834],[138.6116730748858,-34.910063645277894],[138.61166469629916,-34.91007709677384],[138.6116602325705,-34.91008184310343],[138.61163149995613,-34.91011239552187],[138.61161530063669,-34.910160998404145],[138.6115945208075,-34.9102098738231],[138.61159259661616,-34.91021439988269],[138.6115837302443,-34.91022528408261],[138.61155170081287,-34.910264601263016],[138.61153310299153,-34.91032919478523],[138.61154200709262,-34.910401364821986],[138.61153853240913,-34.91043451164283],[138.6115385243243,-34.910434588255626],[138.611535685648,-34.91046166718575],[138.6115368220168,-34.91050823004783],[138.61153700796805,-34.910515833859115],[138.61155067224183,-34.91056673635562],[138.6115604072846,-34.91059283253781],[138.61156043513236,-34.91059290694045],[138.6115817144248,-34.9106499450257],[138.6116102961222,-34.910712698070895],[138.61163889668424,-34.91078540037445],[138.6116537018184,-34.910835503430164],[138.61167600339368,-34.91090100111817],[138.61172509722226,-34.91102867991214],[138.61177588168024,-34.91111997732518],[138.6117822273794,-34.91113293950907],[138.6118125041977,-34.911194779470144],[138.61182637328736,-34.91124405501349],[138.6118445021881,-34.91130846433833],[138.61184405842042,-34.91134055590556],[138.61184372155216,-34.91136486398495],[138.61184305230725,-34.91141430811965],[138.61184304242585,-34.91141506834507],[138.6118187690485,-34.911486483095736],[138.61179883094073,-34.91154157874706],[138.61176849303695,-34.9115995362502],[138.6117559238095,-34.91162354738267],[138.6117181011428,-34.9116906031936],[138.6116917104364,-34.911734234966225],[138.61167770210787,-34.91175739596587],[138.6116473812721,-34.91181897836608],[138.61164496390563,-34.9118238873944],[138.61162999168482,-34.91185360085842],[138.61161469157892,-34.91188396403552],[138.6115930322991,-34.91191675961331],[138.61158321730628,-34.91193162222305],[138.61153056435256,-34.91200544315099],[138.61150567922255,-34.91203672413408],[138.61148896427002,-34.91205640218234],[138.61144853020082,-34.912097937264896],[138.6114288642826,-34.912117498908415],[138.61136490423434,-34.912168501332296],[138.61127339824628,-34.912224402415845],[138.6112114001186,-34.9122606033674],[138.6111490624278,-34.91229983927884],[138.61114464720814,-34.91230204626606],[138.61107172556663,-34.912363715918374],[138.61104510219658,-34.9123870520616],[138.61101156539206,-34.912415912288544],[138.61096029943712,-34.912458871120506],[138.61091489768435,-34.912499399008674],[138.61088099526557,-34.91252780026782],[138.610820749751,-34.91259633083397],[138.610765503361,-34.91265439514209],[138.61070930385853,-34.912700295256926],[138.61065210003954,-34.91274250403987],[138.61059456653885,-34.91277362268125],[138.61058331783485,-34.91277780679838],[138.61050960298095,-34.912807908863115],[138.61049932266084,-34.91281563695355],[138.61045569777576,-34.912831795886675],[138.61037070277683,-34.912861494989755],[138.6102476057351,-34.91289850228032],[138.61014639794192,-34.91291930202332],[138.61012289082763,-34.91292344193471],[138.6100566948726,-34.91293509998297],[138.61002388480517,-34.91293867783809],[138.60994670065764,-34.91294709541017],[138.6098481752339,-34.91295241762536],[138.60984270629044,-34.912952713017496],[138.60974813884388,-34.91295746581061],[138.6097358813318,-34.91295754831415],[138.60968350416084,-34.91295790042745],[138.60961391796403,-34.91295677337022],[138.6096019380314,-34.91295619142563],[138.6095276940698,-34.9129508544779],[138.60946728146862,-34.91294758306505],[138.6093970403999,-34.912941768774786],[138.60925146571319,-34.9129096343718],[138.60925025388585,-34.91290936697178],[138.60925018022402,-34.912909338242876],[138.60916374612404,-34.91287583883429],[138.60913500542486,-34.91286167988629],[138.60906112707755,-34.91282447810618],[138.60900624809852,-34.9127828314219],[138.6089135581309,-34.91273593246847],[138.60889833707665,-34.91272681948585],[138.6088873946982,-34.91271989727211],[138.60876561638335,-34.91264646225016],[138.60874588488812,-34.91263405573301],[138.60869083343258,-34.91259694372009],[138.60866233707515,-34.912577734305756],[138.60857770948718,-34.91253163596557],[138.60852810541544,-34.912502500274904],[138.60842949734675,-34.912441203468404],[138.60835543035327,-34.91239433231226],[138.60831239476298,-34.9123670978511],[138.60822542436873,-34.91231591286272],[138.60821979642344,-34.91231260017247],[138.60811179826504,-34.912250000099064],[138.60802752640996,-34.91219106405317],[138.60794887441523,-34.912134482285936],[138.60786004361003,-34.91207046182194],[138.60778215338672,-34.91200881404876],[138.60772450490165,-34.911951711345964],[138.60770108043232,-34.91192850841223],[138.60767434656944,-34.91189753825345],[138.6076161510104,-34.91183012091698],[138.60754282961858,-34.911735225760054],[138.60752742979966,-34.91171496347146],[138.6074668240607,-34.911635221821854],[138.60744345349028,-34.91160658378904],[138.6073833256551,-34.91153290393951],[138.6073162969618,-34.911457193810485],[138.607285181117,-34.91142469197346],[138.60725129307124,-34.91138929507816],[138.60718790075825,-34.91135459577809],[138.6070917693448,-34.9113310000394],[138.6070885021721,-34.91133019782394],[138.60707489089887,-34.91133117315292],[138.6069782007333,-34.91133809990368],[138.60692959199497,-34.91135075339545],[138.60685950363987,-34.91136899734486],[138.6067448031511,-34.911416495241056],[138.6066351026853,-34.911464389428644],[138.6065309663843,-34.91151698784574],[138.60652493599375,-34.91152138639256],[138.60645002099062,-34.91157602677008],[138.60641325564103,-34.91161009687679],[138.60641061100083,-34.91161283721769],[138.6063731476602,-34.911651657967894],[138.60636509785695,-34.9116599990603],[138.60634378263188,-34.91167410370343],[138.606251602009,-34.911735103476246],[138.60622733941148,-34.911754698355416],[138.6061819008278,-34.91179139601562],[138.60609250228734,-34.91185579533462],[138.60609021787158,-34.91185735481968],[138.605940007878,-34.911959909498215],[138.6058745880674,-34.912005138179],[138.60583695314858,-34.912030766133135],[138.60582210848847,-34.912042325597476],[138.6057525492411,-34.91209465476835],[138.6056470016868,-34.91217120334902],[138.60553600315538,-34.91225249585251],[138.60542790169066,-34.91233659783684],[138.60532301170318,-34.912403130048276],[138.60526883969825,-34.91243776702713],[138.60521854392385,-34.91246931672023],[138.60512587551574,-34.912539607910695],[138.6050289760427,-34.9126143233117],[138.60496677669238,-34.912674606370594],[138.60493326683732,-34.912705768499514],[138.60488963746064,-34.91274662480753],[138.60486526706532,-34.91276944519364],[138.6048522971892,-34.91278197470925],[138.60481321957602,-34.91281972530539],[138.60476739471676,-34.91286609604041],[138.60470670094293,-34.91293669406957],[138.6046255956492,-34.913038096034576],[138.60459177048548,-34.91308150315325],[138.60457147394993,-34.91310562508454],[138.60450787861777,-34.91319902623176],[138.60446577817365,-34.91327393403121],[138.60446025443295,-34.913283481568214],[138.60441229876986,-34.91336360024721],[138.60438070412292,-34.913424396190166],[138.6043476991211,-34.91349689793778],[138.60432060233884,-34.913571294978595],[138.60429403646097,-34.91365362548405],[138.60429347860716,-34.91365535509706],[138.60426957713238,-34.91374933092809],[138.60426485558733,-34.913829778426475],[138.60426484750246,-34.91383051505734],[138.60425549873528,-34.91388560103258],[138.6042507107148,-34.91392841618922]]]},"properties":{"OBJECTID":40,"Number":"River Torrens","Park":"11","Name":"River Torrens","Kaurna":"Karrawirra Pari","Meaning":null,"Legend":"River Torrens","Names_Label":"River Torrens / Karrawirra Pari","Map_Labels":"River Torrens / Karrawirra Pari (11)","Transparency":75,"Area":9182.96166052508,"Shape_Length":3071.4396643198493,"Shape_Area":13687.770297594563}},{"type":"Feature","id":41,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.61509870500038,-34.94032300196995],[138.61315273670266,-34.93912629853642],[138.61293109986423,-34.938989998913996],[138.6129023403004,-34.93942870294158],[138.61290233311388,-34.939428814138125],[138.6129003999394,-34.939458301842],[138.61288209586712,-34.94043329590404],[138.61509870500038,-34.94032300196995]]],[[[138.61854599529312,-34.9370266849722],[138.61852438003075,-34.937009805426534],[138.61852435128463,-34.937009775969614],[138.61849765515106,-34.93697697274506],[138.6183477326183,-34.936792810791914],[138.61810360286347,-34.936406200134016],[138.61781353326498,-34.93513596573468],[138.6177993066458,-34.935073665863015],[138.612748703234,-34.935316676040806],[138.61270946122912,-34.93531856426788],[138.61294190390217,-34.9382991950578],[138.6129430348811,-34.938302763706616],[138.61300539502983,-34.9384996002952],[138.61307720186207,-34.93866420089556],[138.6131177024066,-34.9387286019559],[138.61318139655353,-34.93878910221871],[138.61406240399705,-34.93934689978472],[138.61443760424007,-34.93968619622757],[138.61543218837994,-34.94029632539033],[138.61847860817204,-34.94015069832958],[138.62056069818482,-34.94004689902443],[138.62054330500428,-34.93978880228832],[138.62053963718293,-34.93976660357168],[138.6205060976835,-34.93956360414791],[138.62047891106974,-34.9394465820219],[138.62045947422195,-34.93938278095618],[138.62040179519417,-34.939259949828546],[138.62028819873495,-34.9389647416901],[138.62017817487558,-34.9386876326572],[138.62016526608488,-34.938650950706005],[138.62017312454702,-34.938648857097796],[138.62016016006086,-34.938616138479325],[138.6200887008766,-34.93843579628358],[138.61996190277597,-34.93820219933025],[138.61990181536493,-34.93812433696791],[138.61974254316675,-34.93796104389223],[138.6185746317877,-34.93704904497057],[138.61854599529312,-34.9370266849722]]]]},"properties":{"OBJECTID":41,"Number":"17","Park":"17","Name":"Carriageway Park","Kaurna":"Tuthangga","Meaning":"‘grass place'","Legend":"Parks 17, 18 & 19","Names_Label":"Carriageway Park / Tuthangga ","Map_Labels":"Carriageway Park / Tuthangga (17)","Transparency":75,"Area":320941.72224925406,"Shape_Length":3455.549087369043,"Shape_Area":478681.47335761786}},{"type":"Feature","id":42,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.5845177422621,-34.91385545737508],[138.58329380834869,-34.91304788521623],[138.5830765723568,-34.91287714121283],[138.58278629434918,-34.91260404642142],[138.5827056489928,-34.9126425794127],[138.58372952809242,-34.91405752301787],[138.58380317826766,-34.91402158730862],[138.58422934173333,-34.914594044144486],[138.58415741183197,-34.914641915116164],[138.58431853815287,-34.91484655699919],[138.5843975036596,-34.91481219947982],[138.5844976810851,-34.914815705800805],[138.58460768877487,-34.914856056472864],[138.58476536556506,-34.91492979300609],[138.58492507793775,-34.91501310995683],[138.58504791626464,-34.91508997035267],[138.58518149215413,-34.91519566488116],[138.58530151156765,-34.91528964189531],[138.58545012076343,-34.915435706442445],[138.58559923391408,-34.915564606858005],[138.58572734265675,-34.915698815112606],[138.5858503875962,-34.91580496187422],[138.5859656549219,-34.915945885426794],[138.5860802089852,-34.91606837431766],[138.58621715804856,-34.916296256336935],[138.5863214156221,-34.916533027829416],[138.58644542535217,-34.91672821435784],[138.58656159458639,-34.916953774246245],[138.5866698460697,-34.917133382132604],[138.5868436000086,-34.917281597217055],[138.58706275120863,-34.91748083620154],[138.58713173194104,-34.91757761408855],[138.58719878578708,-34.91766099538194],[138.58723025017824,-34.917694058982555],[138.5872547678973,-34.91772698408978],[138.58744885610096,-34.91774419686125],[138.58753834087963,-34.917694455271295],[138.58772553900505,-34.91770962178573],[138.5878444525925,-34.91768336213171],[138.58800903024073,-34.91760076386373],[138.5881717941905,-34.917500957113305],[138.5882412240805,-34.91742410192149],[138.58843274579732,-34.917370660936896],[138.58858401580295,-34.91734695128134],[138.5887575999603,-34.91732179788383],[138.5889319108546,-34.91733286897428],[138.58904490993422,-34.91735037720472],[138.58920145215228,-34.91738401400444],[138.58935749221203,-34.917434815011255],[138.58953035232724,-34.91746496030071],[138.58966605722395,-34.91749818308544],[138.58980402228192,-34.9175333600503],[138.58994826297047,-34.917591557873344],[138.5900857267685,-34.91764389676552],[138.59023680183972,-34.917706047084934],[138.5903785622797,-34.91776992025424],[138.59048835437378,-34.917817893233675],[138.59067134209545,-34.917897849119164],[138.5908942473551,-34.91795951530417],[138.5909825023402,-34.917984801829704],[138.59105768234636,-34.91804212646981],[138.5912158990241,-34.918129995348274],[138.59129559486115,-34.91817737000465],[138.59143905940527,-34.918262265120084],[138.5915927306077,-34.91831492400148],[138.59174127063312,-34.91838465479752],[138.59188016005757,-34.918467549858704],[138.59196755715152,-34.91856850598475],[138.59206836878766,-34.91860675995571],[138.59215766132687,-34.91864287633135],[138.59229738708282,-34.91869716577265],[138.59244224491394,-34.91873438404249],[138.59256261287385,-34.91881691193056],[138.59270557705636,-34.91891896882175],[138.5928894379405,-34.91904855026353],[138.59295371329742,-34.91906825020161],[138.59294376445564,-34.91891802820245],[138.59294375457415,-34.91891788530491],[138.5929396555615,-34.918855990761806],[138.59288994459035,-34.917795897764584],[138.59284056958907,-34.91774088439006],[138.59274392523753,-34.91771032376178],[138.59263691073437,-34.91771448847581],[138.59187374878135,-34.91781241001959],[138.59162416894765,-34.917815771839784],[138.591309983177,-34.91774483107021],[138.59097302421563,-34.917618314759636],[138.5899774267762,-34.91716826240366],[138.58941234783487,-34.91689375214103],[138.588655784906,-34.91649448045899],[138.58806838642315,-34.91614803505358],[138.58529639027225,-34.914403233254575],[138.58522242568674,-34.91435400527828],[138.5845177422621,-34.91385545737508]]],[[[138.58265247501623,-34.91013321144069],[138.58303146884472,-34.910045969007015],[138.5832093622204,-34.910005008221844],[138.5833847537881,-34.90996462938203],[138.58378577161238,-34.90987230377124],[138.58401425181665,-34.90981969988041],[138.58305608627677,-34.90716152190199],[138.5844241036735,-34.90684762622747],[138.5839645201842,-34.90556309228657],[138.58527399167897,-34.90526090194582],[138.58563488535276,-34.9051776170902],[138.585281371339,-34.904180450273266],[138.5849967572092,-34.904265201469755],[138.58409324337455,-34.904683049175965],[138.58374999440957,-34.904876969477606],[138.5830153000679,-34.90539812175707],[138.58251633713158,-34.90582979676557],[138.58217851309257,-34.906158593137384],[138.58190953144535,-34.90707189827043],[138.58189487812643,-34.90711902294017],[138.58182292936038,-34.907367204956074],[138.58163735538898,-34.90800730994879],[138.5815067313635,-34.90853235191317],[138.58145042855477,-34.9089692253634],[138.5814887147522,-34.909511474937695],[138.58160298135465,-34.910092403188585],[138.58184395802283,-34.91081316428076],[138.58222314588744,-34.911561262807226],[138.5826326357232,-34.912149618888556],[138.5829818297387,-34.912555270401235],[138.58317876111028,-34.91274054310247],[138.5834558482563,-34.91295832915116],[138.58471129686643,-34.91378669213806],[138.58526058432335,-34.914175298835694],[138.5856038476614,-34.91440376804484],[138.5879830958785,-34.91590136017206],[138.58881623659215,-34.916392740977514],[138.58958757590915,-34.91680042001892],[138.58967171481362,-34.916841166744824],[138.59003952910837,-34.917019292097265],[138.5903452761052,-34.917157503609836],[138.59100586572413,-34.917456118911275],[138.59135716269577,-34.917588017050875],[138.59165425083157,-34.91765510039991],[138.59192016832537,-34.91765550921101],[138.5921946243059,-34.917638638201794],[138.59248323144712,-34.91760955735877],[138.59288355217876,-34.91753481777705],[138.59282527666969,-34.91592269246136],[138.59282835070454,-34.91578521695611],[138.59283829774967,-34.91564392482041],[138.5928606738851,-34.91548467521781],[138.5928872208984,-34.91535653486566],[138.59291724079853,-34.91524351414006],[138.59295275928656,-34.91512442719935],[138.59299870002855,-34.915000433457685],[138.59305229262003,-34.91488052630468],[138.59311090140412,-34.91474553810202],[138.59317578312383,-34.91461418933589],[138.59322932181644,-34.914502167188076],[138.5932911950783,-34.91437013223369],[138.59334835308314,-34.91424843931243],[138.59340469362118,-34.91412516982637],[138.5934594441411,-34.913952517982636],[138.59349077737824,-34.91380366780396],[138.59350827296672,-34.913593670945744],[138.59350148888961,-34.91345748727952],[138.59347332041733,-34.913284940107054],[138.59343052737213,-34.913131928191376],[138.59337679194846,-34.91297774326195],[138.59221568171446,-34.913245166922046],[138.59140783576265,-34.91101778845214],[138.58936357919643,-34.91147784732494],[138.58915249217267,-34.91088370440612],[138.58907283136986,-34.9106594847646],[138.58868560987167,-34.910748047375094],[138.58331447319352,-34.911976438396835],[138.58265247501623,-34.91013321144069]]],[[[138.58401634578962,-34.902996199354604],[138.58401260071318,-34.90295620827084],[138.58400151999413,-34.90295451379539],[138.583938053121,-34.90296935592562],[138.58388318582007,-34.90299839112063],[138.58387872478642,-34.90299493218228],[138.58301968923638,-34.90374696310045],[138.5827879966566,-34.90425411093578],[138.58274388578295,-34.904341118617445],[138.58230819119206,-34.905747981473574],[138.582628532219,-34.90546158826415],[138.58291887310867,-34.90522736626458],[138.5836626952319,-34.90469989337923],[138.5840070248702,-34.90451690992279],[138.58428594188445,-34.90430060806686],[138.58446396641426,-34.90402129041504],[138.58448202434803,-34.90370616125169],[138.58439051566504,-34.90344209618828],[138.58437689810364,-34.90340280078953],[138.58418831028445,-34.90311381790949],[138.58413903589445,-34.903050547030865],[138.58409249507793,-34.90301240516073],[138.58405374085825,-34.902998808108705],[138.58401634578962,-34.902996199354604]]],[[[138.58521150307115,-34.90398457012714],[138.58514454085324,-34.90380177146716],[138.5897744991501,-34.902744903229745],[138.58882819676182,-34.900333998103186],[138.58874469566126,-34.900156897473856],[138.58872729978572,-34.90012749584434],[138.58863350219534,-34.89997959606524],[138.5884289683816,-34.89976324615742],[138.58822697141014,-34.899592736077025],[138.5881019834148,-34.899575484872145],[138.58798043417033,-34.899608695003934],[138.58797310301927,-34.89961069825017],[138.58792721617627,-34.899632924039565],[138.58787508334703,-34.89965817495149],[138.58780999591315,-34.8996897008216],[138.58762580534727,-34.89979540412458],[138.58746740361664,-34.89990280109321],[138.58728959827582,-34.90003829480044],[138.58674780456502,-34.90048240118152],[138.58594158456378,-34.90118343484043],[138.58440443775524,-34.90253469832293],[138.5843508766048,-34.90259217004714],[138.58431917955,-34.90263621996111],[138.5843094292359,-34.90264976918563],[138.5842811897966,-34.90271236700123],[138.5843768873238,-34.903019177163706],[138.58487890543046,-34.903789507274055],[138.58513683061315,-34.90400188818403],[138.58521150307115,-34.90398457012714]]]]},"properties":{"OBJECTID":42,"Number":"1","Park":"1","Name":"Possum Park","Kaurna":"Pirltawardli","Meaning":"‘possum place'","Legend":"Park 1","Names_Label":"Possum Park / Pirltawardli","Map_Labels":"Possum Park / Pirltawardli (1)","Transparency":75,"Area":712045.5811190825,"Shape_Length":12221.840447988838,"Shape_Area":1203057.752968558}},{"type":"Feature","id":43,"geometry":{"type":"Polygon","coordinates":[[[138.578035525223,-34.90809619808708],[138.57803354713278,-34.90809860261817],[138.57791114359048,-34.90824736147898],[138.57784036982082,-34.90830931485226],[138.57777121301865,-34.908368429751256],[138.57773278937904,-34.90840050110397],[138.57769630340545,-34.90842825992336],[138.5776636523398,-34.90845185133953],[138.57760450636317,-34.90849206296056],[138.57755004330411,-34.90852859411647],[138.57746546961508,-34.908569691187004],[138.57740836910233,-34.908617119244994],[138.577410077698,-34.90864538629852],[138.57741080713004,-34.90866201310586],[138.57730356714976,-34.90875617882199],[138.5772937207159,-34.908784122426816],[138.57727984264307,-34.90883485140483],[138.57727841342344,-34.90888611738777],[138.577285783202,-34.90894845703332],[138.57728876740543,-34.90897114219043],[138.5773813962876,-34.908940696165146],[138.57751209577157,-34.9089246963246],[138.57760080171096,-34.90892299681556],[138.57766069778083,-34.908947701205086],[138.57770939635068,-34.90898310430977],[138.57781799727863,-34.909041702315264],[138.57791350076974,-34.90909270296664],[138.5780314953806,-34.909140697224025],[138.57819080440973,-34.909220302802176],[138.57838640268142,-34.90933179512418],[138.57855859534828,-34.909417794817],[138.57883450120974,-34.90958419524835],[138.579022405411,-34.9097048991088],[138.57925609943717,-34.90984969694976],[138.579355402802,-34.90990330121396],[138.57946679659213,-34.90999040014953],[138.57957339517532,-34.910099399290296],[138.57966800035118,-34.91019340276521],[138.57973010178512,-34.910275301290596],[138.57979040119855,-34.910374503187256],[138.57983300200425,-34.91048769636518],[138.57986259520467,-34.910610499851025],[138.57987380078947,-34.91072309674664],[138.57987519766976,-34.910824802002274],[138.57987329773295,-34.910945395013606],[138.5798521954086,-34.91110170017097],[138.5798184007876,-34.91126889793215],[138.5797726010812,-34.91140390142827],[138.5797122010564,-34.91158440322942],[138.57968940361113,-34.91168769784562],[138.57967890410205,-34.91181029622134],[138.579681696066,-34.9119090999465],[138.5797295978302,-34.91204069539781],[138.57978910403128,-34.91214849697674],[138.57985249903916,-34.912225997989545],[138.57991869589247,-34.912332000439704],[138.5799853023775,-34.912440799787845],[138.58004770025545,-34.912578500413545],[138.58010410457388,-34.91276120292381],[138.58015499593128,-34.91290550108947],[138.58024329942546,-34.91309310298469],[138.58035730282148,-34.91329480144957],[138.5804566978144,-34.91347169842577],[138.58057530238136,-34.91366590293642],[138.5806995977757,-34.91383099607731],[138.58077350307244,-34.9139264029794],[138.5809031991382,-34.91410990320481],[138.58100010489946,-34.91427969807864],[138.58106230155477,-34.91438020191096],[138.5812211030358,-34.91462910007442],[138.58129319912553,-34.91475899546041],[138.5814055038074,-34.91489059886584],[138.58152929884005,-34.914996896206546],[138.5816469997019,-34.91507789715691],[138.58176359383924,-34.915147497374946],[138.5819094002913,-34.9151777981944],[138.58202039522948,-34.91519190296974],[138.58218669584647,-34.91518349520392],[138.58233809610783,-34.91514750326788],[138.58247179776149,-34.915091199034116],[138.58258329934947,-34.91503919514954],[138.5826485008694,-34.91499459721422],[138.58278349519875,-34.9149510968197],[138.5829368007868,-34.914917797132006],[138.5831137006258,-34.914910200358044],[138.58323280196112,-34.914917897312485],[138.58335989830246,-34.91493519980416],[138.58355269562705,-34.914940503474945],[138.58369639642814,-34.91495309895505],[138.58384980442415,-34.91495990312113],[138.5840422370327,-34.91495774040259],[138.5822256108646,-34.912358033446026],[138.58178327323216,-34.911640015207034],[138.5811936882499,-34.910970696223025],[138.58031677083585,-34.91012468823712],[138.57953118693342,-34.90933073579093],[138.5790053571835,-34.90886809020589],[138.57848731403055,-34.908423151788554],[138.57838349573314,-34.90833855221957],[138.57805986238068,-34.90807482840319],[138.578035525223,-34.90809619808708]]]},"properties":{"OBJECTID":43,"Number":"27A","Park":"27A","Name":"John E Brown Park","Kaurna":"Tulya Wardli","Meaning":"‘Police barracks'","Legend":"Park 27","Names_Label":"John E Brown Park / Tulya Wardli (27A)","Map_Labels":"John E Brown Park / Tulya Wardli (27A)","Transparency":75,"Area":124575.31196930555,"Shape_Length":2642.477675085919,"Shape_Area":185687.84360974396}},{"type":"Feature","id":44,"geometry":{"type":"Polygon","coordinates":[[[138.58782314365567,-34.918818128034246],[138.58920794158186,-34.919646314770915],[138.59035074055708,-34.92019180692846],[138.59113123909674,-34.92057529581082],[138.59185636907557,-34.92081368793107],[138.59191944158832,-34.920342319751946],[138.5926446057031,-34.9204075712053],[138.59262260955504,-34.92019628308723],[138.59266240222715,-34.91999568140058],[138.5927911308074,-34.919957425130725],[138.59217689156222,-34.919806728193606],[138.59204632413062,-34.919749258206984],[138.59191797014788,-34.91983677391058],[138.5914475880106,-34.91971971112126],[138.5910495732543,-34.91962065383863],[138.59113626876405,-34.91938648843774],[138.58937977941423,-34.91911829074841],[138.58788490462805,-34.91875046078595],[138.58783860635666,-34.918728567215744],[138.58782314365567,-34.918818128034246]]]},"properties":{"OBJECTID":44,"Number":"27C","Park":"27C","Name":"Helen Mayo Park","Kaurna":"Tulya Wardli","Meaning":"‘Police barracks'","Legend":"Park 27","Names_Label":"Helen Mayo Park / Tulya Wardli (27C)","Map_Labels":"Helen Mayo Park / Tulya Wardli (27C)","Transparency":75,"Area":32984.32222888098,"Shape_Length":1375.036470545133,"Shape_Area":49174.307925670735}},{"type":"Feature","id":45,"geometry":{"type":"MultiPolygon","coordinates":[[[[138.58068771126784,-34.90981032211063],[138.58084129443534,-34.90921445141431],[138.58082140663325,-34.90864850981067],[138.58085212811767,-34.908374217108246],[138.5808886230744,-34.9081067002297],[138.58094668208955,-34.90788122211433],[138.58124916910018,-34.90685670229131],[138.58023488131292,-34.90616489191971],[138.578214863988,-34.907938715143956],[138.57867408186294,-34.90829906541694],[138.5792149026983,-34.90875248217969],[138.57972876060037,-34.90923521010036],[138.5804757870142,-34.90999597523259],[138.58068771126784,-34.90981032211063]]],[[[138.58178835679834,-34.90482491492012],[138.58035969773002,-34.906075603135754],[138.58088954294925,-34.90645622001993],[138.58121199411875,-34.90668467387619],[138.58125332111342,-34.90670886988308],[138.58178835679834,-34.90482491492012]]]]},"properties":{"OBJECTID":45,"Number":"27B","Park":"27B","Name":"Mary Lee Park","Kaurna":"Tulya Wardli","Meaning":"‘Police barracks'","Legend":"Park 27","Names_Label":"Mary Lee Park / Tulya Wardli (27B)","Map_Labels":"Mary Lee Park / Tulya Wardli (27B)","Transparency":75,"Area":70434.22047864199,"Shape_Length":1921.7851180481143,"Shape_Area":104975.12981126642}}]};
+
+    const state = {
+      rawEvents: [],
+      events: [],
+      filteredEvents: [],
+      roadClosuresRaw: [],
+      roadClosures: [],
+      roadClosureTableActive: false,
+      roadClosureDateKey: null,
+      selectedRoadClosureId: null,
+      roadClosureExpandedRows: new Set(),
+      selectedEventId: null,
+      searchText: '',
+      geojson: null,
+      geojsonSummary: null,
+      geojsonBounds: null,
+      geojsonFeatureIndex: new Map(),
+      highlightedMapId: null,
+      monthViewCount: 1,
+      userMonthViewCount: 1,
+      autoMonthViewActive: false,
+      preAutoMonthViewCount: null,
+      preAutoCalendarWindow: null,
+      expandedRows: new Set(),
+      tableFocusedEventId: null,
+      selectedDateKey: null,
+      startDayFocusedDateKey: null,
+      popover: null,
+      typeColourMap: new Map(),
+      legendTypes: [],
+      legendPage: 0,
+      legendPageSize: 10,
+      activeLegendType: null,
+      importDiagnosticsFilter: null,
+      diagnosticExpandedRows: new Set(),
+      internalErrors: [],
+      importDiagnostics: [],
+      leafletMap: null,
+      leafletGeoJsonLayer: null,
+      leafletBaseLayer: null,
+      leafletFeatureLayers: new Map(),
+      leafletHomeBounds: null,
+      mapSpatialLayerVisible: true,
+      mapSpatialLayerName: 'Adelaide Park Lands',
+      mapLocationMatchedFeatures: null,
+      mapLocationFilterEventIds: [],
+      mobileMode: false,
+      mobileModeManual: null,
+      preMobileMonthViewCount: 1,
+      preMobileTheme: null
+    };
+
+    const eventColours = [
+      'var(--event-0)', 'var(--event-1)', 'var(--event-2)', 'var(--event-3)',
+      'var(--event-4)', 'var(--event-5)', 'var(--event-6)', 'var(--event-7)'
+    ];
+
+
+    const MAP_TOKEN_CONFIG = {
+      idFieldTokenInputId: 'mapIdFieldToken',
+      featureIdTokenInputId: 'mapFeatureIdToken',
+      defaultIdField: 'GlobalID',
+      idFieldCandidates: ['GlobalID', 'globalid', 'OBJECTID', 'objectid', 'id', 'ID', 'asset_id', 'Asset_Id', 'React_Polygon_Key'],
+      zoomPaddingRatio: 0.08,
+      zoomStep: 1.25,
+      leafletZoomStep: 0.5,
+      homeZoomBoostSteps: 0
+    };
+
+    const els = {
+      themeToggle: document.getElementById('themeToggle'),
+      themeMenu: document.getElementById('themeMenu'),
+      openDyslexicStatus: document.getElementById('openDyslexicStatus'),
+      atkinsonStatus: document.getElementById('atkinsonStatus'),
+      importDataBtn: document.getElementById('importDataBtn'),
+      importPdfBtn: document.getElementById('importPdfBtn'),
+      importRoadClosurePdfBtn: document.getElementById('importRoadClosurePdfBtn'),
+      importMapBtn: document.getElementById('importMapBtn'),
+      debugBtn: document.getElementById('debugBtn'),
+      importDiagnosticsBtn: document.getElementById('importDiagnosticsBtn'),
+      resetBtn: document.getElementById('resetBtn'),
+      aboutBtn: document.getElementById('aboutBtn'),
+      mobileModeBtn: document.getElementById('mobileModeBtn'),
+      mobilePrevMonthBtn: document.getElementById('mobilePrevMonthBtn'),
+      mobileNextMonthBtn: document.getElementById('mobileNextMonthBtn'),
+      mobileFullscreenBtn: document.getElementById('mobileFullscreenBtn'),
+      aboutModal: document.getElementById('aboutModal'),
+      aboutCloseBtn: document.getElementById('aboutCloseBtn'),
+      aboutUosLogo: document.getElementById('aboutUosLogo'),
+      importDiagnosticsModal: document.getElementById('importDiagnosticsModal'),
+      importDiagnosticsCloseBtn: document.getElementById('importDiagnosticsCloseBtn'),
+      importDiagnosticsStats: document.getElementById('importDiagnosticsStats'),
+      importDiagnosticsBody: document.getElementById('importDiagnosticsBody'),
+      importDiagnosticsTableTitle: document.getElementById('importDiagnosticsTableTitle'),
+      importDiagnosticsFilterNote: document.getElementById('importDiagnosticsFilterNote'),
+      importDiagnosticsScroll: document.querySelector('.diagnostics-table-scroll'),
+      diagnosticsBackTopBtn: document.getElementById('diagnosticsBackTopBtn'),
+      debugModal: document.getElementById('debugModal'),
+      debugCloseBtn: document.getElementById('debugCloseBtn'),
+      debugCopyBtn: document.getElementById('debugCopyBtn'),
+      debugClearBtn: document.getElementById('debugClearBtn'),
+      debugOutput: document.getElementById('debugOutput'),
+      dataFile: document.getElementById('dataFile'),
+      pdfFile: document.getElementById('pdfFile'),
+      roadClosurePdfFile: document.getElementById('roadClosurePdfFile'),
+      mapFile: document.getElementById('mapFile'),
+      searchInput: document.getElementById('searchInput'),
+      eventLegendMenuBtn: document.getElementById('eventLegendMenuBtn'),
+      eventLegendMenu: document.getElementById('eventLegendMenu'),
+      eventLegendMenuCloseBtn: document.getElementById('eventLegendMenuCloseBtn'),
+      rangeStart: document.getElementById('rangeStart'),
+      rangeEnd: document.getElementById('rangeEnd'),
+      prevMonthBtn: document.getElementById('prevMonthBtn'),
+      nextMonthBtn: document.getElementById('nextMonthBtn'),
+      todayBtn: document.getElementById('todayBtn'),
+      monthViewCount: document.getElementById('monthViewCount'),
+      monthViewButtons: Array.from(document.querySelectorAll('[data-month-view]')),
+      calendarScroll: document.getElementById('calendarScroll'),
+      calendarFullscreenBtn: document.getElementById('calendarFullscreenBtn'),
+      activeFilterPill: document.getElementById('activeFilterPill'),
+      months: document.getElementById('months'),
+      dataBody: document.getElementById('dataBody'),
+      tableWrap: document.querySelector('.table-wrap'),
+      mainTableBackTopBtn: document.getElementById('mainTableBackTopBtn'),
+      rowCount: document.getElementById('rowCount'),
+      tableExpandBtn: document.getElementById('tableExpandBtn'),
+      legend: document.getElementById('legend'),
+      legendPrevBtn: document.getElementById('legendPrevBtn'),
+      legendNextBtn: document.getElementById('legendNextBtn'),
+      legendPageStatus: document.getElementById('legendPageStatus'),
+      selectionDetails: document.getElementById('selectionDetails'),
+      clearSelectionBtn: document.getElementById('clearSelectionBtn'),
+      calendarStatus: document.getElementById('calendarStatus'),
+      mapSummary: document.getElementById('mapSummary'),
+      mapHint: document.getElementById('mapHint'),
+      leafletMap: document.getElementById('leafletMap'),
+      mapCanvas: document.getElementById('mapCanvas'),
+      mapStatusChip: document.getElementById('mapStatusChip'),
+      mapLayerPanel: document.getElementById('mapLayerPanel'),
+      mapGeoJsonLayerToggle: document.getElementById('mapGeoJsonLayerToggle'),
+      mapGeoJsonLayerName: document.getElementById('mapGeoJsonLayerName'),
+      mapZoomInBtn: document.getElementById('mapZoomInBtn'),
+      mapZoomOutBtn: document.getElementById('mapZoomOutBtn'),
+      mapHomeBtn: document.getElementById('mapHomeBtn'),
+      mapIdFieldToken: document.getElementById('mapIdFieldToken'),
+      mapFeatureIdToken: document.getElementById('mapFeatureIdToken'),
+      mapTokenZoomBtn: document.getElementById('mapTokenZoomBtn'),
+      fieldPopupModal: document.getElementById('fieldPopupModal'),
+      fieldPopupTitle: document.getElementById('fieldPopupTitle'),
+      fieldPopupSubtitle: document.getElementById('fieldPopupSubtitle'),
+      fieldPopupBody: document.getElementById('fieldPopupBody'),
+      fieldPopupCloseBtn: document.getElementById('fieldPopupCloseBtn'),
+      mobileListModal: document.getElementById('mobileListModal'),
+      mobileListTitle: document.getElementById('mobileListTitle'),
+      mobileListSubtitle: document.getElementById('mobileListSubtitle'),
+      mobileListBody: document.getElementById('mobileListBody'),
+      mobileListCloseBtn: document.getElementById('mobileListCloseBtn'),
+      mobileDetailModal: document.getElementById('mobileDetailModal'),
+      mobileDetailTitle: document.getElementById('mobileDetailTitle'),
+      mobileDetailSubtitle: document.getElementById('mobileDetailSubtitle'),
+      mobileDetailBody: document.getElementById('mobileDetailBody'),
+      mobileDetailCloseBtn: document.getElementById('mobileDetailCloseBtn')
+    };
+
+    const REQUIRED_IMPORT_FIELD_GROUPS = [
+      { label: 'event title/name', aliases: ['title', 'name', 'event_name', 'event name', 'Event', 'Event Name'] },
+      { label: 'start date', aliases: ['start_date', 'Start Date', 'startDay', 'start day', 'Start'] },
+      { label: 'bump in date', aliases: ['bump_in', 'bumpIn', 'Bump In', 'Bump - In'] },
+      { label: 'bump out date', aliases: ['bump_out', 'bumpOut', 'Bump Out', 'Bump - Out'] }
+    ];
+
+    const OPTIONAL_IMPORT_FIELD_GROUPS = [
+      { label: 'event end date', aliases: ['end_date', 'End Date', 'endDay', 'End'] },
+      { label: 'event organiser', aliases: ['Event Organiser', 'event organiser', 'organiser', 'organizer'] },
+      { label: 'location/booked spaces', aliases: ['location', 'Booked Spaces', 'spaces', 'venue', 'site'] },
+      { label: 'coordinator', aliases: ['Coordinator', 'coordinator'] }
+    ];
+
+    function recordDebugEntry(level, context, detail) {
+      const entry = {
+        time: new Date().toISOString(),
+        level,
+        context,
+        detail: detail instanceof Error ? { message: detail.message, stack: detail.stack || '' } : detail
+      };
+      state.internalErrors.push(entry);
+      if (state.internalErrors.length > 250) state.internalErrors.shift();
+      return entry;
+    }
+
+    function recordDebugError(context, err, extra = {}) {
+      return recordDebugEntry('error', context, { message: err?.message || String(err), stack: err?.stack || '', ...extra });
+    }
+
+    function recordDebugWarning(context, detail) {
+      return recordDebugEntry('warning', context, detail);
+    }
+
+    function formatDebugLog() {
+      const lines = [];
+      lines.push(`Dashboard debug snapshot: ${new Date().toLocaleString()}`);
+      lines.push(`Loaded events: ${state.events?.length || 0}`);
+      lines.push(`Visible table rows: ${state.filteredEvents?.length || 0}`);
+      lines.push(`GeoJSON loaded: ${state.geojson ? 'yes' : 'no'}`);
+      lines.push(`GeoJSON ID tokens indexed: ${state.geojsonFeatureIndex?.size || 0}`);
+      if (state.importDiagnostics?.length) {
+        lines.push('\nImport diagnostics:');
+        state.importDiagnostics.forEach((item, i) => lines.push(`${i + 1}. ${item}`));
+      }
+      if (!state.internalErrors.length) {
+        lines.push('\nNo internal errors or warnings have been captured.');
+        return lines.join('\n');
+      }
+      lines.push('\nCaptured internal log:');
+      state.internalErrors.forEach((entry, i) => {
+        lines.push(`\n${i + 1}. [${entry.level.toUpperCase()}] ${entry.time} · ${entry.context}`);
+        if (typeof entry.detail === 'string') lines.push(entry.detail);
+        else lines.push(JSON.stringify(entry.detail, null, 2));
+      });
+      return lines.join('\n');
+    }
+
+    function showDebugModal() {
+      if (!els.debugModal || !els.debugOutput) return;
+      els.debugOutput.textContent = formatDebugLog();
+      els.debugModal.hidden = false;
+    }
+
+    function hideDebugModal() {
+      if (els.debugModal) els.debugModal.hidden = true;
+    }
+
+    function showAboutModal() {
+      syncAboutLogo();
+      if (els.aboutModal) els.aboutModal.hidden = false;
+    }
+
+    function hideAboutModal() {
+      if (els.aboutModal) els.aboutModal.hidden = true;
+    }
+
+    function syncAboutLogo() {
+      if (!els.aboutUosLogo) return;
+      const sourceLogo = document.querySelector('.brand-logo-light');
+      if (sourceLogo?.src && els.aboutUosLogo.src !== sourceLogo.src) {
+        els.aboutUosLogo.src = sourceLogo.src;
+      }
+    }
+
+    function copyDebugLog() {
+      const text = formatDebugLog();
+      if (navigator.clipboard?.writeText) navigator.clipboard.writeText(text).catch(err => recordDebugError('Copy debug log', err));
+      if (els.debugOutput) els.debugOutput.textContent = text;
+    }
+
+    function clearDebugLog() {
+      state.internalErrors = [];
+      state.importDiagnostics = [];
+      if (els.debugOutput) els.debugOutput.textContent = formatDebugLog();
+    }
+
+    function getMatchedFieldName(row, aliases) {
+      const keys = Object.keys(row || {});
+      const lookup = new Map(keys.map(k => [normaliseKey(k), k]));
+      for (const alias of aliases) {
+        const hit = lookup.get(normaliseKey(alias));
+        if (hit !== undefined) return hit;
+      }
+      return '';
+    }
+
+    function extractRowsFromImportedJson(parsed) {
+      if (Array.isArray(parsed)) return parsed;
+      if (parsed?.type === 'FeatureCollection' && Array.isArray(parsed.features)) {
+        return parsed.features.map((feature, index) => ({ ...(feature.properties || {}), geometry: feature.geometry || null, id: feature.id ?? feature.properties?.id ?? index + 1 }));
+      }
+      if (Array.isArray(parsed?.rows)) return parsed.rows;
+      if (Array.isArray(parsed?.data)) return parsed.data;
+      if (Array.isArray(parsed?.items)) return parsed.items;
+      throw new Error('JSON import must be an array, a FeatureCollection, or an object containing rows, data, or items arrays.');
+    }
+
+    function validateImportedEventSchema(rows, sourceName = 'imported data') {
+      if (!Array.isArray(rows) || !rows.length) throw new Error('Imported data did not contain any rows.');
+      const sample = rows.find(row => row && typeof row === 'object' && !Array.isArray(row));
+      if (!sample) throw new Error('Imported data rows must be objects with named fields.');
+
+      const missing = [];
+      const matched = [];
+      REQUIRED_IMPORT_FIELD_GROUPS.forEach(group => {
+        const field = getMatchedFieldName(sample, group.aliases);
+        if (!field) missing.push(group.label);
+        else matched.push(`${group.label}: ${field}`);
+      });
+      if (missing.length) {
+        throw new Error(`Missing required field group(s): ${missing.join(', ')}. Extra fields are allowed, but these core fields must be present.`);
+      }
+
+      const optional = OPTIONAL_IMPORT_FIELD_GROUPS.map(group => {
+        const field = getMatchedFieldName(sample, group.aliases);
+        return field ? `${group.label}: ${field}` : `${group.label}: not detected`;
+      });
+      const extraCount = Object.keys(sample).length - matched.length;
+      state.importDiagnostics = [
+        `${sourceName}: ${rows.length} row(s) detected.`,
+        `Required field matches: ${matched.join('; ')}.`,
+        `Optional field matches: ${optional.join('; ')}.`,
+        `Extra fields are accepted and preserved on each row. Sample row has approximately ${Math.max(0, extraCount)} non-core/extra field(s).`
+      ];
+    }
+
+    function normaliseKey(value) {
+      return String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    }
+
+    function pickField(row, candidates) {
+      const keys = Object.keys(row || {});
+      const lookup = new Map(keys.map(k => [normaliseKey(k), k]));
+      for (const candidate of candidates) {
+        const key = lookup.get(normaliseKey(candidate));
+        if (key !== undefined && row[key] !== undefined && row[key] !== null && String(row[key]).trim() !== '') return row[key];
+      }
+      return '';
+    }
+
+    function parseDate(value) {
+      if (!value) return null;
+      if (value instanceof Date && !Number.isNaN(value.getTime())) return stripTime(value);
+      const s = String(value).trim();
+      if (!s) return null;
+
+      const iso = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+      if (iso) return new Date(Number(iso[1]), Number(iso[2]) - 1, Number(iso[3]));
+
+      const au = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4}|\d{2})(?:\s+(\d{1,2}):(\d{2}))?/);
+      if (au) {
+        let y = Number(au[3]);
+        if (y < 100) y += y >= 70 ? 1900 : 2000;
+        return new Date(y, Number(au[2]) - 1, Number(au[1]));
+      }
+
+      const parsed = new Date(s);
+      return Number.isNaN(parsed.getTime()) ? null : stripTime(parsed);
+    }
+
+    function stripTime(date) {
+      return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    }
+
+    function toISODate(date) {
+      if (!date) return '';
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, '0');
+      const d = String(date.getDate()).padStart(2, '0');
+      return `${y}-${m}-${d}`;
+    }
+
+    function displayDate(date) {
+      if (!date) return '';
+      return date.toLocaleDateString('en-AU', { day: '2-digit', month: 'short', year: 'numeric' });
+    }
+
+    function displayDateWithWeekday(date) {
+      if (!date) return '';
+      return date.toLocaleDateString('en-AU', { weekday: 'long', day: '2-digit', month: 'short', year: 'numeric' });
+    }
+
+    function monthKey(date) {
+      return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+    }
+
+
+    function addMonths(date, amount) {
+      return new Date(date.getFullYear(), date.getMonth() + amount, 1);
+    }
+
+    function endOfMonth(date) {
+      return new Date(date.getFullYear(), date.getMonth() + 1, 0);
+    }
+
+    function setVisibleMonthWindow(startMonthDate) {
+      const start = new Date(startMonthDate.getFullYear(), startMonthDate.getMonth(), 1);
+      const end = endOfMonth(addMonths(start, state.monthViewCount - 1));
+      els.rangeStart.value = toISODate(start);
+      els.rangeEnd.value = toISODate(end);
+      renderCalendar();
+    }
+
+    function shiftVisibleMonths(delta) {
+      const { from } = getVisibleDateRange();
+      setVisibleMonthWindow(addMonths(from, delta));
+    }
+
+    function focusTodayCalendarView() {
+      const today = new Date();
+      setVisibleMonthWindow(new Date(today.getFullYear(), today.getMonth(), 1));
+    }
+
+    function syncMonthViewCountFromRange() {
+      const { from, to } = getVisibleDateRange();
+      const diff = ((to.getFullYear() - from.getFullYear()) * 12) + (to.getMonth() - from.getMonth()) + 1;
+      state.monthViewCount = Math.max(1, Math.min(3, Number(els.monthViewCount.value || diff || 1)));
+      els.monthViewCount.value = String(state.monthViewCount);
+      if (!state.autoMonthViewActive) state.userMonthViewCount = state.monthViewCount;
+    }
+
+    function nthWeekdayOfMonth(year, monthIndex, weekday, nth) {
+      const d = new Date(year, monthIndex, 1);
+      const offset = (weekday - d.getDay() + 7) % 7;
+      return new Date(year, monthIndex, 1 + offset + (nth - 1) * 7);
+    }
+
+    function firstWeekdayOfMonth(year, monthIndex, weekday) {
+      return nthWeekdayOfMonth(year, monthIndex, weekday, 1);
+    }
+
+    function nextMondayOnOrAfter(date) {
+      const d = stripTime(date);
+      const offset = (1 - d.getDay() + 7) % 7;
+      d.setDate(d.getDate() + offset);
+      return d;
+    }
+
+    function nextMondayAfter(date) {
+      const d = stripTime(date);
+      d.setDate(d.getDate() + 1);
+      return nextMondayOnOrAfter(d);
+    }
+
+    function easterSunday(year) {
+      const a = year % 19;
+      const b = Math.floor(year / 100);
+      const c = year % 100;
+      const d = Math.floor(b / 4);
+      const e = b % 4;
+      const f = Math.floor((b + 8) / 25);
+      const g = Math.floor((b - f + 1) / 3);
+      const h = (19 * a + b - d - g + 15) % 30;
+      const i = Math.floor(c / 4);
+      const k = c % 4;
+      const l = (32 + 2 * e + 2 * i - h - k) % 7;
+      const m = Math.floor((a + 11 * h + 22 * l) / 451);
+      const month = Math.floor((h + l - 7 * m + 114) / 31) - 1;
+      const day = ((h + l - 7 * m + 114) % 31) + 1;
+      return new Date(year, month, day);
+    }
+
+    function offsetDate(date, days) {
+      const d = new Date(date);
+      d.setDate(d.getDate() + days);
+      return stripTime(d);
+    }
+
+    function getSaPublicHolidayName(date) {
+      const y = date.getFullYear();
+      if (y < 2024 || y > 2030) return '';
+      const key = toISODate(date);
+      const holidays = new Map();
+      const add = (d, name) => {
+        if (d.getFullYear() === y) holidays.set(toISODate(d), name);
+      };
+      const addNextAvailableWeekday = (baseDate, name) => {
+        const d = stripTime(baseDate);
+        d.setDate(d.getDate() + 1);
+        while (d.getDay() === 0 || d.getDay() === 6 || holidays.has(toISODate(d))) d.setDate(d.getDate() + 1);
+        add(d, name);
+      };
+
+      const jan1 = new Date(y, 0, 1);
+      add(jan1, "New Year's Day");
+      if (jan1.getDay() === 0 || jan1.getDay() === 6) addNextAvailableWeekday(jan1, "Additional public holiday for New Year's Day");
+
+      const ausDay = new Date(y, 0, 26);
+      if (ausDay.getDay() === 0 || ausDay.getDay() === 6) add(nextMondayAfter(ausDay), 'Australia Day public holiday');
+      else add(ausDay, 'Australia Day');
+
+      add(nthWeekdayOfMonth(y, 2, 1, 2), 'Adelaide Cup Day');
+
+      const easter = easterSunday(y);
+      add(offsetDate(easter, -2), 'Good Friday');
+      add(offsetDate(easter, -1), 'Easter Saturday');
+      add(easter, 'Easter Sunday');
+      add(offsetDate(easter, 1), 'Easter Monday');
+
+      add(new Date(y, 3, 25), 'ANZAC Day');
+      add(nthWeekdayOfMonth(y, 5, 1, 2), "King's Birthday");
+      add(firstWeekdayOfMonth(y, 9, 1), 'Labour Day');
+
+      add(new Date(y, 11, 24), 'Christmas Eve part-day public holiday');
+      const christmas = new Date(y, 11, 25);
+      add(christmas, 'Christmas Day');
+      if (christmas.getDay() === 0 || christmas.getDay() === 6) addNextAvailableWeekday(christmas, 'Additional public holiday for Christmas Day');
+
+      const proclamation = new Date(y, 11, 26);
+      add(proclamation, 'Proclamation Day');
+      if (proclamation.getDay() === 0 || proclamation.getDay() === 6) addNextAvailableWeekday(proclamation, 'Additional public holiday for Proclamation Day');
+
+      add(new Date(y, 11, 31), "New Year's Eve part-day public holiday");
+      return holidays.get(key) || '';
+    }
+
+    function normaliseEvent(row, index) {
+      const title = String(pickField(row, ['title', 'name', 'event_name', 'event name', 'Event', 'Event Name']) || `Event ${index + 1}`).trim();
+      const organiser = String(pickField(row, ['Event Organiser', 'event organiser', 'organiser', 'organizer', 'Account']) || 'Unspecified organiser').trim();
+      const startDate = parseDate(pickField(row, ['start_date', 'Start Date', 'startDay', 'start day', 'Start']));
+      const bumpIn = parseDate(pickField(row, ['bump_in', 'bumpIn', 'Bump In', 'Bump - In']));
+      const bumpOut = parseDate(pickField(row, ['bump_out', 'bumpOut', 'Bump Out', 'Bump - Out']));
+      const endDate = parseDate(pickField(row, ['end_date', 'End Date', 'endDay', 'End']));
+      const location = String(pickField(row, ['location', 'Booked Spaces', 'spaces', 'venue', 'site']) || '').trim();
+      const coordinator = String(pickField(row, ['Coordinator', 'coordinator']) || '').trim();
+      const id = String(pickField(row, ['id', 'ID', 'event_id', 'Event ID', '_sourceRow']) || `evt-${index + 1}`).trim();
+      const safeStart = startDate || bumpIn || endDate || bumpOut;
+      return {
+        id,
+        title,
+        organiser,
+        type: organiser,
+        startDate: safeStart,
+        bumpIn: bumpIn || safeStart,
+        bumpOut: bumpOut || endDate || safeStart,
+        endDate: endDate || bumpOut || safeStart,
+        location,
+        coordinator,
+        description: '',
+        account: organiser,
+        raw: row
+      };
+    }
+
+
+    function normaliseRoadClosure(row, index) {
+      const title = String(pickField(row, ['Event Name', 'event name', 'title', 'name']) || `Road closure ${index + 1}`).trim();
+      const startDate = parseDate(pickField(row, ['Event Start Date', 'Start Date', 'start_date', 'Start']));
+      const endDate = parseDate(pickField(row, ['Event End Date', 'End Date', 'end_date', 'End'])) || startDate;
+      const schedule = String(pickField(row, ['Road Closure Schedule', 'road closure schedule', 'Schedule', 'Location']) || '')
+        .replace(/\r\n?/g, '\n')
+        .replace(/\uFFFE/g, '\n')
+        .trim();
+      const supplier = String(pickField(row, ['Traffic Supplier', 'traffic supplier', 'Supplier']) || '').trim();
+      const sourcePage = String(pickField(row, ['_sourcePage', 'Source Page']) || '').trim();
+      const sourceRow = String(pickField(row, ['_sourceRow', 'Source Row']) || '').trim();
+      const id = String(pickField(row, ['_roadClosureId', 'road_closure_id', 'id', 'ID']) || `road-${sourcePage || 'x'}-${sourceRow || index + 1}-${index + 1}`).trim();
+      return { id, title, startDate, endDate, schedule, supplier, sourcePage, sourceRow, raw: row };
+    }
+
+    function initialiseRoadClosureData(rows, options = {}) {
+      state.roadClosuresRaw = Array.isArray(rows) ? rows : [];
+      state.roadClosureExpandedRows.clear();
+      state.selectedRoadClosureId = null;
+      const normalised = state.roadClosuresRaw.map(normaliseRoadClosure);
+      const valid = normalised.filter(item => item.startDate && item.endDate);
+      const skipped = normalised.length - valid.length;
+      if (skipped > 0) recordDebugWarning('Road closure normalisation', `${skipped} row(s) were skipped because start/end dates could not be parsed.`);
+      state.roadClosures = valid.sort((a, b) => a.startDate - b.startDate || a.title.localeCompare(b.title));
+      if (state.roadClosureTableActive && state.roadClosureDateKey && !getRoadClosuresForDateKey(state.roadClosureDateKey).length) {
+        state.roadClosureTableActive = false;
+        state.roadClosureDateKey = null;
+      }
+      if (options.render !== false) renderAll();
+    }
+
+    function getRoadClosuresForDateKey(dateKey) {
+      const date = parseDate(dateKey);
+      if (!date) return [];
+      return state.roadClosures
+        .filter(item => isDateInRange(date, item.startDate, item.endDate))
+        .sort((a, b) => a.startDate - b.startDate || a.title.localeCompare(b.title));
+    }
+
+    function leaveRoadClosureTableMode() {
+      state.roadClosureTableActive = false;
+      state.roadClosureDateKey = null;
+      state.selectedRoadClosureId = null;
+      state.roadClosureExpandedRows.clear();
+    }
+
+    function selectRoadClosureDate(dateKey) {
+      const closures = getRoadClosuresForDateKey(dateKey);
+      if (!closures.length) return;
+      if (state.roadClosureTableActive && state.roadClosureDateKey === dateKey) {
+        clearSelection();
+        return;
+      }
+      state.roadClosureTableActive = true;
+      state.roadClosureDateKey = dateKey;
+      state.selectedRoadClosureId = null;
+      state.selectedEventId = null;
+      state.countBadgeSelectedEventId = null;
+      state.tableFocusedEventId = null;
+      state.selectedDateKey = null;
+      state.startDayFocusedDateKey = null;
+      state.activeLegendType = null;
+      closePopover();
+      renderAll();
+      clearMapLocationIsolation({ returnHome: true, forceHome: true });
+      if (els.tableWrap) {
+        els.tableWrap.scrollTop = 0;
+        els.tableWrap.scrollLeft = 0;
+      }
+    }
+
+    function deriveEventType(row, account) {
+      const roadOrder = String(pickField(row, ['Road Closure Order', 'Road Closures']) || '').trim();
+      if (roadOrder) return 'Road closure event';
+      if (account) return account.length > 42 ? `${account.slice(0, 39)}…` : account;
+      return 'General event';
+    }
+
+    function buildSearchBlob(event) {
+      return [event.title, event.organiser, event.location, event.coordinator, displayDate(event.startDate), displayDate(event.endDate), displayDate(event.bumpIn), displayDate(event.bumpOut)]
+        .join(' ').toLowerCase();
+    }
+
+    function initialiseData(rows) {
+      state.rawEvents = Array.isArray(rows) ? rows : [];
+      state.expandedRows.clear();
+      state.tableFocusedEventId = null;
+      state.selectedDateKey = null;
+      const normalised = state.rawEvents.map(normaliseEvent);
+      const valid = normalised.filter(evt => evt.startDate && evt.bumpIn && evt.bumpOut);
+      const skipped = normalised.length - valid.length;
+      if (skipped > 0) {
+        recordDebugWarning('Data normalisation', `${skipped} row(s) were skipped because required date values could not be parsed.`);
+      }
+      state.events = valid.sort((a, b) => a.startDate - b.startDate || a.title.localeCompare(b.title));
+      setDefaultDateRange();
+      rebuildTypeColours();
+      applyFilters();
+    }
+
+    function setDefaultDateRange() {
+      // Default calendar start is locked to July 2026 for the embedded major-events schedule.
+      // Month-view count still controls whether the initial window shows 1, 2, or 3 months.
+      const defaultStart = new Date(2026, 6, 1);
+      const defaultEnd = endOfMonth(addMonths(defaultStart, state.monthViewCount - 1));
+      els.rangeStart.value = toISODate(defaultStart);
+      els.rangeEnd.value = toISODate(defaultEnd);
+    }
+
+    function rebuildTypeColours() {
+      state.typeColourMap.clear();
+      const organisers = [...new Set(state.events.map(e => e.organiser || 'Unspecified organiser'))].sort();
+      organisers.forEach((organiser, i) => state.typeColourMap.set(organiser, eventColours[i % eventColours.length]));
+      state.legendTypes = [];
+    }
+
+    function getTypeColour(type) {
+      return state.typeColourMap.get(type || 'General event') || eventColours[0];
+    }
+
+    function renderLegend(types) {
+      state.legendTypes = Array.isArray(types) ? [...types] : [];
+      const totalPages = Math.max(1, Math.ceil(state.legendTypes.length / state.legendPageSize));
+      if (state.legendPage >= totalPages) state.legendPage = totalPages - 1;
+      if (state.legendPage < 0) state.legendPage = 0;
+
+      els.legend.innerHTML = '';
+      const startIndex = state.legendPage * state.legendPageSize;
+      const pageTypes = state.legendTypes.slice(startIndex, startIndex + state.legendPageSize);
+
+      pageTypes.forEach(type => {
+        const item = document.createElement('button');
+        item.type = 'button';
+        const isActive = state.activeLegendType === type;
+        item.className = `legend-item legend-filter${isActive ? ' active' : ''}`;
+        item.title = `Filter to first ${type} event and focus it in the calendar and table`;
+        if (isActive) item.style.background = getTypeColour(type);
+        item.innerHTML = isActive
+          ? `<span>${escapeHtml(type)}</span>`
+          : `<span class="legend-dot" style="background:${getTypeColour(type)}"></span><span>${escapeHtml(type)}</span>`;
+        item.addEventListener('click', () => selectFirstEventForType(type));
+        els.legend.appendChild(item);
+      });
+
+      updateLegendPager(totalPages);
+    }
+
+    function updateLegendPager(totalPages = Math.max(1, Math.ceil(state.legendTypes.length / state.legendPageSize))) {
+      const currentPage = state.legendTypes.length ? state.legendPage + 1 : 0;
+      if (els.legendPageStatus) {
+        els.legendPageStatus.textContent = state.legendTypes.length
+          ? `Page ${currentPage} of ${totalPages}`
+          : 'No legend items';
+      }
+      if (els.legendPrevBtn) els.legendPrevBtn.disabled = !state.legendTypes.length || state.legendPage <= 0;
+      if (els.legendNextBtn) els.legendNextBtn.disabled = !state.legendTypes.length || state.legendPage >= totalPages - 1;
+    }
+
+    function shiftLegendPage(delta) {
+      const totalPages = Math.max(1, Math.ceil(state.legendTypes.length / state.legendPageSize));
+      state.legendPage = Math.min(Math.max(state.legendPage + delta, 0), totalPages - 1);
+
+    }
+
+    function selectFirstEventForType(type) {
+      if (state.activeLegendType === type) {
+        clearSelection();
+        return;
+      }
+
+      const candidates = state.filteredEvents.length ? state.filteredEvents : state.events;
+      const matches = candidates.filter(evt => (evt.type || 'General event') === type);
+      if (!matches.length) return;
+
+      const now = stripTime(new Date());
+      const focusEvent = matches.reduce((best, evt) => {
+        if (!best) return evt;
+        const bestDelta = Math.abs(stripTime(best.bumpIn || best.startDate).getTime() - now.getTime());
+        const evtDelta = Math.abs(stripTime(evt.bumpIn || evt.startDate).getTime() - now.getTime());
+        if (evtDelta !== bestDelta) return evtDelta < bestDelta ? evt : best;
+        return (evt.bumpIn || evt.startDate) < (best.bumpIn || best.startDate) ? evt : best;
+      }, null);
+
+      state.activeLegendType = type;
+      state.selectedEventId = focusEvent.id;
+      state.tableFocusedEventId = null;
+      state.selectedDateKey = null;
+      state.startDayFocusedDateKey = null;
+      focusCalendarOnEventStart(focusEvent);
+      closePopover();
+      renderAll();
+      clearMapLocationIsolation({ returnHome: true });
+      scrollSelectedTableRowIntoView();
+    }
+
+    function applyFilters() {
+      const q = state.searchText.trim().toLowerCase();
+      let eventLocationSelectionCleared = false;
+      state.filteredEvents = q ? state.events.filter(evt => buildSearchBlob(evt).includes(q)) : [...state.events];
+      if (state.selectedEventId && !state.filteredEvents.some(e => e.id === state.selectedEventId)) {
+        state.selectedEventId = null;
+        state.tableFocusedEventId = null;
+        eventLocationSelectionCleared = true;
+      }
+      if (state.tableFocusedEventId && !state.filteredEvents.some(e => e.id === state.tableFocusedEventId)) {
+        state.tableFocusedEventId = null;
+      }
+      if (state.selectedDateKey && !getEventsForDateKey(state.selectedDateKey, state.filteredEvents).length) {
+        state.selectedDateKey = null;
+      }
+      if (state.startDayFocusedDateKey && !getEventsStartingOnDateKey(state.startDayFocusedDateKey, state.filteredEvents).length) {
+        state.startDayFocusedDateKey = null;
+      }
+      if (state.activeLegendType && !state.filteredEvents.some(evt => (evt.type || 'General event') === state.activeLegendType)) {
+        state.activeLegendType = null;
+        state.selectedEventId = null;
+        state.tableFocusedEventId = null;
+      }
+      renderAll();
+      if (eventLocationSelectionCleared) clearMapLocationIsolation({ returnHome: true });
+    }
+
+    function syncActiveFilterPill() {
+      if (!els.activeFilterPill) return;
+      const selected = state.events.find(e => e.id === state.selectedEventId) || state.filteredEvents.find(e => e.id === state.selectedEventId);
+      const tableFocused = state.filteredEvents.find(e => e.id === state.tableFocusedEventId) || state.events.find(e => e.id === state.tableFocusedEventId);
+      const roadClosureActive = state.roadClosureTableActive && state.roadClosureDateKey;
+      const active = roadClosureActive || selected || tableFocused || state.selectedDateKey || state.startDayFocusedDateKey || state.activeLegendType;
+      if (!active) {
+        els.activeFilterPill.hidden = true;
+        els.activeFilterPill.innerHTML = '';
+        els.activeFilterPill.classList.remove('road-closure-filter');
+        return;
+      }
+      if (roadClosureActive) {
+        els.activeFilterPill.classList.add('road-closure-filter');
+        els.activeFilterPill.style.setProperty('--filter-colour', '#b91c1c');
+        els.activeFilterPill.hidden = false;
+        els.activeFilterPill.innerHTML = `<strong><span class="road-closure-filter-symbol" aria-hidden="true">R</span>Road Closure Filter Active</strong><span>${escapeHtml(displayDateWithWeekday(parseDate(state.roadClosureDateKey)))}</span><button type="button" aria-label="Cancel active filtering" data-tip="Cancel filtering"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>`;
+      } else {
+        els.activeFilterPill.classList.remove('road-closure-filter');
+        const colourEvent = tableFocused || selected;
+        const filterColour = colourEvent ? getTypeColour(colourEvent.organiser || colourEvent.type) : (state.activeLegendType ? getTypeColour(state.activeLegendType) : 'var(--accent)');
+        els.activeFilterPill.style.setProperty('--filter-colour', filterColour);
+        els.activeFilterPill.hidden = false;
+        els.activeFilterPill.innerHTML = `<strong>Filter Active</strong><button type="button" aria-label="Cancel active filtering" data-tip="Cancel filtering"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>`;
+      }
+      els.activeFilterPill.querySelector('button')?.addEventListener('click', e => { e.stopPropagation(); clearSelection(); });
+    }
+
+    function renderAll() {
+      renderCalendar();
+      renderTable();
+      renderSelectionDetails();
+      renderCalendarLegend();
+      syncActiveFilterPill();
+
+    }
+
+    function getVisibleDateRange() {
+      const from = parseDate(els.rangeStart.value) || new Date();
+      const to = parseDate(els.rangeEnd.value) || from;
+      return from <= to ? { from, to } : { from: to, to: from };
+    }
+
+    function syncMonthViewButtons() {
+      const activeValue = String(state.monthViewCount || els.monthViewCount?.value || 1);
+      if (els.monthViewCount) els.monthViewCount.value = activeValue;
+      (els.monthViewButtons || []).forEach(btn => {
+        const isActive = btn.dataset.monthView === activeValue;
+        btn.classList.toggle('active', isActive);
+        btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+    }
+
+    function renderCalendar() {
+      closePopover();
+      const { from, to } = getVisibleDateRange();
+      syncMonthViewCountFromRange();
+      syncMonthViewButtons();
+      const months = enumerateMonths(from, to).slice(0, state.monthViewCount);
+      const viewTo = months.length ? endOfMonth(months[months.length - 1]) : to;
+      const eventsByDay = groupEventsByStartDay(state.filteredEvents, from, viewTo);
+      const selected = state.filteredEvents.find(e => e.id === state.selectedEventId) || null;
+      const todayKey = toISODate(stripTime(new Date()));
+      els.todayBtn?.classList.remove('has-events-today');
+      els.months.className = `months view-${state.monthViewCount}`;
+      els.months.innerHTML = '';
+
+      months.forEach((monthDate, index) => {
+        els.months.appendChild(renderMonth(monthDate, eventsByDay, selected, index));
+      });
+
+      renderCalendarLegend(selected);
+      if (els.clearSelectionBtn) els.clearSelectionBtn.hidden = !selected && !state.tableFocusedEventId && !state.selectedDateKey && !state.startDayFocusedDateKey;
+    }
+
+    function enumerateMonths(from, to) {
+      const months = [];
+      const cursor = new Date(from.getFullYear(), from.getMonth(), 1);
+      const end = new Date(to.getFullYear(), to.getMonth(), 1);
+      while (cursor <= end) {
+        months.push(new Date(cursor));
+        cursor.setMonth(cursor.getMonth() + 1);
+      }
+      return months;
+    }
+
+    function groupEventsByStartDay(events, from, to) {
+      const map = new Map();
+      events.forEach(evt => {
+        if (evt.startDate < from || evt.startDate > to) return;
+        const key = toISODate(evt.startDate);
+        if (!map.has(key)) map.set(key, []);
+        map.get(key).push(evt);
+      });
+      for (const list of map.values()) list.sort((a, b) => a.title.localeCompare(b.title));
+      return map;
+    }
+
+    function renderMonth(monthDate, eventsByDay, selected, monthIndex = 0) {
+      const section = document.createElement('section');
+      section.className = `month month-border-${monthIndex % 3}`;
+      const title = monthDate.toLocaleDateString('en-AU', { month: 'long', year: 'numeric' });
+      const monthHeader = state.mobileMode
+        ? `<div class="month-title mobile-month-title">
+            <div class="mobile-month-nav">
+              <button class="mobile-month-shift mobile-month-prev" type="button" aria-label="Previous month"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+              <span class="mobile-month-label">${escapeHtml(title)}</span>
+              <button class="mobile-month-shift mobile-month-next" type="button" aria-label="Next month"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+            </div>
+            <div class="mobile-calendar-inline-legend" aria-label="Calendar legend">
+              <span class="mobile-calendar-inline-legend-item"><span class="mobile-calendar-inline-legend-badge event">1</span><span>Events</span></span>
+              <span class="mobile-calendar-inline-legend-item"><span class="mobile-calendar-inline-legend-badge road">R</span><span>Road Closures</span></span>
+            </div>
+          </div>`
+        : `<div class="month-title">${escapeHtml(title)}</div>`;
+      section.innerHTML = `${monthHeader}<div class="weekdays">${['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(d => `<div class="weekday">${d}</div>`).join('')}</div>`;
+      if (state.mobileMode) {
+        section.querySelector('.mobile-month-prev')?.addEventListener('click', event => { event.stopPropagation(); shiftVisibleMonths(-1); });
+        section.querySelector('.mobile-month-next')?.addEventListener('click', event => { event.stopPropagation(); shiftVisibleMonths(1); });
+      }
+      const days = document.createElement('div');
+      days.className = 'days';
+
+      const first = new Date(monthDate.getFullYear(), monthDate.getMonth(), 1);
+      const mondayOffset = (first.getDay() + 6) % 7;
+      const gridStart = new Date(first);
+      gridStart.setDate(first.getDate() - mondayOffset);
+      const todayKey = toISODate(stripTime(new Date()));
+      const monthEnd = endOfMonth(monthDate);
+      const selectedSpansMultipleMonths = spansMultipleCalendarMonths(selected);
+      const hideTrailingNextMonthDays = state.monthViewCount > 1 || selectedSpansMultipleMonths;
+      const hideLeadingPreviousMonthDays = monthIndex > 0 && selectedSpansMultipleMonths;
+
+      for (let i = 0; i < 42; i++) {
+        const dayDate = new Date(gridStart);
+        dayDate.setDate(gridStart.getDate() + i);
+        const dayKey = toISODate(dayDate);
+        const cell = document.createElement('div');
+        cell.className = 'day';
+        const isOutOfMonth = dayDate.getMonth() !== monthDate.getMonth();
+        const isTrailingNextMonthDay = isOutOfMonth && dayDate > monthEnd;
+        const isLeadingPreviousMonthDay = isOutOfMonth && dayDate < first;
+        const hideOutDay = (hideTrailingNextMonthDays && isTrailingNextMonthDay) || (hideLeadingPreviousMonthDays && isLeadingPreviousMonthDay);
+        if (isOutOfMonth) cell.classList.add('out');
+        if (hideOutDay) cell.classList.add('hidden-next-month-day');
+        const holidayName = hideOutDay ? '' : getSaPublicHolidayName(dayDate);
+        const isWeekend = dayDate.getDay() === 0 || dayDate.getDay() === 6;
+        if (isWeekend) cell.classList.add('weekend');
+        if (holidayName) {
+          cell.classList.add('public-holiday');
+          cell.title = holidayName;
+        }
+        if (dayKey === todayKey) cell.classList.add('today');
+        const inProgressEventsForDay = hideOutDay ? [] : getEventsForDateKey(dayKey, state.filteredEvents);
+        const roadClosuresForDay = hideOutDay ? [] : getRoadClosuresForDateKey(dayKey);
+        if (!hideOutDay && (state.selectedDateKey === dayKey || state.startDayFocusedDateKey === dayKey)) cell.classList.add('date-filtered');
+        if (!hideOutDay && isDateInSelectedEventRange(dayDate, selected)) {
+          cell.classList.add('in-range');
+          cell.style.setProperty('--selected-colour', getTypeColour(selected.type));
+          if (isDateInSelectedCalendarEventSpan(dayDate, selected)) cell.classList.add('event-span-day');
+          else cell.classList.add('bump-span-day');
+          if (isSelectedEventStartOrEnd(dayDate, selected)) cell.classList.add('event-boundary-day');
+          if (isSelectedBumpInOrOut(dayDate, selected)) cell.classList.add('bump-boundary-day');
+          applyBumpOuterEdgeClasses(cell, dayDate, selected);
+        }
+        const holidayMarkup = holidayName ? '<div class="day-flags"><span class="day-flag holiday" title="' + escapeHtml(holidayName) + '"></span></div><div class="holiday-name" title="' + escapeHtml(holidayName) + '">' + escapeHtml(holidayName) + '</div>' : '';
+        cell.innerHTML = hideOutDay ? '' : `<div class="day-num">${dayDate.getDate()}</div>${holidayMarkup}`;
+
+        const events = hideOutDay ? [] : (eventsByDay.get(dayKey) || []);
+        const useCompactEventPills = state.mobileMode || state.monthViewCount > 1;
+        const pillGroup = document.createElement('div');
+        pillGroup.className = 'day-pill-group';
+
+        if (events.length === 1) {
+          const isSelectedStartEvent = selected && events[0].id === selected.id;
+          const marker = document.createElement('button');
+          marker.type = 'button';
+          marker.className = `event-marker${useCompactEventPills ? ' compact-event-count-pill' : ''}${isSelectedStartEvent ? ' selected-start-event-marker' : ''}`;
+          marker.style.background = state.mobileMode ? '#2563eb' : getTypeColour(events[0].type);
+          if (isSelectedStartEvent) marker.style.setProperty('--selected-colour', getTypeColour(events[0].type));
+          marker.innerHTML = `<span>${escapeHtml(state.mobileMode ? '1' : (useCompactEventPills ? '1' : (isSelectedStartEvent ? 'Event' : events[0].title)))}</span>`;
+          marker.title = events[0].title;
+          marker.addEventListener('click', event => {
+            event.stopPropagation();
+            if (state.mobileMode) openMobileEventCollection(dayDate, events);
+            else handleCalendarEventPillClick(events[0], event.currentTarget);
+          });
+          pillGroup.appendChild(marker);
+        } else if (events.length > 1) {
+          const selectedStartEvent = selected && events.find(evt => evt.id === selected.id);
+          if (selectedStartEvent) {
+            const marker = document.createElement('button');
+            marker.type = 'button';
+            marker.className = `event-marker selected-start-event-marker${useCompactEventPills ? ' compact-event-count-pill' : ''}`;
+            marker.style.background = state.mobileMode ? '#2563eb' : getTypeColour(selectedStartEvent.type);
+            marker.style.setProperty('--selected-colour', getTypeColour(selectedStartEvent.type));
+            marker.innerHTML = `<span>${escapeHtml(useCompactEventPills ? events.length : 'Event')}</span>`;
+            marker.title = `${selectedStartEvent.title} — selected from ${events.length} events starting ${displayDate(dayDate)}`;
+            marker.addEventListener('click', event => {
+              event.stopPropagation();
+              if (state.mobileMode) openMobileEventCollection(dayDate, events);
+              else handleCalendarEventPillClick(selectedStartEvent, event.currentTarget);
+            });
+            pillGroup.appendChild(marker);
+          } else {
+            const badge = document.createElement('button');
+            badge.type = 'button';
+            badge.className = `event-badge${useCompactEventPills ? ' compact-event-count-pill' : ''}`;
+            badge.style.background = state.mobileMode ? '#2563eb' : getTypeColour(events[0].type);
+            badge.innerHTML = useCompactEventPills
+              ? `<span>${escapeHtml(events.length)}</span>`
+              : `<span class="event-badge-label">Events</span> <span class="event-badge-count">${escapeHtml(events.length)}</span>`;
+            badge.title = `${events.length} events start on ${displayDate(dayDate)}`;
+            badge.addEventListener('click', event => {
+              event.stopPropagation();
+              if (state.mobileMode) {
+                openMobileEventCollection(dayDate, events);
+                return;
+              }
+              const anchorRect = event.currentTarget.getBoundingClientRect();
+              selectStartDayBadgeDate(dayDate, events, anchorRect);
+            });
+            pillGroup.appendChild(badge);
+          }
+        }
+        if (!hideOutDay && roadClosuresForDay.length) {
+          const roadBadge = document.createElement('button');
+          roadBadge.type = 'button';
+          roadBadge.className = `road-closure-day-badge${state.roadClosureTableActive && state.roadClosureDateKey === dayKey ? ' is-active' : ''}`;
+          roadBadge.textContent = 'R';
+          roadBadge.title = `${roadClosuresForDay.length} road closure${roadClosuresForDay.length === 1 ? '' : 's'} active on ${displayDateWithWeekday(dayDate)}`;
+          roadBadge.setAttribute('aria-label', roadBadge.title);
+          roadBadge.addEventListener('click', event => {
+            event.stopPropagation();
+            if (state.mobileMode) openMobileRoadClosureCollection(dayDate, roadClosuresForDay);
+            else selectRoadClosureDate(dayKey);
+          });
+          pillGroup.appendChild(roadBadge);
+        }
+        if (!hideOutDay && dayKey === todayKey && (events.length || roadClosuresForDay.length)) cell.classList.add('today-has-items');
+        if (pillGroup.childElementCount) cell.appendChild(pillGroup);
+        if (!hideOutDay && dayKey === todayKey && events.length === 0 && roadClosuresForDay.length === 0) {
+          const todayPill = document.createElement('span');
+          todayPill.className = 'today-empty-pill';
+          todayPill.textContent = 'Today';
+          cell.appendChild(todayPill);
+        }
+
+        cell.addEventListener('click', () => {
+          if (hideOutDay || state.mobileMode) return;
+          const anchorRect = cell.getBoundingClientRect();
+          const hasStartPillOrBadge = (eventsByDay.get(dayKey) || []).length > 0;
+          selectCalendarDate(dayDate, anchorRect, {
+            allowInProgressPicker: isCalendarFullscreenActive() && !hasStartPillOrBadge && inProgressEventsForDay.length > 0
+          });
+        });
+        days.appendChild(cell);
+      }
+      section.appendChild(days);
+      return section;
+    }
+
+    function isDateInRange(date, start, end) {
+      const d = stripTime(date).getTime();
+      return d >= stripTime(start).getTime() && d <= stripTime(end).getTime();
+    }
+
+    function isDateInSelectedEventRange(date, selected) {
+      return !!selected && isDateInRange(date, selected.bumpIn, selected.bumpOut);
+    }
+
+    function spansMultipleCalendarMonths(evt) {
+      if (!evt) return false;
+      const start = evt.bumpIn || evt.startDate;
+      const end = evt.bumpOut || evt.endDate || start;
+      return !!start && !!end && (start.getFullYear() !== end.getFullYear() || start.getMonth() !== end.getMonth());
+    }
+
+    function offsetDate(date, days) {
+      const d = new Date(date);
+      d.setDate(d.getDate() + days);
+      return d;
+    }
+
+    function applyBumpOuterEdgeClasses(cell, date, selected) {
+      if (!selected || !isDateInSelectedEventRange(date, selected)) return;
+      if (!isDateInSelectedEventRange(offsetDate(date, -7), selected)) cell.classList.add('bump-outer-top');
+      if (!isDateInSelectedEventRange(offsetDate(date, 7), selected)) cell.classList.add('bump-outer-bottom');
+      if (!isDateInSelectedEventRange(offsetDate(date, -1), selected)) cell.classList.add('bump-outer-left');
+      if (!isDateInSelectedEventRange(offsetDate(date, 1), selected)) cell.classList.add('bump-outer-right');
+    }
+
+    function isDateInSelectedCalendarEventSpan(date, selected) {
+      return !!selected && isDateInRange(date, selected.startDate, selected.endDate);
+    }
+
+    function isSameCalendarDay(a, b) {
+      return !!a && !!b && toISODate(a) === toISODate(b);
+    }
+
+    function isSelectedEventStartOrEnd(date, selected) {
+      return !!selected && (isSameCalendarDay(date, selected.startDate) || isSameCalendarDay(date, selected.endDate));
+    }
+
+    function isSelectedBumpInOrOut(date, selected) {
+      return !!selected && (isSameCalendarDay(date, selected.bumpIn) || isSameCalendarDay(date, selected.bumpOut));
+    }
+
+    function getEventsStartingOnDateKey(dateKey, events = state.filteredEvents) {
+      const date = parseDate(dateKey);
+      if (!date) return [];
+      return events
+        .filter(evt => isSameCalendarDay(date, evt.startDate))
+        .sort((a, b) => a.title.localeCompare(b.title));
+    }
+
+    function getEventsForDateKey(dateKey, events = state.filteredEvents) {
+      const date = parseDate(dateKey);
+      if (!date) return [];
+      return events
+        .filter(evt => isDateInRange(date, evt.startDate, evt.endDate))
+        .sort((a, b) => (a.startDate - b.startDate) || a.title.localeCompare(b.title));
+    }
+
+    function selectStartDayBadgeDate(date, startEvents, anchorRect) {
+      const key = toISODate(date);
+      if (state.startDayFocusedDateKey === key) {
+        clearSelection();
+        return;
+      }
+      const eventsForStartDay = Array.isArray(startEvents) && startEvents.length
+        ? startEvents
+        : getEventsStartingOnDateKey(key, state.filteredEvents);
+      leaveRoadClosureTableMode();
+      state.startDayFocusedDateKey = key;
+      state.selectedDateKey = null;
+      state.selectedEventId = null;
+      state.countBadgeSelectedEventId = null;
+      state.tableFocusedEventId = null;
+      state.activeLegendType = null;
+      closePopover();
+      renderAll();
+      clearMapLocationIsolation({ returnHome: true });
+      scrollSelectedOrFirstVisibleTableRowIntoView();
+      if (eventsForStartDay.length > 1 && anchorRect) {
+        const virtualAnchor = { getBoundingClientRect: () => anchorRect };
+        window.requestAnimationFrame(() => showEventPopover(virtualAnchor, date, eventsForStartDay, { mode: 'start-day' }));
+      }
+    }
+
+    function selectCalendarDate(date, anchorRect = null, options = {}) {
+      const key = toISODate(date);
+      const dateEvents = getEventsForDateKey(key, state.filteredEvents);
+      // v78: empty calendar days are inert and never create an active filter pill.
+      if (!dateEvents.length) return;
+      if (state.selectedDateKey === key) {
+        clearSelection();
+        return;
+      }
+      leaveRoadClosureTableMode();
+      state.selectedDateKey = key;
+      state.startDayFocusedDateKey = null;
+      state.selectedEventId = null;
+      state.countBadgeSelectedEventId = null;
+      state.tableFocusedEventId = null;
+      state.activeLegendType = null;
+      closePopover();
+      renderAll();
+      clearMapLocationIsolation({ returnHome: true });
+      scrollSelectedOrFirstVisibleTableRowIntoView();
+      if (options.allowInProgressPicker && anchorRect) {
+        const virtualAnchor = { getBoundingClientRect: () => anchorRect };
+        window.requestAnimationFrame(() => showEventPopover(virtualAnchor, date, dateEvents, { mode: 'in-progress' }));
+      }
+    }
+
+    function renderCalendarLegend(selectedOverride = null) {
+      if (!els.calendarStatus) return;
+      const selected = selectedOverride || state.filteredEvents.find(e => e.id === state.selectedEventId) || state.events.find(e => e.id === state.selectedEventId) || null;
+      const activeClass = selected ? ' active' : '';
+      const eventLabel = selected ? `Event start/end: ${displayDate(selected.startDate)} → ${displayDate(selected.endDate)}` : 'Event start/end';
+      const bumpLabel = selected ? `Bump in/out: ${displayDate(selected.bumpIn)} → ${displayDate(selected.bumpOut)}` : 'Bump in/out';
+      els.calendarStatus.classList.add('visible');
+      els.calendarStatus.innerHTML = `
+        <strong>Calendar legend</strong>
+        <span class="range-legend-item"><span class="range-legend-swatch weekend"></span>Weekend</span>
+        <span class="range-legend-item"><span class="range-legend-swatch holiday"></span>SA/National public holiday</span>
+        <span class="range-legend-item"><span class="road-closure-legend-badge" aria-hidden="true">R</span>Road closure</span>
+        <span class="range-legend-item filter-only${activeClass}" style="color:var(--selected-event-boundary)"><span class="range-legend-swatch"></span>${eventLabel}</span>
+        <span class="range-legend-item filter-only${activeClass}" style="color:var(--selected-bump-boundary)"><span class="range-legend-swatch"></span>${bumpLabel}</span>
+      `;
+    }
+
+    function handleCalendarEventPillClick(evt, anchorEl) {
+      const alreadySelected = state.selectedEventId === evt.id;
+      const fromCountBadgePicker = state.countBadgeSelectedEventId === evt.id;
+      const anchorRect = anchorEl?.getBoundingClientRect ? anchorEl.getBoundingClientRect() : null;
+      if (isCalendarFullscreenActive() && alreadySelected && fromCountBadgePicker && anchorRect) {
+        const virtualAnchor = { getBoundingClientRect: () => anchorRect };
+        window.requestAnimationFrame(() => showEventDetailCard(virtualAnchor, evt));
+        return;
+      }
+      selectEvent(evt.id, { focusTableOnly: true, autoExpand: false, toggleIfSelected: true });
+      if (isCalendarFullscreenActive() && !alreadySelected && anchorRect) {
+        const virtualAnchor = { getBoundingClientRect: () => anchorRect };
+        window.requestAnimationFrame(() => showEventDetailCard(virtualAnchor, evt));
+      }
+    }
+
+    function showEventDetailCard(anchor, evt) {
+      if (!isCalendarFullscreenActive() || !evt) return;
+      closePopover();
+      const card = document.createElement('div');
+      card.className = 'event-popover event-detail-card';
+      card.setAttribute('role', 'dialog');
+      card.setAttribute('aria-label', 'Event details');
+      const bookedSpaces = String(pickField(evt.raw, ['Booked Spaces', 'booked_spaces', 'Spaces', 'Location', 'location']) || evt.location || '').trim();
+      card.innerHTML = `
+        <div class="event-detail-card-head">
+          <button class="event-detail-close" type="button" title="Close event details" aria-label="Close event details">✕</button>
+        </div>
+        <div class="event-detail-card-body">
+          ${bookedSpaces ? `<div><span class="event-detail-label">Location</span><div class="event-detail-text">${formatPopupValue(bookedSpaces, { splitSemicolon: true })}</div></div>` : ''}
+          ${evt.description ? `<div><span class="event-detail-label">Description</span><div class="event-detail-text">${escapeHtml(evt.description)}</div></div>` : ''}
+        </div>
+      `;
+      card.querySelector('.event-detail-close')?.addEventListener('click', event => {
+        event.stopPropagation();
+        closePopover();
+      });
+      const popoverHost = els.calendarScroll;
+      popoverHost.appendChild(card);
+      const rect = anchor.getBoundingClientRect();
+      const hostRect = popoverHost.getBoundingClientRect();
+      const cardWidth = card.offsetWidth || 460;
+      const cardHeight = card.offsetHeight || 260;
+      const gap = 12;
+      const margin = 14;
+      const scrollLeft = popoverHost.scrollLeft || 0;
+      const scrollTop = popoverHost.scrollTop || 0;
+      const visibleWidth = hostRect.width || window.innerWidth;
+      const visibleHeight = hostRect.height || window.innerHeight;
+
+      let left = rect.right - hostRect.left + scrollLeft + gap;
+      if (left + cardWidth > scrollLeft + visibleWidth - margin) {
+        left = rect.left - hostRect.left + scrollLeft - cardWidth - gap;
+      }
+      if (left < scrollLeft + margin) {
+        left = Math.min(Math.max(rect.left - hostRect.left + scrollLeft, scrollLeft + margin), scrollLeft + visibleWidth - cardWidth - margin);
+      }
+
+      let top = rect.top - hostRect.top + scrollTop;
+      if (top + cardHeight > scrollTop + visibleHeight - margin) {
+        top = rect.bottom - hostRect.top + scrollTop + gap;
+      }
+      if (top + cardHeight > scrollTop + visibleHeight - margin) {
+        top = scrollTop + visibleHeight - cardHeight - margin;
+      }
+      top = Math.max(scrollTop + margin, top);
+
+      card.style.left = `${Math.round(left)}px`;
+      card.style.top = `${Math.round(top)}px`;
+      state.popover = card;
+    }
+
+    function showEventPopover(anchor, date, events, options = {}) {
+      closePopover();
+      const pop = document.createElement('div');
+      pop.className = 'event-popover';
+      const popoverLabel = options.mode === 'start-day'
+        ? 'events starting'
+        : options.mode === 'in-progress'
+          ? 'events in progress'
+          : 'events';
+      pop.innerHTML = `<h4>${events.length} ${popoverLabel} • ${displayDate(date)}</h4>`;
+      events.forEach(evt => {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'event-option';
+        button.innerHTML = `<strong>${escapeHtml(evt.title)}</strong><small>${escapeHtml(evt.type)}<br>${displayDate(evt.bumpIn)} → ${displayDate(evt.bumpOut)}</small>`;
+        button.addEventListener('click', event => {
+          // Keep picker selection from bubbling to the document-level outside-click handler.
+          // Without this, full-screen mode can immediately clear count-badge picker state
+          // before the selected event pill has a chance to render.
+          event.stopPropagation();
+          const selectedFromStartDayPicker = options.mode === 'start-day';
+          if (selectedFromStartDayPicker) state.countBadgeSelectedEventId = evt.id;
+          selectEvent(evt.id, { focusTableOnly: true, autoExpand: false, toggleIfSelected: true, selectedFromStartDayPicker });
+        });
+        pop.appendChild(button);
+      });
+      const popoverHost = isCalendarFullscreenActive() ? els.calendarScroll : document.body;
+      popoverHost.appendChild(pop);
+      const rect = anchor.getBoundingClientRect();
+      const popWidth = pop.offsetWidth || 360;
+      const popHeight = pop.offsetHeight || 320;
+      const left = Math.min(rect.left, window.innerWidth - popWidth - 12);
+      const top = Math.min(rect.bottom + 8, window.innerHeight - popHeight - 12);
+      pop.style.left = `${Math.max(12, left)}px`;
+      pop.style.top = `${Math.max(12, top)}px`;
+      state.popover = pop;
+    }
+
+    function closePopover() {
+      if (state.popover) state.popover.remove();
+      state.popover = null;
+    }
+
+    function getInclusiveMonthSpan(startDate, endDate) {
+      if (!startDate || !endDate) return 1;
+      return Math.max(1, ((endDate.getFullYear() - startDate.getFullYear()) * 12) + (endDate.getMonth() - startDate.getMonth()) + 1);
+    }
+
+    function getEventTotalRange(event) {
+      const dates = [event?.bumpIn, event?.startDate, event?.endDate, event?.bumpOut].filter(Boolean);
+      if (!dates.length) return { start: null, end: null };
+      const start = new Date(Math.min(...dates.map(d => stripTime(d).getTime())));
+      const end = new Date(Math.max(...dates.map(d => stripTime(d).getTime())));
+      return { start, end };
+    }
+
+    function applyAutomaticMonthViewForEvent(event) {
+      if (!event || !event.startDate) return;
+      if (!state.autoMonthViewActive) {
+        const currentWindow = getVisibleDateRange();
+        state.preAutoMonthViewCount = state.userMonthViewCount || state.monthViewCount || 1;
+        state.preAutoCalendarWindow = {
+          from: toISODate(currentWindow.from),
+          to: toISODate(currentWindow.to)
+        };
+      }
+      const totalRange = getEventTotalRange(event);
+      const neededMonths = Math.min(3, getInclusiveMonthSpan(totalRange.start || event.startDate, totalRange.end || event.endDate || event.startDate));
+      const displayMonths = Math.max(1, neededMonths);
+      state.autoMonthViewActive = true;
+      state.monthViewCount = displayMonths;
+      els.monthViewCount.value = String(displayMonths);
+    }
+
+    function restoreUserMonthViewAfterEventFilter() {
+      const restoredCount = Math.max(1, Math.min(3, Number(state.preAutoMonthViewCount || state.userMonthViewCount || state.monthViewCount || 1)));
+      state.monthViewCount = restoredCount;
+      state.userMonthViewCount = restoredCount;
+      els.monthViewCount.value = String(restoredCount);
+      state.autoMonthViewActive = false;
+      state.preAutoMonthViewCount = null;
+      const restoredWindow = state.preAutoCalendarWindow;
+      state.preAutoCalendarWindow = null;
+      return restoredWindow;
+    }
+
+    function focusCalendarOnEventStart(event) {
+      if (!event || !(event.bumpIn || event.startDate)) return;
+      applyAutomaticMonthViewForEvent(event);
+      const focusDate = event.bumpIn || event.startDate;
+      const start = new Date(focusDate.getFullYear(), focusDate.getMonth(), 1);
+      const end = endOfMonth(addMonths(start, state.monthViewCount - 1));
+      els.rangeStart.value = toISODate(start);
+      els.rangeEnd.value = toISODate(end);
+    }
+
+    function selectEvent(id, options = {}) {
+      leaveRoadClosureTableMode();
+      if (options.toggleIfSelected && state.selectedEventId === id) {
+        clearSelection();
+        return;
+      }
+      const selected = state.events.find(e => e.id === id) || state.filteredEvents.find(e => e.id === id);
+      state.selectedEventId = id;
+      state.selectedDateKey = null;
+      state.startDayFocusedDateKey = null;
+      if (!options.selectedFromStartDayPicker) state.countBadgeSelectedEventId = null;
+      if (!options.preserveLegendType) state.activeLegendType = null;
+
+      if (options.focusTableOnly && selected) {
+        state.tableFocusedEventId = id;
+      }
+
+      if (selected) focusCalendarOnEventStart(selected);
+      closePopover();
+      renderAll();
+      syncActiveEventLocationMapFilter();
+      if (options.autoExpand) scrollSelectedTableRowIntoView();
+    }
+
+    function clearSelection() {
+      const currentStart = getVisibleDateRange().from;
+      leaveRoadClosureTableMode();
+      state.selectedEventId = null;
+      state.countBadgeSelectedEventId = null;
+      state.tableFocusedEventId = null;
+      state.selectedDateKey = null;
+      state.startDayFocusedDateKey = null;
+      state.activeLegendType = null;
+      const restoredWindow = restoreUserMonthViewAfterEventFilter();
+      if (restoredWindow?.from && restoredWindow?.to) {
+        els.rangeStart.value = restoredWindow.from;
+        els.rangeEnd.value = restoredWindow.to;
+      } else {
+        const restoredEnd = endOfMonth(addMonths(currentStart, state.monthViewCount - 1));
+        els.rangeStart.value = toISODate(currentStart);
+        els.rangeEnd.value = toISODate(restoredEnd);
+      }
+      renderAll();
+      clearMapLocationIsolation({ returnHome: true, forceHome: true });
+    }
+
+    function renderSelectionDetails() {
+      if (!els.selectionDetails) return;
+      const selected = state.filteredEvents.find(e => e.id === state.selectedEventId);
+      if (!selected) {
+        els.selectionDetails.innerHTML = '<p>Select an event marker, badge item, table row, or date to filter the table.</p>';
+        return;
+      }
+      els.selectionDetails.innerHTML = `
+        <p><strong>${escapeHtml(selected.title)}</strong></p>
+        <p><span class="type-pill" style="--pill-colour:${getTypeColour(selected.organiser)};background:${getTypeColour(selected.organiser)}">${escapeHtml(selected.organiser)}</span></p>
+        <p><strong>Start:</strong> ${displayDate(selected.startDate)}</p>
+        <p><strong>Bump in/out:</strong> ${displayDate(selected.bumpIn)} → ${displayDate(selected.bumpOut)}</p>
+        ${selected.location ? `<p><strong>Location:</strong> ${escapeHtml(selected.location)}</p>` : ''}
+        ${selected.description ? `<p><strong>Description:</strong> ${escapeHtml(selected.description)}</p>` : ''}
+      `;
+    }
+
+    function getTableEventsToRender() {
+      if (state.activeLegendType) {
+        return state.filteredEvents.filter(evt => (evt.type || 'General event') === state.activeLegendType);
+      }
+      if (state.tableFocusedEventId) {
+        const focused = state.filteredEvents.find(evt => evt.id === state.tableFocusedEventId);
+        return focused ? [focused] : state.filteredEvents;
+      }
+      if (state.startDayFocusedDateKey) return getEventsStartingOnDateKey(state.startDayFocusedDateKey, state.filteredEvents);
+      if (state.selectedDateKey) return getEventsForDateKey(state.selectedDateKey, state.filteredEvents);
+      return state.filteredEvents;
+    }
+
+    function scrollSelectedTableRowIntoView() {
+      const forceTop = () => {
+        const row = els.dataBody.querySelector('tr.selected');
+        if (!row) return;
+        const wrap = els.tableWrap;
+        if (wrap) {
+          const headerHeight = wrap.querySelector('thead')?.offsetHeight || 0;
+          wrap.scrollTop = Math.max(0, row.offsetTop - headerHeight);
+          wrap.scrollLeft = 0;
+        } else {
+          const rect = row.getBoundingClientRect();
+          window.scrollTo({ top: Math.max(0, window.scrollY + rect.top - 80), left: 0 });
+        }
+      };
+      window.requestAnimationFrame(() => {
+        forceTop();
+        window.requestAnimationFrame(() => {
+          forceTop();
+          window.setTimeout(forceTop, 60);
+        });
+      });
+    }
+
+    function scrollSelectedOrFirstVisibleTableRowIntoView() {
+      const forceTop = () => {
+        const row = els.dataBody.querySelector('tr.selected') || els.dataBody.querySelector('tr[data-event-id]');
+        if (!row) return;
+        const wrap = els.tableWrap;
+        if (wrap) {
+          const headerHeight = wrap.querySelector('thead')?.offsetHeight || 0;
+          wrap.scrollTop = Math.max(0, row.offsetTop - headerHeight);
+          wrap.scrollLeft = 0;
+        } else {
+          const rect = row.getBoundingClientRect();
+          window.scrollTo({ top: Math.max(0, window.scrollY + rect.top - 80), left: 0 });
+        }
+      };
+      window.requestAnimationFrame(() => {
+        forceTop();
+        window.requestAnimationFrame(() => {
+          forceTop();
+          window.setTimeout(forceTop, 60);
+        });
+      });
+    }
+
+    const MAIN_TABLE_DISPLAY_FIELD_ALIAS_GROUPS = [
+      ['title', 'name', 'event_name', 'event name', 'Event', 'Event Name'],
+      ['Event Organiser', 'event organiser', 'organiser', 'organizer'],
+      ['bump_in', 'bumpIn', 'Bump In', 'Bump - In'],
+      ['start_date', 'Start Date', 'startDay', 'start day', 'Start'],
+      ['end_date', 'End Date', 'endDay', 'End'],
+      ['bump_out', 'bumpOut', 'Bump Out', 'Bump - Out'],
+      ['location', 'Booked Spaces', 'spaces', 'venue', 'site'],
+      ['Coordinator', 'coordinator'],
+      ['_sourceRow']
+    ];
+
+    function getMainTableDisplayedRawFields() {
+      const displayed = new Set();
+      state.events.forEach(evt => {
+        MAIN_TABLE_DISPLAY_FIELD_ALIAS_GROUPS.forEach(group => {
+          const matched = getMatchedFieldName(evt.raw, group);
+          if (matched) displayed.add(matched);
+        });
+      });
+      return displayed;
+    }
+
+    function getMainTableExtraFields() {
+      return [];
+    }
+
+    function renderMainTableHeader(extraFields) {
+      const headerRow = document.querySelector('.table-wrap table thead tr');
+      const table = document.querySelector('.table-wrap table');
+      if (!headerRow) return;
+      headerRow.innerHTML = `
+                <th class="action-col" title="Expand/collapse row">↕</th>
+                <th class="title-col">Title</th>
+                <th class="type-col">Event Organiser</th>
+                <th class="date-col">Bump In</th>
+                <th class="date-col">Start</th>
+                <th class="date-col">End</th>
+                <th class="date-col">Bump Out</th>
+                <th class="location-col">Location</th>
+                <th class="description-col">Coordinator</th>
+      `;
+      if (table) table.style.minWidth = '1225px';
+    }
+
+    function getRawFieldDisplayValue(raw, field) {
+      const value = raw ? raw[field] : '';
+      if (value === null || value === undefined) return '';
+      if (typeof value === 'object') return JSON.stringify(value);
+      return String(value);
+    }
+
+    function isRoadClosureOrderField(field) {
+      return String(field || '').trim().toLowerCase() === 'road closure order';
+    }
+
+    function hasPopupValue(value) {
+      return String(value ?? '').trim().length > 0;
+    }
+
+    function renderFieldPopupButton(label, fieldKey) {
+      return `<button class="field-popup-btn" type="button" title="Open ${escapeHtml(label)} in popup" aria-label="Open ${escapeHtml(label)} in popup" data-field-popup="${escapeHtml(fieldKey)}">↗</button>`;
+    }
+
+    function renderMainTableExtraCell(evt, field) {
+      const value = getRawFieldDisplayValue(evt.raw, field);
+      if (isRoadClosureOrderField(field) && hasPopupValue(value)) {
+        return `<td class="extra-field-col"><div class="field-cell"><div class="cell-clamp">${escapeHtml(value)}</div>${renderFieldPopupButton(field, field)}</div></td>`;
+      }
+      return `<td class="extra-field-col"><div class="cell-clamp">${escapeHtml(value)}</div></td>`;
+    }
+
+    function splitSemicolonItems(value) {
+      return String(value ?? '')
+        .split(';')
+        .map(item => item.trim())
+        .filter(Boolean);
+    }
+
+    function formatPopupValue(value, options = {}) {
+      const text = String(value ?? '').trim();
+      if (!text) return '<p class="empty-state">No value available.</p>';
+      if (options.splitSemicolon) {
+        const items = splitSemicolonItems(text);
+        if (items.length > 1) {
+          return `<ol class="field-popup-list">${items.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ol>`;
+        }
+      }
+      return escapeHtml(text);
+    }
+
+    function openFieldPopup(title, value, options = {}) {
+      if (!els.fieldPopupModal || !els.fieldPopupTitle || !els.fieldPopupBody) return;
+      const isLocationPopup = options.locationStyle === true || String(title || '').trim().toLowerCase() === 'location';
+      const isSchedulePopup = options.scheduleStyle === true;
+      const popupCard = els.fieldPopupModal.querySelector('.field-popup-card');
+      els.fieldPopupModal.classList.toggle('location-popup-modal', isLocationPopup);
+      els.fieldPopupModal.classList.toggle('schedule-popup-modal', isSchedulePopup);
+      popupCard?.classList.toggle('location-popup-card', isLocationPopup);
+      els.fieldPopupTitle.textContent = title;
+      if (els.fieldPopupSubtitle) els.fieldPopupSubtitle.textContent = options.subtitle || 'Expanded table field value.';
+      const popupLabel = options.fieldLabel || (isSchedulePopup ? 'Road Closure Schedule' : 'Location');
+      els.fieldPopupBody.innerHTML = isLocationPopup
+        ? `<div class="field-popup-location-content"><span class="event-detail-label">${escapeHtml(popupLabel)}</span><div class="event-detail-text">${formatPopupValue(value, { ...options, splitSemicolon: options.splitSemicolon !== false })}</div></div>`
+        : formatPopupValue(value, options);
+      els.fieldPopupModal.hidden = false;
+    }
+
+    function closeFieldPopup() {
+      if (!els.fieldPopupModal) return;
+      els.fieldPopupModal.hidden = true;
+      els.fieldPopupModal.classList.remove('location-popup-modal', 'schedule-popup-modal');
+      els.fieldPopupModal.querySelector('.field-popup-card')?.classList.remove('location-popup-card');
+    }
+
+    function getTableDateHighlightClass(evt, value, enabled) {
+      if (!enabled || !evt || !value) return '';
+      const key = toISODate(stripTime(value));
+      const eventStartKey = evt.startDate ? toISODate(stripTime(evt.startDate)) : '';
+      const eventEndKey = evt.endDate ? toISODate(stripTime(evt.endDate)) : '';
+      const bumpInKey = evt.bumpIn ? toISODate(stripTime(evt.bumpIn)) : '';
+      const bumpOutKey = evt.bumpOut ? toISODate(stripTime(evt.bumpOut)) : '';
+      const isEventBoundary = key === eventStartKey || key === eventEndKey;
+      const isBumpBoundary = key === bumpInKey || key === bumpOutKey;
+      if (isEventBoundary && isBumpBoundary) return ' table-date-combined-boundary';
+      if (isEventBoundary) return ' table-date-event-boundary';
+      if (isBumpBoundary) return ' table-date-bump-boundary';
+      return '';
+    }
+
+
+    function renderRoadClosureTableHeader() {
+      const headerRow = document.querySelector('.table-wrap table thead tr');
+      const table = document.querySelector('.table-wrap table');
+      if (!headerRow) return;
+      headerRow.innerHTML = `
+        <th class="action-col" title="Expand/collapse row">↕</th>
+        <th class="title-col">Event Name</th>
+        <th class="date-col">Start</th>
+        <th class="date-col">End</th>
+        <th class="road-schedule-col">Road Closure Schedule</th>
+        <th class="road-supplier-col">Traffic Supplier</th>
+      `;
+      if (table) table.style.minWidth = '1120px';
+    }
+
+    function renderRoadClosureTable() {
+      els.dataBody.innerHTML = '';
+      renderRoadClosureTableHeader();
+      const closures = state.roadClosureDateKey ? getRoadClosuresForDateKey(state.roadClosureDateKey) : state.roadClosures;
+      const closureWord = closures.length === 1 ? 'road closure' : 'road closures';
+      els.rowCount.textContent = state.roadClosureDateKey
+        ? `${closures.length} ${closureWord} • active on ${displayDateWithWeekday(parseDate(state.roadClosureDateKey))}`
+        : `${closures.length} ${closureWord}`;
+      if (!closures.length) {
+        els.dataBody.innerHTML = '<tr><td colspan="6" class="empty-state">No matching road closures.</td></tr>';
+        updateBackToTopButton(els.tableWrap, els.mainTableBackTopBtn);
+        return;
+      }
+      const fragment = document.createDocumentFragment();
+      closures.forEach(item => {
+        const row = document.createElement('tr');
+        row.dataset.roadClosureId = item.id;
+        const isExpanded = state.roadClosureExpandedRows.has(item.id);
+        if (item.id === state.selectedRoadClosureId) row.classList.add('selected');
+        if (isExpanded) row.classList.add('expanded');
+        const scheduleCellText = String(item.schedule || '').replace(/\s+/g, ' ').trim();
+        row.innerHTML = `
+          <td class="action-cell"><button class="row-action-btn expand-road-closure-btn" type="button" title="${isExpanded ? 'Collapse row' : 'Expand row'}" aria-label="${isExpanded ? 'Collapse row' : 'Expand row'}">${isExpanded ? '−' : '+'}</button></td>
+          <td class="title-col"><div class="cell-clamp"><strong>${escapeHtml(item.title)}</strong></div></td>
+          <td class="date-col"><div class="cell-clamp">${displayDate(item.startDate)}</div></td>
+          <td class="date-col"><div class="cell-clamp">${displayDate(item.endDate)}</div></td>
+          <td class="road-schedule-col"><div class="field-cell"><div class="cell-clamp">${escapeHtml(scheduleCellText)}</div>${hasPopupValue(item.schedule) ? renderFieldPopupButton('Road Closure Schedule', 'road-closure-schedule') : ''}</div></td>
+          <td class="road-supplier-col"><div class="cell-clamp">${escapeHtml(item.supplier)}</div></td>
+        `;
+        row.addEventListener('click', () => {
+          state.selectedRoadClosureId = state.selectedRoadClosureId === item.id ? null : item.id;
+          renderTable();
+        });
+        row.querySelector('.expand-road-closure-btn')?.addEventListener('click', event => {
+          event.stopPropagation();
+          if (state.roadClosureExpandedRows.has(item.id)) state.roadClosureExpandedRows.delete(item.id);
+          else state.roadClosureExpandedRows.add(item.id);
+          renderTable();
+        });
+        row.querySelector('[data-field-popup="road-closure-schedule"]')?.addEventListener('click', event => {
+          event.stopPropagation();
+          openFieldPopup('Road Closure Schedule', item.schedule, {
+            locationStyle: true,
+            scheduleStyle: true,
+            splitSemicolon: false,
+            fieldLabel: 'Road Closure Schedule',
+            subtitle: item.title
+          });
+        });
+        fragment.appendChild(row);
+      });
+      els.dataBody.appendChild(fragment);
+      updateBackToTopButton(els.tableWrap, els.mainTableBackTopBtn);
+    }
+
+    function renderTable() {
+      if (state.roadClosureTableActive) {
+        renderRoadClosureTable();
+        return;
+      }
+      els.dataBody.innerHTML = '';
+      const tableEvents = getTableEventsToRender();
+      const extraFields = getMainTableExtraFields();
+      renderMainTableHeader(extraFields);
+      const eventWord = tableEvents.length === 1 ? 'event' : 'events';
+      if (state.activeLegendType) {
+        els.rowCount.textContent = `${tableEvents.length} ${eventWord} • filtered to ${state.activeLegendType}`;
+      } else if (state.tableFocusedEventId && tableEvents.length === 1) {
+        els.rowCount.textContent = '1 event • filtered to selected table row';
+      } else if (state.startDayFocusedDateKey) {
+        els.rowCount.textContent = `${tableEvents.length} ${eventWord} • events starting ${displayDate(parseDate(state.startDayFocusedDateKey))}`;
+      } else if (state.selectedDateKey) {
+        const selectedDate = displayDateWithWeekday(parseDate(state.selectedDateKey));
+        if (tableEvents.length === 0) {
+          els.rowCount.textContent = `No events are in progress on ${selectedDate}`;
+        } else {
+          const verb = tableEvents.length === 1 ? 'is' : 'are';
+          els.rowCount.textContent = `${tableEvents.length} ${eventWord} ${verb} in progress on ${selectedDate}`;
+        }
+      } else {
+        els.rowCount.textContent = `${tableEvents.length} ${eventWord}`;
+      }
+      if (!tableEvents.length) {
+        els.dataBody.innerHTML = `<tr><td colspan="${10 + extraFields.length}" class="empty-state">No matching events.</td></tr>`;
+        return;
+      }
+      const fragment = document.createDocumentFragment();
+      tableEvents.forEach(evt => {
+        const row = document.createElement('tr');
+        row.dataset.eventId = evt.id;
+        const isExpanded = state.expandedRows.has(evt.id);
+        if (evt.id === state.selectedEventId) row.classList.add('selected');
+        if (isExpanded) row.classList.add('expanded');
+        const singleEventDateHighlight = tableEvents.length === 1 && !!(state.selectedEventId || state.tableFocusedEventId || state.startDayFocusedDateKey || state.selectedDateKey);
+        const bumpInClass = getTableDateHighlightClass(evt, evt.bumpIn, singleEventDateHighlight);
+        const startClass = getTableDateHighlightClass(evt, evt.startDate, singleEventDateHighlight);
+        const endClass = getTableDateHighlightClass(evt, evt.endDate, singleEventDateHighlight);
+        const bumpOutClass = getTableDateHighlightClass(evt, evt.bumpOut, singleEventDateHighlight);
+        row.innerHTML = `
+          <td class="action-cell"><button class="row-action-btn expand-action-btn" type="button" title="${isExpanded ? 'Collapse row' : 'Expand row'}" aria-label="${isExpanded ? 'Collapse row' : 'Expand row'}">${isExpanded ? '−' : '+'}</button></td>
+          <td class="title-col"><div class="cell-clamp"><strong>${escapeHtml(evt.title)}</strong></div></td>
+          <td class="type-col"><div class="cell-clamp"><span class="type-pill" style="--pill-colour:${getTypeColour(evt.organiser)};background:${getTypeColour(evt.organiser)}">${escapeHtml(evt.organiser)}</span></div></td>
+          <td class="date-col${bumpInClass}"><div class="cell-clamp">${displayDate(evt.bumpIn)}</div></td>
+          <td class="date-col${startClass}"><div class="cell-clamp">${displayDate(evt.startDate)}</div></td>
+          <td class="date-col${endClass}"><div class="cell-clamp">${displayDate(evt.endDate)}</div></td>
+          <td class="date-col${bumpOutClass}"><div class="cell-clamp">${displayDate(evt.bumpOut)}</div></td>
+          <td class="location-col"><div class="field-cell"><div class="cell-clamp">${escapeHtml(evt.location)}</div>${hasPopupValue(evt.location) ? renderFieldPopupButton('Location', 'location') : ''}</div></td>
+          <td class="description-col"><div class="cell-clamp">${escapeHtml(evt.coordinator)}</div></td>
+          ${extraFields.map(field => renderMainTableExtraCell(evt, field)).join('')}
+        `;
+        row.addEventListener('click', () => {
+          // Toggle off table-driven event filtering/selection when the selected row is clicked again.
+          // This intentionally catches clicks on inline badge/tag elements such as the Type pill,
+          // while action buttons still stop propagation and keep their independent behaviour.
+          if (state.selectedEventId === evt.id || state.tableFocusedEventId === evt.id) {
+            clearSelection();
+            return;
+          }
+          selectEvent(evt.id, { focusTableOnly: true });
+        });
+
+        const expandBtn = row.querySelector('.expand-action-btn');
+        expandBtn.addEventListener('click', event => {
+          event.stopPropagation();
+          if (state.expandedRows.has(evt.id)) state.expandedRows.delete(evt.id);
+          else state.expandedRows.add(evt.id);
+          renderTable();
+        });
+
+        const zoomBtn = row.querySelector('.zoom-action-btn');
+        zoomBtn?.addEventListener('click', event => {
+          event.stopPropagation();
+          selectEvent(evt.id);
+          runReservedEventPolygonZoom(evt);
+        });
+
+        row.querySelectorAll('[data-field-popup]').forEach(button => {
+          button.addEventListener('click', event => {
+            event.stopPropagation();
+            const fieldKey = button.dataset.fieldPopup;
+            if (fieldKey === 'location') {
+              openFieldPopup('Location', evt.location, { splitSemicolon: true, locationStyle: true, subtitle: evt.title });
+              return;
+            }
+            openFieldPopup(fieldKey, getRawFieldDisplayValue(evt.raw, fieldKey), { subtitle: evt.title });
+          });
+        });
+
+        fragment.appendChild(row);
+      });
+      els.dataBody.appendChild(fragment);
+      syncTableLocationPopupAvailability();
+      updateBackToTopButton(els.tableWrap, els.mainTableBackTopBtn);
+    }
+
+    function getEventMapIdToken(event) {
+      if (!event) return '';
+      const tokenInputValue = els.mapFeatureIdToken?.value?.trim();
+      if (tokenInputValue) return tokenInputValue;
+      return String(pickField(event.raw, ['GlobalID', 'globalid', 'OBJECTID', 'objectid', 'id', 'ID', 'Asset_Id', 'asset_id', 'React_Polygon_Key', 'map_id', 'Map ID', 'polygon_id', 'Polygon ID']) || event.id || '').trim();
+    }
+
+    function runReservedEventPolygonZoom(event) {
+      const idToken = getEventMapIdToken(event);
+      const idField = els.mapIdFieldToken?.value?.trim() || MAP_TOKEN_CONFIG.defaultIdField;
+      if (!idToken) {
+        if (els.mapStatusChip) els.mapStatusChip.textContent = 'No event/map ID token found for the selected row.';
+        return;
+      }
+      if (els.mapFeatureIdToken) els.mapFeatureIdToken.value = idToken;
+      if (els.mapStatusChip) els.mapStatusChip.textContent = `Zoom token: ${idField} = ${idToken}`;
+      if (typeof zoomToGeoJsonFeatureById === 'function') zoomToGeoJsonFeatureById(idToken);
+    }
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let cell = '';
+      let inQuotes = false;
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const next = text[i + 1];
+        if (char === '"' && inQuotes && next === '"') {
+          cell += '"';
+          i++;
+        } else if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+          row.push(cell);
+          cell = '';
+        } else if ((char === '\n' || char === '\r') && !inQuotes) {
+          if (char === '\r' && next === '\n') i++;
+          row.push(cell);
+          if (row.some(v => String(v).trim() !== '')) rows.push(row);
+          row = [];
+          cell = '';
+        } else {
+          cell += char;
+        }
+      }
+      row.push(cell);
+      if (row.some(v => String(v).trim() !== '')) rows.push(row);
+      if (!rows.length) return [];
+      const headers = rows.shift().map(h => h.replace(/^\uFEFF/, '').trim());
+      return rows.map(values => {
+        const obj = {};
+        headers.forEach((h, i) => obj[h || `Column_${i + 1}`] = values[i] || '');
+        return obj;
+      });
+    }
+
+
+    function cleanPdfCellText(value) {
+      return String(value || '').replace(/\s+/g, ' ').trim();
+    }
+
+    function splitPdfTextItem(item) {
+      const text = String(item.str || '').trim();
+      if (!text) return [];
+      const tokens = text.split(/\s+/);
+      const width = Math.abs(item.width || 0);
+      const charCount = Math.max(1, text.length);
+      let offsetChars = 0;
+      return tokens.map(token => {
+        const leading = text.indexOf(token, offsetChars);
+        offsetChars = Math.max(offsetChars, leading) + token.length;
+        return {
+          text: token,
+          x: item.transform[4] + (width * Math.max(0, leading) / charCount),
+          top: null
+        };
+      });
+    }
+
+    function pdfColumnText(words, xMin, xMax) {
+      const selected = words.filter(word => word.x >= xMin && word.x < xMax && !/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(word.text));
+      selected.sort((a, b) => a.top - b.top || a.x - b.x);
+      const lines = [];
+      selected.forEach(word => {
+        let line = lines.find(item => Math.abs(item.top - word.top) <= 2.8);
+        if (!line) { line = { top: word.top, words: [] }; lines.push(line); }
+        line.words.push(word);
+      });
+      lines.sort((a, b) => a.top - b.top);
+      return cleanPdfCellText(lines.map(line => line.words.sort((a, b) => a.x - b.x).map(word => word.text).join(' ')).join(' '));
+    }
+
+    async function parseMajorEventsPdf(file) {
+      if (!window.pdfjsLib) throw new Error('The embedded PDF parser could not be initialised.');
+      if (pdfjsLib.GlobalWorkerOptions) pdfjsLib.GlobalWorkerOptions.workerSrc = ''; // v78: workerless file:// compatibility
+      const bytes = new Uint8Array(await file.arrayBuffer());
+      const documentTask = pdfjsLib.getDocument({ data: bytes, isEvalSupported: false, disableWorker: true });
+      const pdf = await documentTask.promise;
+      const results = [];
+      const datePattern = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+
+      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+        const page = await pdf.getPage(pageNumber);
+        const viewport = page.getViewport({ scale: 1 });
+        const content = await page.getTextContent();
+        const words = [];
+        content.items.forEach(item => {
+          splitPdfTextItem(item).forEach(word => {
+            word.top = viewport.height - item.transform[5];
+            words.push(word);
+          });
+        });
+        const lineGroups = [];
+        words.slice().sort((a, b) => a.top - b.top || a.x - b.x).forEach(word => {
+          let line = lineGroups.find(candidate => Math.abs(candidate.top - word.top) <= 2.8);
+          if (!line) { line = { top: word.top, words: [] }; lineGroups.push(line); }
+          line.words.push(word);
+        });
+        lineGroups.sort((a, b) => a.top - b.top);
+        const anchors = lineGroups.map(line => {
+          const rowToken = line.words.find(word => word.x < 95 && /^\d{1,3}$/.test(word.text));
+          const dates = line.words.filter(word => datePattern.test(word.text)).sort((a, b) => a.x - b.x).map(word => word.text);
+          return rowToken && dates.length >= 4 ? { top: line.top, row: Number(rowToken.text), dates: dates.slice(0, 4) } : null;
+        }).filter(Boolean);
+
+        if (results.length && anchors.length && anchors[0].top > 150) {
+          const prefix = words.filter(word => word.top > 98 && word.top < anchors[0].top - 2);
+          const bookedContinuation = pdfColumnText(prefix, 650, 1015);
+          if (bookedContinuation) results[results.length - 1]['Booked Spaces'] = cleanPdfCellText(`${results[results.length - 1]['Booked Spaces']} ${bookedContinuation}`);
+        }
+
+        let previousTop = pageNumber === 1 ? 106 : 0;
+        anchors.forEach(anchor => {
+          const block = words.filter(word => word.top > previousTop - 1 && word.top <= anchor.top + 2);
+          results.push({
+            _sourceRow: anchor.row,
+            'Event Name': pdfColumnText(block, 95, 255),
+            'Bump - In': anchor.dates[0],
+            'Start Date': anchor.dates[1],
+            'End Date': anchor.dates[2],
+            'Bump - Out': anchor.dates[3],
+            'Event Organiser': pdfColumnText(block, 535, 650),
+            'Booked Spaces': pdfColumnText(block, 650, 1015),
+            'Coordinator': pdfColumnText(block, 1015, 1190)
+          });
+          previousTop = anchor.top + 2;
+        });
+      }
+
+      const deduped = new Map();
+      results.forEach(row => {
+        if (row._sourceRow && row['Event Name'] && row['Bump - In']) deduped.set(row._sourceRow, row);
+      });
+      const parsedRows = [...deduped.values()].sort((a, b) => a._sourceRow - b._sourceRow);
+      if (!parsedRows.length) throw new Error('No event rows matching the Major Events PDF table schema were detected.');
+      return parsedRows;
+    }
+
+
+    function pdfColumnTextPreserveLines(words, xMin, xMax, preserveLines = false) {
+      const selected = words.filter(word => word.x >= xMin && word.x < xMax);
+      selected.sort((a, b) => a.top - b.top || a.x - b.x);
+      const lines = [];
+      selected.forEach(word => {
+        let line = lines.find(item => Math.abs(item.top - word.top) <= 2.8);
+        if (!line) { line = { top: word.top, words: [] }; lines.push(line); }
+        line.words.push(word);
+      });
+      lines.sort((a, b) => a.top - b.top);
+      const output = [];
+      let previousTop = null;
+      lines.forEach(line => {
+        const value = line.words.sort((a, b) => a.x - b.x).map(word => word.text).join(' ').trim();
+        if (!value) return;
+        if (preserveLines && previousTop !== null && line.top - previousTop > 18) output.push('');
+        output.push(value);
+        previousTop = line.top;
+      });
+      const joined = preserveLines ? output.join('\n') : output.join(' ');
+      return String(joined || '')
+        .replace(/\uFFFE/g, '\n')
+        .replace(/[ \t]+\n/g, '\n')
+        .replace(/\n[ \t]+/g, '\n')
+        .replace(/\n{3,}/g, '\n\n')
+        .replace(preserveLines ? /[ \t]+/g : /\s+/g, ' ')
+        .trim();
+    }
+
+    async function parseRoadClosuresPdf(file) {
+      if (!window.pdfjsLib) throw new Error('The embedded PDF parser could not be initialised.');
+      if (pdfjsLib.GlobalWorkerOptions) pdfjsLib.GlobalWorkerOptions.workerSrc = '';
+      const bytes = new Uint8Array(await file.arrayBuffer());
+      const documentTask = pdfjsLib.getDocument({ data: bytes, isEvalSupported: false, disableWorker: true });
+      const pdf = await documentTask.promise;
+      const results = [];
+      const datePattern = /^\d{1,2}\/\d{1,2}\/\d{2,4}$/;
+
+      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+        const page = await pdf.getPage(pageNumber);
+        const viewport = page.getViewport({ scale: 1 });
+        const content = await page.getTextContent();
+        const words = [];
+        content.items.forEach(item => {
+          splitPdfTextItem(item).forEach(word => {
+            word.top = viewport.height - item.transform[5];
+            words.push(word);
+          });
+        });
+        const lineGroups = [];
+        words.slice().sort((a, b) => a.top - b.top || a.x - b.x).forEach(word => {
+          let line = lineGroups.find(candidate => Math.abs(candidate.top - word.top) <= 2.8);
+          if (!line) { line = { top: word.top, words: [] }; lineGroups.push(line); }
+          line.words.push(word);
+        });
+        lineGroups.sort((a, b) => a.top - b.top);
+        const anchors = lineGroups.map(line => {
+          const rowNumberText = line.words
+            .filter(word => word.x < 55 && /^\d+$/.test(word.text))
+            .sort((a, b) => a.x - b.x)
+            .map(word => word.text)
+            .join('');
+          const dates = line.words
+            .filter(word => word.x >= 450 && word.x < 655 && datePattern.test(word.text))
+            .sort((a, b) => a.x - b.x)
+            .map(word => word.text);
+          return /^\d{1,3}$/.test(rowNumberText) && dates.length >= 2 && line.top < viewport.height - 60
+            ? { top: line.top, row: Number(rowNumberText), dates: dates.slice(0, 2) }
+            : null;
+        }).filter(Boolean);
+
+        anchors.forEach((anchor, index) => {
+          const nextTop = index + 1 < anchors.length ? anchors[index + 1].top - 1 : viewport.height - 48;
+          const block = words.filter(word => word.top >= anchor.top - 1 && word.top < nextTop);
+          const title = pdfColumnTextPreserveLines(block, 55, 464, false);
+          const schedule = pdfColumnTextPreserveLines(block, 655, 1012, true);
+          if (!title || !anchor.dates[0]) return;
+          results.push({
+            _roadClosureId: `road-p${pageNumber}-r${anchor.row}-${index + 1}`,
+            _sourcePage: pageNumber,
+            _sourceRow: anchor.row,
+            'Event Name': title,
+            'Event Start Date': anchor.dates[0],
+            'Event End Date': anchor.dates[1],
+            'Road Closure Schedule': schedule,
+            'Traffic Supplier': pdfColumnTextPreserveLines(block, 1012, 1200, false)
+          });
+        });
+      }
+
+      if (!results.length) throw new Error('No rows matching the Road Closures PDF table schema were detected.');
+      return results;
+    }
+
+    async function handleRoadClosurePdfFile(file) {
+      if (!file) return;
+      try {
+        const rows = await parseRoadClosuresPdf(file);
+        initialiseRoadClosureData(rows);
+        state.importDiagnostics.unshift(`${file.name}: ${rows.length} road closure row(s) imported.`);
+        recordDebugEntry('info', 'Road closure PDF import', `Imported ${rows.length} road closure row(s) from ${file.name}.`);
+      } catch (error) {
+        recordDebugError('Road closure PDF import', error, { file: file.name });
+        alert(`Road closure PDF import failed: ${error.message}`);
+      } finally {
+        if (els.roadClosurePdfFile) els.roadClosurePdfFile.value = '';
+      }
+    }
+
+    async function handlePdfFile(file) {
+      if (!file) return;
+      try {
+        const rows = await parseMajorEventsPdf(file);
+        validateImportedEventSchema(rows, file.name);
+        initialiseData(rows);
+        state.importDiagnostics.unshift(`${file.name}: ${rows.length} PDF event row(s) imported.`);
+      } catch (error) {
+        recordDebugError('PDF event import', error, { file: file.name });
+        alert(`PDF import failed: ${error.message}`);
+      } finally {
+        if (els.pdfFile) els.pdfFile.value = '';
+      }
+    }
+
+    function handleDataFile(file) {
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const text = String(reader.result || '');
+          const isJson = file.name.toLowerCase().endsWith('.json') || file.type === 'application/json';
+          const parsed = isJson ? JSON.parse(text) : parseCsv(text);
+          const rows = isJson ? extractRowsFromImportedJson(parsed) : parsed;
+          validateImportedEventSchema(rows, file.name);
+          initialiseData(rows);
+          recordDebugEntry('info', 'Data import', `Imported ${rows.length} row(s) from ${file.name}. Extra fields were accepted.`);
+        } catch (err) {
+          recordDebugError('Data import failed', err, { fileName: file.name });
+          alert(`Could not import data: ${err.message}`);
+        } finally {
+          els.dataFile.value = '';
+        }
+      };
+      reader.onerror = () => {
+        const err = reader.error || new Error('FileReader failed while importing data.');
+        recordDebugError('Data import FileReader', err, { fileName: file.name });
+        alert(`Could not read data file: ${err.message}`);
+        els.dataFile.value = '';
+      };
+      reader.readAsText(file);
+    }
+
+    function validateGeoJson(obj) {
+      if (!obj || typeof obj !== 'object') throw new Error('File is not valid JSON.');
+      const validTypes = ['FeatureCollection', 'Feature', 'Point', 'LineString', 'Polygon', 'MultiPoint', 'MultiLineString', 'MultiPolygon', 'GeometryCollection'];
+      if (!validTypes.includes(obj.type)) throw new Error('JSON does not look like GeoJSON. Missing or invalid type.');
+      return obj;
+    }
+
+    function getGeoJsonFeatures(geojson) {
+      if (!geojson) return [];
+      if (geojson.type === 'FeatureCollection') return Array.isArray(geojson.features) ? geojson.features : [];
+      if (geojson.type === 'Feature') return [geojson];
+      return [{ type: 'Feature', properties: {}, geometry: geojson }];
+    }
+
+    function getGeoJsonSummary(geojson) {
+      const geometries = [];
+      const features = getGeoJsonFeatures(geojson);
+      features.forEach(feature => feature.geometry?.type && geometries.push(feature.geometry.type));
+      const uniqueTypes = [...new Set(geometries)].sort();
+      return { count: features.length, types: uniqueTypes };
+    }
+
+    function eachCoordinate(geometry, visitor) {
+      if (!geometry) return;
+      const walk = coords => {
+        if (!Array.isArray(coords)) return;
+        if (typeof coords[0] === 'number' && typeof coords[1] === 'number') {
+          visitor(coords[0], coords[1]);
+          return;
+        }
+        coords.forEach(walk);
+      };
+      if (geometry.type === 'GeometryCollection') geometry.geometries?.forEach(g => eachCoordinate(g, visitor));
+      else walk(geometry.coordinates);
+    }
+
+    function getGeoJsonBounds(geojson) {
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      getGeoJsonFeatures(geojson).forEach(feature => {
+        eachCoordinate(feature.geometry, (x, y) => {
+          if (!Number.isFinite(x) || !Number.isFinite(y)) return;
+          minX = Math.min(minX, x); minY = Math.min(minY, y);
+          maxX = Math.max(maxX, x); maxY = Math.max(maxY, y);
+        });
+      });
+      if (!Number.isFinite(minX)) return null;
+      if (minX === maxX) { minX -= 0.001; maxX += 0.001; }
+      if (minY === maxY) { minY -= 0.001; maxY += 0.001; }
+      return { minX, minY, maxX, maxY };
+    }
+
+    function projectCoordinate(x, y, bounds, width = 1000, height = 1000) {
+      const pad = Math.min(width, height) * MAP_TOKEN_CONFIG.zoomPaddingRatio;
+      const innerW = width - pad * 2;
+      const innerH = height - pad * 2;
+      const sx = innerW / (bounds.maxX - bounds.minX);
+      const sy = innerH / (bounds.maxY - bounds.minY);
+      const scale = Math.min(sx, sy);
+      const usedW = (bounds.maxX - bounds.minX) * scale;
+      const usedH = (bounds.maxY - bounds.minY) * scale;
+      const ox = (width - usedW) / 2;
+      const oy = (height - usedH) / 2;
+      return [ox + (x - bounds.minX) * scale, height - (oy + (y - bounds.minY) * scale)];
+    }
+
+    function coordinatesToPath(coords, bounds, close = false) {
+      return coords.map((pair, idx) => {
+        const [x, y] = projectCoordinate(pair[0], pair[1], bounds);
+        return `${idx === 0 ? 'M' : 'L'} ${x.toFixed(2)} ${y.toFixed(2)}`;
+      }).join(' ') + (close ? ' Z' : '');
+    }
+
+    function geometryToSvgElements(feature, bounds) {
+      const geometry = feature.geometry;
+      const elements = [];
+      if (!geometry) return elements;
+      const featureId = getFeatureTokenId(feature);
+      const attrs = `data-map-feature-token="${escapeHtml(featureId || '')}"`;
+      const addPath = (d, cls) => elements.push(`<path class="map-feature ${cls}" ${attrs} d="${d}"></path>`);
+      if (geometry.type === 'Polygon') {
+        geometry.coordinates.forEach(ring => addPath(coordinatesToPath(ring, bounds, true), 'polygon'));
+      } else if (geometry.type === 'MultiPolygon') {
+        geometry.coordinates.forEach(poly => poly.forEach(ring => addPath(coordinatesToPath(ring, bounds, true), 'polygon')));
+      } else if (geometry.type === 'LineString') {
+        addPath(coordinatesToPath(geometry.coordinates, bounds), 'line');
+      } else if (geometry.type === 'MultiLineString') {
+        geometry.coordinates.forEach(line => addPath(coordinatesToPath(line, bounds), 'line'));
+      } else if (geometry.type === 'Point') {
+        const [x, y] = projectCoordinate(geometry.coordinates[0], geometry.coordinates[1], bounds);
+        elements.push(`<circle class="map-feature point" ${attrs} cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="6"></circle>`);
+      } else if (geometry.type === 'MultiPoint') {
+        geometry.coordinates.forEach(pt => {
+          const [x, y] = projectCoordinate(pt[0], pt[1], bounds);
+          elements.push(`<circle class="map-feature point" ${attrs} cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="6"></circle>`);
+        });
+      } else if (geometry.type === 'GeometryCollection') {
+        geometry.geometries?.forEach(g => elements.push(...geometryToSvgElements({ ...feature, geometry: g }, bounds)));
+      }
+      return elements;
+    }
+
+    function getActiveMapIdField() {
+      return (els.mapIdFieldToken?.value || MAP_TOKEN_CONFIG.defaultIdField).trim();
+    }
+
+    function getFeatureTokenId(feature) {
+      const props = feature?.properties || {};
+      const preferred = getActiveMapIdField();
+      if (preferred && props[preferred] != null) return String(props[preferred]);
+      for (const key of MAP_TOKEN_CONFIG.idFieldCandidates) {
+        if (props[key] != null) return String(props[key]);
+      }
+      return '';
+    }
+
+    function normaliseMapLocationText(value) {
+      return String(value ?? '')
+        .normalize('NFKC')
+        .replace(/\u00a0/g, ' ')
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function getMapFeatureDisplayLabel(feature) {
+      const props = feature?.properties || {};
+      return normaliseMapLocationText(props.Park || props.Number || props.Name || props.Map_Labels || '');
+    }
+
+    function containsExactMapLabel(locationText, labelText) {
+      const location = normaliseMapLocationText(locationText);
+      const label = normaliseMapLocationText(labelText);
+      if (!location || !label) return false;
+      const escaped = label
+        .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+        .replace(/\s+/g, '\\s+');
+      return new RegExp(`(?:^|[^A-Za-z0-9])${escaped}(?=$|[^A-Za-z0-9])`, 'i').test(location);
+    }
+
+    function mapFeatureMatchesLocationText(feature, locationText) {
+      if (!['Polygon', 'MultiPolygon'].includes(feature?.geometry?.type)) return false;
+      const label = getMapFeatureDisplayLabel(feature);
+      if (!label) return false;
+      if (/^\d+[A-Za-z]?$/.test(label)) {
+        return containsExactMapLabel(locationText, `Park ${label}`);
+      }
+      return containsExactMapLabel(locationText, label);
+    }
+
+    function getActiveEventLocationFilterEvents() {
+      const ids = new Set([state.selectedEventId, state.tableFocusedEventId].filter(Boolean));
+      return [...ids]
+        .map(id => state.filteredEvents.find(event => event.id === id) || state.events.find(event => event.id === id))
+        .filter(Boolean);
+    }
+
+    function collectMapFeaturesForEventLocations(events) {
+      const locations = (events || []).map(event => normaliseMapLocationText(event.location)).filter(Boolean);
+      const matches = new Set();
+      if (!locations.length || !state.geojson) return matches;
+      getGeoJsonFeatures(state.geojson).forEach(feature => {
+        if (locations.some(location => mapFeatureMatchesLocationText(feature, location))) matches.add(feature);
+      });
+      return matches;
+    }
+
+    function syncLeafletLocationIsolationVisibility() {
+      if (!state.leafletMap || !state.leafletGeoJsonLayer) return;
+      const matches = state.mapLocationMatchedFeatures;
+      state.leafletGeoJsonLayer.eachLayer(layer => {
+        const shouldShow = !matches || matches.has(layer.feature);
+        const shouldBeOnMap = state.mapSpatialLayerVisible !== false && shouldShow;
+        const isOnMap = state.leafletMap.hasLayer(layer);
+        if (shouldBeOnMap && !isOnMap) layer.addTo(state.leafletMap);
+        else if (!shouldBeOnMap && isOnMap) state.leafletMap.removeLayer(layer);
+      });
+    }
+
+    function clearMapLocationIsolation(options = {}) {
+      const hadIsolation = Boolean(state.mapLocationMatchedFeatures);
+      state.mapLocationMatchedFeatures = null;
+      state.mapLocationFilterEventIds = [];
+      syncLeafletLocationIsolationVisibility();
+      redrawCanvasMap();
+      if (options.returnHome && (hadIsolation || options.forceHome)) homeMap({ preserveLocationIsolation: true });
+    }
+
+    function fitMapToLocationMatchedFeatures(matches) {
+      if (!matches?.size) return false;
+      state.mapLocationMatchedFeatures = matches;
+      syncLeafletLocationIsolationVisibility();
+      refreshLeafletFeatureStyles();
+
+      if (state.leafletMap && state.leafletGeoJsonLayer && window.L) {
+        let combinedBounds = null;
+        state.leafletGeoJsonLayer.eachLayer(layer => {
+          if (!matches.has(layer.feature)) return;
+          if (typeof layer.getBounds === 'function') {
+            const bounds = layer.getBounds();
+            if (bounds?.isValid?.()) combinedBounds = combinedBounds ? combinedBounds.extend(bounds) : window.L.latLngBounds(bounds);
+          } else if (typeof layer.getLatLng === 'function') {
+            const point = layer.getLatLng();
+            if (point) combinedBounds = combinedBounds ? combinedBounds.extend(point) : window.L.latLngBounds(point, point);
+          }
+        });
+        if (combinedBounds?.isValid?.()) {
+          state.leafletMap.invalidateSize();
+          state.leafletMap.fitBounds(combinedBounds, { padding: [28, 28], maxZoom: 17, animate: false });
+          return true;
+        }
+      }
+
+      const matchingItems = state.canvasMap?.projectedFeatures?.filter(item => matches.has(item.feature) && item.bounds) || [];
+      if (matchingItems.length && state.mapView) {
+        const bounds = matchingItems.reduce((combined, item) => ({
+          minX: Math.min(combined.minX, item.bounds.minX),
+          minY: Math.min(combined.minY, item.bounds.minY),
+          maxX: Math.max(combined.maxX, item.bounds.maxX),
+          maxY: Math.max(combined.maxY, item.bounds.maxY)
+        }), { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity });
+        const pad = Math.min(state.mapView.width, state.mapView.height) * 0.18;
+        const scale = Math.min(
+          (state.mapView.width - pad * 2) / (bounds.maxX - bounds.minX || 1),
+          (state.mapView.height - pad * 2) / (bounds.maxY - bounds.minY || 1)
+        );
+        if (Number.isFinite(scale)) state.mapView.scale = scale;
+        state.mapView.centerX = (bounds.minX + bounds.maxX) / 2;
+        state.mapView.centerY = (bounds.minY + bounds.maxY) / 2;
+        redrawCanvasMap();
+        return true;
+      }
+      redrawCanvasMap();
+      return false;
+    }
+
+    function syncActiveEventLocationMapFilter() {
+      if (isTableExpandedActive()) {
+        clearMapLocationIsolation({ returnHome: true });
+        return false;
+      }
+      const events = getActiveEventLocationFilterEvents();
+      if (!events.length) return false;
+      const matches = collectMapFeaturesForEventLocations(events);
+      if (!matches.size) {
+        clearMapLocationIsolation({ returnHome: true });
+        return false;
+      }
+      state.mapLocationFilterEventIds = events.map(event => event.id);
+      return fitMapToLocationMatchedFeatures(matches);
+    }
+
+    function buildGeoJsonFeatureIndex(geojson) {
+      const index = new Map();
+      getGeoJsonFeatures(geojson).forEach(feature => {
+        const id = getFeatureTokenId(feature);
+        if (id) index.set(id, feature);
+      });
+      state.geojsonFeatureIndex = index;
+      return index;
+    }
+
+    function renderSvgMap(geojson) {
+      if (!els.mapSvg) return;
+      const bounds = getGeoJsonBounds(geojson);
+      state.geojsonBounds = bounds;
+      if (!bounds) {
+        els.mapSvg.innerHTML = '';
+        return;
+      }
+      const featureElements = getGeoJsonFeatures(geojson).flatMap(feature => geometryToSvgElements(feature, bounds));
+      els.mapSvg.setAttribute('viewBox', '0 0 1000 1000');
+      els.mapSvg.innerHTML = featureElements.join('');
+      applyMapTokenHighlight();
+    }
+
+    function applyMapTokenHighlight() {
+      if (!els.mapSvg) return;
+      els.mapSvg.querySelectorAll('.token-target').forEach(el => el.classList.remove('token-target'));
+      if (!state.highlightedMapId) return;
+      els.mapSvg.querySelectorAll(`[data-map-feature-token="${CSS.escape(state.highlightedMapId)}"]`).forEach(el => el.classList.add('token-target'));
+    }
+
+    function zoomToGeoJsonFeatureById(idToken) {
+      // Framework hook: future event selection can call this with an event-to-GeoJSON ID token.
+      if (!idToken || !state.geojsonFeatureIndex.has(idToken)) return false;
+      state.highlightedMapId = idToken;
+      applyMapTokenHighlight();
+      return true;
+    }
+
+    function handleMapFile(file) {
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const geojson = validateGeoJson(JSON.parse(String(reader.result || '')));
+          state.geojson = geojson;
+          state.mapSpatialLayerVisible = true;
+          state.mapSpatialLayerName = file.name || 'Imported GeoJSON';
+          updateMapLayerSelector();
+          buildGeoJsonFeatureIndex(geojson);
+          renderSvgMap(geojson);
+          renderLeafletGeoJson(geojson, { fit: true });
+          renderMapSummary(geojson);
+        } catch (err) {
+          recordDebugError('Map import failed', err, { fileName: file.name });
+          alert(`Could not import map data: ${err.message}`);
+        } finally {
+          els.mapFile.value = '';
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function loadEmbeddedGeoJson() {
+      try {
+        const geojson = validateGeoJson(EMBEDDED_GEOJSON);
+        state.geojson = geojson;
+        state.mapSpatialLayerVisible = true;
+        state.mapSpatialLayerName = 'Adelaide Park Lands';
+        updateMapLayerSelector();
+        buildGeoJsonFeatureIndex(geojson);
+        renderSvgMap(geojson);
+        renderLeafletGeoJson(geojson, { fit: true });
+        renderMapSummary(geojson);
+      } catch (err) {
+        recordDebugError('Embedded GeoJSON load failed', err);
+        console.warn('Embedded GeoJSON could not be loaded:', err);
+        if (els.mapStatusChip) els.mapStatusChip.textContent = 'Embedded GeoJSON failed to load';
+      }
+    }
+
+    function updateMapLayerSelector() {
+      if (!els.mapLayerPanel || !els.mapGeoJsonLayerToggle || !els.mapGeoJsonLayerName) return;
+      const hasGeoJson = Boolean(state.geojson);
+      els.mapLayerPanel.hidden = !hasGeoJson;
+      els.mapGeoJsonLayerToggle.checked = state.mapSpatialLayerVisible !== false;
+      els.mapGeoJsonLayerName.textContent = state.mapSpatialLayerName || 'Loaded GeoJSON';
+    }
+
+    function setSpatialLayerVisibility(visible) {
+      state.mapSpatialLayerVisible = Boolean(visible);
+      updateMapLayerSelector();
+      if (state.leafletMap && state.leafletGeoJsonLayer) {
+        const hasLayer = state.leafletMap.hasLayer(state.leafletGeoJsonLayer);
+        if (state.mapSpatialLayerVisible && !hasLayer) {
+          state.leafletGeoJsonLayer.addTo(state.leafletMap);
+          refreshLeafletFeatureStyles();
+        } else if (!state.mapSpatialLayerVisible && hasLayer) {
+          state.leafletGeoJsonLayer.remove();
+        }
+      }
+      syncLeafletLocationIsolationVisibility();
+      redrawCanvasMap();
+      renderMapSummary(state.geojson);
+    }
+
+
+    function geoCoordLooksLonLat(coords) {
+      let checked = 0;
+      let lonLat = 0;
+      for (const [x, y] of coords) {
+        if (!Number.isFinite(x) || !Number.isFinite(y)) continue;
+        checked += 1;
+        if (x >= -180 && x <= 180 && y >= -90 && y <= 90) lonLat += 1;
+        if (checked >= 40) break;
+      }
+      return checked > 0 && lonLat / checked >= 0.9;
+    }
+
+    function mercatorProject(lon, lat) {
+      const r = 6378137;
+      const clampedLat = Math.max(-85.05112878, Math.min(85.05112878, lat));
+      return [r * lon * Math.PI / 180, r * Math.log(Math.tan(Math.PI / 4 + clampedLat * Math.PI / 360))];
+    }
+
+    function getAllGeoJsonCoordinates(geojson) {
+      const coords = [];
+      getGeoJsonFeatures(geojson).forEach(feature => {
+        eachCoordinate(feature.geometry, (x, y) => coords.push([x, y]));
+      });
+      return coords;
+    }
+
+    function projectMapCoordinate(x, y, projectionMode) {
+      if (projectionMode === 'webMercator') return mercatorProject(x, y);
+      return [Number(x), Number(y)];
+    }
+
+    function projectGeoJsonGeometry(geometry, projectionMode) {
+      if (!geometry) return null;
+      const projectNested = value => {
+        if (!Array.isArray(value)) return value;
+        if (typeof value[0] === 'number' && typeof value[1] === 'number') return projectMapCoordinate(value[0], value[1], projectionMode);
+        return value.map(projectNested);
+      };
+      if (geometry.type === 'GeometryCollection') {
+        return { type: geometry.type, geometries: (geometry.geometries || []).map(g => projectGeoJsonGeometry(g, projectionMode)).filter(Boolean) };
+      }
+      return { type: geometry.type, coordinates: projectNested(geometry.coordinates) };
+    }
+
+    function geometryProjectedBounds(geometry, bounds) {
+      const visit = value => {
+        if (!Array.isArray(value)) return;
+        if (typeof value[0] === 'number' && typeof value[1] === 'number') {
+          const x = value[0], y = value[1];
+          if (!Number.isFinite(x) || !Number.isFinite(y)) return;
+          bounds.minX = Math.min(bounds.minX, x);
+          bounds.minY = Math.min(bounds.minY, y);
+          bounds.maxX = Math.max(bounds.maxX, x);
+          bounds.maxY = Math.max(bounds.maxY, y);
+        } else {
+          value.forEach(visit);
+        }
+      };
+      if (!geometry) return;
+      if (geometry.type === 'GeometryCollection') (geometry.geometries || []).forEach(g => geometryProjectedBounds(g, bounds));
+      else visit(geometry.coordinates);
+    }
+
+    function prepareCanvasMap(geojson) {
+      const rawCoords = getAllGeoJsonCoordinates(geojson);
+      const projectionMode = geoCoordLooksLonLat(rawCoords) ? 'webMercator' : 'planar';
+      const projectedFeatures = getGeoJsonFeatures(geojson).map(feature => {
+        const projectedGeometry = projectGeoJsonGeometry(feature.geometry, projectionMode);
+        const featureBounds = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
+        geometryProjectedBounds(projectedGeometry, featureBounds);
+        return {
+          feature,
+          geometry: projectedGeometry,
+          id: getFeatureTokenId(feature),
+          bounds: Number.isFinite(featureBounds.minX) ? featureBounds : null
+        };
+      });
+      const bounds = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
+      projectedFeatures.forEach(item => {
+        if (!item.bounds) return;
+        bounds.minX = Math.min(bounds.minX, item.bounds.minX);
+        bounds.minY = Math.min(bounds.minY, item.bounds.minY);
+        bounds.maxX = Math.max(bounds.maxX, item.bounds.maxX);
+        bounds.maxY = Math.max(bounds.maxY, item.bounds.maxY);
+      });
+      if (!Number.isFinite(bounds.minX)) return null;
+      if (bounds.minX === bounds.maxX) { bounds.minX -= 1; bounds.maxX += 1; }
+      if (bounds.minY === bounds.maxY) { bounds.minY -= 1; bounds.maxY += 1; }
+      return { projectionMode, projectedFeatures, bounds };
+    }
+
+    function resizeMapCanvas() {
+      const canvas = els.mapCanvas;
+      if (!canvas) return;
+      const rect = canvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      const w = Math.max(1, Math.round(rect.width * dpr));
+      const h = Math.max(1, Math.round(rect.height * dpr));
+      if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+      }
+      state.mapView = state.mapView || {};
+      state.mapView.width = w;
+      state.mapView.height = h;
+      state.mapView.dpr = dpr;
+    }
+
+    function initialiseMapHome() {
+      if (!state.canvasMap?.bounds || !els.mapCanvas) return;
+      resizeMapCanvas();
+      const b = state.canvasMap.bounds;
+      const w = state.mapView.width;
+      const h = state.mapView.height;
+      const pad = Math.min(w, h) * MAP_TOKEN_CONFIG.zoomPaddingRatio;
+      const fitScale = Math.min((w - pad * 2) / (b.maxX - b.minX), (h - pad * 2) / (b.maxY - b.minY));
+      const boost = Math.pow(MAP_TOKEN_CONFIG.zoomStep, MAP_TOKEN_CONFIG.homeZoomBoostSteps);
+      state.mapView.homeScale = fitScale * boost;
+      state.mapView.scale = state.mapView.homeScale;
+      state.mapView.centerX = (b.minX + b.maxX) / 2;
+      state.mapView.centerY = (b.minY + b.maxY) / 2;
+    }
+
+    function mapToScreen(x, y) {
+      const mv = state.mapView || {};
+      return [mv.width / 2 + (x - mv.centerX) * mv.scale, mv.height / 2 - (y - mv.centerY) * mv.scale];
+    }
+
+    function screenToMap(x, y) {
+      const mv = state.mapView || {};
+      return [mv.centerX + (x - mv.width / 2) / mv.scale, mv.centerY - (y - mv.height / 2) / mv.scale];
+    }
+
+    function drawPathFromCoords(ctx, coords, close) {
+      coords.forEach((pt, idx) => {
+        const [sx, sy] = mapToScreen(pt[0], pt[1]);
+        if (idx === 0) ctx.moveTo(sx, sy);
+        else ctx.lineTo(sx, sy);
+      });
+      if (close) ctx.closePath();
+    }
+
+    function drawProjectedGeometry(ctx, geometry) {
+      if (!geometry) return;
+      if (geometry.type === 'Polygon') {
+        geometry.coordinates.forEach(ring => drawPathFromCoords(ctx, ring, true));
+      } else if (geometry.type === 'MultiPolygon') {
+        geometry.coordinates.forEach(poly => poly.forEach(ring => drawPathFromCoords(ctx, ring, true)));
+      } else if (geometry.type === 'LineString') {
+        drawPathFromCoords(ctx, geometry.coordinates, false);
+      } else if (geometry.type === 'MultiLineString') {
+        geometry.coordinates.forEach(line => drawPathFromCoords(ctx, line, false));
+      } else if (geometry.type === 'Point') {
+        const [sx, sy] = mapToScreen(geometry.coordinates[0], geometry.coordinates[1]);
+        ctx.moveTo(sx + 5, sy);
+        ctx.arc(sx, sy, 5, 0, Math.PI * 2);
+      } else if (geometry.type === 'MultiPoint') {
+        geometry.coordinates.forEach(pt => {
+          const [sx, sy] = mapToScreen(pt[0], pt[1]);
+          ctx.moveTo(sx + 5, sy);
+          ctx.arc(sx, sy, 5, 0, Math.PI * 2);
+        });
+      } else if (geometry.type === 'GeometryCollection') {
+        (geometry.geometries || []).forEach(g => drawProjectedGeometry(ctx, g));
+      }
+    }
+
+    function cssVar(name) {
+      return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    }
+
+    function getLocationTypeCanvasStyle(locationType, isTarget = false) {
+      if (isTarget) return { fill: 'rgba(245, 158, 11, 0.36)', stroke: cssVar('--today') || '#f59e0b', lineWidth: 3 };
+      const type = String(locationType || '').trim().toLowerCase();
+      if (type === 'park') return { fill: 'rgba(34, 197, 94, 0.28)', stroke: '#15803d', lineWidth: 1.5 };
+      if (type === 'road') return { fill: 'rgba(107, 114, 128, 0.24)', stroke: '#6b7280', lineWidth: 1.25 };
+      if (type === 'property') return { fill: 'rgba(147, 51, 234, 0.26)', stroke: '#7e22ce', lineWidth: 1.45 };
+      return { fill: 'rgba(20, 184, 166, 0.24)', stroke: '#0f766e', lineWidth: 1.3 };
+    }
+
+
+    function getLocationTypeLeafletStyle(locationType, isTarget = false) {
+      const canvasStyle = getLocationTypeCanvasStyle(locationType, isTarget);
+      return {
+        color: canvasStyle.stroke,
+        weight: isTarget ? 4 : Math.max(1.25, canvasStyle.lineWidth),
+        opacity: isTarget ? 1 : 0.9,
+        fillColor: canvasStyle.stroke,
+        fillOpacity: isTarget ? 0.38 : 0.26
+      };
+    }
+
+    function initialiseLeafletMap() {
+      if (!window.L || !els.leafletMap || state.leafletMap) return Boolean(state.leafletMap);
+      try {
+        state.leafletMap = window.L.map(els.leafletMap, {
+          zoomControl: false,
+          preferCanvas: true,
+          attributionControl: true,
+          zoomSnap: 0.25,
+          zoomDelta: MAP_TOKEN_CONFIG.leafletZoomStep,
+          wheelPxPerZoomLevel: 120
+        });
+        state.leafletBaseLayer = window.L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+          subdomains: 'abcd',
+          maxZoom: 20,
+          attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+        }).addTo(state.leafletMap);
+        state.leafletMap.setView([-34.9285, 138.6007], 13);
+        document.getElementById('map')?.classList.add('leaflet-active');
+        setTimeout(() => state.leafletMap.invalidateSize(), 0);
+        return true;
+      } catch (err) {
+        recordDebugError('Leaflet basemap initialisation failed; falling back to canvas map', err);
+        return false;
+      }
+    }
+
+    function renderLeafletGeoJson(geojson, options = {}) {
+      if (!initialiseLeafletMap()) return false;
+      try {
+        if (state.leafletGeoJsonLayer) {
+          state.leafletGeoJsonLayer.remove();
+          state.leafletGeoJsonLayer = null;
+        }
+        state.leafletFeatureLayers = new Map();
+        state.leafletGeoJsonLayer = window.L.geoJSON(geojson, {
+          style: feature => getLocationTypeLeafletStyle('Park', getFeatureTokenId(feature) === state.highlightedMapId),
+          pointToLayer: (feature, latlng) => window.L.circleMarker(latlng, {
+            radius: 5,
+            ...getLocationTypeLeafletStyle('Park', getFeatureTokenId(feature) === state.highlightedMapId)
+          }),
+          onEachFeature: (feature, layer) => {
+            const id = getFeatureTokenId(feature);
+            if (id) state.leafletFeatureLayers.set(id, layer);
+            const parkLabel = String(feature?.properties?.Park || feature?.properties?.Name || feature?.properties?.Map_Labels || id || 'Park').trim();
+            layer.bindTooltip(parkLabel, { permanent: true, direction: 'center', className: 'park-map-label', interactive: false });
+          }
+        });
+        if (state.mapSpatialLayerVisible !== false) state.leafletGeoJsonLayer.addTo(state.leafletMap);
+        const bounds = state.leafletGeoJsonLayer.getBounds();
+        if (bounds?.isValid?.()) {
+          state.leafletHomeBounds = bounds;
+          if (options.fit !== false) homeMap();
+        }
+        return true;
+      } catch (err) {
+        recordDebugError('Leaflet GeoJSON rendering failed; canvas map remains available', err);
+        return false;
+      }
+    }
+
+    function refreshLeafletFeatureStyles() {
+      if (!state.leafletGeoJsonLayer) return;
+      state.leafletGeoJsonLayer.eachLayer(layer => {
+        const feature = layer.feature;
+        const isTarget = getFeatureTokenId(feature) === state.highlightedMapId;
+        const style = getLocationTypeLeafletStyle(feature?.properties?.Location_Type, isTarget);
+        if (typeof layer.setStyle === 'function') layer.setStyle(style);
+        if (isTarget && typeof layer.bringToFront === 'function') layer.bringToFront();
+      });
+      syncLeafletLocationIsolationVisibility();
+    }
+
+    function redrawCanvasMap() {
+      const canvas = els.mapCanvas;
+      if (!canvas) return;
+      resizeMapCanvas();
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      if (state.mapSpatialLayerVisible === false) return;
+      if (!state.canvasMap) return;
+      const line = cssVar('--line') || '#d9e2ef';
+      ctx.save();
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      state.canvasMap.projectedFeatures.forEach(item => {
+        if (state.mapLocationMatchedFeatures && !state.mapLocationMatchedFeatures.has(item.feature)) return;
+        ctx.beginPath();
+        drawProjectedGeometry(ctx, item.geometry);
+        const isTarget = state.highlightedMapId && item.id === state.highlightedMapId;
+        const style = getLocationTypeCanvasStyle(item.feature?.properties?.Location_Type, isTarget);
+        ctx.fillStyle = style.fill;
+        ctx.strokeStyle = style.stroke;
+        ctx.lineWidth = style.lineWidth;
+        if (['Polygon', 'MultiPolygon'].includes(item.geometry?.type)) ctx.fill('evenodd');
+        ctx.stroke();
+      });
+      ctx.restore();
+      ctx.save();
+      ctx.strokeStyle = line;
+      ctx.lineWidth = 1;
+      ctx.setLineDash([3, 5]);
+      ctx.strokeRect(0.5, 0.5, canvas.width - 1, canvas.height - 1);
+      ctx.restore();
+    }
+
+    function renderSvgMap(geojson) {
+      state.canvasMap = prepareCanvasMap(geojson);
+      if (!state.canvasMap) return;
+      initialiseMapHome();
+      redrawCanvasMap();
+    }
+
+    function applyMapTokenHighlight() {
+      refreshLeafletFeatureStyles();
+      redrawCanvasMap();
+    }
+
+    function zoomMapByFactor(factor, screenAnchor) {
+      if (state.leafletMap) {
+        const step = MAP_TOKEN_CONFIG.leafletZoomStep || 0.5;
+        const currentZoom = state.leafletMap.getZoom();
+        const nextZoom = factor > 1 ? currentZoom + step : currentZoom - step;
+        state.leafletMap.setZoom(nextZoom, { animate: false });
+        return;
+      }
+      if (!state.canvasMap || !state.mapView) return;
+      const anchor = screenAnchor || [state.mapView.width / 2, state.mapView.height / 2];
+      const before = screenToMap(anchor[0], anchor[1]);
+      state.mapView.scale *= factor;
+      const after = screenToMap(anchor[0], anchor[1]);
+      state.mapView.centerX += before[0] - after[0];
+      state.mapView.centerY += before[1] - after[1];
+      redrawCanvasMap();
+    }
+
+    function homeMap(options = {}) {
+      if (!options.preserveLocationIsolation && state.mapLocationMatchedFeatures) {
+        state.mapLocationMatchedFeatures = null;
+        state.mapLocationFilterEventIds = [];
+        syncLeafletLocationIsolationVisibility();
+      }
+      if (state.leafletMap && state.leafletHomeBounds?.isValid?.()) {
+        state.leafletMap.invalidateSize();
+        state.leafletMap.fitBounds(state.leafletHomeBounds, { padding: [18, 18], animate: false });
+        if (MAP_TOKEN_CONFIG.homeZoomBoostSteps) {
+          const homeAdjustment = MAP_TOKEN_CONFIG.homeZoomBoostSteps * (MAP_TOKEN_CONFIG.leafletZoomStep || 0.5);
+          state.leafletMap.setZoom(state.leafletMap.getZoom() + homeAdjustment, { animate: false });
+        }
+        return;
+      }
+      if (!state.canvasMap) return;
+      initialiseMapHome();
+      redrawCanvasMap();
+    }
+
+    function zoomToGeoJsonFeatureById(idToken) {
+      if (!idToken || !state.geojsonFeatureIndex.has(idToken)) return false;
+      state.highlightedMapId = idToken;
+      if (state.leafletMap && state.leafletFeatureLayers?.has(idToken)) {
+        const layer = state.leafletFeatureLayers.get(idToken);
+        refreshLeafletFeatureStyles();
+        if (typeof layer.getBounds === 'function') {
+          const bounds = layer.getBounds();
+          if (bounds?.isValid?.()) state.leafletMap.fitBounds(bounds, { padding: [28, 28], maxZoom: 18 });
+        } else if (typeof layer.getLatLng === 'function') {
+          state.leafletMap.setView(layer.getLatLng(), Math.max(state.leafletMap.getZoom(), 17));
+        }
+        return true;
+      }
+      const item = state.canvasMap?.projectedFeatures?.find(f => f.id === idToken);
+      if (item?.bounds && state.mapView) {
+        const b = item.bounds;
+        const w = state.mapView.width;
+        const h = state.mapView.height;
+        const pad = Math.min(w, h) * 0.18;
+        const scale = Math.min((w - pad * 2) / (b.maxX - b.minX || 1), (h - pad * 2) / (b.maxY - b.minY || 1));
+        state.mapView.scale = Number.isFinite(scale) ? scale : state.mapView.scale;
+        state.mapView.centerX = (b.minX + b.maxX) / 2;
+        state.mapView.centerY = (b.minY + b.maxY) / 2;
+      }
+      applyMapTokenHighlight();
+      return true;
+    }
+
+    function renderMapSummary(geojson) {
+      if (!geojson) {
+        if (els.mapStatusChip) els.mapStatusChip.textContent = 'No GeoJSON loaded';
+        return;
+      }
+      const summary = getGeoJsonSummary(geojson);
+      const projection = state.leafletMap ? 'Leaflet Web Mercator over CARTO Positron basemap' : (state.canvasMap?.projectionMode === 'webMercator' ? 'Web Mercator' : 'source planar coordinates');
+      if (els.mapHint) {
+        els.mapHint.textContent = state.leafletMap ? `GeoJSON rendered on a Leaflet neutral light-grey basemap. Pan and zoom with the map, mouse wheel, or +, − and home controls.` : `GeoJSON rendered on projected canvas map. Pan by dragging; use +, − and home controls.`;
+      }
+      if (els.mapStatusChip) {
+        const locationTypes = [...new Set(getGeoJsonFeatures(geojson).map(f => f.properties?.Location_Type).filter(Boolean))].sort();
+        const typeText = locationTypes.length ? ` · Location_Type: ${locationTypes.join(', ')}` : '';
+        const layerState = state.mapSpatialLayerVisible === false ? ' · layer off' : ' · layer on';
+        els.mapStatusChip.textContent = `${summary.count} feature${summary.count === 1 ? '' : 's'} · ${summary.types.join(', ') || 'No geometry'} · ${projection}${typeText} · ${state.geojsonFeatureIndex.size} ID token${state.geojsonFeatureIndex.size === 1 ? '' : 's'}${layerState}`;
+      }
+      if (els.mapSummary) els.mapSummary.innerHTML = '';
+    }
+
+    function setupCanvasMapInteractions() {
+      const canvas = els.mapCanvas;
+      if (!canvas) return;
+      let drag = null;
+      const localPoint = event => {
+        const rect = canvas.getBoundingClientRect();
+        const dpr = window.devicePixelRatio || 1;
+        return [(event.clientX - rect.left) * dpr, (event.clientY - rect.top) * dpr];
+      };
+      canvas.addEventListener('pointerdown', event => {
+        if (!state.canvasMap) return;
+        canvas.setPointerCapture(event.pointerId);
+        canvas.classList.add('is-panning');
+        drag = { start: localPoint(event), centerX: state.mapView.centerX, centerY: state.mapView.centerY };
+      });
+      canvas.addEventListener('pointermove', event => {
+        if (!drag || !state.mapView) return;
+        const pt = localPoint(event);
+        state.mapView.centerX = drag.centerX - (pt[0] - drag.start[0]) / state.mapView.scale;
+        state.mapView.centerY = drag.centerY + (pt[1] - drag.start[1]) / state.mapView.scale;
+        redrawCanvasMap();
+      });
+      const endDrag = event => {
+        drag = null;
+        canvas.classList.remove('is-panning');
+      };
+      canvas.addEventListener('pointerup', endDrag);
+      canvas.addEventListener('pointercancel', endDrag);
+      canvas.addEventListener('wheel', event => {
+        if (!state.canvasMap) return;
+        event.preventDefault();
+        const pt = localPoint(event);
+        const factor = event.deltaY < 0 ? MAP_TOKEN_CONFIG.zoomStep : 1 / MAP_TOKEN_CONFIG.zoomStep;
+        zoomMapByFactor(factor, pt);
+      }, { passive: false });
+      els.mapZoomInBtn?.addEventListener('click', () => zoomMapByFactor(MAP_TOKEN_CONFIG.zoomStep));
+      els.mapZoomOutBtn?.addEventListener('click', () => zoomMapByFactor(1 / MAP_TOKEN_CONFIG.zoomStep));
+      els.mapHomeBtn?.addEventListener('click', homeMap);
+      window.addEventListener('resize', () => {
+        if (state.leafletMap) {
+          state.leafletMap.invalidateSize();
+          return;
+        }
+        if (!state.canvasMap) return;
+        initialiseMapHome();
+        redrawCanvasMap();
+      });
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+    }
+
+
+    function diagnosticInclusiveDays(start, end) {
+      if (!start || !end) return 0;
+      const a = new Date(start.getFullYear(), start.getMonth(), start.getDate()).getTime();
+      const b = new Date(end.getFullYear(), end.getMonth(), end.getDate()).getTime();
+      return Math.max(1, Math.round((b - a) / 86400000) + 1);
+    }
+
+    function buildImportDiagnosticsRows() {
+      return state.events.map(evt => ({
+        id: evt.id,
+        title: evt.title,
+        type: evt.type,
+        startDate: evt.startDate,
+        endDate: evt.endDate,
+        bumpIn: evt.bumpIn,
+        bumpOut: evt.bumpOut,
+        startEndDays: diagnosticInclusiveDays(evt.startDate, evt.endDate || evt.startDate),
+        bumpDays: diagnosticInclusiveDays(evt.bumpIn, evt.bumpOut),
+        startKey: toISODate(evt.startDate),
+        bumpInKey: toISODate(evt.bumpIn),
+        location: evt.location,
+        description: evt.description
+      }));
+    }
+
+    function groupDiagnosticRows(rows, keyFn) {
+      const map = new Map();
+      rows.forEach(row => {
+        const key = keyFn(row) || 'Unspecified';
+        if (!map.has(key)) map.set(key, []);
+        map.get(key).push(row);
+      });
+      return map;
+    }
+
+    function getLargestDiagnosticGroup(rows, keyFn) {
+      let bestKey = '';
+      let bestRows = [];
+      groupDiagnosticRows(rows, keyFn).forEach((groupRows, key) => {
+        if (groupRows.length > bestRows.length) {
+          bestKey = key;
+          bestRows = groupRows;
+        }
+      });
+      return { key: bestKey, rows: bestRows, count: bestRows.length };
+    }
+
+    function buildImportDiagnosticStats(rows) {
+      const safeRows = rows.length ? rows : [];
+      const maxBump = safeRows.reduce((best, row) => !best || row.bumpDays > best.bumpDays ? row : best, null);
+      const maxEvent = safeRows.reduce((best, row) => !best || row.startEndDays > best.startEndDays ? row : best, null);
+      const sameStart = getLargestDiagnosticGroup(safeRows, row => row.startKey);
+      const sameBumpIn = getLargestDiagnosticGroup(safeRows, row => row.bumpInKey);
+      const sameType = getLargestDiagnosticGroup(safeRows, row => row.type);
+      return [
+        {
+          key: 'all',
+          label: 'Loaded events',
+          value: String(safeRows.length),
+          note: 'All normalised rows currently loaded',
+          filterLabel: 'All loaded events',
+          filter: () => true
+        },
+        {
+          key: 'longest-bump',
+          label: 'Longest bump in/out',
+          value: maxBump ? `${maxBump.bumpDays} days` : 'n/a',
+          note: maxBump ? maxBump.title : 'No rows',
+          filterLabel: maxBump ? `Longest bump in/out range: ${maxBump.bumpDays} days` : 'Longest bump in/out range',
+          filter: row => maxBump && row.bumpDays === maxBump.bumpDays
+        },
+        {
+          key: 'longest-event',
+          label: 'Longest start/end',
+          value: maxEvent ? `${maxEvent.startEndDays} days` : 'n/a',
+          note: maxEvent ? maxEvent.title : 'No rows',
+          filterLabel: maxEvent ? `Longest start/end range: ${maxEvent.startEndDays} days` : 'Longest start/end range',
+          filter: row => maxEvent && row.startEndDays === maxEvent.startEndDays
+        },
+        {
+          key: 'same-start-date',
+          label: 'Most same start date',
+          value: sameStart.count ? `${sameStart.count} events` : 'n/a',
+          note: sameStart.count ? displayDate(parseDate(sameStart.key)) : 'No rows',
+          filterLabel: sameStart.count ? `Events starting ${displayDate(parseDate(sameStart.key))}` : 'Events with same start date',
+          filter: row => sameStart.count && row.startKey === sameStart.key
+        },
+        {
+          key: 'same-bump-in-date',
+          label: 'Most same bump-in date',
+          value: sameBumpIn.count ? `${sameBumpIn.count} events` : 'n/a',
+          note: sameBumpIn.count ? displayDate(parseDate(sameBumpIn.key)) : 'No rows',
+          filterLabel: sameBumpIn.count ? `Events bumping in ${displayDate(parseDate(sameBumpIn.key))}` : 'Events with same bump-in date',
+          filter: row => sameBumpIn.count && row.bumpInKey === sameBumpIn.key
+        },
+        {
+          key: 'same-type',
+          label: 'Top Event Organiser',
+          value: sameType.count ? `${sameType.count} events` : 'n/a',
+          note: sameType.key || 'No rows',
+          filterLabel: sameType.count ? `Event organiser with most events: ${sameType.key}` : 'Event organiser with most events',
+          filter: row => sameType.count && row.type === sameType.key
+        }
+      ];
+    }
+
+    function getImportDiagnosticsFilterSummary(stats) {
+      if (!state.importDiagnosticsFilter || state.importDiagnosticsFilter === 'all') return 'No diagnostic filter active';
+      const stat = stats.find(item => item.key === state.importDiagnosticsFilter);
+      return stat ? stat.filterLabel : 'No diagnostic filter active';
+    }
+
+    function getFilteredImportDiagnosticRows(rows, stats) {
+      if (!state.importDiagnosticsFilter || state.importDiagnosticsFilter === 'all') return rows;
+      const stat = stats.find(item => item.key === state.importDiagnosticsFilter);
+      if (!stat) return rows;
+      return rows.filter(stat.filter);
+    }
+
+    function renderImportDiagnosticsModal() {
+      const rows = buildImportDiagnosticsRows();
+      const stats = buildImportDiagnosticStats(rows);
+      const filteredRows = getFilteredImportDiagnosticRows(rows, stats);
+      if (els.importDiagnosticsStats) {
+        els.importDiagnosticsStats.innerHTML = '';
+        stats.forEach(stat => {
+          const card = document.createElement('button');
+          card.type = 'button';
+          card.className = `diagnostic-stat-card${state.importDiagnosticsFilter === stat.key || (!state.importDiagnosticsFilter && stat.key === 'all') ? ' active' : ''}`;
+          card.dataset.filterKey = stat.key;
+          card.innerHTML = `
+            <span class="diagnostic-stat-label">${escapeHtml(stat.label)}</span>
+            <span class="diagnostic-stat-value">${escapeHtml(stat.value)}</span>
+            <span class="diagnostic-stat-note">${escapeHtml(stat.note)}</span>
+          `;
+          card.addEventListener('click', () => {
+            state.importDiagnosticsFilter = state.importDiagnosticsFilter === stat.key ? null : stat.key;
+            renderImportDiagnosticsModal();
+          });
+          els.importDiagnosticsStats.appendChild(card);
+        });
+      }
+      if (els.importDiagnosticsTableTitle) {
+        els.importDiagnosticsTableTitle.textContent = `${filteredRows.length} diagnostic row${filteredRows.length === 1 ? '' : 's'}`;
+      }
+      if (els.importDiagnosticsFilterNote) {
+        els.importDiagnosticsFilterNote.textContent = getImportDiagnosticsFilterSummary(stats);
+      }
+      if (!els.importDiagnosticsBody) return;
+      if (!filteredRows.length) {
+        els.importDiagnosticsBody.innerHTML = '<tr><td colspan="10" class="empty-state">No diagnostic rows match this statistic.</td></tr>';
+        updateBackToTopButton(els.importDiagnosticsScroll, els.diagnosticsBackTopBtn);
+        return;
+      }
+      const fragment = document.createDocumentFragment();
+      filteredRows.forEach(row => {
+        const tr = document.createElement('tr');
+        const rowKey = row.id || `${row.title}-${row.startKey}-${row.bumpInKey}`;
+        const isExpanded = state.diagnosticExpandedRows.has(rowKey);
+        tr.dataset.diagnosticRowId = rowKey;
+        if (isExpanded) tr.classList.add('expanded');
+        tr.innerHTML = `
+          <td class="diag-expand-cell"><button class="diag-expand-btn" type="button" title="${isExpanded ? 'Collapse row' : 'Expand row'}" aria-label="${isExpanded ? 'Collapse row' : 'Expand row'}">${isExpanded ? '−' : '+'}</button></td>
+          <td class="diag-title-cell" title="${escapeHtml(row.title)}"><div class="diag-cell-clamp">${escapeHtml(row.title)}</div></td>
+          <td class="diag-type-cell"><div class="diag-cell-clamp"><span class="type-pill" style="--pill-colour:${getTypeColour(row.type)};background:${getTypeColour(row.type)}">${escapeHtml(row.type)}</span></div></td>
+          <td class="diag-date-cell"><div class="diag-cell-clamp">${displayDate(row.bumpIn)}</div></td>
+          <td class="diag-date-cell"><div class="diag-cell-clamp">${displayDate(row.startDate)}</div></td>
+          <td class="diag-date-cell"><div class="diag-cell-clamp">${displayDate(row.endDate)}</div></td>
+          <td class="diag-date-cell"><div class="diag-cell-clamp">${displayDate(row.bumpOut)}</div></td>
+          <td class="diag-range-cell"><div class="diag-cell-clamp">${row.startEndDays}</div></td>
+          <td class="diag-range-cell"><div class="diag-cell-clamp">${row.bumpDays}</div></td>
+          <td class="diag-location-cell" title="${escapeHtml(row.location)}"><div class="diag-cell-clamp">${escapeHtml(row.location)}</div></td>
+        `;
+        tr.querySelector('.diag-expand-btn')?.addEventListener('click', event => {
+          event.stopPropagation();
+          if (state.diagnosticExpandedRows.has(rowKey)) state.diagnosticExpandedRows.delete(rowKey);
+          else state.diagnosticExpandedRows.add(rowKey);
+          renderImportDiagnosticsModal();
+        });
+        fragment.appendChild(tr);
+      });
+      els.importDiagnosticsBody.innerHTML = '';
+      els.importDiagnosticsBody.appendChild(fragment);
+      updateBackToTopButton(els.importDiagnosticsScroll, els.diagnosticsBackTopBtn);
+    }
+
+    function showImportDiagnosticsModal() {
+      state.importDiagnosticsFilter = null;
+      state.diagnosticExpandedRows.clear();
+      renderImportDiagnosticsModal();
+      if (els.importDiagnosticsModal) els.importDiagnosticsModal.hidden = false;
+    }
+
+    function hideImportDiagnosticsModal() {
+      if (els.importDiagnosticsModal) els.importDiagnosticsModal.hidden = true;
+    }
+
+
+
+    function updateThemeMenuState() {
+      const activeTheme = document.body.dataset.theme || 'light';
+      const activeFont = document.body.dataset.font || 'default';
+      els.themeMenu?.querySelectorAll('[data-theme-choice]').forEach(btn => {
+        const active = btn.dataset.themeChoice === activeTheme;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      els.themeMenu?.querySelectorAll('[data-font-choice]').forEach(btn => {
+        const active = btn.dataset.fontChoice === activeFont;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+    }
+
+    function showThemeMenu() {
+      if (!els.themeMenu) return;
+      updateThemeMenuState();
+      els.themeMenu.hidden = false;
+      els.themeToggle.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideThemeMenu() {
+      if (!els.themeMenu) return;
+      els.themeMenu.hidden = true;
+      els.themeToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    function toggleThemeMenu() {
+      if (!els.themeMenu) return;
+      if (els.themeMenu.hidden) showThemeMenu();
+      else hideThemeMenu();
+    }
+
+    function setDashboardTheme(themeName, persist = true) {
+      const allowed = new Set(['light', 'dark', 'colour-blind', 'high-contrast', 'range-focus', 'range-focus-2']);
+      const next = allowed.has(themeName) ? themeName : 'light';
+      document.body.dataset.theme = next;
+      if (persist) {
+        if (state.mobileMode && (next === 'light' || next === 'dark')) localStorage.setItem('eventDashboardMobileTheme', next);
+        else localStorage.setItem('eventDashboardTheme', next);
+      }
+      const themeLabel = next === 'colour-blind'
+        ? 'Colour-Blind Friendly'
+        : next === 'high-contrast'
+          ? 'High Contrast'
+          : next === 'range-focus'
+            ? 'Range Focus'
+            : next === 'range-focus-2'
+              ? 'Range Focus 2'
+              : next[0].toUpperCase() + next.slice(1);
+      els.themeToggle.title = `Theme and font menu: ${themeLabel}`;
+      els.themeToggle.setAttribute('aria-label', els.themeToggle.title);
+      const label = els.themeToggle.querySelector('span');
+      if (label) label.textContent = 'Theme';
+      updateThemeMenuState();
+      redrawCanvasMap();
+    }
+
+    function setFontStatus(el, isAvailable) {
+      if (!el) return;
+      el.textContent = isAvailable ? 'Available' : 'Not available';
+      el.classList.toggle('ready', isAvailable);
+      el.classList.toggle('fallback', !isAvailable);
+    }
+
+    function isFontVisiblyAvailable(fontFamily) {
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+      if (!context) return false;
+      const probe = 'mmmmmmmmmmwwwwwwwwwwiiiWWW@@@###000';
+      const size = '72px';
+      const fallbacks = ['monospace', 'serif', 'sans-serif'];
+      return fallbacks.some(fallback => {
+        context.font = `${size} ${fallback}`;
+        const fallbackWidth = context.measureText(probe).width;
+        context.font = `${size} "${fontFamily}", ${fallback}`;
+        const testWidth = context.measureText(probe).width;
+        return Math.abs(testWidth - fallbackWidth) > 0.5;
+      });
+    }
+
+    async function updateFontAvailabilityStatus() {
+      try {
+        if (document.fonts && document.fonts.load) {
+          await Promise.allSettled([
+            document.fonts.load('16px "OpenDyslexic"')
+          ]);
+        }
+      } catch (err) {
+        recordDebugError('Font availability check failed', err);
+      }
+      setFontStatus(els.openDyslexicStatus, isFontVisiblyAvailable('OpenDyslexic'));
+    }
+
+    function normaliseFontChoice(fontName) {
+      if (fontName === 'dyslexic') return 'opendyslexic';
+      if (fontName === 'opendyslexic') return fontName;
+      return 'default';
+    }
+
+    function setDashboardFont(fontName, persist = true) {
+      const next = normaliseFontChoice(fontName);
+      document.body.dataset.font = next;
+      if (persist) localStorage.setItem('eventDashboardFont', next);
+      updateThemeMenuState();
+      updateFontAvailabilityStatus();
+    }
+
+    function positionBackToTopButton(scrollEl, buttonEl) {
+      if (!scrollEl || !buttonEl || !buttonEl.classList.contains('visible')) return;
+      const rect = scrollEl.getBoundingClientRect();
+      const offset = 14;
+      const buttonSize = 38;
+      const minEdge = 8;
+      const right = Math.max(minEdge, window.innerWidth - rect.right + offset);
+      const bottom = Math.max(minEdge, window.innerHeight - rect.bottom + offset);
+      const maxRight = Math.max(minEdge, window.innerWidth - rect.left - buttonSize - offset);
+      const maxBottom = Math.max(minEdge, window.innerHeight - rect.top - buttonSize - offset);
+      buttonEl.style.right = `${Math.min(right, maxRight)}px`;
+      buttonEl.style.bottom = `${Math.min(bottom, maxBottom)}px`;
+    }
+
+    function updateBackToTopButton(scrollEl, buttonEl) {
+      if (!scrollEl || !buttonEl) return;
+      const shouldShow = scrollEl.scrollTop > 120;
+      buttonEl.classList.toggle('visible', shouldShow);
+      if (shouldShow) positionBackToTopButton(scrollEl, buttonEl);
+    }
+
+    function bindBackToTopButton(scrollEl, buttonEl) {
+      if (!scrollEl || !buttonEl) return;
+      const refresh = () => updateBackToTopButton(scrollEl, buttonEl);
+      scrollEl.addEventListener('scroll', refresh, { passive: true });
+      window.addEventListener('resize', refresh);
+      buttonEl.addEventListener('click', event => {
+        event.stopPropagation();
+        scrollEl.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      refresh();
+    }
+
+
+    function isTableExpandedActive() {
+      return document.querySelector('.workspace')?.classList.contains('table-expanded') || false;
+    }
+
+    function syncTableLocationPopupAvailability() {
+      document.querySelectorAll('.field-popup-btn[data-field-popup="location"]').forEach(button => {
+        const enabledTitle = button.dataset.enabledTitle || button.getAttribute('title') || 'Open Location in popup';
+        const enabledAriaLabel = button.dataset.enabledAriaLabel || button.getAttribute('aria-label') || enabledTitle;
+        button.dataset.enabledTitle = enabledTitle;
+        button.dataset.enabledAriaLabel = enabledAriaLabel;
+        button.disabled = false;
+        button.setAttribute('aria-disabled', 'false');
+        button.title = enabledTitle;
+        button.setAttribute('aria-label', enabledAriaLabel);
+      });
+    }
+
+    function isCalendarFullscreenActive() {
+      return els.calendarScroll?.classList.contains('calendar-fullscreen-fallback');
+    }
+
+    function updateCalendarFullscreenButton() {
+      if (!els.calendarFullscreenBtn) return;
+      const active = isCalendarFullscreenActive();
+      els.calendarFullscreenBtn.title = active ? 'Restore calendar panel' : 'Maximise calendar panel';
+      els.calendarFullscreenBtn.dataset.tip = els.calendarFullscreenBtn.title;
+      els.calendarFullscreenBtn.setAttribute('aria-label', els.calendarFullscreenBtn.title);
+      els.calendarFullscreenBtn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    }
+
+    function enterCalendarFullscreenFallback() {
+      if (!els.calendarScroll) return;
+      els.calendarScroll.classList.add('calendar-fullscreen-fallback');
+      document.body.classList.add('calendar-fullscreen-fallback-active');
+      updateCalendarFullscreenButton();
+    }
+
+    function exitCalendarFullscreenFallback() {
+      if (!els.calendarScroll) return;
+      els.calendarScroll.classList.remove('calendar-fullscreen-fallback');
+      document.body.classList.remove('calendar-fullscreen-fallback-active');
+      updateCalendarFullscreenButton();
+    }
+
+    async function toggleCalendarFullscreen() {
+      if (!els.calendarScroll) return;
+      if (els.calendarScroll.classList.contains('calendar-fullscreen-fallback')) {
+        exitCalendarFullscreenFallback();
+        return;
+      }
+      enterCalendarFullscreenFallback();
+      updateCalendarFullscreenButton();
+    }
+
+    function setTableExpanded(isExpanded) {
+      const workspace = document.querySelector('.workspace');
+      workspace?.classList.toggle('table-expanded', !!isExpanded);
+      if (isExpanded) clearMapLocationIsolation({ returnHome: true });
+      syncTableLocationPopupAvailability();
+      if (els.tableExpandBtn) {
+        els.tableExpandBtn.setAttribute('aria-pressed', isExpanded ? 'true' : 'false');
+        els.tableExpandBtn.innerHTML = isExpanded
+          ? '<svg viewBox="0 0 24 24"><path d="M8 3v5H3M16 3v5h5M8 21v-5H3M16 21v-5h5"/></svg>'
+          : '<svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/></svg>';
+        els.tableExpandBtn.title = isExpanded ? 'Restore table panel' : 'Maximise table panel';
+        els.tableExpandBtn.dataset.tip = els.tableExpandBtn.title;
+        els.tableExpandBtn.setAttribute('aria-label', els.tableExpandBtn.title);
+      }
+      requestAnimationFrame(() => {
+        if (typeof positionTableBackTopButton === 'function') positionTableBackTopButton();
+      });
+    }
+
+    function toggleTableExpanded() {
+      const workspace = document.querySelector('.workspace');
+      setTableExpanded(!workspace?.classList.contains('table-expanded'));
+    }
+
+
+    function mobileDetailRow(label, value, options = {}) {
+      const safeValue = value === null || value === undefined || value === '' ? '—' : String(value);
+      return `<div class="mobile-detail-row${options.primary ? ' primary' : ''}"><div class="mobile-detail-label">${escapeHtml(label)}</div><div class="mobile-detail-value">${escapeHtml(safeValue)}</div></div>`;
+    }
+
+    function closeMobileDetailModal() {
+      if (els.mobileDetailModal) els.mobileDetailModal.hidden = true;
+    }
+
+    function closeMobileListModal() {
+      closeMobileDetailModal();
+      if (els.mobileListModal) els.mobileListModal.hidden = true;
+    }
+
+    function openMobileEventDetail(item, keepListOpen = false) {
+      if (!item || !els.mobileDetailModal) return;
+      if (!keepListOpen && els.mobileListModal) els.mobileListModal.hidden = true;
+      els.mobileDetailTitle.textContent = 'Event details';
+      els.mobileDetailSubtitle.textContent = displayDateWithWeekday(item.startDate);
+      els.mobileDetailBody.innerHTML = `<div class="mobile-detail-rows">
+        ${mobileDetailRow('Event', item.title, { primary: true })}
+        ${mobileDetailRow('Organiser', item.organiser)}
+        ${mobileDetailRow('Bump in', displayDateWithWeekday(item.bumpIn))}
+        ${mobileDetailRow('Start', displayDateWithWeekday(item.startDate))}
+        ${mobileDetailRow('End', displayDateWithWeekday(item.endDate))}
+        ${mobileDetailRow('Bump out', displayDateWithWeekday(item.bumpOut))}
+        ${mobileDetailRow('Booked spaces', item.location)}
+        ${mobileDetailRow('Coordinator', item.coordinator)}
+      </div>`;
+      els.mobileDetailModal.hidden = false;
+      els.mobileDetailBody.scrollTop = 0;
+      els.mobileDetailCloseBtn?.focus({ preventScroll: true });
+    }
+
+    function openMobileRoadClosureDetail(item, keepListOpen = false) {
+      if (!item || !els.mobileDetailModal) return;
+      if (!keepListOpen && els.mobileListModal) els.mobileListModal.hidden = true;
+      els.mobileDetailTitle.textContent = 'Road closure details';
+      els.mobileDetailSubtitle.textContent = `${displayDateWithWeekday(item.startDate)}${toISODate(item.endDate) !== toISODate(item.startDate) ? ` – ${displayDateWithWeekday(item.endDate)}` : ''}`;
+      els.mobileDetailBody.innerHTML = `<div class="mobile-detail-rows">
+        ${mobileDetailRow('Event', item.title, { primary: true })}
+        ${mobileDetailRow('Start', displayDateWithWeekday(item.startDate))}
+        ${mobileDetailRow('End', displayDateWithWeekday(item.endDate))}
+        ${mobileDetailRow('Road closure schedule', item.schedule)}
+        ${mobileDetailRow('Traffic supplier', item.supplier)}
+      </div>`;
+      els.mobileDetailModal.hidden = false;
+      els.mobileDetailBody.scrollTop = 0;
+      els.mobileDetailCloseBtn?.focus({ preventScroll: true });
+    }
+
+    function openMobileEventCollection(dayDate, items) {
+      const events = Array.isArray(items) ? items : [];
+      if (!events.length) return;
+      if (events.length === 1) {
+        openMobileEventDetail(events[0], false);
+        return;
+      }
+      closeMobileDetailModal();
+      els.mobileListTitle.textContent = `${events.length} events`;
+      els.mobileListSubtitle.textContent = displayDateWithWeekday(dayDate);
+      els.mobileListBody.innerHTML = `<div class="mobile-event-list">${events.map((item, index) => `
+        <button class="mobile-event-list-item" type="button" data-mobile-event-index="${index}">
+          <span class="mobile-list-badge">${index + 1}</span>
+          <span class="mobile-list-copy"><span class="mobile-list-title">${escapeHtml(item.title)}</span><span class="mobile-list-meta">${escapeHtml(item.organiser || 'Unspecified organiser')}</span></span>
+          <span class="mobile-list-chevron" aria-hidden="true">›</span>
+        </button>`).join('')}</div>`;
+      els.mobileListBody.querySelectorAll('[data-mobile-event-index]').forEach(button => {
+        button.addEventListener('click', () => openMobileEventDetail(events[Number(button.dataset.mobileEventIndex)], true));
+      });
+      els.mobileListModal.hidden = false;
+      els.mobileListBody.scrollTop = 0;
+      els.mobileListCloseBtn?.focus({ preventScroll: true });
+    }
+
+    function openMobileRoadClosureCollection(dayDate, items) {
+      const closures = Array.isArray(items) ? items : [];
+      if (!closures.length) return;
+      if (closures.length === 1) {
+        openMobileRoadClosureDetail(closures[0], false);
+        return;
+      }
+      closeMobileDetailModal();
+      els.mobileListTitle.textContent = `${closures.length} road closures`;
+      els.mobileListSubtitle.textContent = displayDateWithWeekday(dayDate);
+      els.mobileListBody.innerHTML = `<div class="mobile-event-list">${closures.map((item, index) => `
+        <button class="mobile-event-list-item" type="button" data-mobile-road-index="${index}">
+          <span class="mobile-list-badge road">R</span>
+          <span class="mobile-list-copy"><span class="mobile-list-title">${escapeHtml(item.title)}</span><span class="mobile-list-meta">${escapeHtml(item.supplier || 'Supplier not specified')}</span></span>
+          <span class="mobile-list-chevron" aria-hidden="true">›</span>
+        </button>`).join('')}</div>`;
+      els.mobileListBody.querySelectorAll('[data-mobile-road-index]').forEach(button => {
+        button.addEventListener('click', () => openMobileRoadClosureDetail(closures[Number(button.dataset.mobileRoadIndex)], true));
+      });
+      els.mobileListModal.hidden = false;
+      els.mobileListBody.scrollTop = 0;
+      els.mobileListCloseBtn?.focus({ preventScroll: true });
+    }
+
+    function isDocumentFullscreenActive() {
+      return !!(document.fullscreenElement || document.webkitFullscreenElement || document.body.classList.contains('mobile-document-fullscreen'));
+    }
+
+    function updateMobileFullscreenButton() {
+      if (!els.mobileFullscreenBtn) return;
+      const active = isDocumentFullscreenActive();
+      els.mobileFullscreenBtn.setAttribute('aria-pressed', active ? 'true' : 'false');
+      els.mobileFullscreenBtn.setAttribute('aria-label', active ? 'Exit mobile fullscreen' : 'Enter mobile fullscreen');
+      if (state.mobileMode) delete els.mobileFullscreenBtn.dataset.tip;
+      else els.mobileFullscreenBtn.dataset.tip = active ? 'Exit mobile fullscreen' : 'Mobile fullscreen';
+    }
+
+    async function toggleMobileFullscreen() {
+      try {
+        if (document.fullscreenElement && document.exitFullscreen) await document.exitFullscreen();
+        else if (document.webkitFullscreenElement && document.webkitExitFullscreen) document.webkitExitFullscreen();
+        else if (document.body.classList.contains('mobile-document-fullscreen')) document.body.classList.remove('mobile-document-fullscreen');
+        else if (document.documentElement.requestFullscreen) await document.documentElement.requestFullscreen();
+        else if (document.documentElement.webkitRequestFullscreen) document.documentElement.webkitRequestFullscreen();
+        else document.body.classList.add('mobile-document-fullscreen');
+      } catch (error) {
+        recordDebugWarning('Mobile fullscreen', error?.message || String(error));
+        document.body.classList.toggle('mobile-document-fullscreen');
+      }
+      updateMobileFullscreenButton();
+    }
+
+    function updateMobileModeButton() {
+      if (!els.mobileModeBtn) return;
+      const active = !!state.mobileMode;
+      els.mobileModeBtn.setAttribute('aria-pressed', active ? 'true' : 'false');
+      els.mobileModeBtn.setAttribute('aria-label', active ? 'Exit mobile calendar mode' : 'Enter mobile calendar mode');
+      els.mobileModeBtn.dataset.tip = active ? 'Exit mobile calendar mode' : 'Enter mobile calendar mode';
+      const label = els.mobileModeBtn.querySelector('span');
+      if (label) label.textContent = active ? 'Desktop' : 'Mobile';
+    }
+
+    function setMobileMode(enabled, options = {}) {
+      const next = !!enabled;
+      const changed = state.mobileMode !== next;
+      if (options.manual !== undefined) state.mobileModeManual = options.manual;
+
+      if (next && !state.mobileMode) {
+        state.preMobileTheme = document.body.dataset.theme || 'range-focus-2';
+        state.preMobileMonthViewCount = Math.max(1, Math.min(3, state.userMonthViewCount || state.monthViewCount || 1));
+        state.monthViewCount = 1;
+        state.userMonthViewCount = 1;
+        state.autoMonthViewActive = false;
+        state.preAutoMonthViewCount = null;
+        state.preAutoCalendarWindow = null;
+        if (els.monthViewCount) els.monthViewCount.value = '1';
+        if (els.rangeStart?.value) {
+          const from = getVisibleDateRange().from;
+          els.rangeStart.value = toISODate(new Date(from.getFullYear(), from.getMonth(), 1));
+          els.rangeEnd.value = toISODate(endOfMonth(from));
+        }
+        leaveRoadClosureTableMode();
+        state.selectedEventId = null;
+        state.countBadgeSelectedEventId = null;
+        state.tableFocusedEventId = null;
+        state.selectedDateKey = null;
+        state.startDayFocusedDateKey = null;
+        state.activeLegendType = null;
+        closePopover();
+        closeFieldPopup();
+        document.querySelector('.workspace')?.classList.remove('table-expanded');
+        if (els.calendarScroll?.classList.contains('calendar-fullscreen-fallback')) exitCalendarFullscreenFallback();
+        clearMapLocationIsolation({ returnHome: true, forceHome: true });
+      } else if (!next && state.mobileMode) {
+        const restoredCount = Math.max(1, Math.min(3, state.preMobileMonthViewCount || 1));
+        state.monthViewCount = restoredCount;
+        state.userMonthViewCount = restoredCount;
+        if (els.monthViewCount) els.monthViewCount.value = String(restoredCount);
+        if (els.rangeStart?.value) {
+          const from = getVisibleDateRange().from;
+          els.rangeEnd.value = toISODate(endOfMonth(addMonths(from, restoredCount - 1)));
+        }
+        closeMobileListModal();
+        document.body.classList.remove('mobile-document-fullscreen');
+      }
+
+      state.mobileMode = next;
+      document.body.classList.toggle('mobile-mode', next);
+      if (next) {
+        const savedMobileTheme = localStorage.getItem('eventDashboardMobileTheme');
+        setDashboardTheme(savedMobileTheme === 'dark' ? 'dark' : 'light', false);
+      } else if (state.preMobileTheme) {
+        setDashboardTheme(state.preMobileTheme, false);
+        state.preMobileTheme = null;
+      }
+      updateMobileModeButton();
+      updateMobileFullscreenButton();
+      syncMonthViewButtons();
+
+      if ((changed || options.forceRender) && options.render !== false && state.events.length) renderAll();
+      if (!next) setTimeout(() => state.leafletMap?.invalidateSize(), 80);
+    }
+
+    function resolveResponsiveMobileMode(options = {}) {
+      const automatic = window.matchMedia('(max-width: 768px)').matches;
+      const enabled = state.mobileModeManual === null ? automatic : !!state.mobileModeManual;
+      setMobileMode(enabled, { render: options.render, forceRender: options.forceRender });
+    }
+
+    function toggleManualMobileMode() {
+      setMobileMode(!state.mobileMode, { manual: !state.mobileMode, render: true });
+    }
+
+    function initialiseMobileMode() {
+      resolveResponsiveMobileMode({ render: false });
+      const media = window.matchMedia('(max-width: 768px)');
+      const handler = () => {
+        if (state.mobileModeManual === null) resolveResponsiveMobileMode({ render: true });
+      };
+      if (media.addEventListener) media.addEventListener('change', handler);
+      else if (media.addListener) media.addListener(handler);
+    }
+
+    function resetDashboardToInitialState() {
+      localStorage.removeItem('eventDashboardTheme');
+      localStorage.removeItem('eventDashboardMobileTheme');
+      localStorage.removeItem('eventDashboardFont');
+      window.location.reload();
+    }
+
+    function bindEvents() {
+      initialiseLeafletMap();
+      setupCanvasMapInteractions();
+      bindBackToTopButton(els.tableWrap, els.mainTableBackTopBtn);
+      bindBackToTopButton(els.importDiagnosticsScroll, els.diagnosticsBackTopBtn);
+      els.themeToggle.addEventListener('click', event => {
+        event.stopPropagation();
+        toggleThemeMenu();
+      });
+      els.themeMenu?.addEventListener('click', event => {
+        const themeButton = event.target.closest('[data-theme-choice]');
+        const fontButton = event.target.closest('[data-font-choice]');
+        if (themeButton) {
+          setDashboardTheme(themeButton.dataset.themeChoice);
+          hideThemeMenu();
+        }
+        if (fontButton) {
+          if (state.mobileMode && fontButton.dataset.fontChoice === 'opendyslexic') {
+            setDashboardFont(document.body.dataset.font === 'opendyslexic' ? 'default' : 'opendyslexic');
+            hideThemeMenu();
+          } else {
+            setDashboardFont(fontButton.dataset.fontChoice);
+          }
+        }
+      });
+      document.addEventListener('click', event => {});
+      els.importDataBtn?.addEventListener('click', () => els.dataFile?.click());
+      els.importPdfBtn?.addEventListener('click', () => els.pdfFile?.click());
+      els.importRoadClosurePdfBtn?.addEventListener('click', () => els.roadClosurePdfFile?.click());
+      els.importMapBtn?.addEventListener('click', () => els.mapFile?.click());
+      els.importDiagnosticsBtn?.addEventListener('click', showImportDiagnosticsModal);
+      els.aboutBtn?.addEventListener('click', showAboutModal);
+      els.mobileModeBtn?.addEventListener('click', toggleManualMobileMode);
+      els.mobilePrevMonthBtn?.addEventListener('click', () => shiftVisibleMonths(-1));
+      els.mobileNextMonthBtn?.addEventListener('click', () => shiftVisibleMonths(1));
+      els.mobileFullscreenBtn?.addEventListener('click', toggleMobileFullscreen);
+      els.mobileListCloseBtn?.addEventListener('click', closeMobileListModal);
+      els.mobileDetailCloseBtn?.addEventListener('click', closeMobileDetailModal);
+      els.resetBtn?.addEventListener('click', resetDashboardToInitialState);
+      els.aboutCloseBtn?.addEventListener('click', hideAboutModal);
+      els.aboutModal?.addEventListener('click', event => { if (event.target === els.aboutModal) hideAboutModal(); });
+      els.importDiagnosticsCloseBtn?.addEventListener('click', hideImportDiagnosticsModal);
+      els.importDiagnosticsModal?.addEventListener('click', event => { if (event.target === els.importDiagnosticsModal) hideImportDiagnosticsModal(); });
+      els.debugCloseBtn?.addEventListener('click', hideDebugModal);
+      els.debugModal?.addEventListener('click', event => { if (event.target === els.debugModal) hideDebugModal(); });
+      els.debugCopyBtn?.addEventListener('click', copyDebugLog);
+      els.debugClearBtn?.addEventListener('click', clearDebugLog);
+      els.dataFile?.addEventListener('change', e => handleDataFile(e.target.files[0]));
+      els.pdfFile?.addEventListener('change', e => handlePdfFile(e.target.files[0]));
+      els.roadClosurePdfFile?.addEventListener('change', e => handleRoadClosurePdfFile(e.target.files[0]));
+      els.mapFile?.addEventListener('change', e => handleMapFile(e.target.files[0]));
+      els.searchInput?.addEventListener('input', e => {
+        state.searchText = e.target.value;
+        applyFilters();
+      });
+      els.rangeStart.addEventListener('change', renderCalendar);
+      els.rangeEnd.addEventListener('change', renderCalendar);
+      els.prevMonthBtn.addEventListener('click', () => shiftVisibleMonths(-1));
+      els.nextMonthBtn.addEventListener('click', () => shiftVisibleMonths(1));
+      els.todayBtn?.addEventListener('click', focusTodayCalendarView);
+      els.fieldPopupCloseBtn?.addEventListener('click', closeFieldPopup);
+      els.fieldPopupModal?.addEventListener('click', event => {
+        if (event.target === els.fieldPopupModal) closeFieldPopup();
+      });
+      function applyManualMonthViewChoice(value) {
+        state.monthViewCount = Math.max(1, Math.min(3, Number(value) || 1));
+        els.monthViewCount.value = String(state.monthViewCount);
+        state.userMonthViewCount = state.monthViewCount;
+        syncMonthViewButtons();
+        if (state.autoMonthViewActive) {
+          const selected = state.events.find(e => e.id === state.selectedEventId) || state.filteredEvents.find(e => e.id === state.selectedEventId);
+          if (selected) {
+            focusCalendarOnEventStart(selected);
+            renderCalendar();
+            return;
+          }
+        }
+        const { from } = getVisibleDateRange();
+        setVisibleMonthWindow(from);
+      }
+
+      els.monthViewCount.addEventListener('change', () => applyManualMonthViewChoice(els.monthViewCount.value));
+      (els.monthViewButtons || []).forEach(btn => {
+        btn.addEventListener('click', () => applyManualMonthViewChoice(btn.dataset.monthView));
+      });
+      syncMonthViewButtons();
+      els.tableExpandBtn?.addEventListener('click', toggleTableExpanded);
+      els.calendarFullscreenBtn?.addEventListener('click', toggleCalendarFullscreen);
+      document.addEventListener('fullscreenchange', () => { updateCalendarFullscreenButton(); updateMobileFullscreenButton(); });
+      document.addEventListener('webkitfullscreenchange', () => { updateCalendarFullscreenButton(); updateMobileFullscreenButton(); });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && !els.mobileDetailModal?.hidden) { closeMobileDetailModal(); return; }
+        if (event.key === 'Escape' && !els.mobileListModal?.hidden) { closeMobileListModal(); return; }
+        if (event.key === 'Escape' && els.calendarScroll?.classList.contains('calendar-fullscreen-fallback')) {
+          exitCalendarFullscreenFallback();
+        }
+      });
+      els.mapGeoJsonLayerToggle?.addEventListener('change', () => {
+        setSpatialLayerVisibility(els.mapGeoJsonLayerToggle.checked);
+      });
+      els.mapIdFieldToken?.addEventListener('change', () => {
+        if (state.geojson) {
+          buildGeoJsonFeatureIndex(state.geojson);
+          renderSvgMap(state.geojson);
+          renderMapSummary(state.geojson);
+        }
+      });
+      els.mapTokenZoomBtn?.addEventListener('click', () => {
+        const token = els.mapFeatureIdToken?.value?.trim();
+        if (!token) return alert('Enter a feature ID token to test the zoom framework.');
+        if (!zoomToGeoJsonFeatureById(token)) alert('Token not found in the current GeoJSON feature index.');
+      });
+      els.clearSelectionBtn?.addEventListener('click', clearSelection);
+      document.addEventListener('click', e => {
+        const clickedInsidePopover = !!(state.popover && state.popover.contains(e.target));
+        const clickedSelectedPickerPill = !!e.target.closest?.('.selected-start-event-marker');
+        if (state.popover && !clickedInsidePopover) closePopover();
+        if (state.countBadgeSelectedEventId && isCalendarFullscreenActive() && !clickedInsidePopover && !clickedSelectedPickerPill) {
+          clearSelection();
+        }
+      });
+      window.addEventListener('resize', () => { closePopover(); if (state.mobileModeManual === null) resolveResponsiveMobileMode({ render: true }); });
+    }
+
+    function initialiseAccessibleHoverTips() {
+      const tip = document.createElement('div');
+      tip.className = 'accessible-hover-tip';
+      tip.hidden = true;
+      tip.setAttribute('role','tooltip');
+      document.body.appendChild(tip);
+      document.querySelectorAll('[title]').forEach(el => { if (!el.dataset.tip) el.dataset.tip = el.getAttribute('title') || ''; el.removeAttribute('title'); });
+      let active = null;
+      const show = (el, ev) => {
+        if (el?.hasAttribute?.('title')) {
+          el.dataset.tip = el.getAttribute('title') || '';
+          el.removeAttribute('title');
+        }
+        const text = el?.dataset?.tip || el?.getAttribute?.('aria-label');
+        if (!text) return;
+        active = el; tip.textContent = text; tip.hidden = false;
+        const r = tip.getBoundingClientRect(), gap = 30;
+        let x = ev?.clientX ?? (el.getBoundingClientRect().right + gap);
+        let y = ev?.clientY ?? el.getBoundingClientRect().bottom;
+        x += gap; y += gap;
+        if (x + r.width > innerWidth - 10) x = Math.max(10, (ev?.clientX ?? el.getBoundingClientRect().left) - r.width - gap);
+        if (y + r.height > innerHeight - 10) y = Math.max(10, (ev?.clientY ?? el.getBoundingClientRect().top) - r.height - gap);
+        tip.style.left = `${Math.max(10,x)}px`; tip.style.top = `${Math.max(10,y)}px`;
+      };
+      document.addEventListener('pointerover', e => { const el=e.target.closest('[data-tip],[title]'); if(el) show(el,e); });
+      document.addEventListener('pointermove', e => { if(active) show(active,e); });
+      document.addEventListener('pointerout', e => { if(active && !e.relatedTarget?.closest?.('[data-tip]')) { tip.hidden=true; active=null; } });
+      document.addEventListener('focusin', e => { const el=e.target.closest('[data-tip],[title]'); if(el) show(el); });
+      document.addEventListener('focusout', () => { tip.hidden=true; active=null; });
+    }
+
+    initialiseAccessibleHoverTips();
+
+    window.addEventListener('error', event => {
+      recordDebugError('Browser runtime error', event.error || new Error(event.message), { source: event.filename, line: event.lineno, column: event.colno });
+    });
+    window.addEventListener('unhandledrejection', event => {
+      recordDebugError('Unhandled promise rejection', event.reason instanceof Error ? event.reason : new Error(String(event.reason)));
+    });
+
+    setDashboardTheme(localStorage.getItem('eventDashboardTheme') || 'range-focus-2', false);
+    setDashboardFont(localStorage.getItem('eventDashboardFont') || 'default', false);
+    bindEvents();
+    initialiseMobileMode();
+    updateCalendarFullscreenButton();
+    updateMobileFullscreenButton();
+    initialiseRoadClosureData(EMBEDDED_ROAD_CLOSURES, { render: false });
+    initialiseData(EMBEDDED_DATA);
+    loadEmbeddedGeoJson();
+    setTimeout(() => { if (state.leafletMap) state.leafletMap.invalidateSize(); }, 100);
