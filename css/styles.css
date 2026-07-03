@@ -3833,3 +3833,13 @@
     body.mobile-mode .day.weekend.public-holiday {
       box-shadow: inset 0 3px 0 var(--holiday-line) !important;
     }
+
+
+/* v93: mobile swipe navigation */
+body.mobile-mode .calendar-scroll,
+body.mobile-mode .months {
+  touch-action: pan-y;
+  overscroll-behavior-x: contain;
+  -webkit-user-select: none;
+  user-select: none;
+}

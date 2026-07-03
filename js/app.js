@@ -3503,9 +3503,86 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       window.location.reload();
     }
 
+    function setupMobileCalendarSwipeNavigation() {
+      const swipeSurface = els.calendarScroll;
+      if (!swipeSurface) return;
+
+      const MIN_HORIZONTAL_DISTANCE = 52;
+      const MAX_VERTICAL_DRIFT = 46;
+      const MAX_SWIPE_DURATION = 850;
+      const HORIZONTAL_DOMINANCE = 1.25;
+      let gesture = null;
+      let suppressClickUntil = 0;
+
+      const resetGesture = () => { gesture = null; };
+      const mobileModalOpen = () =>
+        (els.mobileListModal && !els.mobileListModal.hidden) ||
+        (els.mobileDetailModal && !els.mobileDetailModal.hidden);
+
+      swipeSurface.addEventListener('touchstart', event => {
+        if (!state.mobileMode || mobileModalOpen() || event.touches.length !== 1) {
+          resetGesture();
+          return;
+        }
+        const touch = event.touches[0];
+        gesture = {
+          startX: touch.clientX,
+          startY: touch.clientY,
+          lastX: touch.clientX,
+          lastY: touch.clientY,
+          startedAt: performance.now()
+        };
+      }, { passive: true });
+
+      swipeSurface.addEventListener('touchmove', event => {
+        if (!gesture || !state.mobileMode || event.touches.length !== 1) return;
+        const touch = event.touches[0];
+        gesture.lastX = touch.clientX;
+        gesture.lastY = touch.clientY;
+        const dx = touch.clientX - gesture.startX;
+        const dy = touch.clientY - gesture.startY;
+        if (Math.abs(dx) > 12 && Math.abs(dx) > Math.abs(dy) * HORIZONTAL_DOMINANCE) {
+          event.preventDefault();
+        }
+      }, { passive: false });
+
+      swipeSurface.addEventListener('touchend', event => {
+        if (!gesture || !state.mobileMode || mobileModalOpen()) {
+          resetGesture();
+          return;
+        }
+        const touch = event.changedTouches?.[0];
+        const endX = touch?.clientX ?? gesture.lastX;
+        const endY = touch?.clientY ?? gesture.lastY;
+        const dx = endX - gesture.startX;
+        const dy = endY - gesture.startY;
+        const duration = performance.now() - gesture.startedAt;
+        const isHorizontalSwipe =
+          duration <= MAX_SWIPE_DURATION &&
+          Math.abs(dx) >= MIN_HORIZONTAL_DISTANCE &&
+          Math.abs(dy) <= MAX_VERTICAL_DRIFT &&
+          Math.abs(dx) > Math.abs(dy) * HORIZONTAL_DOMINANCE;
+        resetGesture();
+        if (!isHorizontalSwipe) return;
+
+        suppressClickUntil = Date.now() + 500;
+        shiftVisibleMonths(dx < 0 ? 1 : -1);
+      }, { passive: true });
+
+      swipeSurface.addEventListener('touchcancel', resetGesture, { passive: true });
+      swipeSurface.addEventListener('click', event => {
+        if (Date.now() < suppressClickUntil) {
+          event.preventDefault();
+          event.stopPropagation();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+    }
+
     function bindEvents() {
       initialiseLeafletMap();
       setupCanvasMapInteractions();
+      setupMobileCalendarSwipeNavigation();
       bindBackToTopButton(els.tableWrap, els.mainTableBackTopBtn);
       bindBackToTopButton(els.importDiagnosticsScroll, els.diagnosticsBackTopBtn);
       els.themeToggle.addEventListener('click', event => {
