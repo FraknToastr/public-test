@@ -416,9 +416,43 @@
       src:
         local("OpenDyslexic"),
         local("OpenDyslexic-Regular"),
-        local("OpenDyslexic Regular");
+        local("OpenDyslexic Regular"),
+        url("https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Regular.woff") format("woff");
       font-weight: 400;
       font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "OpenDyslexic";
+      src:
+        local("OpenDyslexic-Bold"),
+        local("OpenDyslexic Bold"),
+        url("https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Bold.woff") format("woff");
+      font-weight: 700 950;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "OpenDyslexic";
+      src:
+        local("OpenDyslexic-Italic"),
+        local("OpenDyslexic Italic"),
+        url("https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-Italic.woff") format("woff");
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "OpenDyslexic";
+      src:
+        local("OpenDyslexic-BoldItalic"),
+        local("OpenDyslexic Bold Italic"),
+        url("https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/woff/OpenDyslexic-BoldItalic.woff") format("woff");
+      font-weight: 700 950;
+      font-style: italic;
       font-display: swap;
     }
 
@@ -2618,6 +2652,18 @@
     .about-accent-bar{width:3px;height:76px;border-radius:999px;background:var(--uos-green)}
     .about-uos-text{font-size:1.02rem;font-weight:950;line-height:1.08;text-align:left;color:var(--text)}
     .about-credit{margin:0;color:var(--text);font-size:.88rem;font-weight:850;line-height:1.35;text-wrap:balance}
+    .about-card{width:min(680px,calc(100vw - 28px));max-height:min(760px,calc(100vh - 28px));overflow:hidden}
+    .about-body{max-height:calc(100vh - 84px);overflow:auto;place-items:center}
+    .about-technology{width:100%;display:grid;gap:10px;text-align:left}
+    .about-technology h3{margin:0;color:var(--text);font-size:.82rem;font-weight:950;letter-spacing:.055em;text-transform:uppercase}
+    .about-technology-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+    .about-technology-item{min-width:0;display:grid;align-content:start;gap:5px;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--panel-2)}
+    .about-technology-item strong{color:var(--text);font-size:.79rem;line-height:1.2}
+    .about-technology-item span{color:var(--muted);font-size:.7rem;line-height:1.34}
+    .about-technology-item code{display:block;overflow-wrap:anywhere;color:var(--accent);font-family:ui-monospace,"Cascadia Code","Segoe UI Mono",monospace;font-size:.62rem;line-height:1.3}
+    .about-vanilla-stack{display:grid;gap:6px;padding:10px 11px;border:1px solid var(--line);border-radius:12px;background:color-mix(in srgb,var(--accent) 5%,var(--panel))}
+    .about-vanilla-stack strong{color:var(--text);font-size:.77rem}
+    .about-vanilla-stack p{margin:0;color:var(--muted);font-size:.68rem;line-height:1.38}
     @media(max-width:1180px){.active-filter-pill{min-width:260px;max-width:38vw;font-size:.78rem}}
     @media(max-width:980px){.header-tool{width:52px}.header-tool span{font-size:.64rem}.brand-logo-wrap,.brand-logo{width:132px}.active-filter-pill{position:static;transform:none;order:3;width:100%;max-width:none;height:40px;margin:2px 0 0}}
 
@@ -3590,6 +3636,29 @@
       font-size: .66rem;
       line-height: 1.24;
     }
+
+    body.mobile-mode #aboutModal .about-card {
+      width: min(322px, calc(100vw - 16px));
+      max-height: calc(100dvh - 16px);
+    }
+
+    body.mobile-mode #aboutModal .about-body {
+      max-height: calc(100dvh - 62px);
+      overflow: auto;
+      padding: 10px 11px 12px;
+      gap: 9px;
+    }
+
+    body.mobile-mode #aboutModal .about-technology { gap: 7px; }
+    body.mobile-mode #aboutModal .about-technology h3 { font-size: .66rem; }
+    body.mobile-mode #aboutModal .about-technology-grid { grid-template-columns: 1fr; gap: 6px; }
+    body.mobile-mode #aboutModal .about-technology-item { gap: 3px; padding: 7px 8px; border-radius: 9px; }
+    body.mobile-mode #aboutModal .about-technology-item strong { font-size: .68rem; }
+    body.mobile-mode #aboutModal .about-technology-item span { font-size: .6rem; line-height: 1.28; }
+    body.mobile-mode #aboutModal .about-technology-item code { font-size: .55rem; }
+    body.mobile-mode #aboutModal .about-vanilla-stack { gap: 4px; padding: 7px 8px; border-radius: 9px; }
+    body.mobile-mode #aboutModal .about-vanilla-stack strong { font-size: .65rem; }
+    body.mobile-mode #aboutModal .about-vanilla-stack p { font-size: .57rem; line-height: 1.3; }
 
 
     /* v89 mobile-only calendar header, simplified display menu and badge palette */

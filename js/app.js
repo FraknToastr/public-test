@@ -3306,7 +3306,6 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
         ${mobileDetailRow('End', displayDateWithWeekday(item.endDate))}
         ${mobileDetailRow('Bump out', displayDateWithWeekday(item.bumpOut))}
         ${mobileDetailRow('Booked spaces', item.location)}
-        ${mobileDetailRow('Coordinator', item.coordinator)}
       </div>`;
       els.mobileDetailModal.hidden = false;
       els.mobileDetailBody.scrollTop = 0;

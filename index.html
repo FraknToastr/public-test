@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Event Calendar Dashboard</title>
-  <!-- GitHub Pages package: v90 -->
+  <!-- GitHub Pages package: v92 -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css?v=87" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js?v=87"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js?v=87"></script>
-  <link rel="stylesheet" href="css/styles.css?v=90" />
+  <link rel="stylesheet" href="css/styles.css?v=92" />
 </head>
 <body data-theme="range-focus-2" data-font="default">
   <header class="app-header">
@@ -66,6 +67,36 @@
           <div class="about-uos-text">Urban<br>Operating<br>System</div>
         </div>
         <p class="about-credit">Made by Josh Roberts with AI for City of Adelaide's Events Team</p>
+        <section class="about-technology" aria-labelledby="aboutTechnologyTitle">
+          <h3 id="aboutTechnologyTitle">Technology and external services</h3>
+          <div class="about-technology-grid">
+            <article class="about-technology-item">
+              <strong>Leaflet 1.9.4</strong>
+              <span>Interactive map rendering and GeoJSON display.</span>
+              <code>JavaScript + CSS · unpkg.com</code>
+            </article>
+            <article class="about-technology-item">
+              <strong>PDF.js 2.16.105</strong>
+              <span>Client-side parsing of Event and Road Closure PDF files.</span>
+              <code>JavaScript · cdnjs.cloudflare.com</code>
+            </article>
+            <article class="about-technology-item">
+              <strong>CARTO Positron</strong>
+              <span>Map tiles, with OpenStreetMap contributor and CARTO attribution.</span>
+              <code>Tile service · basemaps.cartocdn.com</code>
+            </article>
+            <article class="about-technology-item">
+              <strong>OpenDyslexic 1.0.3</strong>
+              <span>Webfont used when the OpenDyslexic reading-font option is selected.</span>
+              <code>Font files · cdn.jsdelivr.net</code>
+            </article>
+          </div>
+          <div class="about-vanilla-stack">
+            <strong>HTML, CSS and application code</strong>
+            <p>Semantic HTML5, custom vanilla CSS and vanilla JavaScript are used. Icons are inline SVG. There is no JavaScript application framework, CSS framework or CSS preprocessor. Leaflet CSS is the only external stylesheet.</p>
+            <p>Aptos, Segoe UI and system fallback fonts are used for the default option. OpenDyslexic is loaded as a pinned webfont from jsDelivr when selected, with local installed copies preferred when available.</p>
+          </div>
+        </section>
       </div>
     </div>
   </div>
@@ -233,6 +264,6 @@
   <div id="mapSummary"></div><div id="mapHint"></div><div id="mapStatusChip"></div>
   <input id="mapIdFieldToken" value="OBJECTID"><input id="mapFeatureIdToken"><button id="mapTokenZoomBtn" type="button"></button>
 </div>
-<script src="js/app.js?v=90"></script>
+<script src="js/app.js?v=92"></script>
 </body>
 </html>
