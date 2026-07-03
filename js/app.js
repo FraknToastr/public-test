@@ -246,7 +246,8 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
 
     function syncAboutLogo() {
       if (!els.aboutUosLogo) return;
-      const sourceLogo = document.querySelector('.brand-logo-light');
+      const useMobileDarkLogo = state.mobileMode && document.body.dataset.theme === 'dark';
+      const sourceLogo = document.querySelector(useMobileDarkLogo ? '.brand-logo-contrast' : '.brand-logo-light');
       if (sourceLogo?.src && els.aboutUosLogo.src !== sourceLogo.src) {
         els.aboutUosLogo.src = sourceLogo.src;
       }
@@ -3520,12 +3521,8 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
           hideThemeMenu();
         }
         if (fontButton) {
-          if (state.mobileMode && fontButton.dataset.fontChoice === 'opendyslexic') {
-            setDashboardFont(document.body.dataset.font === 'opendyslexic' ? 'default' : 'opendyslexic');
-            hideThemeMenu();
-          } else {
-            setDashboardFont(fontButton.dataset.fontChoice);
-          }
+          setDashboardFont(fontButton.dataset.fontChoice);
+          if (state.mobileMode) hideThemeMenu();
         }
       });
       document.addEventListener('click', event => {});
