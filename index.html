@@ -46,6 +46,33 @@
       --font-main: Aptos, "Aptos Display", "Segoe UI Variable", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
     }
 
+    [data-theme="dark"] {
+      --bg: #0f172a;
+      --panel: #111827;
+      --panel-2: #172033;
+      --text: #f8fafc;
+      --muted: #a8b3c7;
+      --line: #334155;
+      --shadow: 0 16px 38px rgba(0, 0, 0, .34);
+      --shadow-soft: 0 8px 20px rgba(0, 0, 0, .26);
+      --accent: #60a5fa;
+      --accent-2: #2dd4bf;
+      --danger: #fb7185;
+      --today: #fbbf24;
+      --input: #0f172a;
+      --weekend-bg: rgba(56, 189, 248, .16);
+      --weekend-line: rgba(56, 189, 248, .76);
+      --holiday-bg: rgba(251, 113, 133, .16);
+      --holiday-line: rgba(251, 113, 133, .82);
+      --month-border-0: #60a5fa;
+      --month-border-1: #2dd4bf;
+      --month-border-2: #c084fc;
+      --selected-event-boundary: #60a5fa;
+      --selected-bump-boundary: #fb923c;
+      --event-detail-border: rgba(96, 165, 250, .88);
+      --event-detail-border-glow: rgba(96, 165, 250, .22);
+    }
+
     [data-theme="colour-blind"] {
       --bg: #f7f7f7;
       --panel: #ffffff;
@@ -1227,7 +1254,7 @@
       border-radius: 9px;
       display: inline-grid;
       place-items: center;
-      font-size: .78rem;
+      font-size: .84rem;
       font-weight: 900;
     }
 
@@ -2085,6 +2112,7 @@
     }
 
     .swatch-light { background: linear-gradient(135deg, #f8fafc 0 50%, #2563eb 50%); }
+    .swatch-dark { background: linear-gradient(135deg, #111827 0 50%, #60a5fa 50%); }
     .swatch-colour-blind { background: linear-gradient(135deg, #0072B2 0 50%, #E69F00 50%); }
     .swatch-high-contrast { background: linear-gradient(135deg, #000 0 50%, #00e5ff 50%); }
     .swatch-range-focus { background: linear-gradient(135deg, #0057ff 0 50%, #ff7a00 50%); }
@@ -3020,6 +3048,9 @@
 
     .day.today-has-items .holiday-name { color: #7f1d1d; }
 
+    .mobile-only-header-tool,
+    .mobile-only-theme-option { display: none; }
+
     .mobile-calendar-header-nav {
       display: none;
       align-items: center;
@@ -3286,7 +3317,7 @@
     body.mobile-mode .brand-copy,
     body.mobile-mode .active-filter-pill { display: none !important; }
 
-    body.mobile-mode .mobile-calendar-header-nav { display: flex; }
+    body.mobile-mode .mobile-calendar-header-nav { display: none !important; }
 
     body.mobile-mode .toolbar {
       width: auto;
@@ -3298,9 +3329,10 @@
     }
     body.mobile-mode .toolbar > * { display: none !important; }
     body.mobile-mode .toolbar > .theme-menu-wrap,
-    body.mobile-mode .toolbar > #mobileModeBtn,
+    body.mobile-mode .toolbar > #mobileFullscreenBtn,
     body.mobile-mode .toolbar > #resetBtn,
     body.mobile-mode .toolbar > #aboutBtn { display: inline-flex !important; }
+    body.mobile-mode #mobileModeBtn { display: none !important; }
     body.mobile-mode .theme-menu-wrap { position: static; }
     body.mobile-mode .theme-menu {
       position: fixed;
@@ -3488,7 +3520,7 @@
       justify-content: center;
       gap: 0;
       min-width: 0;
-      font-size: .72rem;
+      font-size: .82rem;
       font-weight: 950;
       line-height: .92;
       letter-spacing: -.025em;
@@ -3569,6 +3601,143 @@
       line-height: 1.24;
     }
 
+
+    /* v89 mobile-only calendar header, simplified display menu and badge palette */
+    body.mobile-mode .accessible-hover-tip { display: none !important; }
+
+    body.mobile-mode .mobile-only-header-tool,
+    body.mobile-mode .mobile-only-theme-option { display: inline-flex !important; }
+
+    body.mobile-mode .theme-grid [data-theme-choice="colour-blind"],
+    body.mobile-mode .theme-grid [data-theme-choice="high-contrast"],
+    body.mobile-mode .theme-grid [data-theme-choice="range-focus"],
+    body.mobile-mode .theme-grid [data-theme-choice="range-focus-2"],
+    body.mobile-mode .font-grid [data-font-choice="default"] { display: none !important; }
+
+    body.mobile-mode .theme-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    body.mobile-mode .font-grid { grid-template-columns: minmax(0, 1fr); }
+
+    body.mobile-mode .month-title.mobile-month-title {
+      min-height: 42px;
+      padding: 5px 7px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      text-align: left;
+      line-height: 1;
+    }
+
+    body.mobile-mode .mobile-month-nav {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 3px;
+      flex: 1 1 auto;
+    }
+
+    body.mobile-mode .mobile-month-label {
+      min-width: 0;
+      padding: 0 2px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: .84rem;
+      font-weight: 950;
+      color: var(--text);
+    }
+
+    body.mobile-mode .mobile-month-shift {
+      width: 24px;
+      min-width: 24px;
+      height: 24px;
+      padding: 0;
+      border: 0;
+      border-radius: 999px;
+      display: inline-grid;
+      place-items: center;
+      background: transparent;
+      color: var(--text);
+      box-shadow: none;
+    }
+
+    body.mobile-mode .mobile-month-shift svg {
+      width: 15px;
+      height: 15px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2.25;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    body.mobile-mode .mobile-calendar-inline-legend {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 5px;
+      flex: 0 1 auto;
+      color: var(--muted);
+      font-size: .49rem;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    body.mobile-mode .mobile-calendar-inline-legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    body.mobile-mode .mobile-calendar-inline-legend-badge {
+      width: 18px;
+      min-width: 18px;
+      height: 18px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      color: #ffffff;
+      font-size: .56rem;
+      font-weight: 950;
+      line-height: 1;
+    }
+
+    body.mobile-mode .mobile-calendar-inline-legend-badge.event { background: #2563eb; }
+    body.mobile-mode .mobile-calendar-inline-legend-badge.road { background: #f97316; }
+
+    body.mobile-mode .compact-event-count-pill,
+    body.mobile-mode .event-badge.compact-event-count-pill,
+    body.mobile-mode .event-marker.compact-event-count-pill {
+      background: #2563eb !important;
+      border-color: color-mix(in srgb, #2563eb 72%, var(--panel)) !important;
+      color: #ffffff !important;
+      text-shadow: none !important;
+      box-shadow: 0 3px 9px rgba(37, 99, 235, .26) !important;
+    }
+
+    body.mobile-mode .road-closure-day-badge {
+      background: #f97316 !important;
+      border-color: color-mix(in srgb, #f97316 72%, var(--panel)) !important;
+      color: #ffffff !important;
+      box-shadow: 0 3px 9px rgba(194, 65, 12, .28) !important;
+    }
+
+    body.mobile-mode .road-closure-day-badge:hover,
+    body.mobile-mode .road-closure-day-badge:focus-visible { background: #ea580c !important; }
+
+    body.mobile-mode .mobile-list-badge { background: #2563eb !important; }
+    body.mobile-mode .mobile-list-badge.road { background: #f97316 !important; }
+
+    @media (max-width: 390px) {
+      body.mobile-mode .mobile-calendar-inline-legend { gap: 3px; font-size: .45rem; }
+      body.mobile-mode .mobile-calendar-inline-legend-item { gap: 2px; }
+      body.mobile-mode .mobile-calendar-inline-legend-badge { width: 17px; min-width: 17px; height: 17px; }
+      body.mobile-mode .mobile-month-label { font-size: .72rem; }
+      body.mobile-mode .mobile-month-shift { width: 22px; min-width: 22px; height: 22px; }
+    }
+
 </style>
 </head>
 <body data-theme="range-focus-2" data-font="default">
@@ -3582,11 +3751,6 @@
 <div class="brand-copy"><div class="brand-eyebrow">Major Events</div><h1>City Events</h1></div>
     </div>
     <div id="activeFilterPill" class="active-filter-pill" hidden aria-live="polite"></div>
-    <div class="mobile-calendar-header-nav" role="group" aria-label="Mobile calendar navigation">
-      <button id="mobilePrevMonthBtn" class="mobile-header-icon" type="button" aria-label="Previous month" data-tip="Previous month"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
-      <button id="mobileNextMonthBtn" class="mobile-header-icon" type="button" aria-label="Next month" data-tip="Next month"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
-      <button id="mobileFullscreenBtn" class="mobile-header-icon" type="button" aria-label="Enter mobile fullscreen" data-tip="Mobile fullscreen" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/></svg></button>
-    </div>
     <div class="toolbar" role="toolbar" aria-label="Dashboard toolbar">
       <div class="theme-menu-wrap">
         <button id="themeToggle" class="header-tool" type="button" data-tip="Theme and font menu" aria-label="Theme and font menu" aria-expanded="false"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span>Theme</span></button>
@@ -3594,6 +3758,7 @@
           <div class="theme-panel-head"><strong>Display theme</strong><span>Colour-safe and reading-friendly options</span></div>
           <div class="theme-grid" role="listbox" aria-label="Available themes">
             <button type="button" data-theme-choice="light" role="option"><span class="swatch swatch-light"></span><span>Light</span></button>
+            <button type="button" class="mobile-only-theme-option" data-theme-choice="dark" role="option"><span class="swatch swatch-dark"></span><span>Dark</span></button>
             <button type="button" data-theme-choice="colour-blind" role="option"><span class="swatch swatch-colour-blind"></span><span>Colour-Blind</span></button>
             <button type="button" data-theme-choice="high-contrast" role="option"><span class="swatch swatch-high-contrast"></span><span>High Contrast</span></button>
             <button type="button" data-theme-choice="range-focus" role="option"><span class="swatch swatch-range-focus"></span><span>Range Focus</span></button>
@@ -3607,6 +3772,7 @@
           </div>
         </div>
       </div>
+      <button id="mobileFullscreenBtn" class="header-tool mobile-only-header-tool" type="button" aria-label="Enter mobile fullscreen" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/></svg><span>Fullscreen</span></button>
       <button id="mobileModeBtn" class="header-tool" type="button" data-tip="Switch mobile calendar mode" aria-label="Switch mobile calendar mode" aria-pressed="false"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M10 5h4M11 19h2"/></svg><span>Mobile</span></button>
 <button id="importPdfBtn" class="header-tool" type="button" data-tip="Import events PDF" aria-label="Import events PDF"><svg viewBox="0 0 24 24"><path d="M6 2h9l4 4v16H6zM14 2v5h5M9 12h6M9 16h6"/></svg><span>Event PDF</span></button>
       <button id="importRoadClosurePdfBtn" class="header-tool" type="button" data-tip="Import road closures PDF" aria-label="Import road closures PDF"><svg viewBox="0 0 24 24"><path d="M6 2h9l4 4v16H6zM14 2v5h5M9 12h6M9 16h6"/></svg><span>Road PDF</span></button>
@@ -3851,7 +4017,8 @@
       mapLocationFilterEventIds: [],
       mobileMode: false,
       mobileModeManual: null,
-      preMobileMonthViewCount: 1
+      preMobileMonthViewCount: 1,
+      preMobileTheme: null
     };
 
     const eventColours = [
@@ -4656,7 +4823,24 @@
       const section = document.createElement('section');
       section.className = `month month-border-${monthIndex % 3}`;
       const title = monthDate.toLocaleDateString('en-AU', { month: 'long', year: 'numeric' });
-      section.innerHTML = `<div class="month-title">${title}</div><div class="weekdays">${['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(d => `<div class="weekday">${d}</div>`).join('')}</div>`;
+      const monthHeader = state.mobileMode
+        ? `<div class="month-title mobile-month-title">
+            <div class="mobile-month-nav">
+              <button class="mobile-month-shift mobile-month-prev" type="button" aria-label="Previous month"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+              <span class="mobile-month-label">${escapeHtml(title)}</span>
+              <button class="mobile-month-shift mobile-month-next" type="button" aria-label="Next month"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+            </div>
+            <div class="mobile-calendar-inline-legend" aria-label="Calendar legend">
+              <span class="mobile-calendar-inline-legend-item"><span class="mobile-calendar-inline-legend-badge event">1</span><span>Events</span></span>
+              <span class="mobile-calendar-inline-legend-item"><span class="mobile-calendar-inline-legend-badge road">R</span><span>Road Closures</span></span>
+            </div>
+          </div>`
+        : `<div class="month-title">${escapeHtml(title)}</div>`;
+      section.innerHTML = `${monthHeader}<div class="weekdays">${['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(d => `<div class="weekday">${d}</div>`).join('')}</div>`;
+      if (state.mobileMode) {
+        section.querySelector('.mobile-month-prev')?.addEventListener('click', event => { event.stopPropagation(); shiftVisibleMonths(-1); });
+        section.querySelector('.mobile-month-next')?.addEventListener('click', event => { event.stopPropagation(); shiftVisibleMonths(1); });
+      }
       const days = document.createElement('div');
       days.className = 'days';
 
@@ -4715,9 +4899,9 @@
           const marker = document.createElement('button');
           marker.type = 'button';
           marker.className = `event-marker${useCompactEventPills ? ' compact-event-count-pill' : ''}${isSelectedStartEvent ? ' selected-start-event-marker' : ''}`;
-          marker.style.background = getTypeColour(events[0].type);
+          marker.style.background = state.mobileMode ? '#2563eb' : getTypeColour(events[0].type);
           if (isSelectedStartEvent) marker.style.setProperty('--selected-colour', getTypeColour(events[0].type));
-          marker.innerHTML = `<span>${escapeHtml(state.mobileMode ? 'E' : (useCompactEventPills ? '1' : (isSelectedStartEvent ? 'Event' : events[0].title)))}</span>`;
+          marker.innerHTML = `<span>${escapeHtml(state.mobileMode ? '1' : (useCompactEventPills ? '1' : (isSelectedStartEvent ? 'Event' : events[0].title)))}</span>`;
           marker.title = events[0].title;
           marker.addEventListener('click', event => {
             event.stopPropagation();
@@ -4731,7 +4915,7 @@
             const marker = document.createElement('button');
             marker.type = 'button';
             marker.className = `event-marker selected-start-event-marker${useCompactEventPills ? ' compact-event-count-pill' : ''}`;
-            marker.style.background = getTypeColour(selectedStartEvent.type);
+            marker.style.background = state.mobileMode ? '#2563eb' : getTypeColour(selectedStartEvent.type);
             marker.style.setProperty('--selected-colour', getTypeColour(selectedStartEvent.type));
             marker.innerHTML = `<span>${escapeHtml(useCompactEventPills ? events.length : 'Event')}</span>`;
             marker.title = `${selectedStartEvent.title} — selected from ${events.length} events starting ${displayDate(dayDate)}`;
@@ -4745,7 +4929,7 @@
             const badge = document.createElement('button');
             badge.type = 'button';
             badge.className = `event-badge${useCompactEventPills ? ' compact-event-count-pill' : ''}`;
-            badge.style.background = getTypeColour(events[0].type);
+            badge.style.background = state.mobileMode ? '#2563eb' : getTypeColour(events[0].type);
             badge.innerHTML = useCompactEventPills
               ? `<span>${escapeHtml(events.length)}</span>`
               : `<span class="event-badge-label">Events</span> <span class="event-badge-count">${escapeHtml(events.length)}</span>`;
@@ -6873,10 +7057,13 @@
     }
 
     function setDashboardTheme(themeName, persist = true) {
-      const allowed = new Set(['light', 'colour-blind', 'high-contrast', 'range-focus', 'range-focus-2']);
+      const allowed = new Set(['light', 'dark', 'colour-blind', 'high-contrast', 'range-focus', 'range-focus-2']);
       const next = allowed.has(themeName) ? themeName : 'light';
       document.body.dataset.theme = next;
-      if (persist) localStorage.setItem('eventDashboardTheme', next);
+      if (persist) {
+        if (state.mobileMode && (next === 'light' || next === 'dark')) localStorage.setItem('eventDashboardMobileTheme', next);
+        else localStorage.setItem('eventDashboardTheme', next);
+      }
       const themeLabel = next === 'colour-blind'
         ? 'Colour-Blind Friendly'
         : next === 'high-contrast'
@@ -7120,7 +7307,7 @@
       els.mobileListSubtitle.textContent = displayDateWithWeekday(dayDate);
       els.mobileListBody.innerHTML = `<div class="mobile-event-list">${events.map((item, index) => `
         <button class="mobile-event-list-item" type="button" data-mobile-event-index="${index}">
-          <span class="mobile-list-badge" style="background:${getTypeColour(item.type)}">E</span>
+          <span class="mobile-list-badge">${index + 1}</span>
           <span class="mobile-list-copy"><span class="mobile-list-title">${escapeHtml(item.title)}</span><span class="mobile-list-meta">${escapeHtml(item.organiser || 'Unspecified organiser')}</span></span>
           <span class="mobile-list-chevron" aria-hidden="true">›</span>
         </button>`).join('')}</div>`;
@@ -7165,7 +7352,8 @@
       const active = isDocumentFullscreenActive();
       els.mobileFullscreenBtn.setAttribute('aria-pressed', active ? 'true' : 'false');
       els.mobileFullscreenBtn.setAttribute('aria-label', active ? 'Exit mobile fullscreen' : 'Enter mobile fullscreen');
-      els.mobileFullscreenBtn.dataset.tip = active ? 'Exit mobile fullscreen' : 'Mobile fullscreen';
+      if (state.mobileMode) delete els.mobileFullscreenBtn.dataset.tip;
+      else els.mobileFullscreenBtn.dataset.tip = active ? 'Exit mobile fullscreen' : 'Mobile fullscreen';
     }
 
     async function toggleMobileFullscreen() {
@@ -7199,6 +7387,7 @@
       if (options.manual !== undefined) state.mobileModeManual = options.manual;
 
       if (next && !state.mobileMode) {
+        state.preMobileTheme = document.body.dataset.theme || 'range-focus-2';
         state.preMobileMonthViewCount = Math.max(1, Math.min(3, state.userMonthViewCount || state.monthViewCount || 1));
         state.monthViewCount = 1;
         state.userMonthViewCount = 1;
@@ -7238,6 +7427,13 @@
 
       state.mobileMode = next;
       document.body.classList.toggle('mobile-mode', next);
+      if (next) {
+        const savedMobileTheme = localStorage.getItem('eventDashboardMobileTheme');
+        setDashboardTheme(savedMobileTheme === 'dark' ? 'dark' : 'light', false);
+      } else if (state.preMobileTheme) {
+        setDashboardTheme(state.preMobileTheme, false);
+        state.preMobileTheme = null;
+      }
       updateMobileModeButton();
       updateMobileFullscreenButton();
       syncMonthViewButtons();
@@ -7268,6 +7464,7 @@
 
     function resetDashboardToInitialState() {
       localStorage.removeItem('eventDashboardTheme');
+      localStorage.removeItem('eventDashboardMobileTheme');
       localStorage.removeItem('eventDashboardFont');
       window.location.reload();
     }
@@ -7289,7 +7486,12 @@
           hideThemeMenu();
         }
         if (fontButton) {
-          setDashboardFont(fontButton.dataset.fontChoice);
+          if (state.mobileMode && fontButton.dataset.fontChoice === 'opendyslexic') {
+            setDashboardFont(document.body.dataset.font === 'opendyslexic' ? 'default' : 'opendyslexic');
+            hideThemeMenu();
+          } else {
+            setDashboardFont(fontButton.dataset.fontChoice);
+          }
         }
       });
       document.addEventListener('click', event => {});
