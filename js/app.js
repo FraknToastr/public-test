@@ -85,6 +85,10 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       importDiagnosticsBtn: document.getElementById('importDiagnosticsBtn'),
       resetBtn: document.getElementById('resetBtn'),
       aboutBtn: document.getElementById('aboutBtn'),
+      qrBtn: document.getElementById('qrBtn'),
+      qrModal: document.getElementById('qrModal'),
+      qrCloseBtn: document.getElementById('qrCloseBtn'),
+      qrImage: document.getElementById('qrImage'),
       mobileModeBtn: document.getElementById('mobileModeBtn'),
       mobilePrevMonthBtn: document.getElementById('mobilePrevMonthBtn'),
       mobileNextMonthBtn: document.getElementById('mobileNextMonthBtn'),
@@ -242,6 +246,18 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
 
     function hideAboutModal() {
       if (els.aboutModal) els.aboutModal.hidden = true;
+    }
+
+    function showQrModal() {
+      if (state.mobileMode || !els.qrModal) return;
+      els.qrModal.hidden = false;
+      requestAnimationFrame(() => els.qrCloseBtn?.focus());
+    }
+
+    function hideQrModal() {
+      if (!els.qrModal || els.qrModal.hidden) return;
+      els.qrModal.hidden = true;
+      if (!state.mobileMode) els.qrBtn?.focus();
     }
 
     function syncAboutLogo() {
@@ -3422,6 +3438,7 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       if (options.manual !== undefined) state.mobileModeManual = options.manual;
 
       if (next && !state.mobileMode) {
+        hideQrModal();
         state.preMobileTheme = document.body.dataset.theme || 'range-focus-2';
         state.preMobileMonthViewCount = Math.max(1, Math.min(3, state.userMonthViewCount || state.monthViewCount || 1));
         state.monthViewCount = 1;
@@ -3609,6 +3626,7 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       els.importMapBtn?.addEventListener('click', () => els.mapFile?.click());
       els.importDiagnosticsBtn?.addEventListener('click', showImportDiagnosticsModal);
       els.aboutBtn?.addEventListener('click', showAboutModal);
+      els.qrBtn?.addEventListener('click', showQrModal);
       els.mobileModeBtn?.addEventListener('click', toggleManualMobileMode);
       els.mobilePrevMonthBtn?.addEventListener('click', () => shiftVisibleMonths(-1));
       els.mobileNextMonthBtn?.addEventListener('click', () => shiftVisibleMonths(1));
@@ -3618,6 +3636,8 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       els.resetBtn?.addEventListener('click', resetDashboardToInitialState);
       els.aboutCloseBtn?.addEventListener('click', hideAboutModal);
       els.aboutModal?.addEventListener('click', event => { if (event.target === els.aboutModal) hideAboutModal(); });
+      els.qrCloseBtn?.addEventListener('click', hideQrModal);
+      els.qrModal?.addEventListener('click', event => { if (event.target === els.qrModal) hideQrModal(); });
       els.importDiagnosticsCloseBtn?.addEventListener('click', hideImportDiagnosticsModal);
       els.importDiagnosticsModal?.addEventListener('click', event => { if (event.target === els.importDiagnosticsModal) hideImportDiagnosticsModal(); });
       els.debugCloseBtn?.addEventListener('click', hideDebugModal);
@@ -3668,6 +3688,7 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       document.addEventListener('fullscreenchange', () => { updateCalendarFullscreenButton(); updateMobileFullscreenButton(); });
       document.addEventListener('webkitfullscreenchange', () => { updateCalendarFullscreenButton(); updateMobileFullscreenButton(); });
       document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && !els.qrModal?.hidden) { hideQrModal(); return; }
         if (event.key === 'Escape' && !els.mobileDetailModal?.hidden) { closeMobileDetailModal(); return; }
         if (event.key === 'Escape' && !els.mobileListModal?.hidden) { closeMobileListModal(); return; }
         if (event.key === 'Escape' && els.calendarScroll?.classList.contains('calendar-fullscreen-fallback')) {

@@ -3843,3 +3843,45 @@ body.mobile-mode .months {
   -webkit-user-select: none;
   user-select: none;
 }
+
+
+/* v95 desktop QR modal */
+.qr-modal {
+  z-index: 1100;
+}
+
+.qr-card {
+  width: min(680px, calc(100vw - 48px));
+  max-height: min(780px, calc(100vh - 48px));
+  border-radius: 20px;
+}
+
+.qr-head {
+  align-items: center;
+}
+
+.qr-body {
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  padding: clamp(18px, 3vw, 30px);
+  overflow: auto;
+  background: color-mix(in srgb, var(--panel-2) 72%, var(--panel));
+}
+
+.qr-image {
+  display: block;
+  width: min(560px, 100%);
+  height: auto;
+  max-height: calc(100vh - 150px);
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: var(--shadow-soft);
+}
+
+body.mobile-mode #qrBtn,
+body.mobile-mode #qrModal {
+  display: none !important;
+}
