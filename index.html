@@ -18,8 +18,8 @@
       --accent-2: #eb7d23;
       --focus: #0f5cff;
       --radius: 22px;
-      --logo-h: 38px;
-      --logo-file-scale: 1.42;
+      --logo-h: 36px;
+      --logo-file-scale: 1.16;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -78,8 +78,8 @@
     .brand {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: clamp(8px, 3vw, 28px);
+      justify-content: flex-start;
+      gap: clamp(8px, 2.4vw, 18px);
       min-width: 0;
       width: 100%;
     }
@@ -120,8 +120,7 @@
       flex: none;
     }
 
-    .wordblock,
-    .hero-block {
+    .wordblock {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -130,10 +129,9 @@
       flex: 0 1 auto;
     }
 
-    .wordblock strong,
-    .hero-block strong {
+    .wordblock strong {
       display: block;
-      font-size: clamp(16px, 4.5vw, 25px);
+      font-size: clamp(16px, 4.2vw, 24px);
       font-weight: 850;
       letter-spacing: -.055em;
       line-height: .92;
@@ -141,7 +139,7 @@
     }
 
     .wordblock span,
-    .hero-block span {
+    .intro-eyebrow {
       display: block;
       color: var(--muted);
       font-size: clamp(10px, 2.9vw, 12px);
@@ -153,7 +151,7 @@
     }
 
     .wordblock span { margin-top: 3px; }
-    .hero-block span { margin: 0 0 4px; }
+    .intro-eyebrow { margin: 0 0 8px; }
 
     .intro {
       padding: 22px 4px 14px;
@@ -304,15 +302,15 @@
     }
 
     @media (max-width: 430px) {
-      :root { --logo-h: 30px; }
+      :root { --logo-h: 28px; --logo-file-scale: 1.08; }
       .page { padding: 10px; }
-      .site-header { min-height: 56px; padding: 8px; border-radius: 18px; }
-      .brand { gap: clamp(5px, 2.5vw, 10px); }
-      .logo-wrap { width: calc(var(--logo-h) * 2.95); min-width: calc(var(--logo-h) * 2.45); }
-      .wordblock strong { font-size: 14px; letter-spacing: -.045em; }
-      .hero-block strong { font-size: 19px; }
+      .site-header { min-height: 50px; padding: 8px 10px; border-radius: 18px; }
+      .brand { gap: 8px; }
+      .logo-wrap { width: calc(var(--logo-h) * 2.72); min-width: calc(var(--logo-h) * 2.72); }
+      .accent { width: 3px; }
+      .wordblock strong { font-size: 13.5px; letter-spacing: -.042em; }
       .wordblock span,
-      .hero-block span { font-size: 8.5px; letter-spacing: .13em; }
+      .intro-eyebrow { font-size: 8.5px; letter-spacing: .13em; }
       .intro { padding-top: 18px; }
       .intro p { font-size: 14px; }
       .tile { min-height: 178px; padding: 16px; }
@@ -344,17 +342,13 @@
           <strong>Urban</strong>
           <span>Operating System</span>
         </div>
-        <div class="accent" aria-hidden="true"></div>
-        <div class="hero-block">
-          <span>Prototype</span>
-          <strong>Gallery</strong>
-        </div>
       </div>
     </header>
 
     <section class="intro" aria-labelledby="gallery-title">
-      <h1 id="gallery-title">UOS Prototypes</h1>
-      <p>Launcher for current Urban Operating System prototype apps.</p>
+      <span class="intro-eyebrow">Prototype</span>
+      <h1 id="gallery-title">Gallery</h1>
+      <p>Launcher for prototype apps.</p>
     </section>
 
     <section class="grid" aria-label="Prototype apps">
@@ -362,7 +356,7 @@
         <div>
           <div class="tile-kicker">Calendar</div>
           <h2>Major Events Calendar</h2>
-          <p>Open the prototype event calendar for schedule review and event planning.</p>
+          <p>Open the event calendar for schedule review and event planning.</p>
         </div>
         <div class="tile-footer">
           <span class="tile-link">Open calendar</span>
