@@ -19,6 +19,7 @@
       --focus: #0f5cff;
       --radius: 22px;
       --logo-h: 38px;
+      --logo-file-scale: 1.42;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -75,10 +76,10 @@
     }
 
     .brand {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+      display: flex;
       align-items: center;
-      gap: 10px;
+      justify-content: space-between;
+      gap: clamp(8px, 3vw, 28px);
       min-width: 0;
       width: 100%;
     }
@@ -86,15 +87,28 @@
     .logo-wrap {
       display: flex;
       align-items: center;
+      justify-content: center;
       height: var(--logo-h);
-      min-width: 0;
+      width: calc(var(--logo-h) * 3.08);
+      min-width: calc(var(--logo-h) * 2.55);
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+
+    .logo-wrap picture {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
     }
 
     .logo-wrap img {
       display: block;
       width: auto;
-      height: var(--logo-h);
-      max-width: 112px;
+      height: calc(var(--logo-h) * var(--logo-file-scale));
+      max-width: none;
       object-fit: contain;
     }
 
@@ -113,6 +127,7 @@
       justify-content: center;
       min-width: 0;
       height: var(--logo-h);
+      flex: 0 1 auto;
     }
 
     .wordblock strong,
@@ -128,7 +143,6 @@
     .wordblock span,
     .hero-block span {
       display: block;
-      margin-top: 3px;
       color: var(--muted);
       font-size: clamp(10px, 2.9vw, 12px);
       font-weight: 800;
@@ -137,6 +151,9 @@
       text-transform: uppercase;
       white-space: nowrap;
     }
+
+    .wordblock span { margin-top: 3px; }
+    .hero-block span { margin: 0 0 4px; }
 
     .intro {
       padding: 22px 4px 14px;
@@ -290,8 +307,8 @@
       :root { --logo-h: 30px; }
       .page { padding: 10px; }
       .site-header { min-height: 56px; padding: 8px; border-radius: 18px; }
-      .brand { gap: 7px; }
-      .logo-wrap img { max-width: 82px; }
+      .brand { gap: clamp(5px, 2.5vw, 10px); }
+      .logo-wrap { width: calc(var(--logo-h) * 2.95); min-width: calc(var(--logo-h) * 2.45); }
       .wordblock strong { font-size: 14px; letter-spacing: -.045em; }
       .hero-block strong { font-size: 19px; }
       .wordblock span,
@@ -329,15 +346,15 @@
         </div>
         <div class="accent" aria-hidden="true"></div>
         <div class="hero-block">
-          <strong>Gallery</strong>
           <span>Prototype</span>
+          <strong>Gallery</strong>
         </div>
       </div>
     </header>
 
     <section class="intro" aria-labelledby="gallery-title">
       <h1 id="gallery-title">UOS Prototypes</h1>
-      <p>Mobile-friendly launcher for current Urban Operating System prototype apps.</p>
+      <p>Launcher for current Urban Operating System prototype apps.</p>
     </section>
 
     <section class="grid" aria-label="Prototype apps">
