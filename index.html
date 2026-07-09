@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light dark" />
-  <title>UOS Prototype Gallery</title>
+  <title>UOS Prototype Gallery v1.5</title>
   <style>
     :root {
       --bg: #f6f8f5;
@@ -18,8 +18,7 @@
       --accent-2: #eb7d23;
       --focus: #0f5cff;
       --radius: 22px;
-      --logo-h: 36px;
-      --logo-file-scale: 1.16;
+      --logo-h: 38px;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -87,28 +86,18 @@
     .logo-wrap {
       display: flex;
       align-items: center;
-      justify-content: center;
       height: var(--logo-h);
-      width: calc(var(--logo-h) * 3.08);
-      min-width: calc(var(--logo-h) * 2.55);
-      overflow: hidden;
+      min-width: 0;
       flex: 0 0 auto;
     }
 
-    .logo-wrap picture {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
+    .logo-wrap picture { display: contents; }
 
     .logo-wrap img {
       display: block;
       width: auto;
-      height: calc(var(--logo-h) * var(--logo-file-scale));
-      max-width: none;
+      height: var(--logo-h);
+      max-width: 112px;
       object-fit: contain;
     }
 
@@ -302,11 +291,11 @@
     }
 
     @media (max-width: 430px) {
-      :root { --logo-h: 28px; --logo-file-scale: 1.08; }
+      :root { --logo-h: 30px; }
       .page { padding: 10px; }
-      .site-header { min-height: 50px; padding: 8px 10px; border-radius: 18px; }
-      .brand { gap: 8px; }
-      .logo-wrap { width: calc(var(--logo-h) * 2.72); min-width: calc(var(--logo-h) * 2.72); }
+      .site-header { min-height: 56px; padding: 8px; border-radius: 18px; }
+      .brand { gap: 7px; }
+      .logo-wrap img { max-width: 82px; }
       .accent { width: 3px; }
       .wordblock strong { font-size: 13.5px; letter-spacing: -.042em; }
       .wordblock span,
