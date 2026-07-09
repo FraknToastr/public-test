@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>UOS Prototype Gallery</title>
+  <style>
+    :root {
+      --bg: #f6f8f5;
+      --panel: #ffffff;
+      --panel-strong: #f0f4ef;
+      --text: #172018;
+      --muted: #5b665c;
+      --border: rgba(23, 32, 24, .14);
+      --shadow: 0 18px 48px rgba(21, 36, 24, .14);
+      --accent: #2f7d3d;
+      --accent-2: #eb7d23;
+      --focus: #0f5cff;
+      --radius: 22px;
+      --logo-h: 38px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b100d;
+        --panel: #121a15;
+        --panel-strong: #17231b;
+        --text: #eef6ef;
+        --muted: #b7c4b8;
+        --border: rgba(238, 246, 239, .14);
+        --shadow: 0 18px 48px rgba(0, 0, 0, .42);
+        --focus: #8fb5ff;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { min-height: 100%; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(47, 125, 61, .16), transparent 34rem),
+        radial-gradient(circle at bottom right, rgba(235, 125, 35, .13), transparent 30rem),
+        var(--bg);
+      line-height: 1.45;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .page {
+      width: min(100%, 1120px);
+      margin: 0 auto;
+      padding: 14px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 64px;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: calc(var(--radius) + 2px);
+      background: color-mix(in srgb, var(--panel) 88%, transparent);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+      backdrop-filter: blur(18px) saturate(1.2);
+      -webkit-backdrop-filter: blur(18px) saturate(1.2);
+    }
+
+    .brand {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+      width: 100%;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      height: var(--logo-h);
+      min-width: 0;
+    }
+
+    .logo-wrap img {
+      display: block;
+      width: auto;
+      height: var(--logo-h);
+      max-width: 112px;
+      object-fit: contain;
+    }
+
+    .accent {
+      width: 3px;
+      height: var(--logo-h);
+      border-radius: 999px;
+      background: linear-gradient(180deg, var(--accent), var(--accent-2));
+      flex: none;
+    }
+
+    .wordblock,
+    .hero-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 0;
+      height: var(--logo-h);
+    }
+
+    .wordblock strong,
+    .hero-block strong {
+      display: block;
+      font-size: clamp(16px, 4.5vw, 25px);
+      font-weight: 850;
+      letter-spacing: -.055em;
+      line-height: .92;
+      white-space: nowrap;
+    }
+
+    .wordblock span,
+    .hero-block span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: clamp(10px, 2.9vw, 12px);
+      font-weight: 800;
+      letter-spacing: .18em;
+      line-height: 1;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .intro {
+      padding: 22px 4px 14px;
+    }
+
+    .intro h1 {
+      margin: 0;
+      font-size: clamp(34px, 11vw, 70px);
+      line-height: .9;
+      letter-spacing: -.075em;
+    }
+
+    .intro p {
+      max-width: 64ch;
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      padding: 8px 0 28px;
+    }
+
+    .tile {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      min-height: 194px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, color-mix(in srgb, var(--panel) 92%, var(--accent) 8%), var(--panel)),
+        var(--panel);
+      box-shadow: var(--shadow);
+      isolation: isolate;
+      touch-action: manipulation;
+    }
+
+    .tile::before {
+      content: "";
+      position: absolute;
+      inset: auto -44px -54px auto;
+      width: 148px;
+      height: 148px;
+      border-radius: 50%;
+      background: radial-gradient(circle, color-mix(in srgb, var(--accent-2) 34%, transparent), transparent 66%);
+      z-index: -1;
+    }
+
+    .tile::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(120deg, transparent, color-mix(in srgb, var(--accent) 10%, transparent), transparent);
+      opacity: 0;
+      transition: opacity .18s ease;
+      pointer-events: none;
+    }
+
+    .tile:focus-visible {
+      outline: 4px solid color-mix(in srgb, var(--focus) 76%, transparent);
+      outline-offset: 4px;
+    }
+
+    .tile:hover::after,
+    .tile:focus-visible::after { opacity: 1; }
+
+    .tile-kicker {
+      width: fit-content;
+      margin: 0 0 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--accent) 13%, transparent);
+      color: color-mix(in srgb, var(--accent) 82%, var(--text));
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .tile h2 {
+      max-width: 10ch;
+      margin: 0;
+      font-size: clamp(28px, 8.8vw, 48px);
+      line-height: .92;
+      letter-spacing: -.065em;
+    }
+
+    .tile p {
+      max-width: 48ch;
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .tile-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 22px;
+      color: var(--text);
+      font-weight: 850;
+    }
+
+    .tile-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 0 13px;
+      border-radius: 999px;
+      background: var(--panel-strong);
+      border: 1px solid var(--border);
+      font-size: 14px;
+    }
+
+    .tile-arrow {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: white;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .tile.events { --accent: #2f7d3d; --accent-2: #eb7d23; }
+    .tile.dashboard { --accent: #255f87; --accent-2: #2f7d3d; }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 430px) {
+      :root { --logo-h: 30px; }
+      .page { padding: 10px; }
+      .site-header { min-height: 56px; padding: 8px; border-radius: 18px; }
+      .brand { gap: 7px; }
+      .logo-wrap img { max-width: 82px; }
+      .wordblock strong { font-size: 14px; letter-spacing: -.045em; }
+      .hero-block strong { font-size: 19px; }
+      .wordblock span,
+      .hero-block span { font-size: 8.5px; letter-spacing: .13em; }
+      .intro { padding-top: 18px; }
+      .intro p { font-size: 14px; }
+      .tile { min-height: 178px; padding: 16px; }
+      .tile h2 { max-width: 9ch; }
+      .tile-footer { align-items: flex-end; }
+      .tile-link { font-size: 13px; padding-inline: 11px; }
+    }
+
+    @media (min-width: 760px) {
+      .page { padding: 18px; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      .tile { min-height: 286px; padding: 24px; }
+      .tile p { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="site-header" aria-label="Urban Operating System prototype gallery header">
+      <div class="brand">
+        <div class="logo-wrap" aria-hidden="true">
+          <picture>
+            <source srcset="/assets/uos-logo-forward-dark.svg" media="(prefers-color-scheme: dark)">
+            <img src="/assets/uos-logo-forward.svg" alt="" decoding="async">
+          </picture>
+        </div>
+        <div class="accent" aria-hidden="true"></div>
+        <div class="wordblock" aria-label="Urban Operating System">
+          <strong>Urban</strong>
+          <span>Operating System</span>
+        </div>
+        <div class="accent" aria-hidden="true"></div>
+        <div class="hero-block">
+          <strong>Gallery</strong>
+          <span>Prototype</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="intro" aria-labelledby="gallery-title">
+      <h1 id="gallery-title">UOS Prototypes</h1>
+      <p>Mobile-friendly launcher for current Urban Operating System prototype apps.</p>
+    </section>
+
+    <section class="grid" aria-label="Prototype apps">
+      <a class="tile events" href="event-calendar.html" aria-label="Open Major Events Calendar">
+        <div>
+          <div class="tile-kicker">Calendar</div>
+          <h2>Major Events Calendar</h2>
+          <p>Open the prototype event calendar for schedule review and event planning.</p>
+        </div>
+        <div class="tile-footer">
+          <span class="tile-link">Open calendar</span>
+          <span class="tile-arrow" aria-hidden="true">›</span>
+        </div>
+      </a>
+
+      <a class="tile dashboard" href="nature-strip-dashboard.html" aria-label="Open Nature Strip Applications Dashboard">
+        <div>
+          <div class="tile-kicker">Dashboard</div>
+          <h2>Nature Strip Applications Dashboard</h2>
+          <p>Open the applications dashboard for review, reporting, scheduling, and data checks.</p>
+        </div>
+        <div class="tile-footer">
+          <span class="tile-link">Open dashboard</span>
+          <span class="tile-arrow" aria-hidden="true">›</span>
+        </div>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
