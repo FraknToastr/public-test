@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light dark" />
-  <title>UOS Prototype Gallery v1.5</title>
+  <title>UOS Prototype Gallery v1.6</title>
   <style>
     :root {
       --bg: #f6f8f5;
@@ -18,7 +18,8 @@
       --accent-2: #eb7d23;
       --focus: #0f5cff;
       --radius: 22px;
-      --logo-h: 38px;
+      --logo-h: 34px;
+      --logo-max-w: 128px;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -86,8 +87,11 @@
     .logo-wrap {
       display: flex;
       align-items: center;
+      justify-content: flex-start;
       height: var(--logo-h);
+      width: min(var(--logo-max-w), 38vw);
       min-width: 0;
+      overflow: visible;
       flex: 0 0 auto;
     }
 
@@ -97,8 +101,9 @@
       display: block;
       width: auto;
       height: var(--logo-h);
-      max-width: 112px;
+      max-width: 100%;
       object-fit: contain;
+      object-position: left center;
     }
 
     .accent {
@@ -291,15 +296,15 @@
     }
 
     @media (max-width: 430px) {
-      :root { --logo-h: 30px; }
+      :root { --logo-h: 24px; --logo-max-w: 116px; }
       .page { padding: 10px; }
-      .site-header { min-height: 56px; padding: 8px; border-radius: 18px; }
-      .brand { gap: 7px; }
-      .logo-wrap img { max-width: 82px; }
-      .accent { width: 3px; }
-      .wordblock strong { font-size: 13.5px; letter-spacing: -.042em; }
+      .site-header { min-height: 46px; padding: 7px 10px; border-radius: 16px; }
+      .brand { gap: 8px; }
+      .accent { width: 3px; height: var(--logo-h); }
+      .wordblock { height: var(--logo-h); }
+      .wordblock strong { font-size: 12px; letter-spacing: -.04em; }
       .wordblock span,
-      .intro-eyebrow { font-size: 8.5px; letter-spacing: .13em; }
+      .intro-eyebrow { font-size: 7.8px; letter-spacing: .12em; }
       .intro { padding-top: 18px; }
       .intro p { font-size: 14px; }
       .tile { min-height: 178px; padding: 16px; }
