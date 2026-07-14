@@ -16,6 +16,7 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       roadClosureExpandedRows: new Set(),
       selectedEventId: null,
       searchText: '',
+      searchScope: 'location',
       geojson: null,
       geojsonSummary: null,
       geojsonBounds: null,
@@ -114,6 +115,7 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       roadClosurePdfFile: document.getElementById('roadClosurePdfFile'),
       mapFile: document.getElementById('mapFile'),
       searchInput: document.getElementById('searchInput'),
+      searchScopeButtons: Array.from(document.querySelectorAll('[data-search-scope]')),
       eventLegendMenuBtn: document.getElementById('eventLegendMenuBtn'),
       eventLegendMenu: document.getElementById('eventLegendMenu'),
       eventLegendMenuCloseBtn: document.getElementById('eventLegendMenuCloseBtn'),
@@ -628,10 +630,51 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       return 'General event';
     }
 
-    function buildSearchBlob(event) {
-      return [event.title, event.organiser, event.location, event.coordinator, displayDate(event.startDate), displayDate(event.endDate), displayDate(event.bumpIn), displayDate(event.bumpOut)]
-        .join(' ').toLowerCase();
+    function getSearchScopeLabel(scope = state.searchScope) {
+      if (scope === 'title') return 'Title';
+      if (scope === 'organiser') return 'Organiser';
+      return 'Location';
     }
+
+    function buildSearchBlob(event, scope = state.searchScope) {
+      const fieldGroups = {
+        location: [event.location],
+        title: [event.title],
+        organiser: [event.organiser],
+        all: [event.title, event.organiser, event.location, event.coordinator, displayDate(event.startDate), displayDate(event.endDate), displayDate(event.bumpIn), displayDate(event.bumpOut)]
+      };
+      return (fieldGroups[scope] || fieldGroups.location).join(' ').toLowerCase();
+    }
+
+    function syncSearchControls() {
+      const scope = ['location', 'title', 'organiser'].includes(state.searchScope) ? state.searchScope : 'location';
+      state.searchScope = scope;
+      const label = getSearchScopeLabel(scope);
+      if (els.searchInput) {
+        els.searchInput.placeholder = `Search ${label}`;
+        els.searchInput.setAttribute('aria-label', `Search events by ${label}`);
+        if (els.searchInput.value !== state.searchText) els.searchInput.value = state.searchText;
+      }
+      els.searchScopeButtons?.forEach(button => {
+        const active = button.dataset.searchScope === scope;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+    }
+
+    function hasActiveSearchFilter() {
+      return Boolean(state.searchText && state.searchText.trim());
+    }
+
+    function clearSearchFilter(options = {}) {
+      if (!hasActiveSearchFilter()) return;
+      state.searchText = '';
+      if (els.searchInput) els.searchInput.value = '';
+      syncSearchControls();
+      applyFilters();
+      if (options.focus && els.searchInput) els.searchInput.focus();
+    }
+
 
     function initialiseData(rows) {
       state.rawEvents = Array.isArray(rows) ? rows : [];
@@ -777,11 +820,25 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       const selected = state.events.find(e => e.id === state.selectedEventId) || state.filteredEvents.find(e => e.id === state.selectedEventId);
       const tableFocused = state.filteredEvents.find(e => e.id === state.tableFocusedEventId) || state.events.find(e => e.id === state.tableFocusedEventId);
       const roadClosureActive = state.roadClosureTableActive && state.roadClosureDateKey;
-      const active = roadClosureActive || selected || tableFocused || state.selectedDateKey || state.startDayFocusedDateKey || state.activeLegendType;
+      const searchActive = hasActiveSearchFilter();
+      const active = searchActive || roadClosureActive || selected || tableFocused || state.selectedDateKey || state.startDayFocusedDateKey || state.activeLegendType;
       if (!active) {
         els.activeFilterPill.hidden = true;
         els.activeFilterPill.innerHTML = '';
-        els.activeFilterPill.classList.remove('road-closure-filter');
+        els.activeFilterPill.classList.remove('road-closure-filter', 'search-filter');
+        return;
+      }
+      els.activeFilterPill.classList.remove('road-closure-filter', 'search-filter');
+      const contextualFilterActive = roadClosureActive || selected || tableFocused || state.selectedDateKey || state.startDayFocusedDateKey || state.activeLegendType;
+      // Context filters take temporary notification priority over search.
+      // Search remains applied underneath and reappears here when the context filter is cancelled.
+      if (!contextualFilterActive && searchActive) {
+        const scopeLabel = getSearchScopeLabel();
+        els.activeFilterPill.classList.add('search-filter');
+        els.activeFilterPill.style.setProperty('--filter-colour', 'var(--accent)');
+        els.activeFilterPill.hidden = false;
+        els.activeFilterPill.innerHTML = `<strong>Search Filter Active</strong><span>${escapeHtml(scopeLabel)}: ${escapeHtml(state.searchText.trim())}</span><button type="button" aria-label="Clear search filter" data-tip="Clear search filter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>`;
+        els.activeFilterPill.querySelector('button')?.addEventListener('click', e => { e.stopPropagation(); clearSearchFilter({ focus: true }); });
         return;
       }
       if (roadClosureActive) {
@@ -790,7 +847,6 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
         els.activeFilterPill.hidden = false;
         els.activeFilterPill.innerHTML = `<strong><span class="road-closure-filter-symbol" aria-hidden="true">R</span>Road Closure Filter Active</strong><span>${escapeHtml(displayDateWithWeekday(parseDate(state.roadClosureDateKey)))}</span><button type="button" aria-label="Cancel active filtering" data-tip="Cancel filtering"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>`;
       } else {
-        els.activeFilterPill.classList.remove('road-closure-filter');
         const colourEvent = tableFocused || selected;
         const filterColour = colourEvent ? getTypeColour(colourEvent.organiser || colourEvent.type) : (state.activeLegendType ? getTypeColour(state.activeLegendType) : 'var(--accent)');
         els.activeFilterPill.style.setProperty('--filter-colour', filterColour);
@@ -1680,6 +1736,8 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
           const verb = tableEvents.length === 1 ? 'is' : 'are';
           els.rowCount.textContent = `${tableEvents.length} ${eventWord} ${verb} in progress on ${selectedDate}`;
         }
+      } else if (state.searchText.trim()) {
+        els.rowCount.textContent = `${tableEvents.length} ${eventWord} • ${getSearchScopeLabel().toLowerCase()} search`;
       } else {
         els.rowCount.textContent = `${tableEvents.length} ${eventWord}`;
       }
@@ -3648,8 +3706,19 @@ const EMBEDDED_DATA = [{"_sourceRow":1,"Event Name":"Illuminate Adelaide 2026 - 
       els.pdfFile?.addEventListener('change', e => handlePdfFile(e.target.files[0]));
       els.roadClosurePdfFile?.addEventListener('change', e => handleRoadClosurePdfFile(e.target.files[0]));
       els.mapFile?.addEventListener('change', e => handleMapFile(e.target.files[0]));
+      syncSearchControls();
+      els.searchScopeButtons?.forEach(button => {
+        button.addEventListener('click', () => {
+          const nextScope = button.dataset.searchScope;
+          if (!['location', 'title', 'organiser'].includes(nextScope) || nextScope === state.searchScope) return;
+          state.searchScope = nextScope;
+          syncSearchControls();
+          if (state.searchText.trim()) applyFilters();
+        });
+      });
       els.searchInput?.addEventListener('input', e => {
         state.searchText = e.target.value;
+        syncSearchControls();
         applyFilters();
       });
       els.rangeStart.addEventListener('change', renderCalendar);

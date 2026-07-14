@@ -3885,3 +3885,229 @@ body.mobile-mode #qrBtn,
 body.mobile-mode #qrModal {
   display: none !important;
 }
+
+
+/* v96 desktop header search */
+.header-search-panel {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 0 1 460px;
+  min-width: 340px;
+  max-width: 460px;
+  height: 44px;
+  padding: 5px 7px;
+  border: 1px solid color-mix(in srgb, var(--line) 82%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--panel) 86%, transparent);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, .08);
+  backdrop-filter: blur(12px);
+}
+
+.search-scope-switch {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2px;
+  flex: 0 0 210px;
+  padding: 2px;
+  border: 1px solid color-mix(in srgb, var(--line) 78%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--panel-2) 92%, transparent);
+}
+
+.search-scope-choice {
+  height: 28px;
+  min-width: 0;
+  padding: 0 7px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: .66rem;
+  font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline-grid;
+  place-items: center;
+}
+
+.search-scope-choice:hover,
+.search-scope-choice:focus-visible {
+  transform: none;
+  color: var(--accent);
+  border-color: transparent;
+}
+
+.search-scope-choice.active {
+  background: var(--accent);
+  color: #ffffff;
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+.header-search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 32px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  outline: none;
+  font-size: .84rem;
+  font-weight: 750;
+}
+
+.header-search-input::placeholder {
+  color: color-mix(in srgb, var(--muted) 78%, transparent);
+}
+
+.header-search-input:focus {
+  box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent) 28%, transparent);
+  background: color-mix(in srgb, var(--input) 76%, transparent);
+}
+
+[data-theme="high-contrast"] .header-search-panel,
+[data-theme="high-contrast"] .search-scope-switch {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 1px #ffffff;
+}
+
+[data-theme="high-contrast"] .search-scope-choice.active {
+  background: #ffff00;
+  color: #000000;
+}
+
+@media (max-width: 1320px) {
+  .header-search-panel {
+    flex-basis: 380px;
+    min-width: 300px;
+    max-width: 380px;
+  }
+  .search-scope-switch {
+    flex-basis: 184px;
+  }
+  .search-scope-choice {
+    font-size: .61rem;
+    padding-inline: 5px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-search-panel {
+    flex-basis: 300px;
+    min-width: 260px;
+  }
+  .search-scope-switch {
+    flex-basis: 132px;
+  }
+  .search-scope-choice {
+    font-size: 0;
+    padding: 0;
+  }
+  .search-scope-choice::first-letter {
+    font-size: .72rem;
+  }
+  .search-scope-choice[data-search-scope="location"]::after { content: "L"; font-size: .72rem; }
+  .search-scope-choice[data-search-scope="title"]::after { content: "T"; font-size: .72rem; }
+  .search-scope-choice[data-search-scope="organiser"]::after { content: "O"; font-size: .72rem; }
+}
+
+@media (max-width: 980px) {
+  .header-search-panel { display: none !important; }
+}
+
+body.mobile-mode .header-search-panel {
+  display: none !important;
+}
+
+
+/* v97 search status pill alignment and high-resolution desktop badges */
+body:not(.mobile-mode) .active-filter-pill {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  transform: none !important;
+  flex: 0 1 430px;
+  min-width: 270px;
+  max-width: min(430px, 30vw);
+  height: 42px;
+  margin: 0 10px 0 8px;
+  justify-content: flex-start;
+  text-align: left;
+  z-index: 52;
+}
+
+body:not(.mobile-mode) .active-filter-pill strong {
+  flex: 0 0 auto;
+}
+
+body:not(.mobile-mode) .active-filter-pill.search-filter span {
+  flex: 1 1 auto;
+  color: var(--text);
+  font-weight: 800;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+body:not(.mobile-mode) .active-filter-pill.search-filter {
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+}
+
+@media (max-width: 1320px) {
+  body:not(.mobile-mode) .active-filter-pill {
+    flex-basis: 330px;
+    min-width: 240px;
+    max-width: 27vw;
+    font-size: .75rem;
+  }
+}
+
+@media (min-width: 1921px) and (min-height: 1081px) {
+  body:not(.mobile-mode) .months.view-2 .compact-event-count-pill,
+  body:not(.mobile-mode) .months.view-3 .compact-event-count-pill,
+  body:not(.mobile-mode) .months.view-2 .road-closure-day-badge,
+  body:not(.mobile-mode) .months.view-3 .road-closure-day-badge {
+    width: 31px !important;
+    min-width: 31px !important;
+    max-width: 31px !important;
+    height: 31px !important;
+    min-height: 31px !important;
+    font-size: .86rem !important;
+  }
+
+  body:not(.mobile-mode) .months.view-2 .day-pill-group,
+  body:not(.mobile-mode) .months.view-3 .day-pill-group {
+    gap: 6px;
+  }
+}
+
+
+/* v98: filter notification priority is handled in JavaScript; search remains active under context filters. */
+
+
+/* v99 desktop 3-month badge centering and high-resolution badge scaling */
+body:not(.mobile-mode) .months.view-3 .day-pill-group {
+  top: 50%;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1921px) and (min-height: 1081px) {
+  body:not(.mobile-mode) .months.view-2 .compact-event-count-pill,
+  body:not(.mobile-mode) .months.view-3 .compact-event-count-pill,
+  body:not(.mobile-mode) .months.view-2 .road-closure-day-badge,
+  body:not(.mobile-mode) .months.view-3 .road-closure-day-badge {
+    width: 28px !important;
+    min-width: 28px !important;
+    max-width: 28px !important;
+    height: 28px !important;
+    min-height: 28px !important;
+    font-size: .82rem !important;
+  }
+
+  body:not(.mobile-mode) .months.view-2 .day-pill-group,
+  body:not(.mobile-mode) .months.view-3 .day-pill-group {
+    gap: 5px;
+  }
+}
