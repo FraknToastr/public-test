@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><title>EPUB browser test</title></head><body data-status="pending">pending
+<script src="../vendor/jszip.min.js"></script>
+<script src="../epub-parser.js"></script>
+<script src="../analysis-core.js"></script>
+<script>
+(async () => {
+  try {
+    const bytes = Uint8Array.from(atob('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'), c => c.charCodeAt(0));
+    const file = new File([bytes], 'sample-novel.epub', {type:'application/epub+zip'});
+    const parsed = await NovelLensEpub.parse(file);
+    const report = NovelLensCore.analyseNovel(parsed.text, {title: parsed.title});
+    const passed = parsed.title === 'The Test River'
+      && parsed.author === 'Test Author'
+      && parsed.chapters.length === 2
+      && parsed.text.includes('Mira returned to the river town')
+      && parsed.text.includes('CHAPTER 2: Chapter Two: The Choice')
+      && report.stats.wordCount > 60
+      && report.chapters.length === 2;
+    document.body.dataset.status = passed ? 'passed' : 'failed';
+    document.body.textContent = JSON.stringify({passed, title:parsed.title, author:parsed.author, epubSections:parsed.chapters.length, analysisSections:report.chapters.length, words:report.stats.wordCount, warnings:parsed.warnings});
+  } catch (error) {
+    document.body.dataset.status = 'error';
+    document.body.textContent = error.stack || error.message;
+  }
+})();
+</script></body></html>

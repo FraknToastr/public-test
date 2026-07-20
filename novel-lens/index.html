@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Novel Lens — Compressed Literary & Historical Analysis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-lockup" aria-label="Urban Operating System">
+      <picture class="brand-logo-wrap">
+        <img class="brand-logo brand-logo-light" src="assets/uos-logo-forward.svg" alt="UOS">
+        <img class="brand-logo brand-logo-dark" src="assets/uos-logo-forward-dark.svg" alt="UOS">
+      </picture>
+      <span class="brand-accent" aria-hidden="true"></span>
+      <div class="brand-copy">
+        <span class="eyebrow">Compressed reading and interpretation</span>
+        <strong>Novel Lens</strong>
+      </div>
+    </div>
+
+    <div class="header-actions" aria-label="Application actions">
+      <button id="settingsBtn" class="icon-btn" title="Local AI settings" aria-label="Local AI settings">⚙</button>
+      <button id="themeBtn" class="icon-btn" title="Toggle theme" aria-label="Toggle theme">◐</button>
+      <button id="resetBtn" class="icon-btn" title="Reset application" aria-label="Reset application">↺</button>
+      <button id="aboutBtn" class="icon-btn" title="About" aria-label="About">ⓘ</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="book-card">
+        <div class="book-kicker">Current text</div>
+        <h1 id="bookTitle">No novel loaded</h1>
+        <p id="bookMeta">Import an EPUB, TXT, Markdown or HTML file, paste text, or load the demonstration novel.</p>
+        <div class="metric-row">
+          <span><b id="wordCount">0</b> words</span>
+          <span><b id="chapterCount">0</b> sections</span>
+        </div>
+      </div>
+
+      <nav id="mainNav" class="main-nav" aria-label="Analysis sections">
+        <button class="nav-item active" data-view="import">Import & analyse</button>
+        <button class="nav-item" data-view="essence">Essence</button>
+        <button class="nav-item" data-view="story">Plot spine</button>
+        <button class="nav-item" data-view="characters">Characters</button>
+        <button class="nav-item" data-view="themes">Themes & motifs</button>
+        <button class="nav-item" data-view="history">History Lens</button>
+        <button class="nav-item" data-view="evidence">Evidence</button>
+        <button class="nav-item" data-view="ask">Ask the novel</button>
+      </nav>
+
+      <div class="sidebar-foot">
+        <span id="analysisStatus" class="status-pill idle">Awaiting text</span>
+        <button id="exportBtn" class="secondary-btn" disabled>Export report</button>
+      </div>
+    </aside>
+
+    <section class="workspace">
+      <section id="view-import" class="view active" aria-labelledby="importHeading">
+        <div class="view-header">
+          <div>
+            <span class="section-kicker">Start here</span>
+            <h2 id="importHeading">Import the complete novel</h2>
+            <p>The deterministic engine builds a chapter index, evidence map, candidate interpretations and historical comparisons. A local model can optionally review the structured dossier.</p>
+          </div>
+        </div>
+
+        <div class="import-grid">
+          <label class="drop-zone" id="dropZone">
+            <input id="fileInput" type="file" accept=".epub,.txt,.md,.markdown,.html,.htm,application/epub+zip,text/plain,text/markdown,text/html" hidden>
+            <span class="drop-icon">⇩</span>
+            <strong>Choose or drop a novel</strong>
+            <span>EPUB, TXT, Markdown or HTML. Files remain in this browser.</span>
+          </label>
+
+          <div class="paste-panel">
+            <label for="titleInput">Title</label>
+            <input id="titleInput" type="text" placeholder="Novel title">
+            <label for="textInput">Novel text</label>
+            <textarea id="textInput" rows="15" placeholder="Paste the complete text here…"></textarea>
+            <div class="button-row">
+              <button id="demoBtn" class="secondary-btn">Load demonstration</button>
+              <button id="analyseBtn" class="primary-btn">Analyse novel</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="method-strip">
+          <article><b>1</b><span>Structure</span><p>Detect chapters, scenes, entities and narrative positions.</p></article>
+          <article><b>2</b><span>Trace</span><p>Attach each claim to passages that can be inspected.</p></article>
+          <article><b>3</b><span>Compare</span><p>Match fictional developments to historical pattern templates.</p></article>
+          <article><b>4</b><span>Challenge</span><p>Flag weak, speculative or apparently novel conclusions.</p></article>
+        </div>
+      </section>
+
+      <section id="view-essence" class="view">
+        <div class="view-header split-header">
+          <div><span class="section-kicker">Compressed understanding</span><h2>Essence</h2></div>
+          <button class="secondary-btn ai-review-btn" data-section="essence">Review with local AI</button>
+        </div>
+        <div id="essenceContent" class="card-grid empty-state">Analyse a novel to generate its essence.</div>
+      </section>
+
+      <section id="view-story" class="view">
+        <div class="view-header"><div><span class="section-kicker">Narrative causality</span><h2>Plot spine</h2></div></div>
+        <div id="storyContent" class="timeline empty-state">Analyse a novel to reconstruct its plot spine.</div>
+      </section>
+
+      <section id="view-characters" class="view">
+        <div class="view-header"><div><span class="section-kicker">People and agency</span><h2>Characters</h2></div></div>
+        <div id="characterContent" class="card-grid empty-state">Analyse a novel to identify recurring characters and their evidence.</div>
+      </section>
+
+      <section id="view-themes" class="view">
+        <div class="view-header"><div><span class="section-kicker">Patterns of meaning</span><h2>Themes & motifs</h2></div></div>
+        <div id="themeContent" class="card-grid empty-state">Analyse a novel to detect candidate themes and motifs.</div>
+      </section>
+
+      <section id="view-history" class="view">
+        <div class="view-header split-header">
+          <div>
+            <span class="section-kicker">Historical comparison</span>
+            <h2>History Lens</h2>
+            <p>Candidate parallels and forks are constrained by the built-in pattern corpus. “Unprecedented” means no close analogue was found in that corpus—not that none exists.</p>
+          </div>
+          <button class="secondary-btn ai-review-btn" data-section="history">Challenge with local AI</button>
+        </div>
+        <div id="historyContent" class="history-layout empty-state">Analyse a novel to compare its developments with historical patterns.</div>
+      </section>
+
+      <section id="view-evidence" class="view">
+        <div class="view-header"><div><span class="section-kicker">Auditable source map</span><h2>Evidence</h2></div></div>
+        <div class="filter-bar">
+          <input id="evidenceSearch" type="search" placeholder="Search chapters, characters, motifs or passage text">
+          <select id="chapterFilter"><option value="all">All sections</option></select>
+        </div>
+        <div id="evidenceContent" class="evidence-list empty-state">Analyse a novel to browse source passages.</div>
+      </section>
+
+      <section id="view-ask" class="view">
+        <div class="view-header"><div><span class="section-kicker">Grounded retrieval</span><h2>Ask the novel</h2><p>Answers begin with passage retrieval. When local AI is enabled, it receives only the strongest passages and the structured dossier.</p></div></div>
+        <form id="askForm" class="ask-form">
+          <input id="askInput" type="text" placeholder="Why does the protagonist change? What does the river represent?" autocomplete="off">
+          <button class="primary-btn" type="submit">Ask</button>
+        </form>
+        <div id="askContent" class="answer-panel empty-state">Analyse a novel, then ask a question.</div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="passageDialog" class="modal">
+    <div class="modal-head"><div><span class="section-kicker">Source passage</span><h3 id="passageTitle">Evidence</h3></div><button class="icon-btn close-dialog" aria-label="Close">×</button></div>
+    <div id="passageBody" class="passage-body"></div>
+  </dialog>
+
+  <dialog id="settingsDialog" class="modal">
+    <div class="modal-head"><div><span class="section-kicker">Optional enhancement</span><h3>Local AI settings</h3></div><button class="icon-btn close-dialog" aria-label="Close">×</button></div>
+    <p>Connect to an OpenAI-compatible local server such as LM Studio, llama.cpp or another endpoint exposed on your machine. The app remains functional without it.</p>
+    <div class="form-grid">
+      <label>Base URL<input id="apiBase" type="url" placeholder="http://localhost:1234/v1"></label>
+      <label>Model name<input id="apiModel" type="text" placeholder="local-model"></label>
+      <label>API key, if required<input id="apiKey" type="password" placeholder="Optional"></label>
+      <label class="check-row"><input id="useLocalAI" type="checkbox"> Use local AI for reviews and grounded answers</label>
+    </div>
+    <div class="notice"><b>Privacy:</b> text sent to this endpoint leaves the browser and is governed by that server. The deterministic analysis remains local.</div>
+    <div class="button-row end"><button id="saveSettingsBtn" class="primary-btn">Save settings</button></div>
+  </dialog>
+
+  <dialog id="aboutDialog" class="modal">
+    <div class="modal-head"><div><span class="section-kicker">About</span><h3>Novel Lens</h3></div><button class="icon-btn close-dialog" aria-label="Close">×</button></div>
+    <p>A self-contained browser prototype for compressed literary interpretation, evidence retrieval and historical-fork analysis.</p>
+    <div class="about-columns">
+      <article><h4>Deterministic core</h4><p>Vanilla HTML, CSS and JavaScript with an embedded copy of JSZip for EPUB archive reading. No CDN, tracking or network request is required.</p></article>
+      <article><h4>Historical scope</h4><p>The included historical corpus is intentionally compact and demonstrates the method. It is not a complete historical reference database.</p></article>
+      <article><h4>Local AI</h4><p>An optional OpenAI-compatible endpoint can challenge interpretations, but every response is grounded in retrieved passages and the generated dossier.</p></article>
+    </div>
+    <p class="made-by">Made by Josh Roberts with AI</p>
+  </dialog>
+
+  <script src="vendor/jszip.min.js"></script>
+  <script src="epub-parser.js"></script>
+  <script src="analysis-core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
